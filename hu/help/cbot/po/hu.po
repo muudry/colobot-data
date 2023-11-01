@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: colobot\n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2023-11-01 15:22\n"
+"PO-Revision-Date: 2023-11-01 19:25\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
@@ -31,13 +31,13 @@ msgstr ""
 #: ../E/abstime.txt:2 ../E/deletef.txt:6 ../E/delinfo.txt:2 ../E/errmode.txt:5 ../E/flatgrnd.txt:2 ../E/readln.txt:8 ../E/send.txt:2 ../E/strfind.txt:4 ../E/strleft.txt:4 ../E/strlen.txt:4 ../E/strlower.txt:4 ../E/strmid.txt:4 ../E/strright.txt:4 ../E/strupper.txt:4 ../E/strval.txt:8 ../E/testinfo.txt:2 ../E/writeln.txt:8
 #, no-wrap
 msgid "Syntax:"
-msgstr ""
+msgstr "Szintaxis:"
 
 #. type: Source code
 #: ../E/abstime.txt:3
 #, no-wrap
 msgid "<c/>abstime ( );<n/>"
-msgstr ""
+msgstr "<c/>abstime ( );<n/>"
 
 #. type: Plain text
 #: ../E/abstime.txt:5
@@ -79,7 +79,7 @@ msgstr ""
 #: ../E/break.txt:2 ../E/continue.txt:2 ../E/direct.txt:2 ../E/motor.txt:15 ../E/while.txt:20
 #, no-wrap
 msgid "Syntax :"
-msgstr ""
+msgstr "Szintaxis:"
 
 #. type: Bullet: 'o'
 #: ../E/aim.txt:6 ../E/fire.txt:14
@@ -319,7 +319,10 @@ msgid "<c/>while ( condition )\n"
 "{\n"
 "\tbreak;\n"
 "}"
-msgstr ""
+msgstr "<c/>while ( feltétel )\n"
+"{\n"
+"\tbreak;\n"
+"}"
 
 #. type: Plain text
 #: ../E/break.txt:8
@@ -651,7 +654,7 @@ msgstr ""
 #: ../E/direct.txt:3
 #, no-wrap
 msgid "<c/>direction ( pos );<n/>"
-msgstr ""
+msgstr "<c/>direction ( pos );<n/>"
 
 #. type: Plain text
 #: ../E/direct.txt:5
@@ -743,7 +746,7 @@ msgstr ""
 #: ../E/abstime.txt:2 ../E/acos.txt:2 ../E/aim.txt:2 ../E/asin.txt:2 ../E/atan.txt:2 ../E/atan2.txt:2 ../E/build.txt:12 ../E/buildingenabled.txt:13 ../E/canbuild.txt:13 ../E/canresearch.txt:2 ../E/ceil.txt:2 ../E/cos.txt:2 ../E/deflag.txt:2 ../E/deletef.txt:6 ../E/delinfo.txt:2 ../E/destroy.txt:2 ../E/detect.txt:5 ../E/dist.txt:18 ../E/dist2d.txt:2 ../E/do.txt:2 ../E/drop.txt:12 ../E/errmode.txt:5 ../E/factory.txt:2 ../E/fire.txt:10 ../E/flag.txt:2 ../E/flatgrnd.txt:2 ../E/flatspace.txt:2 ../E/floor.txt:2 ../E/for.txt:2 ../E/goto.txt:12 ../E/grab.txt:12 ../E/if.txt:23 ../E/isbusy.txt:2 ../E/jet.txt:2 ../E/message.txt:2 ../E/move.txt:8 ../E/pencolor.txt:2 ../E/pendown.txt:2 ../E/penup.txt:2 ../E/penwidth.txt:2 ../E/pow.txt:2 ../E/produce.txt:2 ../E/radar.txt:14 ../E/radarall.txt:12 ../E/rand.txt:2 ../E/readln.txt:8 ../E/receive.txt:2 ../E/recycle.txt:2 ../E/research.txt:2 ../E/researched.txt:2 ../E/retobj.txt:2 ../E/round.txt:2 ../E/search.txt:2 ../E/send.txt:2 ../E/shield.txt:2 ../E/sin.txt:2 ../E/sniff.txt:2 ../E/space.txt:2 ../E/sqrt.txt:2 ../E/strfind.txt:4 ../E/strleft.txt:4 ../E/strlen.txt:4 ../E/strlower.txt:4 ../E/strmid.txt:4 ../E/strright.txt:4 ../E/strupper.txt:4 ../E/strval.txt:8 ../E/switch.txt:47 ../E/takeoff.txt:2 ../E/tan.txt:2 ../E/testinfo.txt:2 ../E/thump.txt:2 ../E/topo.txt:2 ../E/trunc.txt:2 ../E/turn.txt:19 ../E/wait.txt:10 ../E/writeln.txt:8
 #, no-wrap
 msgid "Syntax:"
-msgstr ""
+msgstr "Szintaxis:"
 
 #. type: Source code
 #: ../E/dist.txt:19
