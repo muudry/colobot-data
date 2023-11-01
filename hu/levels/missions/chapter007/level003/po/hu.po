@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: colobot\n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2023-11-01 14:36\n"
+"PO-Revision-Date: 2023-11-01 15:22\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
@@ -37,7 +37,7 @@ msgstr ""
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "From Mission Control"
-msgstr ""
+msgstr "Az irányítóközponttól"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
@@ -55,13 +55,13 @@ msgstr ""
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
-msgstr ""
+msgstr "A <format key><key help/></format> segítségével ezeket az utasításokat bármikor visszanézheted a személyi SatCom-odon <button 63/>."
 
 #. type: \t; header
 #: ../help/help.E.txt:8 ../help/soluce.E.txt:10
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Lásd még"
 
 #. type: Plain text
 #: ../help/help.E.txt:9
@@ -131,7 +131,7 @@ msgstr ""
 #: ../help/soluce.E.txt:1
 #, no-wrap
 msgid "Walkthrough"
-msgstr ""
+msgstr "Megoldás"
 
 #. type: Plain text
 #: ../help/soluce.E.txt:2
@@ -161,5 +161,5 @@ msgstr ""
 #: ../help/soluce.E.txt:11
 #, no-wrap
 msgid "<a command>Controls</a>"
-msgstr ""
+msgstr "<a command>Irányítás</a>"
 
