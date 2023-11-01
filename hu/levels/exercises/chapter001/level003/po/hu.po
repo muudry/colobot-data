@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: colobot\n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2023-11-01 15:22\n"
+"PO-Revision-Date: 2023-11-01 17:53\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
@@ -25,13 +25,13 @@ msgstr ""
 #: ../scene.txt:1
 #, no-wrap
 msgid "Titanium 1"
-msgstr ""
+msgstr "Titánium 1"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Take a chunk of titanium ore and bring it to the converter."
-msgstr ""
+msgstr "Fogj egy darab titánium ércet, és vidd a konverterhez."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
@@ -43,13 +43,13 @@ msgstr ""
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "Objective"
-msgstr "Célkitűzés"
+msgstr "A feladat"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Write a program that takes a chunk of <a object|titanore>titanium ore</a> and drops in on the <a object|convert>converter</a> in order to produce a <a object|titan>titanium cube</a>."
-msgstr ""
+msgstr "Írj egy programot, ami egy darab <an object|titaner>titánium érc</a> felhasználásával, a <a object|convert>konverter</a> segítségével létrehoz egy <a object|titan>titán kockát< /a>."
 
 #. type: \t; header
 #: ../help/help.E.txt:4
@@ -61,7 +61,7 @@ msgstr ""
 #: ../help/help.E.txt:5
 #, no-wrap
 msgid "You will need a new instruction:"
-msgstr ""
+msgstr "Egy új utasításra lesz szükséged:"
 
 #. type: Source code
 #: ../help/help.E.txt:7
@@ -73,23 +73,23 @@ msgstr ""
 #: ../help/help.E.txt:8
 #, no-wrap
 msgid "Instructs the bot to move forward or backward. The distance of the move is given in brackets in meters: <c/>move(10);<n/> moves the bot 10m forward, <c/>move(-1);<n/> moves the bot 1m backward."
-msgstr ""
+msgstr "Arra utasítja a botot, hogy haladjon előre vagy hátra. A mozgás távolságát zárójelben adjuk meg méterben: <c/>move(10);<n/> a botot 10 m-rel előre mozgatja, <c/>move(-1);<n/> a botot 1 m-rel hátra mozgatja."
 
 #. type: Plain text
 #: ../help/help.E.txt:10
 #, no-wrap
 msgid "The instructions <code><a cbot|turn>turn</a>()</code>, <code><a cbot|grab>grab</a>()</code> and <code><a cbot|drop>drop</a>()</code> have already been explained in the previous exercises. If you have any questions about these instructions, click the name of the instruction underlined in blue, and an explanation of the instruction will appear."
-msgstr ""
+msgstr "A <code><a cbot|turn>turn</a>()</code>, <code><a cbot|grab>grab</a>()</code> és <code><a cbot A |drop>drop</a>()</code> utasításokat az előző gyakorlatban már elmagyaráztuk. Ha kérdésed van ezekkel az utasításokkal kapcsolatban, akkor kattints a kékkel aláhúzott utasítás névre, és megjelenik az utasítás magyarázata."
 
 #. type: Plain text
 #: ../help/help.E.txt:12
 #, no-wrap
 msgid "The <a object|titanore>titanium ore</a> is 20m in front of the bot, the <a object|convert>converter</a> is 10m behind the bot. After dropping the titanium ore on the converter, do not forget to move back (for example <c/>move(-2.5);<n/>) so as to allow the converter to get down to work."
-msgstr ""
+msgstr "A <a object|titanore>titánium érc</a> 20 méterrel a bot előtt, a <a object|convert>konverter</a> pedig 10 méterrel a bot mögött található. Miután betetted a titánium ércet a konverterbe, ne felejts el kihátrálni (például így: <c/>move(-2.5);<n/>), hogy a konverter beindulhasson."
 
 #. type: Plain text
 #: ../help/help.E.txt:14
 #, no-wrap
 msgid "<format key><key help/></format> allows you to review these instructions at all times."
-msgstr ""
+msgstr "<format key><key help/></format> gombbal bármikor visszanézheted ezeket az útmutatásokat."
 
