@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: colobot\n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2023-11-01 14:37\n"
+"PO-Revision-Date: 2023-11-01 15:22\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
@@ -25,107 +25,107 @@ msgstr ""
 #: ../chapter001/chaptertitle.txt:1
 #, no-wrap
 msgid "Leaving Earth"
-msgstr ""
+msgstr "Elhagyjuk a földet"
 
 #. type: Title-resume
 #: ../chapter001/chaptertitle.txt:1
 #, no-wrap
 msgid "Earth"
-msgstr ""
+msgstr "Föld"
 
 #. type: Title-text
 #: ../chapter002/chaptertitle.txt:1
 #, no-wrap
 msgid "On the Moon"
-msgstr ""
+msgstr "A holdon"
 
 #. type: Title-resume
 #: ../chapter002/chaptertitle.txt:1
 #, no-wrap
 msgid "Moon"
-msgstr ""
+msgstr "Hold"
 
 #. type: Title-text
 #: ../chapter003/chaptertitle.txt:1
 #, no-wrap
 msgid "On Tropica"
-msgstr ""
+msgstr "Trópikán"
 
 #. type: Title-resume
 #: ../chapter003/chaptertitle.txt:1
 #, no-wrap
 msgid "Tropica"
-msgstr ""
+msgstr "Trópika"
 
 #. type: Title-text
 #: ../chapter004/chaptertitle.txt:1
 #, no-wrap
 msgid "On Crystalium"
-msgstr ""
+msgstr "Kristályságon"
 
 #. type: Title-resume
 #: ../chapter004/chaptertitle.txt:1
 #, no-wrap
 msgid "Crystalium"
-msgstr ""
+msgstr "Kristályság"
 
 #. type: Title-text
 #: ../chapter005/chaptertitle.txt:1
 #, no-wrap
 msgid "On Saari"
-msgstr ""
+msgstr "Szigetségen"
 
 #. type: Title-resume
 #: ../chapter005/chaptertitle.txt:1
 #, no-wrap
 msgid "Saari"
-msgstr ""
+msgstr "Szigetség"
 
 #. type: Title-text
 #: ../chapter006/chaptertitle.txt:1
 #, no-wrap
 msgid "On Volcano"
-msgstr ""
+msgstr "Vulkánián"
 
 #. type: Title-resume
 #: ../chapter006/chaptertitle.txt:1
 #, no-wrap
 msgid "Volcano"
-msgstr ""
+msgstr "Vulkánia"
 
 #. type: Title-text
 #: ../chapter007/chaptertitle.txt:1
 #, no-wrap
 msgid "On Centaury"
-msgstr ""
+msgstr "Kentaurin"
 
 #. type: Title-resume
 #: ../chapter007/chaptertitle.txt:1
 #, no-wrap
 msgid "Centaury"
-msgstr ""
+msgstr "Kentauri"
 
 #. type: Title-text
 #: ../chapter008/chaptertitle.txt:1
 #, no-wrap
 msgid "On Orpheon"
-msgstr ""
+msgstr "Orfeonon"
 
 #. type: Title-resume
 #: ../chapter008/chaptertitle.txt:1
 #, no-wrap
 msgid "Orpheon"
-msgstr ""
+msgstr "Orfeon"
 
 #. type: Title-text
 #: ../chapter009/chaptertitle.txt:1
 #, no-wrap
 msgid "On Terranova"
-msgstr ""
+msgstr "Terranován"
 
 #. type: Title-resume
 #: ../chapter009/chaptertitle.txt:1
 #, no-wrap
 msgid "Terranova"
-msgstr ""
+msgstr "Terranova"
 
