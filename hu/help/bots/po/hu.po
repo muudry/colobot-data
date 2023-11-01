@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: colobot\n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2023-11-01 15:22\n"
+"PO-Revision-Date: 2023-11-01 19:25\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
@@ -379,7 +379,7 @@ msgstr "botgs"
 #: ../E/botgs.txt:3
 #, no-wrap
 msgid "Ant-legged creeping bot equipped with an operating arm."
-msgstr ""
+msgstr "Hangya-lábú kúszó bot, munkavégzésre alkalmas karral felszerelve."
 
 #. type: Plain text
 #: ../E/botgs.txt:20
