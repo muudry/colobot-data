@@ -1,0 +1,164 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2019-04-02 16:22+0200\n"
+"Last-Translator: Mudrony László <muudry@gmail.com>\n"
+"Language-Team: \n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.1\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Follow a path"
+msgstr "Kövesd az utat"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Move the bot along a given path."
+msgstr "Vidd végig a botot az adott útvonalon."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Move"
+msgstr "Útvonal"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Exercise"
+msgstr "Gyakorlat"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "Program the robot in such a way that it arrives on the finishing pad, after having passed by the three blue crosses."
+msgstr "Programozd be úgy a robotot, hogy a célmezőre érkezzen, miután végighaladt a két keresztekkel kijelölt úton."
+
+#. type: \b; header
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "Procedure"
+msgstr "Eljárás"
+
+#. type: Bullet: '1)'
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "Take the power cell and put it on the rear of the bot."
+msgstr "Fogd az energiacellát és tedd a robot hátuljába."
+
+#. type: Bullet: '2)'
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "Walk around on reconnaissance to understand what the bot must do. "
+msgstr "Tégy egy felderítő sétát, hogy átlásd mit kell a robotnak csinálnia."
+
+#. type: Bullet: '3)'
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "Program the bot. To do so, you must select it, and then click on the braces button <button 22/>; you will get into the program editor."
+msgstr "Programozd be a botot. Ehhez jelöld ki, majd kattints a kapcsos zárójeles gombra <button 22/>, hogy megnyíljon a program szerkesztő."
+
+#. type: Bullet: '4)'
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "Once you finished writing the program, click \"OK\", and execute the program with the arrow key <button 21/>."
+msgstr "Ha elkészült a program, kattints az \"OK\"-ra, és futtasd a programot a nyilas gombbal <button 21/>."
+
+#. type: \b; header
+#: ../help/help.E.txt:10
+#, no-wrap
+msgid "Program"
+msgstr "Program"
+
+#. type: Plain text
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid ""
+"The pads are at a distance of 20 meters from each other.\n"
+"The instruction <c/>move(20);<n/> moves 20 meters forward. \n"
+"The instruction <c/>turn(90);<n/> turns left with an angle of 90 degrees. \n"
+"The instruction <c/>turn(-90);<n/> turns right with an angle of 90 degrees. "
+msgstr ""
+"A mezők 20 méter távolságra vannak egymástól.\n"
+"A <c/>move(20);<n/> utasítás 20 métert megy előre.\n"
+"A <c/>turn(90);<n/> utasítás 90 fokkal balra fordul.\n"
+"A <c/>turn(-90);<n/> utasítás 90 fokkal jobbra fordul. "
+
+#. type: Plain text
+#: ../help/help.E.txt:16
+#, no-wrap
+msgid "The frame of the program consists in:"
+msgstr "A program kerete a következőképpen néz ki:"
+
+#. type: Source code
+#: ../help/help.E.txt:18
+#, no-wrap
+msgid ""
+"\textern void object::MoveBot( )\n"
+"\t{\n"
+"\t\t<n/>\\\\write the necessary instructions here ...<c/>\n"
+"\t}"
+msgstr ""
+"\textern void object::Útvonal( )\n"
+"\t{\n"
+"\t\t<n/>\\\\írd ide a szükséges utasításokat ...<c/>\n"
+"\t}"
+
+#. type: Plain text
+#: ../help/help.E.txt:23
+#, no-wrap
+msgid "For now, you must not change the frame of the program. Just insert the instructions you need to move the bot around between the braces <code>{ }</code>."
+msgstr "Most még ne változtassa a program keretén. Egyszerűen csak írd a kapcsok <code>{ }</code> közé a megfelelő utasításokat."
+
+#. type: \b; header
+#: ../help/help.E.txt:25
+#, no-wrap
+msgid "Attention"
+msgstr "Figyelem"
+
+#. type: Plain text
+#: ../help/help.E.txt:26
+#, no-wrap
+msgid ""
+"Be very careful about upper case and lower case letters!\n"
+"Every instruction must be terminated with a semicolon. "
+msgstr ""
+"Figyelj oda a kis- és nagybetűkre!\n"
+"Minden utasítást pontosvesszővel kell lezárni. "
+
+#. type: \b; header
+#: ../help/help.E.txt:29
+#, no-wrap
+msgid "Helpful trick"
+msgstr "Hasznos trükk"
+
+#. type: Plain text
+#: ../help/help.E.txt:30
+#, no-wrap
+msgid "When you write the program, you can watch the scene by clicking on the button <Reduce> <button 51/>, and by moving the mouse to the edges of the window to turn the camera. "
+msgstr "Programozás közben a <Reduce> <button 51/> gombra kattintva figyelheted a helyszínt, és a képernyő szélére húzva az egeret a kamerát is forgathatod. "
+
+#. type: \t; header
+#: ../help/help.E.txt:32
+#, no-wrap
+msgid "See also"
+msgstr "Lásd még"
+
+#. type: Plain text
+#: ../help/help.E.txt:33
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programozás</a>, <a cbot|type>típusok</a> és <a cbot|category>kategóriák</a>."

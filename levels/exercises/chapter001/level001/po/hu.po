@@ -1,0 +1,275 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2023-10-30 15:45+0100\n"
+"Last-Translator: Mudrony László <muudry@gmail.com>\n"
+"Language-Team: \n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Spiders 1"
+msgstr "Pókok 1"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Kill three spiders with a small program."
+msgstr "Ölj meg három pókot egy rövid programmal."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Spider1"
+msgstr "Pók1"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Objective"
+msgstr "Célkitűzés"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "Write a small program to kill three spiders."
+msgstr "Írj egy rövid programot ami megöl három pókot."
+
+#. type: \t; header
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "Procedure"
+msgstr "Eljárás"
+
+#. type: Bullet: '1)'
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "In order to program the bot, select it."
+msgstr "Hogy programozhasd a robotot, előbb jelöld ki."
+
+#. type: Bullet: '2)'
+#: ../help/help.E.txt:6
+#, no-wrap
+msgid "The numbers 1 to 4 corresponding to the programs contained in the bot appear on the lower left-hand corner of your screen. Select the first line."
+msgstr "A botban található programoknak megfelelő számok (1-től 4-ig) megjelennek a képernyő bal alsó sarkában. Válaszd ki az első sort."
+
+#. type: Bullet: '3)'
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid "Click the button with the braces <button 22/>, and you will arrive in an editor where you can write the program."
+msgstr "Kattints a kapcsos-zárójeles <button 22/> gombra, és megjelenik a szerkesztő, amelyben a programokat lehet írni."
+
+#. type: Bullet: '4)'
+#: ../help/help.E.txt:8
+#, no-wrap
+msgid "While you are writing the program, the key <format key><key help/></format> will display the text you are reading right now. When you have finished writing the program, click the \"OK\" button."
+msgstr "A program írása közben a <format key><key help/></format> gomb előhozza a szöveget amit most olvasol. Ha befejezted a program írását, kattints az \"OK\" gombra."
+
+#. type: Bullet: '5)'
+#: ../help/help.E.txt:9
+#, no-wrap
+msgid "In order to execute the program, click the arrow button <button 21/>."
+msgstr "A programot anyíl gomb <button 21/> megnyomásával lehet lefuttatni."
+
+#. type: \t; header
+#: ../help/help.E.txt:11
+#, no-wrap
+msgid "Program"
+msgstr "Program"
+
+#. type: Plain text
+#: ../help/help.E.txt:12
+#, no-wrap
+msgid "You must tell the bot exactly step by step what it must do in order to kill the three spiders. The bot understands only precise instructions, which it will execute one after another."
+msgstr "Pontosan, lépésről lépésre kell megmondanod a botnak, hogy mit kell tennie ahhoz hogy megölje a három pókot. A bot csak a pontos utasításokat érti, amelyeket egymás után hajt végre."
+
+#. type: Plain text
+#: ../help/help.E.txt:14
+#, no-wrap
+msgid "When you click the braces button <button 22/> in order to write the program, a part of the program will already be there:"
+msgstr "Mikor megnyomod a kapcsos-zárójeles gombot <button 22/> hogy megírhasd a programot, a program egy része már ott lesz:"
+
+#. type: Source code
+#: ../help/help.E.txt:16
+#, no-wrap
+msgid ""
+"extern void object::Spider1( )\n"
+"{\n"
+"\t\n"
+"\t<n/>write your program here ...<c/>\n"
+"\t\n"
+"}"
+msgstr ""
+"extern void object::Spider1( )\n"
+"{\n"
+"\t\n"
+"\t<n/>ide írd a programodat ...<c/>\n"
+"\t\n"
+"}"
+
+#. type: Plain text
+#: ../help/help.E.txt:23
+#, no-wrap
+msgid "Everything that is already written when you arrive in the editor must not be altered. Just introduce the necessary instructions at the cursor."
+msgstr "Semmit nem szabad átírni ami már benn volt a szerkesztő megnyitásakor. Csak írd be a szükséges utasításokat oda ahol a kurzor van."
+
+#. type: Plain text
+#: ../help/help.E.txt:25
+#, no-wrap
+msgid "You will need the following instructions:"
+msgstr "A következő utasításokra lesz szükség:"
+
+#. type: Source code
+#: ../help/help.E.txt:27
+#, no-wrap
+msgid "aim(0);<n/>"
+msgstr "aim(0);<n/>"
+
+#. type: Plain text
+#: ../help/help.E.txt:28
+#, no-wrap
+msgid "<n/>Puts the cannon straight."
+msgstr "<n/>Egyenesbe állítja az ágyút."
+
+#. type: Source code
+#: ../help/help.E.txt:30
+#, no-wrap
+msgid "turn();<n/>"
+msgstr "turn();<n/>"
+
+#. type: Plain text
+#: ../help/help.E.txt:31
+#, no-wrap
+msgid "<n/>Executes a rotation of a certain angle, given in brackets in degrees. For example <c/>turn(90);<n/> will turn the bot 90 degrees to the left, i.e. a quarter turn to the left. <c/>turn(-90);<n/> will turn the bot 90 degrees to the right (quarter turn right). Positive values turn left, negative values turn right. <c/>turn(180);<n/> will make the bot face in the opposite direction."
+msgstr "<n/>Elfordul adott szögben. A szöget a zárójelben kell megadni fokban. Például a <c/>turn(90);<n/> a botot 90 fokkal balra fordítja, azaz végrehajt egy negyed fordulatot balra. A <c/>turn(-90);<n/> a botot 90 fokkal jobbra fordítja (negyedfordulat jobbra). A pozitív értékek balra, a negatív értékek jobbra fordulnak. A <c/>turn(180);<n/> a botot az ellenkező irányba fordítja."
+
+#. type: Source code
+#: ../help/help.E.txt:33
+#, no-wrap
+msgid "fire(1);"
+msgstr "fire(1);"
+
+#. type: Plain text
+#: ../help/help.E.txt:34
+#, no-wrap
+msgid "<n/>Shoots the cannon. The number in brackets indicates the duration of the burst. In most cases, shoot a burst of 1 second."
+msgstr "<n/>Lő az ágyúval. A zárójelben lévő szám a sorozatlövés időtartamát jelzi. Általában elegendő egy 1 másodperces sorozat."
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:37
+#, no-wrap
+msgid "put the cannon straight with <c/>aim(0);<n/>"
+msgstr "állítsuk az ágyút egyenesen előre: <c/>aim(0);<n/>"
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:38
+#, no-wrap
+msgid "shoot the spider straight ahead with <c/>fire(1);<n/>"
+msgstr "lőjük le az egyenesen előttünk lévő pókot: <c/>fire(1);<n/>"
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:39
+#, no-wrap
+msgid "turn 90 degrees left with <code>turn(90)</code>"
+msgstr "forduljunk 90 fokot balra: <code>turn(90)</code>"
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:40
+#, no-wrap
+msgid "shoot with <c/>fire(1);<n/>"
+msgstr "lőjünk: <c/>fire(1);<n/>"
+
+#. type: Bullet: 'o'
+#: ../help/help.E.txt:41
+#, no-wrap
+msgid "etc."
+msgstr "stb."
+
+#. type: Plain text
+#: ../help/help.E.txt:43
+#, no-wrap
+msgid "Here is the program that does all this :"
+msgstr "Így néz ki a program ami mindezt megteszi:"
+
+#. type: Source code
+#: ../help/help.E.txt:45
+#, no-wrap
+msgid ""
+"extern void object::Spider1( )\n"
+"{\n"
+"\t\n"
+"\taim(0);\n"
+"\tfire(1);\n"
+"\tturn(90);\n"
+"\tfire(1);\n"
+"\t\n"
+"}"
+msgstr ""
+"extern void object::Pók1( )\n"
+"{\n"
+"\t\n"
+"\taim(0);\n"
+"\tfire(1);\n"
+"\tturn(90);\n"
+"\tfire(1);\n"
+"\t\n"
+"}"
+
+#. type: Plain text
+#: ../help/help.E.txt:55
+#, no-wrap
+msgid "It is up to you now to write the rest of the program!"
+msgstr "A program további részét neked kell megírnod!"
+
+#. type: Plain text
+#: ../help/help.E.txt:57
+#, no-wrap
+msgid "If you have got a problem, you can always look at the solution: select the <code>Solution</code> program on the lower left-hand corner of the screen, and click the braces button <button 22/>. You can even execute the solution program with the arrow button <button 21/>."
+msgstr "Ha elakadsz, bármikor megnézheted a megoldást: válaszd ki a <code>Megoldás</code> programot a képernyő bal alsó sarkában, és kattints a kapcsos zárójelre <button 22/>. A <button 21/> nyílgombbal akár le is futtathatod a megoldást jelentő programot."
+
+#. type: \t; header
+#: ../help/help.E.txt:59
+#, no-wrap
+msgid "Remarks"
+msgstr "Megjegyzések"
+
+#. type: Plain text
+#: ../help/help.E.txt:60
+#, no-wrap
+msgid "Be careful to write the instructions precisely, respecting lower and upper case letters."
+msgstr "Figyelj oda arra, hogy az utasításokat pontosan másold, megtartva a kis- és nagybetűket."
+
+#. type: Plain text
+#: ../help/help.E.txt:62
+#, no-wrap
+msgid "Always write one instruction per line, finishing each line with a semicolon."
+msgstr "Egy sorba mindig egy utasítás kerül, minden sort egy pontosvesszővel zárunk."
+
+#. type: Plain text
+#: ../help/help.E.txt:64
+#, no-wrap
+msgid "In case your program does not do exactly what you wanted, you can put the bot back at the starting point with the <button 59/> button. You can also start over again from the beginning (hit the \"Esc\" key, then click \"Restart\"). The program you have written will not be lost."
+msgstr "Abban az esetben, ha a programod nem azt csinálja, amit akartál, a <button 59/> gombbal visszahelyezheted a botot a kiindulási pontra. Az egészet is elölről is kezdheted (nyomd meg az \"Esc\" billentyűt, majd kattints az \"Újraindítás\" gombra). Az általad írt program így sem vész el."
+
+#. type: Plain text
+#: ../help/help.E.txt:66
+#, no-wrap
+msgid "<format key><key help/></format> allows you to review these instructions at all times."
+msgstr "A(z) <format key><key help/></format> gombbal bármikor visszanézheted ezeket az útmutatásokat."
+
+#. type: Plain text
+#: ../help/help.E.txt:36
+#, no-wrap
+msgid "Let us see the beginning of the program:"
+msgstr "Lássuk a program elejét:"
