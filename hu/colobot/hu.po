@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: colobot\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2023-11-01 14:16\n"
+"PO-Revision-Date: 2023-11-01 14:28\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
@@ -18,1995 +18,1995 @@ msgstr ""
 "X-Crowdin-File-ID: 12\n"
 
 msgid "Colobot rules!"
-msgstr ""
+msgstr "A colobot menő!"
 
 msgid "Maximize"
-msgstr ""
+msgstr "Kiterít"
 
 msgid "Minimize"
-msgstr ""
+msgstr "Elrejt"
 
 msgid "Normal size"
-msgstr ""
+msgstr "Normál méret"
 
 msgid "Close"
-msgstr ""
+msgstr "Bezár"
 
 msgid "Program editor"
-msgstr ""
+msgstr "Program szerkesztő"
 
 msgid "New"
-msgstr ""
+msgstr "Új"
 
 msgid "Player"
-msgstr ""
+msgstr "Játékos"
 
 msgid "New ..."
-msgstr ""
+msgstr "Új ..."
 
 msgid " or "
-msgstr ""
+msgstr " vagy "
 
 msgid "Colobot: Gold Edition"
-msgstr ""
+msgstr "Colobot: Gold Edition"
 
 msgid "Programming exercises"
-msgstr ""
+msgstr "Programozási feladatok"
 
 msgid "Challenges"
-msgstr ""
+msgstr "Kihívások"
 
 msgid "Missions"
-msgstr ""
+msgstr "Küldetések"
 
 msgid "Free game"
-msgstr ""
+msgstr "Korlátlan játék"
 
 msgid "User levels"
-msgstr ""
+msgstr "Felhasználói pályák"
 
 msgid "Code battles"
-msgstr ""
+msgstr "Kódcsaták"
 
 msgid "Options"
-msgstr ""
+msgstr "Beállítások"
 
 msgid "Player's name"
-msgstr ""
+msgstr "Játékos neve"
 
 msgid "Customize your appearance"
-msgstr ""
+msgstr "A kinézeted testreszabása"
 
 msgid "Save the current mission"
-msgstr ""
+msgstr "A jelenlegi küldetés mentése"
 
 msgid "Load a saved mission"
-msgstr ""
+msgstr "Mentett küldetés betöltése"
 
 msgid "Missions+"
-msgstr ""
+msgstr "Küldetések+"
 
 msgid "Mods"
-msgstr ""
+msgstr "Modok"
 
 msgid "Chapters:"
-msgstr ""
+msgstr "Fejezetek:"
 
 msgid "Planets:"
-msgstr ""
+msgstr "Bolygók:"
 
 msgid "Custom levels:"
-msgstr ""
+msgstr "Egyedi pályák:"
 
 msgid "Levels in this chapter:"
-msgstr ""
+msgstr "Pályák ebben a fejezetben:"
 
 msgid "Exercises in the chapter:"
-msgstr ""
+msgstr "Feladatok a fejezetben:"
 
 msgid "Challenges in the chapter:"
-msgstr ""
+msgstr "Kihívások ebben a fejezetben:"
 
 msgid "Missions on this planet:"
-msgstr ""
+msgstr "Küldetések ezen a bolygón:"
 
 msgid "Free game on this planet:"
-msgstr ""
+msgstr "Korlátlan játék ezen a bolygón:"
 
 msgid "Summary:"
-msgstr ""
+msgstr "Összegzés:"
 
 msgid "Resolution:"
-msgstr ""
+msgstr "Felbontás:"
 
 msgid "1) First click on the key you want to redefine."
-msgstr ""
+msgstr "1) Először kattints a gombra amit át szeretnél állítani."
 
 msgid "2) Then press the key you want to use instead."
-msgstr ""
+msgstr "2) Ezután nyomd meg a gombot amit e helyett használni szeretnél."
 
 msgid "Face type:"
-msgstr ""
+msgstr "Arc típus:"
 
 msgid "Eyeglasses:"
-msgstr ""
+msgstr "Szemüvegek:"
 
 msgid "Hair color:"
-msgstr ""
+msgstr "Hajszín:"
 
 msgid "Suit color:"
-msgstr ""
+msgstr "Ruha szine:"
 
 msgid "Strip color:"
-msgstr ""
+msgstr "Csík szine:"
 
 msgid "Abort\\Abort the current mission"
-msgstr ""
+msgstr "Megszakítás\\A jelenlegi küldetés félbehagyása"
 
 msgid "Continue\\Continue the current mission"
-msgstr ""
+msgstr "Folytatás\\A jelenlegi küldetés folytatása"
 
 msgid "Do you really want to destroy the selected building?"
-msgstr ""
+msgstr "Valóban le akarod rombolni a kiválsztott épületet?"
 
 #, c-format
 msgid "Do you want to delete %s's saved games?"
-msgstr ""
+msgstr "Le akarod törölni %s mentett játékállásait?"
 
 msgid "Yes"
-msgstr ""
+msgstr "Igen"
 
 msgid "No"
-msgstr ""
+msgstr "Nem"
 
 msgid "LOADING"
-msgstr ""
+msgstr "BETÖLTÉS"
 
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 msgid "No userlevels installed!"
-msgstr ""
+msgstr "Nincs felhasználói pálya telepítve!"
 
 msgid "This menu is for userlevels from mods, but you didn't install any"
-msgstr ""
+msgstr "Ez a menu a modok felhasználói pályákhoz van, de neked nincs ilyen telepítve"
 
 msgid "Could not open the file explorer!"
-msgstr ""
+msgstr "Nem sikerült megnyitni a fájlkezelőt!"
 
 #, c-format
 msgid "The path %s could not be opened in a file explorer."
-msgstr ""
+msgstr "A %s elérési út nem nyitható meg a fájlkezelőben."
 
 msgid "Could not open the web browser!"
-msgstr ""
+msgstr "Nem sikerült megnyitni a böngészőt!"
 
 #, c-format
 msgid "The address %s could not be opened in a web browser."
-msgstr ""
+msgstr "A %s cím nem nyitható meg a böngészőben."
 
 msgid "There are unsaved changes. Do you want to save them before leaving?"
-msgstr ""
+msgstr "Vannak nem mentett módosítások. Akarsz menteni még az indulás előtt?"
 
 msgid "Keyword help(\\key cbot;)"
-msgstr ""
+msgstr "Kulcsszó alapú sugó (\\key cbot;)"
 
 msgid "Compilation ok (0 errors)"
-msgstr ""
+msgstr "Fordítás OK (0 hiba)"
 
 msgid "Program finished"
-msgstr ""
+msgstr "Program lefutott"
 
 msgid "Program cloned"
-msgstr ""
+msgstr "Program klónozva"
 
 msgid "This program is read-only, clone it to edit"
-msgstr ""
+msgstr "Ez a program irásvédett, klónozd ha szerkeszteni szeretnéd"
 
 msgid "This is example code that cannot be run directly"
-msgstr ""
+msgstr "Ez egy példa kód amit nem lehet közvetlenül futtatni"
 
 msgid "Open"
-msgstr ""
+msgstr "Megnyitás"
 
 msgid "Save"
-msgstr ""
+msgstr "Mentés"
 
 #, c-format
 msgid "Folder: %s"
-msgstr ""
+msgstr "Mappa: %s"
 
 msgid "Name:"
-msgstr ""
+msgstr "Név:"
 
 msgid "Folder:"
-msgstr ""
+msgstr "Mappa:"
 
 msgid "Private\\Private folder"
-msgstr ""
+msgstr "Privát\\Privát mappa"
 
 msgid "Public\\Common folder"
-msgstr ""
+msgstr "Nyilvános\\Közös mappa"
 
 msgid "Overwrite existing file?"
-msgstr ""
+msgstr "Felülírjam a már létező fájlt?"
 
 msgid "Select Folder"
-msgstr ""
+msgstr "Mappa kiválasztása"
 
 msgid "Original game developed by:"
-msgstr ""
+msgstr "Az eredeti játék fejlesztője:"
 
 msgid "epsitec.com"
-msgstr ""
+msgstr "epsitec.com"
 
 msgid "Gold Edition development by:"
-msgstr ""
+msgstr "A Gold Edition fejlesztője:"
 
 msgid "colobot.info"
-msgstr ""
+msgstr "colobot.info"
 
 msgid "Recorder"
-msgstr ""
+msgstr "Rögzítő"
 
 msgid "Starting..."
-msgstr ""
+msgstr "Indítás..."
 
 msgid "Processing level file"
-msgstr ""
+msgstr "Pálya fájl feldolgozása"
 
 msgid "Loading basic level settings"
-msgstr ""
+msgstr "Alap szint beállítások betöltése"
 
 msgid "Loading music"
-msgstr ""
+msgstr "Zene betöltése"
 
 msgid "Loading terrain"
-msgstr ""
+msgstr "Terep betöltése"
 
 msgid "Loading objects"
-msgstr ""
+msgstr "Tárgyak betöltése"
 
 msgid "Restoring saved objects"
-msgstr ""
+msgstr "Mentett objektumok visszaállítása"
 
 msgid "Restoring CBot execution state"
-msgstr ""
+msgstr "A CBot végrehajtási állapotának visszaállítása"
 
 msgid "Loading finished!"
-msgstr ""
+msgstr "A betöltés bejeződött!"
 
 msgid "Terrain relief"
-msgstr ""
+msgstr "Terep kiemelkedése"
 
 msgid "Resources"
-msgstr ""
+msgstr "Erőforrások"
 
 msgid "Textures"
-msgstr ""
+msgstr "Texturák"
 
 msgid "Generating"
-msgstr ""
+msgstr "Generálás"
 
 msgid "Results"
-msgstr ""
+msgstr "Eredmények"
 
 msgid "The battle has ended"
-msgstr ""
+msgstr "A csatának vége"
 
 #, c-format
 msgid "Time: %s"
-msgstr ""
+msgstr "Idő: %s"
 
 #, c-format
 msgid "%s: %d pts"
-msgstr ""
+msgstr "%s: %d pont"
 
 msgid "Mods:"
-msgstr ""
+msgstr "Modok:"
 
 msgid "Information:"
-msgstr ""
+msgstr "Információ:"
 
 msgid "Description:"
-msgstr ""
+msgstr "Leírás:"
 
 msgid "Enable\\Enable the selected mod"
-msgstr ""
+msgstr "Engedélyezés\\A kiválasztott mod engedélyezése"
 
 msgid "Disable\\Disable the selected mod"
-msgstr ""
+msgstr "Letiltás\\A kiválasztott mod letíltása"
 
 msgid "Unknown author"
-msgstr ""
+msgstr "Ismeretlen szerző"
 
 msgid "by"
-msgstr ""
+msgstr "by"
 
 msgid "Version"
-msgstr ""
+msgstr "Verzió"
 
 msgid "Website"
-msgstr ""
+msgstr "Webhely"
 
 msgid "Changes"
-msgstr ""
+msgstr "Változások"
 
 msgid "No description."
-msgstr ""
+msgstr "Nincs leírás."
 
 msgid "No changes."
-msgstr ""
+msgstr "Nincs változás."
 
 msgid "Code battle"
-msgstr ""
+msgstr "Kódcsata"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Mégsem"
 
 msgid "Next"
-msgstr ""
+msgstr "Következő"
 
 msgid "Previous"
-msgstr ""
+msgstr "Előző"
 
 msgid "New Folder"
-msgstr ""
+msgstr "Új Mappa"
 
 msgid "Exercises\\Programming exercises"
-msgstr ""
+msgstr "Feladatok\\Programozási feladatok"
 
 msgid "Challenges\\Programming challenges"
-msgstr ""
+msgstr "Kihívások\\Programozási kihívások"
 
 msgid "Missions\\Select mission"
-msgstr ""
+msgstr "Küldetések\\Válaszd ki a küldetést"
 
 msgid "Free game\\Free game without a specific goal"
-msgstr ""
+msgstr "Korlátlan játék\\Szabad játék megadott cél nélkül"
 
 msgid "Code battles\\Program your robot to be the best of them all!"
-msgstr ""
+msgstr "Kódcsaták\\Te robotod programja legyen a legjobb mindközül!"
 
 msgid "Custom levels\\Levels from mods created by the users"
-msgstr ""
+msgstr "Egyedi pályák\\A felhasználók által alkotott modokból származó pályák"
 
 msgid "SatCom"
-msgstr ""
+msgstr "SatCom"
 
 msgid "Mods\\Mod manager"
-msgstr ""
+msgstr "Modok\\Mod kezelő"
 
 msgid "Change player\\Change player"
-msgstr ""
+msgstr "Játékos beállítása\\Játékos beállítása"
 
 msgid "Options\\Preferences"
-msgstr ""
+msgstr "Beállítások\\Beállítások"
 
 msgid "Restart\\Restart the mission from the beginning"
-msgstr ""
+msgstr "Újraindítás\\Újrakezdi a küldetést az elejétől"
 
 msgid "Save\\Save the current mission"
-msgstr ""
+msgstr "Mentés\\A jelenlegi küldetés mentése"
 
 msgid "Load\\Load a saved mission"
-msgstr ""
+msgstr "Betöltés\\Egy mentett küldetés betöltése"
 
 msgid "\\Return to Colobot: Gold Edition"
-msgstr ""
+msgstr "\\Visszatérés a Colobot: Gold Edition -höz"
 
 msgid "Quit\\Quit Colobot: Gold Edition"
-msgstr ""
+msgstr "Kilépés\\Kilépés a Colobot: Gold Edition -ből"
 
 msgid "<<  Back  \\Back to the previous screen"
-msgstr ""
+msgstr "<<  Vissza  \\ Vissza az előző képernyőre"
 
 msgid "+\\Missions with bonus content and optional challenges"
-msgstr ""
+msgstr "+\\Küldetések bónusztartalommal és választható kihívásokkal"
 
 msgid "Play\\Start mission!"
-msgstr ""
+msgstr "Játék\\Küldetés megkezdése!"
 
 msgid "Workshop\\Open the workshop to search for mods"
-msgstr ""
+msgstr "Műhely\\Nyissa meg a műhelyt, hogy mod-okat keressen"
 
 msgid "Open Directory\\Open the mods directory"
-msgstr ""
+msgstr "Mappa megnyitása\\Megnyitja a modok mappát"
 
 msgid "Apply\\Apply the current mod configuration"
-msgstr ""
+msgstr "Alkalmaz\\A jelenlegi mod beállítások alkalmazása"
 
 msgid "Up\\Move the selected mod up so it's loaded sooner (mods may overwrite files from the mods above them)"
-msgstr ""
+msgstr "Fel\\Fefelé Mozgatja a kiválasztott mod-ot, így az hamarabb töltődik be (a mod-ok felülírhatják a felettük lévő mod-ok fájljait)"
 
 msgid "Down\\Move the selected mod down so it's loaded later (mods may overwrite files from the mods above them)"
-msgstr ""
+msgstr "Le\\Lefelé Mozgatja a kiválasztott mod-ot, így az később töltődik be (a mod-ok felülírhatják a felettük lévő mod-ok fájljait)"
 
 msgid "Refresh\\Refresh the list of currently installed mods"
-msgstr ""
+msgstr "Frissítés\\Frissíti a jelenleg telepített mod-ok listáját"
 
 msgid "Device\\Driver and resolution settings"
-msgstr ""
+msgstr "Eszköz\\Meghajtó és felbontás beállítások"
 
 msgid "Graphics\\Graphics settings"
-msgstr ""
+msgstr "Grafika\\Grafika beállításai"
 
 msgid "Game\\Game settings"
-msgstr ""
+msgstr "Játék\\A játék beállításai"
 
 msgid "Controls\\Keyboard, joystick and mouse settings"
-msgstr ""
+msgstr "Irányítás\\Billentyűzet, botkormány és egér beállítások"
 
 msgid "Sound\\Music and game sound volume"
-msgstr ""
+msgstr "Hang\\Zene és a játékhangok hangereje"
 
 msgid "Unit"
-msgstr ""
+msgstr "Egység"
 
 msgid "Resolution"
-msgstr ""
+msgstr "Felbontás"
 
 msgid "Full screen\\Full screen or window mode"
-msgstr ""
+msgstr "Teljes képernyő\\Teljesképernyős vagy ablakos mód"
 
 msgid "Apply changes\\Activates the changed settings"
-msgstr ""
+msgstr "Véglegesít\\Rögzíti a beállítások változásait"
 
 msgid "Dust\\Dust and dirt on bots and buildings"
-msgstr ""
+msgstr "Por\\Por és szenny a botokon és az épületeken"
 
 msgid "Fog\\Fog"
-msgstr ""
+msgstr "Köd\\Köd"
 
 msgid "Dynamic lighting\\Mobile light sources"
-msgstr ""
+msgstr "Dinamikus világítás\\Mozgó fényforrások"
 
 msgid "Number of particles\\Explosions, dust, reflections, etc."
-msgstr ""
+msgstr "Részecskék száma\\Robbanások, por, tükröződések, stb."
 
 msgid "Render distance\\Maximum visibility"
-msgstr ""
+msgstr "Megjelenítési távolság\\Milyen messzire lehet ellátni"
 
 msgid "Pause blur\\Blur the background on the pause screen"
-msgstr ""
+msgstr "Szüneti homály\\A szünet képernyőn homályosítsa el a hátteret"
 
 msgid "Particles in the interface\\Steam clouds and sparks in the interface"
-msgstr ""
+msgstr "Részecskék a kezelőfelületen\\Gőzfelhők és szikrák a kezelőfelületen"
 
 msgid "Reflections on the buttons \\Shiny buttons"
-msgstr ""
+msgstr "Tükröződés a gombokon\\Csillogó gombok"
 
 msgid "Help balloons\\Explain the function of the buttons"
-msgstr ""
+msgstr "Sugó buborékok\\Magyarázat a gomb használatához"
 
 msgid "Film sequences\\Films before and after the missions"
-msgstr ""
+msgstr "Film szekvenciák\\Filmek a küldetések elején és végén"
 
 msgid "Camera border scrolling\\Scrolling when the mouse touches right or left border"
-msgstr ""
+msgstr "Kamera keret görgetés\\Görgetés amikor az egér a képernyő széléhez ér"
 
 msgid "Mouse inversion X\\Inversion of the scrolling direction on the X axis"
-msgstr ""
+msgstr "Egér fordított X\\Megfordítja az X tengely mentén történő görgetés irányát"
 
 msgid "Mouse inversion Y\\Inversion of the scrolling direction on the Y axis"
-msgstr ""
+msgstr "Egér fordított Y\\Megfordítja az Y tengely mentén történő görgetés irányát"
 
 msgid "Quake at explosions\\The screen shakes at explosions"
-msgstr ""
+msgstr "Földrengés robbanáskor\\A képernyő beleremeg a robbanásokba"
 
 msgid "Pause in background\\Pause the game when the window is unfocused"
-msgstr ""
+msgstr "Szünet háttérben\\Szüneteltesse a játékot amikor az ablak nincs fókuszban"
 
 msgid "Mute sounds in background\\Mute all game sounds when the window is unfocused"
-msgstr ""
+msgstr "Némítsa a hangokat a háttérben\\Minden játékhangot lenémít, amikor az ablak nincs fókuszban"
 
 msgid "Automatic indent\\When program editing"
-msgstr ""
+msgstr "Automata behúzás\\Program szerkeztéskor"
 
 msgid "Big indent\\Indent 2 or 4 spaces per level defined by braces"
-msgstr ""
+msgstr "Nagy behúzás\\A kapcsok szintjétől függő 2 vagy 4 helynyi behúzás"
 
 msgid "Access to solutions\\Show program \"4: Solution\" in the exercises"
-msgstr ""
+msgstr "Mutasd a megoldást\\Megjeleníti a programot \"4: Megoldás\" a feladatok közt"
 
 msgid "Blood\\Display blood when the astronaut is hit"
-msgstr ""
+msgstr "Vér\\Megjelenjen-e a vér amikor az asztronauta megsebesül"
 
 msgid "Autosave\\Enables autosave"
-msgstr ""
+msgstr "Autosave\\Automatikus mentés engedélyezése"
 
 msgid "Autosave interval\\How often your game will autosave"
-msgstr ""
+msgstr "Autosave intervallum\\Milyen gyakran legyen automatikus mentés"
 
 msgid "Autosave slots\\How many autosave slots you'll have"
-msgstr ""
+msgstr "Autosave helyek\\Hány darab autosave helyed legyen"
 
 msgid "Texture filtering\\Texture filtering"
-msgstr ""
+msgstr "Textura simítás\\Texture filtering"
 
 msgid "Mipmap level\\Mipmap level"
-msgstr ""
+msgstr "Mipmap szint\\Mipmap szint"
 
 msgid "Anisotropy level\\Anisotropy level"
-msgstr ""
+msgstr "Anizotrópia szint\\Anizotrópia szint"
 
 msgid "MSAA\\Multisample anti-aliasing"
-msgstr ""
+msgstr "MSAA\\Többmintás élsimítás"
 
 msgid "Simple shadows\\Shadows spots on the ground"
-msgstr ""
+msgstr "Szimpla árnéykolás\\Az árnyék egy folt a földön"
 
 msgid "Dynamic shadows\\Beautiful shadows!"
-msgstr ""
+msgstr "Dinamikus árnyékok\\Gyönyörű árnyékok!"
 
 msgid "Dynamic shadows ++\\Dynamic shadows + self shadowing"
-msgstr ""
+msgstr "Dinamikus árnyékok ++\\Dinamikus árnyékok + önárnyékolás"
 
 msgid "Shadow resolution\\Higher means better range and quality, but slower"
-msgstr ""
+msgstr "Árnyék felbontás\\A nagyobb jobb távolságot és minéséget jelent, de lassít"
 
 msgid "Vertical Synchronization\\Limits the number of frames per second to display frequency"
-msgstr ""
+msgstr "Függőleges szinkronizáció\\Korlátozza hány képkocka jelhet meg másodpercenként"
 
 msgid "Standard controls\\Standard key functions"
-msgstr ""
+msgstr "Alapértelmezett irányítás\\Alapértelmezet gomb funkciók"
 
 msgid "Turn left\\turns the bot to the left"
-msgstr ""
+msgstr "Balra fordul\\A botot balra fordítja"
 
 msgid "Turn right\\turns the bot to the right"
-msgstr ""
+msgstr "JObbra fordul\\A botot jobbra fordítja"
 
 msgid "Forward\\Moves forward"
-msgstr ""
+msgstr "Előre\\Előre mozog"
 
 msgid "Backward\\Moves backward"
-msgstr ""
+msgstr "Hátrálás\\Hátrafelé mozog"
 
 msgid "Climb\\Increases the power of the jet"
-msgstr ""
+msgstr "Emelkedés\\Növeli a sugárhajtómű tolóerejét"
 
 msgid "Descend\\Reduces the power of the jet"
-msgstr ""
+msgstr "Süllyedés\\Csökkenti a sugárhajtómű tolóerejét"
 
 msgid "Change camera\\Switches between onboard camera and following camera"
-msgstr ""
+msgstr "Kamera váltás\\Vált a fedélzeti és követő kamera között"
 
 msgid "Previous object\\Selects the previous object"
-msgstr ""
+msgstr "Előző tárgy\\Kiválasztja az előző tárgyat"
 
 msgid "Standard action\\Standard action of the bot (take/grab, shoot, sniff, etc)"
-msgstr ""
+msgstr "Alapértelmezett tevékenység\\A botok alap tevékenysége (elvétel/megragadás, lövés, szimatolás, stb.)"
 
 msgid "Camera left\\Turns the camera left"
-msgstr ""
+msgstr "Kamera balra\\Balra fordítja a kamerát"
 
 msgid "Camera right\\Turns the camera right"
-msgstr ""
+msgstr "Kamera jobbra\\Jobbra fordítja a kamerát"
 
 msgid "Camera up\\Turns the camera up"
-msgstr ""
+msgstr "Kamera fel\\Felfelé fordítja a kamerát"
 
 msgid "Camera down\\Turns the camera down"
-msgstr ""
+msgstr "Kamera le\\Lefelé fordítja a kamerát"
 
 msgid "Camera closer\\Moves the camera forward"
-msgstr ""
+msgstr "Kamera közelítés\\Közelebb mozgatja a kamerát"
 
 msgid "Camera back\\Moves the camera backward"
-msgstr ""
+msgstr "Kamera hátra\\Hátrafelé mozgatja a kamerát"
 
 msgid "Alternative camera mode\\Move sideways instead of rotating (in free camera)"
-msgstr ""
+msgstr "Alternatív kamera mód\\Oldalra mozog forgás helyett (szabad kamera módban)"
 
 msgid "Next object\\Selects the next object"
-msgstr ""
+msgstr "Következő tárgy\\Kiválasztja a következő tárgyat"
 
 msgid "Select the astronaut\\Selects the astronaut"
-msgstr ""
+msgstr "Az asztronauta kiválasztása\\Kiválasztja az asztronoutát"
 
 msgid "Quit\\Quit the current mission or exercise"
-msgstr ""
+msgstr "Kilépés\\Kilép a jelenlegi küldetésből vagy feladatból"
 
 msgid "Instructions\\Shows the instructions for the current mission"
-msgstr ""
+msgstr "Útmutató\\Mutatja a jelenlegi küldetéshez tartozó utasításokat"
 
 msgid "Programming help\\Gives more detailed help with programming"
-msgstr ""
+msgstr "Programozási segédlet\\Részletesebb segítséget nyújt a programozáshoz"
 
 msgid "Origin of last message\\Shows where the last message was sent from"
-msgstr ""
+msgstr "Üzenet forrása\\Mutatja honnan jött a legutóbbi üzenet"
 
 msgid "Lower speed\\Decrease speed by half"
-msgstr ""
+msgstr "Lassabb sebesség\\Megfelezi a sebességet"
 
 msgid "Standard speed\\Reset speed to normal"
-msgstr ""
+msgstr "Alapértelmezett sebesség\\Visszaállítja a normál sebességet"
 
 msgid "Higher speed\\Doubles speed"
-msgstr ""
+msgstr "Gyorsabb sebesség\\Megduplázza a sebességet"
 
 msgid "Quick save\\Immediately save game"
-msgstr ""
+msgstr "Gyorsmentés\\Azonnal lementi a játékot"
 
 msgid "Quick load\\Immediately load game"
-msgstr ""
+msgstr "Gyorstöltés\\Azonnal betölti a játékot"
 
 msgid "Pause\\Pause the game without opening menu"
-msgstr ""
+msgstr "Szünet\\Szüneteltesse a játékot a menü megnyitása nélkül"
 
 msgid "Cheat console\\Show cheat console"
-msgstr ""
+msgstr "Csalás konzol\\Mutasd a csalás konzolt"
 
 msgid "Sound effects:\\Volume of engines, voice, shooting, etc."
-msgstr ""
+msgstr "Hanghatások:\\Motorok, hangok, lövés, stb. hangereje."
 
 msgid "Background sound:\\Volume of audio tracks"
-msgstr ""
+msgstr "Háttér hangok:\\A hangsávok hangereje"
 
 msgid "Lowest\\Minimum graphic quality (highest frame rate)"
-msgstr ""
+msgstr "Lerosszabb\\A legalacsonyabb minőségű grafika (leggyorsabb képfrissítés)"
 
 msgid "Normal\\Normal graphic quality"
-msgstr ""
+msgstr "Normál\\Normál grafikus minőség"
 
 msgid "Highest\\Highest graphic quality (lowest frame rate)"
-msgstr ""
+msgstr "Legjobb\\Legjobb minőségű grafika (leglassabb képfrissítés)"
 
 msgid "Mute\\No sound"
-msgstr ""
+msgstr "Némítás\\Ne legyen hang"
 
 msgid "Normal\\Normal sound volume"
-msgstr ""
+msgstr "Normál\\Normál hangerő"
 
 msgid "Access to solution\\Shows the solution (detailed instructions for missions)"
-msgstr ""
+msgstr "Mutasd a megoldást\\Megjeleníti a megoldást (részletes útmutató a küldetésekhez)"
 
 msgid "Invert\\Invert values on this axis"
-msgstr ""
+msgstr "Invertálás\\Megfordítja az értkeket ezen a tengelyen"
 
 msgid "Space Programmer\\Disables radio-control"
-msgstr ""
+msgstr "Űrprogramozó\\Letiltja a rádió-távirányítást"
 
 msgid "Space Researcher\\Disables using all previously researched technologies"
-msgstr ""
+msgstr "Űrkutató\\Letilt minden korábban kikutatott technológiát"
 
 msgid "Space Explorer\\Disables astronaut abilities"
-msgstr ""
+msgstr "Űr felderítő\\Letiltja az asztronauta képességeit"
 
 msgid "\\New player name"
-msgstr ""
+msgstr "\\Új játékos neve"
 
 msgid "OK\\Choose the selected player"
-msgstr ""
+msgstr "OK\\A kijelölt játékos kiválasztása"
 
 msgid "Delete player\\Deletes the player from the list"
-msgstr ""
+msgstr "Játékos törlése\\Törli a jatékost a listából"
 
 msgid "Player name"
-msgstr ""
+msgstr "Játékos neve"
 
 msgid "Save\\Saves the current mission"
-msgstr ""
+msgstr "Mentés\\A jelenlegi küldetés mentése"
 
 msgid "Load\\Loads the selected mission"
-msgstr ""
+msgstr "Betöltés\\A kiválasztott küldetés betöltése"
 
 msgid "List of saved missions"
-msgstr ""
+msgstr "Mentett küldetések listája"
 
 msgid "Filename:"
-msgstr ""
+msgstr "Fájlnév:"
 
 msgid "Mission name"
-msgstr ""
+msgstr "Küldetés neve"
 
 msgid "Photography"
-msgstr ""
+msgstr "Fényképészet"
 
 msgid "Delete\\Deletes the selected file"
-msgstr ""
+msgstr "Törlés\\A kiválasztott fájl törlése"
 
 msgid "Appearance\\Choose your appearance"
-msgstr ""
+msgstr "Megjelenés\\Állítsd be hogyan nézel ki"
 
 msgid "Standard\\Standard appearance settings"
-msgstr ""
+msgstr "Alapértelmezett\\Alapértelmezés szerinti megjelenési beállítások"
 
 msgid "Head\\Face and hair"
-msgstr ""
+msgstr "Fej\\Arc és haj"
 
 msgid "Suit\\Astronaut suit"
-msgstr ""
+msgstr "Ruha\\Űrruha"
 
 msgid "\\Turn left"
-msgstr ""
+msgstr "\\Balra fordulás"
 
 msgid "\\Turn right"
-msgstr ""
+msgstr "\\Jobbra fordulás"
 
 msgid "Red"
-msgstr ""
+msgstr "Vörös"
 
 msgid "Green"
-msgstr ""
+msgstr "Zöld"
 
 msgid "Blue"
-msgstr ""
+msgstr "Kék"
 
 msgid "\\Face 1"
-msgstr ""
+msgstr "\\1-es arc"
 
 msgid "\\Face 2"
-msgstr ""
+msgstr "\\2-es arc"
 
 msgid "\\Face 3"
-msgstr ""
+msgstr "\\3-as arc"
 
 msgid "\\Face 4"
-msgstr ""
+msgstr "\\4-es arc"
 
 msgid "\\No eyeglasses"
-msgstr ""
+msgstr "\\Szemüveg nélkül"
 
 msgid "\\Eyeglasses 1"
-msgstr ""
+msgstr "\\1-es szemüveg"
 
 msgid "\\Eyeglasses 2"
-msgstr ""
+msgstr "\\2-es szemüveg"
 
 msgid "\\Eyeglasses 3"
-msgstr ""
+msgstr "\\3-as szemüveg"
 
 msgid "\\Eyeglasses 4"
-msgstr ""
+msgstr "\\4-es szemüveg"
 
 msgid "\\Eyeglasses 5"
-msgstr ""
+msgstr "\\5-ös szemüveg"
 
 msgid "Previous selection (\\key desel;)"
-msgstr ""
+msgstr "Előző kiválasztás (\\key desel;)"
 
 msgid "Turn left (\\key left;)"
-msgstr ""
+msgstr "Balra fordulás (\\key left;)"
 
 msgid "Turn right (\\key right;)"
-msgstr ""
+msgstr "Jobbra fordulás (\\key right;)"
 
 msgid "Forward (\\key up;)"
-msgstr ""
+msgstr "Előre (\\key up;)"
 
 msgid "Backward (\\key down;)"
-msgstr ""
+msgstr "Hátrálás (\\key down;)"
 
 msgid "Up (\\key gup;)"
-msgstr ""
+msgstr "Fel (\\key gup;)"
 
 msgid "Down (\\key gdown;)"
-msgstr ""
+msgstr "Le (\\key gdown;)"
 
 msgid "Grab or drop (\\key action;)"
-msgstr ""
+msgstr "Megragad vagy elenged (\\key action;)"
 
 msgid "..in front"
-msgstr ""
+msgstr "..előtt"
 
 msgid "..behind"
-msgstr ""
+msgstr "..mögött"
 
 msgid "..power cell"
-msgstr ""
+msgstr "..energiacella"
 
 msgid "Instructions for the mission (\\key help;)"
-msgstr ""
+msgstr "Útmutató a küldetéshez (\\key help;)"
 
 msgid "Take off to finish the mission"
-msgstr ""
+msgstr "Szállj fel a küldetés befejezéséhez"
 
 msgid "Destroy"
-msgstr ""
+msgstr "Rombol"
 
 msgid "Build a derrick"
-msgstr ""
+msgstr "Fúrótorony építés"
 
 msgid "Build a power station"
-msgstr ""
+msgstr "Töltőállomás építés"
 
 msgid "Build a bot factory"
-msgstr ""
+msgstr "Bot gyár építés"
 
 msgid "Build a repair center"
-msgstr ""
+msgstr "Javító állomás építés"
 
 msgid "Build a converter"
-msgstr ""
+msgstr "Konverter építés"
 
 msgid "Build a defense tower"
-msgstr ""
+msgstr "Lövegtorony építés"
 
 msgid "Build a research center"
-msgstr ""
+msgstr "Kutató állomás építés"
 
 msgid "Build a radar station"
-msgstr ""
+msgstr "Radarállomás építés"
 
 msgid "Build a power cell factory"
-msgstr ""
+msgstr "Energiacella gyár építés"
 
 msgid "Build an autolab"
-msgstr ""
+msgstr "Autolab építés"
 
 msgid "Build a nuclear power plant"
-msgstr ""
+msgstr "Atomerőmű építés"
 
 msgid "Build a lightning conductor"
-msgstr ""
+msgstr "Villámhárító építés"
 
 msgid "Build a exchange post"
-msgstr ""
+msgstr "Csereállomás építés"
 
 msgid "Build a vault"
-msgstr ""
+msgstr "Pince építés"
 
 msgid "Show if the ground is flat"
-msgstr ""
+msgstr "Mutatja mennyire lapos a talaj"
 
 msgid "Plant a flag"
-msgstr ""
+msgstr "Zászló leszúrása"
 
 msgid "Remove a flag"
-msgstr ""
+msgstr "Zászló eltávolítása"
 
 msgid "\\Blue flags"
-msgstr ""
+msgstr "\\Kék zászlók"
 
 msgid "\\Red flags"
-msgstr ""
+msgstr "\\Vörös zászlók"
 
 msgid "\\Green flags"
-msgstr ""
+msgstr "\\Zöld zászlók"
 
 msgid "\\Yellow flags"
-msgstr ""
+msgstr "\\Sárga zászlók"
 
 msgid "\\Violet flags"
-msgstr ""
+msgstr "\\Ibolya zászlók"
 
 msgid "Build a winged grabber"
-msgstr ""
+msgstr "Szárnyas marok építés"
 
 msgid "Build a tracked grabber"
-msgstr ""
+msgstr "Lánctalpas marok építés"
 
 msgid "Build a wheeled grabber"
-msgstr ""
+msgstr "Kerekes marok építés"
 
 msgid "Build a legged grabber"
-msgstr ""
+msgstr "Lábas marok építés"
 
 msgid "Build a winged shooter"
-msgstr ""
+msgstr "Szárnyas löveg építés"
 
 msgid "Build a tracked shooter"
-msgstr ""
+msgstr "Lánctalpas löveg építés"
 
 msgid "Build a wheeled shooter"
-msgstr ""
+msgstr "Kerekes löveg építés"
 
 msgid "Build a legged shooter"
-msgstr ""
+msgstr "Lábas löveg építés"
 
 msgid "Build a winged orga shooter"
-msgstr ""
+msgstr "Szárnyas orgavető építés"
 
 msgid "Build a tracked orga shooter"
-msgstr ""
+msgstr "Lánctalpas orgavető építés"
 
 msgid "Build a wheeled orga shooter"
-msgstr ""
+msgstr "Kerekes orgavető építés"
 
 msgid "Build a legged orga shooter"
-msgstr ""
+msgstr "Lábas orgavető építés"
 
 msgid "Build a winged sniffer"
-msgstr ""
+msgstr "Szárnyas szimat építés"
 
 msgid "Build a tracked sniffer"
-msgstr ""
+msgstr "Lánctalpas szimat építés"
 
 msgid "Build a wheeled sniffer"
-msgstr ""
+msgstr "Kerekes szimat építés"
 
 msgid "Build a legged sniffer"
-msgstr ""
+msgstr "Lábas szimat építés"
 
 msgid "Build a winged builder"
-msgstr ""
+msgstr "Szárnyas építő építés"
 
 msgid "Build a tracked builder"
-msgstr ""
+msgstr "Lánctalpas építő építés"
 
 msgid "Build a wheeled builder"
-msgstr ""
+msgstr "Kerekes építő építés"
 
 msgid "Build a legged builder"
-msgstr ""
+msgstr "Lábas építő építés"
 
 msgid "Build a thumper"
-msgstr ""
+msgstr "Dobbantó építés"
 
 msgid "Build a phazer shooter"
-msgstr ""
+msgstr "Pfézervető építés"
 
 msgid "Build a recycler"
-msgstr ""
+msgstr "Újrahasznosító építés"
 
 msgid "Build a shielder"
-msgstr ""
+msgstr "Pajzshordozó építés"
 
 msgid "Build a subber"
-msgstr ""
+msgstr "Tengerallatjáró építés"
 
 msgid "Build a target bot"
-msgstr ""
+msgstr "Célpont bot építés"
 
 msgid "Run research program for tracked bots"
-msgstr ""
+msgstr "Lánctalpas meghajtás kifejlesztése"
 
 msgid "Run research program for winged bots"
-msgstr ""
+msgstr "Szárnyas botok kifejlesztése"
 
 msgid "Run research program for thumper"
-msgstr ""
+msgstr "Dobbantó kifejlesztése"
 
 msgid "Run research program for shooter"
-msgstr ""
+msgstr "Löveg kifejlesztése"
 
 msgid "Run research program for defense tower"
-msgstr ""
+msgstr "Lövegtorony kifejlesztése"
 
 msgid "Run research program for phazer shooter"
-msgstr ""
+msgstr "Pfézervető kifejlesztése"
 
 msgid "Run research program for shielder"
-msgstr ""
+msgstr "Pajzshordozó kifejlesztése"
 
 msgid "Run research program for nuclear power"
-msgstr ""
+msgstr "Nukleáris energia kifejlesztése"
 
 msgid "Run research program for legged bots"
-msgstr ""
+msgstr "Lábas botok kifejlesztése"
 
 msgid "Run research program for orga shooter"
-msgstr ""
+msgstr "Orgavető kifejlesztése"
 
 msgid "Run research program for builder"
-msgstr ""
+msgstr "Építő kifejlesztése"
 
 msgid "Run research program for target bot"
-msgstr ""
+msgstr "Célpont bot kifejlesztése"
 
 msgid "Return to start"
-msgstr ""
+msgstr "Visszatérés a kiindulópontra"
 
 msgid "Sniff (\\key action;)"
-msgstr ""
+msgstr "Szimat (\\key action;)"
 
 msgid "Thump (\\key action;)"
-msgstr ""
+msgstr "Dobbantás (\\key action;)"
 
 msgid "Shoot (\\key action;)"
-msgstr ""
+msgstr "Lövés (\\key action;)"
 
 msgid "Explode (\\key action;)"
-msgstr ""
+msgstr "Robbantás (\\key action;)"
 
 msgid "Build (\\key action;)"
-msgstr ""
+msgstr "Építés (\\key action;)"
 
 msgid "Recycle (\\key action;)"
-msgstr ""
+msgstr "Újrahasznosítás (\\key action;)"
 
 msgid "Extend shield (\\key action;)"
-msgstr ""
+msgstr "Pajzs kinyitása (\\key action;)"
 
 msgid "Withdraw shield (\\key action;)"
-msgstr ""
+msgstr "Pajzs bevonása (\\key action;)"
 
 msgid "Shield radius"
-msgstr ""
+msgstr "Pajzs sugara"
 
 msgid "Delete mark"
-msgstr ""
+msgstr "Jelző törlése"
 
 msgid "Execute the selected program"
-msgstr ""
+msgstr "A kiválasztott program futtatása"
 
 msgid "Edit the selected program"
-msgstr ""
+msgstr "A kiválasztott program szerkesztése"
 
 msgid "Add new program"
-msgstr ""
+msgstr "Új program felvitele"
 
 msgid "Remove selected program"
-msgstr ""
+msgstr "Kiválasztott program eltávolítása"
 
 msgid "Clone selected program"
-msgstr ""
+msgstr "Kiválasztott program klónozása"
 
 msgid "Move selected program up"
-msgstr ""
+msgstr "A kiválaszottt programot felfelé mozgatja"
 
 msgid "Move selected program down"
-msgstr ""
+msgstr "A kiválasztott programot lefelé mozgatja"
 
 msgid "\\SatCom on standby"
-msgstr ""
+msgstr "\\SatCom készenlétben"
 
 msgid "Destroy the building"
-msgstr ""
+msgstr "Lerombolja az épületet"
 
 msgid "Energy level"
-msgstr ""
+msgstr "Energia szint"
 
 msgid "Shield level"
-msgstr ""
+msgstr "Pajzs szintje"
 
 msgid "Jet temperature"
-msgstr ""
+msgstr "Sugárhajtómű hőmérséklet"
 
 msgid "Still working ..."
-msgstr ""
+msgstr "Még mindíg dolgozok ..."
 
 msgid "Number of insects detected"
-msgstr ""
+msgstr "Több rovart észleltünk"
 
 msgid "Transmitted information"
-msgstr ""
+msgstr "Továbbított információ"
 
 msgid "Zoom mini-map"
-msgstr ""
+msgstr "Mini-térkép zoom"
 
 msgid "Camera (\\key camera;)"
-msgstr ""
+msgstr "Kamera (\\key camera;)"
 
 msgid "Help about selected object"
-msgstr ""
+msgstr "A kiválsztott tárgyhoz kapcsolódó segítség"
 
 msgid "Show the solution"
-msgstr ""
+msgstr "Mutatja a megoldást"
 
 msgid "Switch bots <-> buildings"
-msgstr ""
+msgstr "Váltás botok <-> épületek"
 
 msgid "Show the range"
-msgstr ""
+msgstr "Mutatja a távot"
 
 msgid "\\Raise the pencil"
-msgstr ""
+msgstr "\\Ceruza felemelése"
 
 msgid "\\Use the black pencil"
-msgstr ""
+msgstr "\\A fekete ceruza használata"
 
 msgid "\\Use the yellow pencil"
-msgstr ""
+msgstr "\\A sárga ceruza használata"
 
 msgid "\\Use the orange pencil"
-msgstr ""
+msgstr "\\A narancs ceruza használata"
 
 msgid "\\Use the red pencil"
-msgstr ""
+msgstr "\\A vörös ceruza használata"
 
 msgid "\\Use the purple pencil"
-msgstr ""
+msgstr "\\A lila ceruza használata"
 
 msgid "\\Use the blue pencil"
-msgstr ""
+msgstr "\\A kék ceruza használata"
 
 msgid "\\Use the green pencil"
-msgstr ""
+msgstr "\\A zöld ceruza használata"
 
 msgid "\\Use the brown pencil"
-msgstr ""
+msgstr "\\A barna ceruza használata"
 
 msgid "\\Start recording"
-msgstr ""
+msgstr "\\Rögzítés megkezdése"
 
 msgid "\\Stop recording"
-msgstr ""
+msgstr "\\Rögzítés befejezése"
 
 msgid "Show the place"
-msgstr ""
+msgstr "Mutatja a helyet"
 
 msgid "Continue"
-msgstr ""
+msgstr "Folytatás"
 
 msgid "Command line"
-msgstr ""
+msgstr "Parancssor"
 
 msgid "Game speed"
-msgstr ""
+msgstr "Játék sebessége"
 
 msgid "Back"
-msgstr ""
+msgstr "Vissza"
 
 msgid "Forward"
-msgstr ""
+msgstr "Előre"
 
 msgid "Home"
-msgstr ""
+msgstr "Otthon"
 
 msgid "Copy"
-msgstr ""
+msgstr "Másolás"
 
 msgid "Size 1"
-msgstr ""
+msgstr "1-es méret"
 
 msgid "Size 2"
-msgstr ""
+msgstr "2-es méret"
 
 msgid "Size 3"
-msgstr ""
+msgstr "3-as méret"
 
 msgid "Size 4"
-msgstr ""
+msgstr "4-es méret"
 
 msgid "Size 5"
-msgstr ""
+msgstr "5-ős méret"
 
 msgid "Instructions from Houston"
-msgstr ""
+msgstr "Utasítások Houston-tól"
 
 msgid "Satellite report"
-msgstr ""
+msgstr "Műholdas jelentés"
 
 msgid "Programs dispatched by Houston"
-msgstr ""
+msgstr "Houston által küldött programok"
 
 msgid "List of objects"
-msgstr ""
+msgstr "Tárgyak listája"
 
 msgid "Programming help"
-msgstr ""
+msgstr "Programozási segédlet"
 
 msgid "Solution"
-msgstr ""
+msgstr "Megoldás"
 
 msgid "OK\\Close program editor and return to game"
-msgstr ""
+msgstr "OK\\A program szerkesztő bezárása és visszatérés a játékhoz"
 
 msgid "Cancel\\Cancel all changes"
-msgstr ""
+msgstr "Mégsem\\Minden változtatás visszavonása"
 
 msgid "Clone program"
-msgstr ""
+msgstr "Program klónozása"
 
 msgid "Open (Ctrl+O)"
-msgstr ""
+msgstr "Megnyitás (Ctrl+O)"
 
 msgid "Save (Ctrl+S)"
-msgstr ""
+msgstr "Mentés (Ctrl+S)"
 
 msgid "Undo (Ctrl+Z)"
-msgstr ""
+msgstr "Visszavonás (Ctrl+Z)"
 
 msgid "Cut (Ctrl+X)"
-msgstr ""
+msgstr "Kivágás (Ctrl+X)"
 
 msgid "Copy (Ctrl+C)"
-msgstr ""
+msgstr "Másolás (Ctrl+C)"
 
 msgid "Paste (Ctrl+V)"
-msgstr ""
+msgstr "Beillesztés (Ctrl+V)"
 
 msgid "Font size"
-msgstr ""
+msgstr "Betűméret"
 
 msgid "Instructions (\\key help;)"
-msgstr ""
+msgstr "Útmutató \\key help;)"
 
 msgid "Programming help (\\key prog;)"
-msgstr ""
+msgstr "Programozási segédlet (\\key prog;)"
 
 msgid "Compile"
-msgstr ""
+msgstr "Fordítás"
 
 msgid "Execute/stop"
-msgstr ""
+msgstr "Végrehajtás/állj"
 
 msgid "Pause/continue"
-msgstr ""
+msgstr "Szünet/folytatás"
 
 msgid "One step"
-msgstr ""
+msgstr "Egy lépés"
 
 msgid "Gantry crane"
-msgstr ""
+msgstr "Portáldaru"
 
 msgid "Spaceship"
-msgstr ""
+msgstr "Űrhajó"
 
 msgid "Derrick"
-msgstr ""
+msgstr "Fúrótorony"
 
 msgid "Bot factory"
-msgstr ""
+msgstr "Bot gyár"
 
 msgid "Repair center"
-msgstr ""
+msgstr "Javító állomás"
 
 msgid "Destroyer"
-msgstr ""
+msgstr "Romboló"
 
 msgid "Power station"
-msgstr ""
+msgstr "Töltőállomás"
 
 msgid "Converts ore to titanium"
-msgstr ""
+msgstr "Titániummá alakítja az ércet"
 
 msgid "Defense tower"
-msgstr ""
+msgstr "Lövegtorony"
 
 msgid "Nest"
-msgstr ""
+msgstr "Fészek"
 
 msgid "Research center"
-msgstr ""
+msgstr "Kutató állomás"
 
 msgid "Radar station"
-msgstr ""
+msgstr "Radarállomás"
 
 msgid "Information exchange post"
-msgstr ""
+msgstr "Információ csere oszlop"
 
 msgid "Power cell factory"
-msgstr ""
+msgstr "Energiacella gyár"
 
 msgid "Autolab"
-msgstr ""
+msgstr "Autolab"
 
 msgid "Nuclear power station"
-msgstr ""
+msgstr "Nukleáris töltőállomás"
 
 msgid "Lightning conductor"
-msgstr ""
+msgstr "Villámhárító"
 
 msgid "Vault"
-msgstr ""
+msgstr "Páncélterem"
 
 msgid "Houston Mission Control"
-msgstr ""
+msgstr "Houstoni irányító központ"
 
 msgid "Target"
-msgstr ""
+msgstr "Célpont"
 
 msgid "Start"
-msgstr ""
+msgstr "Rajt"
 
 msgid "Finish"
-msgstr ""
+msgstr "Cél"
 
 msgid "Titanium ore"
-msgstr ""
+msgstr "Titánium érc"
 
 msgid "Uranium ore"
-msgstr ""
+msgstr "Uránium érc"
 
 msgid "Organic matter"
-msgstr ""
+msgstr "Szerves anyag"
 
 msgid "Titanium"
-msgstr ""
+msgstr "Titánium"
 
 msgid "Power cell"
-msgstr ""
+msgstr "Energiacella"
 
 msgid "Nuclear power cell"
-msgstr ""
+msgstr "Nukláris energiacella"
 
 msgid "Black box"
-msgstr ""
+msgstr "Fekete doboz"
 
 msgid "Key A"
-msgstr ""
+msgstr "A gomb"
 
 msgid "Key B"
-msgstr ""
+msgstr "B gomb"
 
 msgid "Key C"
-msgstr ""
+msgstr "C gomb"
 
 msgid "Key D"
-msgstr ""
+msgstr "D gomb"
 
 msgid "Explosive"
-msgstr ""
+msgstr "Robbanószer"
 
 msgid "Fixed mine"
-msgstr ""
+msgstr "Rögzített akna"
 
 msgid "Survival kit"
-msgstr ""
+msgstr "Túlélőcsomag"
 
 msgid "Checkpoint"
-msgstr ""
+msgstr "Ellenörző pont"
 
 msgid "Blue flag"
-msgstr ""
+msgstr "Kék zászló"
 
 msgid "Red flag"
-msgstr ""
+msgstr "Vörös zászló"
 
 msgid "Green flag"
-msgstr ""
+msgstr "Zöld zászló"
 
 msgid "Yellow flag"
-msgstr ""
+msgstr "Sárga zászló"
 
 msgid "Violet flag"
-msgstr ""
+msgstr "Ibolya zászló"
 
 msgid "Energy deposit (site for power station)"
-msgstr ""
+msgstr "Energia lelőhely (töltőállomás számára alkalmas hely)"
 
 msgid "Uranium deposit (site for derrick)"
-msgstr ""
+msgstr "Uránium lelőhely (fúrótorony számára alkalmas hely)"
 
 msgid "Found key A (site for derrick)"
-msgstr ""
+msgstr "Megvan az A pont (a fúrótorony helye)"
 
 msgid "Found key B (site for derrick)"
-msgstr ""
+msgstr "Megvan a B pont (fúrótorony helye)"
 
 msgid "Found key C (site for derrick)"
-msgstr ""
+msgstr "Megvan a C pont (fúrótorony helye)"
 
 msgid "Found key D (site for derrick)"
-msgstr ""
+msgstr "Megvan a D pont (fúrótorony helye)"
 
 msgid "Titanium deposit (site for derrick)"
-msgstr ""
+msgstr "Titánium lelőhely (fúrótorony számára alkalmas hely)"
 
 msgid "Practice bot"
-msgstr ""
+msgstr "Gyakorló robot"
 
 msgid "Winged grabber"
-msgstr ""
+msgstr "Szárnyas marok"
 
 msgid "Tracked grabber"
-msgstr ""
+msgstr "Lánctalpas marok"
 
 msgid "Wheeled grabber"
-msgstr ""
+msgstr "Kerekes marok"
 
 msgid "Legged grabber"
-msgstr ""
+msgstr "Lábas marok"
 
 msgid "Winged builder"
-msgstr ""
+msgstr "Szárnyas építő"
 
 msgid "Tracked builder"
-msgstr ""
+msgstr "Lánctalpas építő"
 
 msgid "Wheeled builder"
-msgstr ""
+msgstr "Kerekes építő"
 
 msgid "Legged builder"
-msgstr ""
+msgstr "Lábas építő"
 
 msgid "Winged shooter"
-msgstr ""
+msgstr "Szárnyas löveg"
 
 msgid "Tracked shooter"
-msgstr ""
+msgstr "Lánctalpas löveg"
 
 msgid "Wheeled shooter"
-msgstr ""
+msgstr "Keres löveg"
 
 msgid "Legged shooter"
-msgstr ""
+msgstr "Lábas löveg"
 
 msgid "Winged orga shooter"
-msgstr ""
+msgstr "Szárnyas orgavető"
 
 msgid "Tracked orga shooter"
-msgstr ""
+msgstr "Lánctalpas orgavető"
 
 msgid "Wheeled orga shooter"
-msgstr ""
+msgstr "Kerekes orgavető"
 
 msgid "Legged orga shooter"
-msgstr ""
+msgstr "Lábas orgavető"
 
 msgid "Winged sniffer"
-msgstr ""
+msgstr "Szárnyas szimat"
 
 msgid "Tracked sniffer"
-msgstr ""
+msgstr "Lánctalpas szimat"
 
 msgid "Wheeled sniffer"
-msgstr ""
+msgstr "Kerekes szimat"
 
 msgid "Legged sniffer"
-msgstr ""
+msgstr "Lábas szimat"
 
 msgid "Thumper"
-msgstr ""
+msgstr "Dobbantó"
 
 msgid "Phazer shooter"
-msgstr ""
+msgstr "Pfézervető"
 
 msgid "Recycler"
-msgstr ""
+msgstr "Újrahasznosító"
 
 msgid "Shielder"
-msgstr ""
+msgstr "Pajzshordozó"
 
 msgid "Subber"
-msgstr ""
+msgstr "Tengeralattjáró"
 
 msgid "Target bot"
-msgstr ""
+msgstr "Célpont bot"
 
 msgid "Drawer bot"
-msgstr ""
+msgstr "Rajzoló bot"
 
 msgid "Engineer"
-msgstr ""
+msgstr "Mérnök"
 
 msgid "Robbie"
-msgstr ""
+msgstr "Robbi"
 
 msgid "Alien Queen"
-msgstr ""
+msgstr "Alien királynő"
 
 msgid "Ant"
-msgstr ""
+msgstr "Hangya"
 
 msgid "Spider"
-msgstr ""
+msgstr "Pók"
 
 msgid "Wasp"
-msgstr ""
+msgstr "Darázs"
 
 msgid "Worm"
-msgstr ""
+msgstr "Féreg"
 
 msgid "Egg"
-msgstr ""
+msgstr "Pete"
 
 msgid "Wreckage"
-msgstr ""
+msgstr "Hajóroncs"
 
 msgid "Ruin"
-msgstr ""
+msgstr "Rom"
 
 msgid "Waste"
-msgstr ""
+msgstr "Hulladék"
 
 msgid "Spaceship ruin"
-msgstr ""
+msgstr "Űrhajó roncs"
 
 msgid "Remains of Apollo mission"
-msgstr ""
+msgstr "Az Apollo küldetések maradványai"
 
 msgid "Lunar Roving Vehicle"
-msgstr ""
+msgstr "Holdjáró"
 
 msgid "Internal error - tell the developers"
-msgstr ""
+msgstr "Belső hiba - szólj a fejlesztőknek"
 
 msgid "Unknown command"
-msgstr ""
+msgstr "Ismeretlen parancs"
 
 msgid "This object is currently busy"
-msgstr ""
+msgstr "Ez a tárgy jelenleg foglalt"
 
 msgid "Impossible when flying"
-msgstr ""
+msgstr "Repülés közben nem lehet ilyet csinálni"
 
 msgid "Already carrying something"
-msgstr ""
+msgstr "Már viszel valamit"
 
 msgid "Nothing to grab"
-msgstr ""
+msgstr "Nincs mit megragadni"
 
 msgid "Impossible when moving"
-msgstr ""
+msgstr "Mozgás közben nem lehet ilyet csinálni"
 
 msgid "Place occupied"
-msgstr ""
+msgstr "A hely foglalt"
 
 msgid "You can not carry a radioactive object"
-msgstr ""
+msgstr "Radiokatív tágyat nem tudsz cipelni"
 
 msgid "You can not carry an object under water"
-msgstr ""
+msgstr "Víz alat nem tudsz tárgyakat cipelni"
 
 msgid "Nothing to drop"
-msgstr ""
+msgstr "Nincs mit ledobni"
 
 msgid "Impossible under water"
-msgstr ""
+msgstr "Víz alatt nem lehet ilyet csinálni"
 
 msgid "Titanium too far away"
-msgstr ""
+msgstr "Túl messze van a titánium"
 
 msgid "Titanium too close"
-msgstr ""
+msgstr "Túl közel van a titánium"
 
 msgid "No titanium around"
-msgstr ""
+msgstr "Nincs a közelben titánium"
 
 msgid "Ground not flat enough"
-msgstr ""
+msgstr "A felszín nem elég sima"
 
 msgid "Flat ground not large enough"
-msgstr ""
+msgstr "A lapos terület nem elég nagy"
 
 msgid "Too close to space ship"
-msgstr ""
+msgstr "Túl közel van az űrhajó"
 
 msgid "Too close to a building"
-msgstr ""
+msgstr "Túl közel van az épület"
 
 msgid "Can not produce this object in this mission"
-msgstr ""
+msgstr "Ebben a küldetésben nem lehet ezt a tárgyat gyártani"
 
 msgid "Can not produce not researched object"
-msgstr ""
+msgstr "A még ki nem kutatott tárgyat nem lehet gyártani"
 
 msgid "Not enough energy"
-msgstr ""
+msgstr "Nincs elég energia"
 
 msgid "Nothing to recycle"
-msgstr ""
+msgstr "Nincs mint újrahasznosítani"
 
 msgid "No more energy"
-msgstr ""
+msgstr "Kifogyott az energia"
 
 msgid "Error in instruction move"
-msgstr ""
+msgstr "Hiba a move utasításban"
 
 msgid "Goto: inaccessible destination"
-msgstr ""
+msgstr "Goto: A célhely nem hozzáférhető"
 
 msgid "Goto: destination occupied"
-msgstr ""
+msgstr "Goto: A célhely foglalt"
 
 msgid "No titanium ore to convert"
-msgstr ""
+msgstr "Nincs konvertálható titánium érc"
 
 msgid "No ore in the subsoil"
-msgstr ""
+msgstr "Nincs érc az altalajban"
 
 msgid "No energy in the subsoil"
-msgstr ""
+msgstr "Nincs energia az altalajban"
 
 msgid "No power cell"
-msgstr ""
+msgstr "Nincs benne energiacella"
 
 msgid "Inappropriate cell type"
-msgstr ""
+msgstr "Alkalmatlan cella típus"
 
 msgid "Research program already performed"
-msgstr ""
+msgstr "Ez a kutatás már lefutott"
 
 msgid "Not enough energy yet"
-msgstr ""
+msgstr "Még nincs elég energia"
 
 msgid "No titanium to transform"
-msgstr ""
+msgstr "Nincs átalakítható titánum"
 
 msgid "Transforms only titanium"
-msgstr ""
+msgstr "Csak titániumot tud átalakítani"
 
 msgid "Doors blocked by a robot or another object"
-msgstr ""
+msgstr "Az ajtókat elállja egy robot vagy más tárgy"
 
 msgid "You must get on the spaceship to take off"
-msgstr ""
+msgstr "Be kell szállnod az űrhajóba hogy felszállhass"
 
 msgid "Nothing to analyze"
-msgstr ""
+msgstr "Nincs mit elemezni"
 
 msgid "Inappropriate sample"
-msgstr ""
+msgstr "Alkalmatlan minta"
 
 msgid "Analysis already performed"
-msgstr ""
+msgstr "Már kész van az elemzés"
 
 msgid "No uranium to transform"
-msgstr ""
+msgstr "Nincs átalakíható uránium"
 
 msgid "Transforms only uranium"
-msgstr ""
+msgstr "Csak urániumot tud átalakítani"
 
 msgid "No titanium"
-msgstr ""
+msgstr "Nincs titánium"
 
 msgid "Object too close"
-msgstr ""
+msgstr "A tárgy túl közel van"
 
 msgid "No information exchange post within range"
-msgstr ""
+msgstr "Nincs a közelben informácó csere oszlop"
 
 msgid "Program infected by a virus"
-msgstr ""
+msgstr "A programot vírus fertőzte meg"
 
 msgid "Infected by a virus; temporarily out of order"
-msgstr ""
+msgstr "Megfertőzte egy vírus; átmenetileg üzemen kívül"
 
 msgid "Impossible when swimming"
-msgstr ""
+msgstr "Úszás közben nem lehet ilyet csinálni"
 
 msgid "Impossible when carrying an object"
-msgstr ""
+msgstr "Tárgy szállítása közben nem lehet ilyet csinálni"
 
 msgid "Too many flags of this color (maximum 5)"
-msgstr ""
+msgstr "Túl sok ilyen színű zászló van (legfeljebb 5 lehet)"
 
 msgid "Too close to an existing flag"
-msgstr ""
+msgstr "Túl közel van egy már létező zászló"
 
 msgid "No flag nearby"
-msgstr ""
+msgstr "Nincs a közelben zászló"
 
 msgid "Not found anything to destroy"
-msgstr ""
+msgstr "Nem találtam semmi elpuszthatót"
 
 msgid "Inappropriate object"
-msgstr ""
+msgstr "Alkalmatlan tárgy"
 
 msgid "The mission is not accomplished yet (press \\key help; for more details)"
-msgstr ""
+msgstr "A küldetés még nincs teljesítve (a \\key help; gomb további segítséget ad)"
 
 msgid "Bot destroyed"
-msgstr ""
+msgstr "Bot megsemmisült"
 
 msgid "Building destroyed"
-msgstr ""
+msgstr "Epület megsemmisült"
 
 msgid "Unable to control enemy objects"
-msgstr ""
+msgstr "Ellenséges célpontokat nem lehet irányítani"
 
 msgid "Inappropriate bot"
-msgstr ""
+msgstr "Alkalmatlan bot"
 
 msgid "Quicksave slot not found"
-msgstr ""
+msgstr "Gyorsmentés helye nem található"
 
 msgid "Building completed"
-msgstr ""
+msgstr "Épület elkészült"
 
 msgid "Titanium available"
-msgstr ""
+msgstr "Titánium elérhető"
 
 msgid "Research program completed"
-msgstr ""
+msgstr "A kutás elkészült"
 
 msgid "Plans for tracked robots available"
-msgstr ""
+msgstr "Új terv: Lánctalpas robotok"
 
 msgid "You can fly with the keys (\\key gup;) and (\\key gdown;)"
-msgstr ""
+msgstr "A (\\key gup;) és (\\key gdown;) gombokkal tudsz repülni"
 
 msgid "Plans for thumper available"
-msgstr ""
+msgstr "Új terv: Dobbantó"
 
 msgid "Plans for shooter available"
-msgstr ""
+msgstr "Új terv: Löveg"
 
 msgid "Plans for defense tower available"
-msgstr ""
+msgstr "Új terv: Lövegtorony"
 
 msgid "Plans for phazer shooter available"
-msgstr ""
+msgstr "Új terv: Pfázervető"
 
 msgid "Plans for shielder available"
-msgstr ""
+msgstr "Új terv: Pajzshordozó"
 
 msgid "Plans for nuclear power plant available"
-msgstr ""
+msgstr "Új terv: Nukleáris erőmű"
 
 msgid "Plans for builder available"
-msgstr ""
+msgstr "Új terv: építő"
 
 msgid "New bot available"
-msgstr ""
+msgstr "Új bot elérhető"
 
 msgid "Analysis performed"
-msgstr ""
+msgstr "Elkészült az elemzés"
 
 msgid "Power cell available"
-msgstr ""
+msgstr "Energiacella elérhető"
 
 msgid "Nuclear power cell available"
-msgstr ""
+msgstr "Nukleáris energiacella elérhető"
 
 msgid "You found a usable object"
-msgstr ""
+msgstr "Egy használató tárgyat találtál"
 
 msgid "Found a site for power station"
-msgstr ""
+msgstr "Megvan a töltőállomás helye"
 
 msgid "Found a site for a derrick"
-msgstr ""
+msgstr "Megvan a fúrótorony helye"
 
 msgid "<<< Well done; mission accomplished >>>"
-msgstr ""
+msgstr "<<< Ügyes vagy, teljesítetted a küldetést >>>"
 
 msgid "<<< Sorry; mission failed >>>"
-msgstr ""
+msgstr "<<< Sajnos ezt a küldetést elbuktad >>>"
 
 msgid "Current mission saved"
-msgstr ""
+msgstr "Jelenlegi küldetés elmentve"
 
 msgid "Alien Queen killed"
-msgstr ""
+msgstr "Az Alien királynő meghalt"
 
 msgid "Ant fatally wounded"
-msgstr ""
+msgstr "A hangya halálosan megsebesült"
 
 msgid "Wasp fatally wounded"
-msgstr ""
+msgstr "Darázs halálosan megsebesült"
 
 msgid "Worm fatally wounded"
-msgstr ""
+msgstr "Féreg haláosan megsebesült"
 
 msgid "Spider fatally wounded"
-msgstr ""
+msgstr "A pók halálosan megsebesült"
 
 msgid "Press \\key help; to read instructions on your SatCom"
-msgstr ""
+msgstr "A \\key help; gomb lenyomásával előhozhatod a útmutatót a SatCom-odon"
 
 #, c-format
 msgid "<<< Team %s finished! >>>"
-msgstr ""
+msgstr "<<< A %s csapat végzett! >>>"
 
 #, c-format
 msgid "<<< Team %s lost! >>>"
-msgstr ""
+msgstr "<<< A %s csapat vesztett! >>>"
 
 #, c-format
 msgid "<<< Team %s recieved %d points >>>"
-msgstr ""
+msgstr "<<< A %s csapat %d pontott kapott >>>"
 
 msgid "Opening bracket missing"
-msgstr ""
+msgstr "Nyitó zárójel hiányzik"
 
 msgid "Closing bracket missing"
-msgstr ""
+msgstr "Záró kapocs hiányzik"
 
 msgid "The expression must return a boolean value"
-msgstr ""
+msgstr "A kifejezés boolean értéket kell adjon"
 
 msgid "Variable not declared"
-msgstr ""
+msgstr "A változó nincs deklarálva"
 
 msgid "Assignment impossible"
-msgstr ""
+msgstr "Ilyen hozzárendelés/értékadás nem lehetséges"
 
 msgid "Semicolon terminator missing"
-msgstr ""
+msgstr "Hiányzik a lezáró pontosvessző"
 
 msgid "Instruction \"case\" outside a block \"switch\""
-msgstr ""
+msgstr "\"switch\" blokkon kívüli \"case\" utasítás"
 
 msgid "Instructions after the final closing brace"
-msgstr ""
+msgstr "A végső záró kapocs utáni utasítások"
 
 msgid "End of block missing"
-msgstr ""
+msgstr "Hiányzik a blokk vége"
 
 msgid "Instruction \"else\" without corresponding \"if\""
-msgstr ""
+msgstr "A hozzátartozó \"if\" nélküli \"else\" utasítás"
 
 msgid "Opening brace missing"
-msgstr ""
+msgstr "Nyitó kapocs hiányzik"
 
 msgid "Wrong type for the assignment"
-msgstr ""
+msgstr "Nem megfelelő típus az értékadásban"
 
 msgid "A variable can not be declared twice"
-msgstr ""
+msgstr "Nem szabad ugyanazt a változót kétszer deklarálni"
 
 msgid "The types of the two operands are incompatible"
-msgstr ""
+msgstr "A két operandus típusa nem összegyeztethető"
 
 msgid "Unknown function"
-msgstr ""
+msgstr "Ismeretlen függvény"
 
 msgid "Sign \" : \" missing"
-msgstr ""
+msgstr "Hiányzik a \" : \" jel"
 
 msgid "Keyword \"while\" missing"
-msgstr ""
+msgstr "Hiányzik a \"while\" kulcsszó"
 
 msgid "Instruction \"break\" outside a loop"
-msgstr ""
+msgstr "Hurkon kívül lévő \"break\" utasítás"
 
 msgid "A label must be followed by \"for\"; \"while\"; \"do\" or \"switch\""
-msgstr ""
+msgstr "Cimke után \"for\"; \"while\"; \"do\" vagy \"switch\" következik"
 
 msgid "This label does not exist"
-msgstr ""
+msgstr "Ez a cimke nem létezik"
 
 msgid "Instruction \"case\" missing"
-msgstr ""
+msgstr "Hiányzik a \"case\" utasítás"
 
 msgid "Number missing"
-msgstr ""
+msgstr "Hiányzó szám"
 
 msgid "Void parameter"
-msgstr ""
+msgstr "Void paraméter"
 
 msgid "Type declaration missing"
-msgstr ""
+msgstr "Hiányzó típus deklaráció"
 
 msgid "Variable name missing"
-msgstr ""
+msgstr "Hiányzó változó név"
 
 msgid "Function name missing"
-msgstr ""
+msgstr "Hiányzik a függvény neve"
 
 msgid "Too many parameters"
-msgstr ""
+msgstr "Túl sok paraméter"
 
 msgid "Function already exists"
-msgstr ""
+msgstr "Már van ilyen függvény"
 
 msgid "Parameters missing"
-msgstr ""
+msgstr "Hányzó paraméterek"
 
 msgid "No function with this name accepts this kind of parameter"
-msgstr ""
+msgstr "Nincs ilyen nevű függvény ami ilyen jellegű paramétert fogad el"
 
 msgid "No function with this name accepts this number of parameters"
-msgstr ""
+msgstr "Nincs ilyen nevű függvény ami ennyi paramétert fogad el"
 
 msgid "This is not a member of this class"
-msgstr ""
+msgstr "Ennek az osztálynak nincs ilyen tagja"
 
 msgid "This object is not a member of a class"
-msgstr ""
+msgstr "Ez a tárgy nem tagja egy osztálynak sem"
 
 msgid "Appropriate constructor missing"
-msgstr ""
+msgstr "Hiányzik a megfelelő építő"
 
 msgid "This class already exists"
-msgstr ""
+msgstr "Már létezik ez az osztály"
 
 msgid "\" ] \" missing"
-msgstr ""
+msgstr "Lemaradt a \" ] \""
 
 msgid "Reserved keyword of CBOT language"
-msgstr ""
+msgstr "Ez a szo a CBOT nyelv egyik lefoglalt kulcsszava"
 
 msgid "Bad argument for \"new\""
-msgstr ""
+msgstr "Helytelen változó a \"new\"-nak"
 
 msgid "\" [ \" expected"
-msgstr ""
+msgstr "\" [ \" kellene ide"
 
 msgid "String missing"
-msgstr ""
+msgstr "Hinyzó string"
 
 msgid "Incorrect index type"
-msgstr ""
+msgstr "Nem megfelelő index típus"
 
 msgid "Private element"
-msgstr ""
+msgstr "Privát elem"
 
 msgid "Public required"
-msgstr ""
+msgstr "Nyivánosnak kell lennie"
 
 msgid "Expression expected after ="
-msgstr ""
+msgstr "Az = után kifejezés következik"
 
 msgid "Ambiguous call to overloaded function"
-msgstr ""
+msgstr "Nem egyértelmű a felülbírált függvényre vonatkozó hívás"
 
 msgid "Function needs return type \"void\""
-msgstr ""
+msgstr "A függvénynek \"void\" visszatérési tipusúnak kell lennie"
 
 msgid "Class name expected"
-msgstr ""
+msgstr "Osztálynévnek kellene itt szerepelnie"
 
 msgid "Non-void function needs \"return;\""
-msgstr ""
+msgstr "Nem void függvénybe kell \"return;\""
 
 msgid "This parameter needs a default value"
-msgstr ""
+msgstr "Ennek a paramtérnek alapértelmezett érték kell"
 
 msgid "Missing end quote"
-msgstr ""
+msgstr "Hiányzó záró idézőjel"
 
 msgid "Unknown escape sequence"
-msgstr ""
+msgstr "Ismeretlen feloldó szekvencia"
 
 msgid "Octal value out of range"
-msgstr ""
+msgstr "Az oktális érték kilág az engedélyezett tartományból"
 
 msgid "Missing hex digits after escape sequence"
-msgstr ""
+msgstr "Hiányoznak a hex számjegyek a feloldó szekvencia után"
 
 msgid "Hex value out of range"
-msgstr ""
+msgstr "A Hex érték kilóg az engedélyezett tartományból"
 
 msgid "Invalid universal character name"
-msgstr ""
+msgstr "Érvénytelen univerzális karakter név"
 
 msgid "Empty character constant"
-msgstr ""
+msgstr "Üres karakter konstans"
 
 msgid "Duplicate label in switch"
-msgstr ""
+msgstr "Duplikálja a címkét a switch-ben"
 
 msgid "Dividing by zero"
-msgstr ""
+msgstr "Nullával való osztás"
 
 msgid "Variable not initialized"
-msgstr ""
+msgstr "A változó nem kapott kezdőértéket"
 
 msgid "Negative value rejected by \"throw\""
-msgstr ""
+msgstr "A \"throw\" visszautasítja a negatív értéket"
 
 msgid "The function returned no value"
-msgstr ""
+msgstr "A függvény nem adott vissza értéket"
 
 msgid "No function running"
-msgstr ""
+msgstr "Nem fut függvény"
 
 msgid "Calling an unknown function"
-msgstr ""
+msgstr "Ismeretlen függvény hívása"
 
 msgid "This class does not exist"
-msgstr ""
+msgstr "Ez az osztály nem létezik"
 
 msgid "Unknown Object"
-msgstr ""
+msgstr "Ismeretlen tárgy"
 
 msgid "Operation impossible with value \"nan\""
-msgstr ""
+msgstr "\"nan\" értékkel nem lehet műveletet végezni"
 
 msgid "Access beyond array limit"
-msgstr ""
+msgstr "A tömb méretét meghaladó hozzáférés"
 
 msgid "Stack overflow"
-msgstr ""
+msgstr "Verem túlcsordulás"
 
 msgid "Illegal object"
-msgstr ""
+msgstr "Érvénytelen tárgy"
 
 msgid "Can't open file"
-msgstr ""
+msgstr "A fájlt nem lehet megnyitni"
 
 msgid "File not open"
-msgstr ""
+msgstr "A fájl nincs megnyitva"
 
 msgid "Read error"
-msgstr ""
+msgstr "Olvasási hiba"
 
 msgid "Write error"
-msgstr ""
+msgstr "Írási hiba"
 
 msgid "Button %1"
-msgstr ""
+msgstr "%1 gomb"
 
 #, c-format
 msgid "You have to use \"%1$s\" at least once in this exercise (used: %2$d)"
 msgid_plural "You have to use \"%1$s\" at least %3$d times in this exercise (used: %2$d)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Ezt legalább egyszer használnod kell ebben a gyakorlatban: \"%1$s\" (ennyiszer használva: %2$d)"
+msgstr[1] "Ezt legalább ennyiszer használnod kell ebben a gyakorlatban: \"%1$s\" %3$d (ennyiszer használva: %2$d)"
 
 #, c-format
 msgid "You cannot use \"%s\" in this exercise (used: %d)"
-msgstr ""
+msgstr "Nem használhatod ebben a küldetésben: \"%s\" (ennyiszer használva: %d)"
 
 #, c-format
 msgid "You have to use \"%1$s\" at most once in this exercise (used: %2$d)"
 msgid_plural "You have to use \"%1$s\" at most %3$d times in this exercise (used: %2$d)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Ezt legfeljebb egyszer használhatod ebben a gyakorlatban: \"%1$s\" (ennyiszer használva: %2$d)"
+msgstr[1] "Ezt legfeljebb ennyiszer használhatod ebben a gyakorlatban: \"%1$s\" %3$d (eddig használva: %2$d)"
 
