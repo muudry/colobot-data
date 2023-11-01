@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: colobot\n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2023-11-01 14:36\n"
+"PO-Revision-Date: 2023-11-01 15:22\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
@@ -25,107 +25,107 @@ msgstr ""
 #: ../scene.txt:1
 #, no-wrap
 msgid "Building"
-msgstr ""
+msgstr "Építés"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Learn how to construct buildings."
-msgstr ""
+msgstr "Tanuld meg, hogyan kell épületeket felhúzni."
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "From Mission Control"
-msgstr ""
+msgstr "Az irányítóközponttól"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "This is your second drill. <a object|human>You</a> should now familiarize yourself with the handling of basic equipment. This could turn out to be your best ally during the course of this expedition."
-msgstr ""
+msgstr "Ez lesz a második gyakorlatod. <a object|human>Neked</a> most az a feladatod, hogy megismerkedj az alapvető felszerelések kezelésével. Könnyen lehet, hogy ez lesz a legfontosabb szövetségesed az expedíció során."
 
 #. type: Plain text
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "The construction of buildings and the manufacturing of bots all require the use of <a object|titan>titanium</a>. Titanium is a mineral found in most solar systems in the universe."
-msgstr ""
+msgstr "Az épületek felhúzása és a botok gyártása <a object|titan>titán</a> felhasználásával történik. A titán az univerzum legtöbb naprendszerében megtalálható ásvány."
 
 #. type: \b; header
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "Procedure"
-msgstr ""
+msgstr "Eljárás"
 
 #. type: Bullet: '1)'
 #: ../help/help.E.txt:7
 #, no-wrap
 msgid "Position yourself close to the first <a object|titan>titanium cube</a>."
-msgstr ""
+msgstr "Állj az első <a object|titan>titán kocka</a> közelébe."
 
 #. type: Bullet: '2)'
 #: ../help/help.E.txt:8
 #, no-wrap
 msgid "Build a <a object|research>research center</a> <button 163/>. Note that only <a object|human>you</a> can accomplish the task of building; no bot can be substituted."
-msgstr ""
+msgstr "Építs egy <a object|research>kutatóközpontot</a> <button 163/>. Vedd figyelembe, hogy csak <a object|human>te</a> tudod végrehajtani az építési műveletet; egyetlen bot sem teheti meg helyetted."
 
 #. type: Bullet: '3)'
 #: ../help/help.E.txt:9
 #, no-wrap
 msgid "With a second <a object|titan>titanium cube</a>, build a <a object|factory>bot factory</a> <button 160/>."
-msgstr ""
+msgstr "A második <a object|titan>titánium kockából</a> építs egy <a object|factory>bot gyárat</a> <button 160/>."
 
 #. type: Plain text
 #: ../help/help.E.txt:11
 #, no-wrap
 msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
-msgstr ""
+msgstr "A(z) <format key><key help/></format> gomb segítségével bármikor visszanézheted ezeket az utasításokat a személyi SatCom-odon <button 63/>."
 
 #. type: \t; header
 #: ../help/help.E.txt:13 ../help/soluce.E.txt:10
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Lásd még"
 
 #. type: Plain text
 #: ../help/help.E.txt:14 ../help/soluce.E.txt:11
 #, no-wrap
 msgid "<a command>Controls</a>"
-msgstr ""
+msgstr "<a command>Irányítás</a>"
 
 #. type: \b; header
 #: ../help/soluce.E.txt:1
 #, no-wrap
 msgid "Walkthrough"
-msgstr ""
+msgstr "Megoldás"
 
 #. type: Plain text
 #: ../help/soluce.E.txt:2
 #, no-wrap
 msgid "Walk down the street that runs beside <a object|Huston>Mission Control</a>. You will find a <a object|titan>titanium cube</a> on the left hand side of the road, right after the <a object|botgr>grabber bot</a>."
-msgstr ""
+msgstr "Indulj el az <a object|Huston>Irányító központ</a> mellett futó utcán. Az út bal oldalán találsz egy <a object|titan>titán kockát</a>, közvetlenül a <a object|botgr>markoló bot</a> után."
 
 #. type: Bullet: '1)'
 #: ../help/soluce.E.txt:4
 #, no-wrap
 msgid "Face the cube. Click on the first button at the bottom left of your screen: <button 163/> <build a <a object|research>research center</a>>."
-msgstr ""
+msgstr "Fordulj a kocka felé. Kattints az első gombra a képernyő bal alsó sarkában: <button 163/> <a object|research>kutató központ</a> építés."
 
 #. type: Bullet: '2)'
 #: ../help/soluce.E.txt:5
 #, no-wrap
 msgid "Walk further down the road. The second cube is on the right past the four green <a object|power>power cells</a>."
-msgstr ""
+msgstr "Sétálj tovább az úton. A második kocka a jobb oldalon található a négy zöld <a object|power>energiacella</a> mellett."
 
 #. type: Bullet: '3)'
 #: ../help/soluce.E.txt:6
 #, no-wrap
 msgid "Repeat 1) but click on the second button: <button 160/> <build a <a object|factory>bot factory</a>>."
-msgstr ""
+msgstr "Ismételd meg az 1) pontot, de a második gombra kattints: <button 160/> <a object|factory>bot gyár</a> építés."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:8
 #, no-wrap
 msgid "As soon as both buildings are completed, the mission is at an end."
-msgstr ""
+msgstr "A küldetés véget ér mihelyst kész mindkét épület."
 
