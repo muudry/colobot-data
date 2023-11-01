@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: colobot\n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2023-11-01 14:36\n"
+"PO-Revision-Date: 2023-11-01 15:22\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
@@ -25,228 +25,229 @@ msgstr ""
 #: ../scene.txt:1
 #, no-wrap
 msgid "Departure"
-msgstr ""
+msgstr "Indulás"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Equip your spaceship and get ready for takeoff."
-msgstr ""
+msgstr "Szereld fel űrhajódat, és készülj fel a felszállásra."
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "From Mission Control"
-msgstr ""
+msgstr "Az irányító központtól"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Your <a object|base>spaceship</a> is now standing on the launching pad, ready for takeoff."
-msgstr ""
+msgstr "Az <a object|base>űrhajód</a> már az indítóálláson áll, felszállásra készen."
 
 #. type: Plain text
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "The last drill left for <a object|human>you</a> to perform before embarking on your journey is to equip your spaceship with its <a object|bbox>black box</a>. The only way to reach the <a object|bbox>black box</a> is by a steep path that can only be climbed by a <a object|botgc>tracked grabber</a> which you need to build."
-msgstr ""
+msgstr "Az utolsó gyakorlat, amelyet <a object|human>neked</a> végre kell hajtanod, mielőtt elindulsz az utazásra, az az, hogy felszereled az űrhajódat a <a object|bbox>fekete dobozával</a>. A <a object|bbox>fekete dobozhoz</a> csak egy meredek ösvényen lehet eljutni, amelyen csak egy <a object|botgc>lánctalpas marok</a> tud felmenni, amit meg kell építened."
 
 #. type: Plain text
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "Unfortunately your <a object|factory>bot factory</a> hasn't yet got the capacity to assemble this type of bot. You need to request your <a object|research>research center</a> to come up with a blueprint for this particular propeller."
-msgstr ""
+msgstr "Sajnos a <a object|factory>botgyárad</a> még nem rendelkezik az ilyen típusú botok összeállításához szükséges kapacitással. Ezért kérned kell a <a object|research>kutatóközpontot</a>, hogy dolgozzon ki egy tervrajzot ehhez a fajta meghajtáshoz."
 
 #. type: \b; header
 #: ../help/help.E.txt:8
 #, no-wrap
 msgid "Procedure"
-msgstr ""
+msgstr "Eljárás"
 
 #. type: Bullet: '1)'
 #: ../help/help.E.txt:9
 #, no-wrap
 msgid "Power the research center with one of the green <a object|power>power cells</a>."
-msgstr ""
+msgstr "Lásd el a kutatóközpont árammal az egyik zöld <a object|power>energiacella</a> segítségével."
 
 #. type: Bullet: '2)'
 #: ../help/help.E.txt:10
 #, no-wrap
 msgid "Click on the <tracked bot research program> button <button 64/>."
-msgstr ""
+msgstr "Kattints a <lánctalpas meghajtás kifejlesztése> gombra <button 64/>."
 
 #. type: Bullet: '3)'
 #: ../help/help.E.txt:11
 #, no-wrap
 msgid "Drop a <a object|titan>titanium cube</a> in the center of the <a object|factory>bot factory</a> and build a <a object|botgc>tracked grabber</a>."
-msgstr ""
+msgstr "Dobj egy <a object|titan>titán kockát</a> a <a object|factory>botgyár</a> közepére, és gyárts egy <a object|botgc>lánctalpas marok</a> botot."
 
 #. type: Bullet: '4)'
 #: ../help/help.E.txt:12
 #, no-wrap
 msgid "Power and radio-control the <a object|botgc>tracked grabber</a> to the top of the southwest-oriented mountain."
-msgstr ""
+msgstr "Lásd el árammal, és rádió-táviránítsd a <a object|botgc>lánctalpas marok botot</a> a délnyugati fekvésű hegy tetejére."
 
 #. type: Bullet: '5)'
 #: ../help/help.E.txt:13
 #, no-wrap
 msgid "Bring the black box back aboard your spaceship."
-msgstr ""
+msgstr "Vidd a fekete dobozt az úrhajód fedélzetére."
 
 #. type: Bullet: '6)'
 #: ../help/help.E.txt:14
 #, no-wrap
 msgid "Don't forget to take the <a object|botgr>wheeled grabber</a> along. These bots may prove very useful in the future."
-msgstr ""
+msgstr "Ne felejtsd felpakolni a <a object|botgr>kerekes marok</a> botot is. Ezek a botok hasznosnak lehetnek a jövőben."
 
 #. type: Bullet: '7)'
 #: ../help/help.E.txt:15
 #, no-wrap
 msgid "Climb aboard the <a object|base>spaceship</a>."
-msgstr ""
+msgstr "Mássz fel az <a object|base>űrhajó</a> fedélzetére."
 
 #. type: Bullet: '8)'
 #: ../help/help.E.txt:16
 #, no-wrap
 msgid "Select the <a object|base>spaceship</a> and take off <button 28/>."
-msgstr ""
+msgstr "Válaszd ki az <a object|base>űrhajót</a> és szállj fel <button 28/>."
 
 #. type: Plain text
 #: ../help/help.E.txt:19
 #, no-wrap
 msgid "Please note: To work more efficiently, you can use the <a object|botgr>wheeled grabber</a>."
-msgstr ""
+msgstr "Megjegyzés: Hatékonyabb ha <a object|botgr>kerekes marok</a> botot használod."
 
 #. type: Plain text
 #: ../help/help.E.txt:21
 #, no-wrap
 msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
-msgstr ""
+msgstr "<format key><key help/></format> megnyomásával bármikor visszanézheted ezeket az utasításokat a személyi SatCom-odon <button 63/>."
 
 #. type: \t; header
 #: ../help/help.E.txt:23 ../help/soluce.E.txt:27
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Lásd még"
 
 #. type: Plain text
 #: ../help/help.E.txt:24 ../help/soluce.E.txt:28
 #, no-wrap
 msgid "<a command>Controls</a>"
-msgstr ""
+msgstr "<a command>Irányítás</a>"
 
 #. type: \b; header
 #: ../help/soluce.E.txt:1
 #, no-wrap
 msgid "Walkthrough"
-msgstr ""
+msgstr "Megoldás"
 
 #. type: Plain text
 #: ../help/soluce.E.txt:2
 #, no-wrap
 msgid "Before taking off, you need to bring the following aboard your spaceship:"
-msgstr ""
+msgstr "Felszállás előtt a következőket kell az űrhajó fedélzetére vinned:"
 
 #. type: Bullet: '1)'
 #: ../help/soluce.E.txt:4
 #, no-wrap
 msgid "<a object|bbox>Black box</a>."
-msgstr ""
+msgstr "<a object|bbox>Fekete doboz</a>."
 
 #. type: Bullet: '2)'
 #: ../help/soluce.E.txt:5
 #, no-wrap
 msgid "<a object|botgr>Wheeled</a> and <a object|botgc>tracked</a> grabbers."
-msgstr ""
+msgstr "<a object|botgr>Kerekes</a> és <a object|botgc>lánctalpas</a> marok."
 
 #. type: Bullet: '3)'
 #: ../help/soluce.E.txt:6
 #, no-wrap
 msgid "<a object|human>Yourself</a>."
-msgstr ""
+msgstr "<a object|human>Te magad</a>."
 
 #. type: Bullet: '1)'
 #: ../help/soluce.E.txt:9
 #, no-wrap
 msgid "Power the <a object|research>research center</a> with one of the green <a object|power>power cells</a>."
-msgstr ""
+msgstr "Lásd el árammal a <a object|research>kutató központot</a> az egyik zöld <a object|power>energia cella</a> felhasználásával."
 
 #. type: Bullet: '2)'
 #: ../help/soluce.E.txt:10
 #, no-wrap
 msgid "Activate the <a object|research>research center</a> then click on the <button 64/> <tracked bot research program> button."
-msgstr ""
+msgstr "Aktiváld a <a object|research>kutató központot</a> aztán kattints a <button 64/> <lánctalpas bot kutatás> gombra."
 
 #. type: Bullet: '3)'
 #: ../help/soluce.E.txt:11
 #, no-wrap
 msgid "Place a <a object|titan>titanium cube</a> inside the <a object|factory>bot factory</a>."
-msgstr ""
+msgstr "Tegyél egy <a object|titan>titánium kockát</a> a <a object|factory>bot gyár</a> belsejébe."
 
 #. type: Bullet: '4)'
 #: ../help/soluce.E.txt:12
 #, no-wrap
 msgid "Step back out and activate the <a object|factory>bot factory</a>."
-msgstr ""
+msgstr "Lépj hátra és aktiváld a <a object|factory>bot gyárat</a>."
 
 #. type: Bullet: '5)'
 #: ../help/soluce.E.txt:13
 #, no-wrap
 msgid "Click on the <button 138/> <build a <a object|botgc>tracked grabber</a>> button."
-msgstr ""
+msgstr "Kattints a <button 138/> <a object|botgc>lánctalpas marok</a> építése gombra."
 
 #. type: Bullet: '6)'
 #: ../help/soluce.E.txt:14
 #, no-wrap
 msgid "Power the <a object|botgc>tracked grabber</a> with a brand new <a object|power>power cell</a>."
-msgstr ""
+msgstr "Lásd el árammal a <a object|botgc>lánctalpas marok</a> botot egy vadi új <a object|power>energia cellával</a>."
 
 #. type: Bullet: '7)'
 #: ../help/soluce.E.txt:15
 #, no-wrap
 msgid "Radio-control the <a object|botgc>tracked grabber</a> to the top of the mountain in the south-west."
-msgstr ""
+msgstr "Távirányítsd a <a object|botgc>lánctalpas marok</a> botot a délnyugati hegy csúcsára."
 
 #. type: Bullet: '8)'
 #: ../help/soluce.E.txt:16
 #, no-wrap
 msgid "Bring the <a object|bbox>black box</a> back aboard your <a object|base>spaceship</a>."
-msgstr ""
+msgstr "Hozd vissza a <a object|bbox>fekete dobozt</a> az <a object|base>űrhajód</a> fedélzetére."
 
 #. type: Bullet: '9)'
 #: ../help/soluce.E.txt:17
 #, no-wrap
 msgid "Radio-control both the <a object|botgc>tracked</a> and the <a object|botgr>wheeled</a> grabbers onto the platform."
-msgstr ""
+msgstr "Távirányítsd mind a <a object|botgc>lánctalpas</a> és a <a object|botgr>kerekes</a> marok botot az emelvényre."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:18
 #, no-wrap
 msgid "10) Climb aboard the <a object|base>spaceship</a> yourself.\n"
 "11) Take off!"
-msgstr ""
+msgstr "10) Mássz fel te is az <a object|base>űrhajóra</a>.\n"
+"11) Szállj fel!"
 
 #. type: Plain text
 #: ../help/soluce.E.txt:21
 #, no-wrap
 msgid "In order to take off, select the <a object|base>spaceship</a>, provided that it is visible, by clicking on it. If it is not visible, you need to click one of the buttons in the upper left corner of your screen. The blue triangle <button 130/> allows you to alternate between symbols for bots and symbols for buildings. Click once to shift to the <buildings> list. A <button 171/> <spaceship> symbol will now appear. Click on the button to select it."
-msgstr ""
+msgstr "A felszálláshoz válaszd ki <a object|base>űrhajót</a>, amikor az látható, úgy hogy rákattintasz. Ha nem látható, kattints a képernyő bal felső sarkában található gombok egyikére. A kék háromszög <button 130/> lehetővé teszi a robotok és az épületek szimbólumai közti váltogatását. Kattints egyszer az <épületek> listára való váltáshoz. Ekkor megjelenik egy <button 171/> <űrhajó> szimbólum. Kattints a gombra a kiválasztásához."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:23
 #, no-wrap
 msgid "Once the spaceship is selected, click on the larger <button 28/> <takeoff> button in the lower center of your screen. If the objects mentioned above as well as yourself are indeed standing on deck, takeoff will take place."
-msgstr ""
+msgstr "Miután kiválasztottad az űrhajót, kattints a nagyobb <button 28/> <felszállás> gombra a képernyő alsó közepén. Ha a fent említett tárgyak, valamint te magad is valóban a fedélzeten áll, a felszállás megtörténik."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:25
 #, no-wrap
 msgid "No object or bot should hinder the closing of the eight large panel doors."
-msgstr ""
+msgstr "Semmilyen tárgy vagy bot nem akadályozza meg a nyolc nagy panelajtó bezárását."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:8
 #, no-wrap
 msgid "Here is a detailed breakdown of the operations:"
-msgstr ""
+msgstr "Íme a műveletek részletes leírása:"
 
