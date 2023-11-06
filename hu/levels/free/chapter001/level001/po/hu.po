@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: colobot\n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2023-11-01 14:36\n"
+"PO-Revision-Date: 2023-11-01 15:22\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
@@ -25,11 +25,11 @@ msgstr ""
 #: ../scene.txt:1
 #, no-wrap
 msgid "Free game"
-msgstr ""
+msgstr "Szabad játék"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Do whatever you want, build a base camp and some bots, without any precise objective."
-msgstr ""
+msgstr "Bármit csinálhatsz. Építs egy alaptábort meg egy pár botot, nincs konkrét cél."
 

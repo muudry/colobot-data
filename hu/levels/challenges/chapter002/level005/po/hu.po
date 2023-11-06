@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: colobot\n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2023-11-01 14:35\n"
+"PO-Revision-Date: 2023-11-01 15:22\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
@@ -61,7 +61,7 @@ msgstr ""
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Lásd még"
 
 #. type: Plain text
 #: ../help/help.E.txt:7

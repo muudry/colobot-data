@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: colobot\n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2023-11-01 14:37\n"
+"PO-Revision-Date: 2023-11-01 15:22\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
@@ -25,137 +25,137 @@ msgstr ""
 #: ../scene.txt:2
 #, no-wrap
 msgid "Equip your spaceship and get ready for takeoff."
-msgstr ""
+msgstr "Szereld fel űrhajódat, és készülj fel a felszállásra."
 
 #. type: \b; header
 #: ../help/help.E.txt:21
 #, no-wrap
 msgid "Procedure"
-msgstr ""
+msgstr "Eljárás"
 
 #. type: Plain text
 #: ../help/help.E.txt:29
 #, no-wrap
 msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
-msgstr ""
+msgstr "A <format key><key help/></format> segítségével ezeket az utasításokat bármikor visszanézheted a személyi SatCom-odon <button 63/>."
 
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
 msgid "Plan B"
-msgstr ""
+msgstr "B-terv"
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "From the NASA Training Center"
-msgstr ""
+msgstr "A NASA kiképzőközponjától"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "We are pleased to inform you that you have been selected for the space exploration mission Colobot."
-msgstr ""
+msgstr "Örömmel értesítünk, hogy beválogattunk a Colobot űrfelderítő programba."
 
 #. type: Plain text
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "Your psychological profile has been established as more than 98.84% favorable, and your aptitude during the extensive testing period was undeniable. The detailed results are at your disposal in the central computer under the registration number that was assigned to you."
-msgstr ""
+msgstr "A pszichológiai profilod több mint 98.84%-ban kedvező képet alakított ki rólad, és a rátermettséged a kiterjedt tesztelési időszak alatt tagadhatatlan volt. A részletes eredmények a központi számítógépben a regisztrációs számod alatt állnak a rendelkezésedre."
 
 #. type: Plain text
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "Please report to the <a object|Huston>Houston Mission Control</a> for further directives about your forthcoming mission."
-msgstr ""
+msgstr "Kérjük jelentkezz a <a object|Huston>Houstoni Irányító központban</a> a közelgő küldetésedre vonatkozó további utasítások végett."
 
 #. type: \b; header
 #: ../help/help.E.txt:8
 #, no-wrap
 msgid "From Houston Mission Control"
-msgstr ""
+msgstr "A Houstoni irányító központtól"
 
 #. type: Plain text
 #: ../help/help.E.txt:9
 #, no-wrap
 msgid "As you know, Earth is heading towards imminent disaster, due to increasing atmospheric pollution."
-msgstr ""
+msgstr "Mint tudod, a föld a növekvő légszennyezés miatt küszöbön álló katasztrófa felé halad."
 
 #. type: Plain text
 #: ../help/help.E.txt:11
 #, no-wrap
 msgid "<a object|human>Your</a> mission consists of exploring neighboring galaxies with the hopes of finding a planet that will be suitable to human needs and possibly serve as a shelter for mankind. You will be on your own for the entire mission but your spaceship will be carrying a few bots along."
-msgstr ""
+msgstr "A <a object|human>te</a> küldetésed a szomszédos galaxisok feltárása, annak reményében, hogy találunk egy, az emberiség igényeinek megfelelő bolygót, ami az emberiség menedékéül szolgálhat. A teljes küldetés alatt magadra leszel utalva, de az űrhajód magával visz néhány botot."
 
 #. type: Plain text
 #: ../help/help.E.txt:13
 #, no-wrap
 msgid "Seven months ago an expedition composed entirely of robots was sent across the cosmos with the same objective. It encountered a fair share of obstacles along the way, apparently landing on planets that were unsuitable for colonization, even possibly outright hostile. Very recently all communications were terminated."
-msgstr ""
+msgstr "Hét hónappal ezelőtt egy kizárólag robotokból álló expedíció indult a kozmoszba ugyanezzel a feladattal. Útja során számos akadályba ütközött, és úgy tűnik olyan bolygókat talált amelyek alkalmatlanok voltak a gyarmatosításra, sőt néhol kifejezetten ellenségesek is. Nemrég minden kommunikáció megszakadt velük."
 
 #. type: Plain text
 #: ../help/help.E.txt:15
 #, no-wrap
 msgid "The reasons for the mission's failure are unclear at this date, mainly because of recurrent transmission problems. It is our hope that you will be able to use some of the data it gathered to your advantage."
-msgstr ""
+msgstr "A küldetés kudarcának okai egyelőre tisztázatlanok, elsősorban a gyakori jelátviteli problémák miatt. Reméljük, hogy az összegyűjtött adatok egy részét majd hasznosítani tudod."
 
 #. type: Plain text
 #: ../help/help.E.txt:17
 #, no-wrap
 msgid "The last drill left for you to perform before embarking on your journey is to equip your spaceship with its <a object|bbox>black box</a>. A bot tasked with bringing it to the spaceship awaits your signal. You need to build an <a object|exchange>information exchange post</a> near a blue <a object|flag>flag</a> and <a cbot|send>send</a> an information, a <a object|botbc>tracked builder</a> may prove useful for this task."
-msgstr ""
+msgstr "Az utolsó gyakorlat, amelyet az utazás megkezdése előtt végre kell hajtanod, az az, hogy felszerelje űrhajóját <a object|bbox>fekete doboz</a>ával. Egy bot, amelynek feladata annak az űrhajóhoz juttatása, várja a jeledet. Egy <a object|exchange>információcsere oszlopot</a> kell építened egy kék <a object|flag>zászló</a> közelében, és <a cbot|send>küldened</a> egy információt, egy <a object|botbc>lánctalpas építő</a> hasznosnak bizonyulhat ehhez a feladathoz."
 
 #. type: Plain text
 #: ../help/help.E.txt:19
 #, no-wrap
 msgid "Unfortunately your <a object|factory>bot factory</a> hasn't yet got the capacity to assemble this type of bot. You need to request your <a object|research>research center</a> to come up with a blueprint for this particular apparatus."
-msgstr ""
+msgstr "Sajnos a <a object|factory>botgyárad</a> még nem rendelkezik az ilyen típusú botok összeállításához szükséges kapacitással. Ezért kérned kell a <a object|research>kutatóközpontot</a>, hogy dolgozzon ki egy tervrajzot ehhez a konkrét berendezéshez."
 
 #. type: Bullet: '1)'
 #: ../help/help.E.txt:22
 #, no-wrap
 msgid "Perform the necessary <a cbot|researches>research programs</a>."
-msgstr ""
+msgstr "Futtasd le a szükséges <a cbot|researches>kutatási programokat</a>."
 
 #. type: Bullet: '2)'
 #: ../help/help.E.txt:23
 #, no-wrap
 msgid "Drop a <a object|titan>titanium cube</a> in the center of the <a object|factory>bot factory</a> and build a <a object|botbc>tracked builder</a>."
-msgstr ""
+msgstr "Dobj egy <a object|titan>titánium kockát</a> a <a object|factory>botgyár</a> közepére, és gyárts egy <a object|botgc>lánctalpas marok</a> botot."
 
 #. type: Bullet: '3)'
 #: ../help/help.E.txt:24
 #, no-wrap
 msgid "Reach the top of the southwest-oriented mountain and build an <a object|exchange>exchange post</a> near a blue <a object|flag>flag</a>."
-msgstr ""
+msgstr "Juss fel a délnyugati fekvésű hegy csúcsára, és építs egy <a object|exchange>csereoszlopot</a> egy kék <a object|flag>zászló</a> közelében."
 
 #. type: Bullet: '4)'
 #: ../help/help.E.txt:25
 #, no-wrap
 msgid "<a cbot|send>Send</a> an <a cbot|string>empty information</a> to instruct the carrier to bring the black box back aboard your spaceship."
-msgstr ""
+msgstr "<a cbot|send>Küldj</a> egy <a cbot|string>üres információt</a>, hogy utasítsd a szállítót, hogy vigye vissza a fekete dobozt az űrhajó fedélzetére."
 
 #. type: Bullet: '5)'
 #: ../help/help.E.txt:26
 #, no-wrap
 msgid "Don't forget to take your <a object|botgr>grabber</a> and <a object|botbc>builder</a> along."
-msgstr ""
+msgstr "Ne felejtsd el magaddal vinni a <a object|botgr>markot</a> és az <a object|botbc>építőt</a>."
 
 #. type: Bullet: '6)'
 #: ../help/help.E.txt:27
 #, no-wrap
 msgid "Climb aboard the <a object|base>spaceship</a> and take off <button 28/>."
-msgstr ""
+msgstr "Mássz az <a object|base>űrhajó</a> fedélzetőre és szállj fel <button 28/>."
 
 #. type: \t; header
 #: ../help/help.E.txt:31
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Lásd még"
 
 #. type: Plain text
 #: ../help/help.E.txt:32
 #, no-wrap
 msgid "<a command>Controls</a>"
-msgstr ""
+msgstr "<a command>Irányítás</a>"
 

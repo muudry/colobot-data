@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: colobot\n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2023-11-01 14:36\n"
+"PO-Revision-Date: 2023-11-01 15:22\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
@@ -25,143 +25,143 @@ msgstr ""
 #: ../scene.txt:1
 #, no-wrap
 msgid "Equipment"
-msgstr ""
+msgstr "Felszerelés"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Prepare yourself to embark on mankind's most thrilling adventure yet."
-msgstr ""
+msgstr "Készülj fel az emberiség eddigi legizgalmasabb kalandjára."
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "From the NASA Training Center"
-msgstr ""
+msgstr "A NASA kiképzőközponjától"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "We are pleased to inform you that you have been selected for the space exploration mission Colobot."
-msgstr ""
+msgstr "Örömmel értesítünk, hogy beválogattunk a Colobot űrfelderítő programba."
 
 #. type: Plain text
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "Your psychological profile has been established as more than 98.84% favorable, and your aptitude during the extensive testing period was undeniable. The detailed results are at your disposal in the central computer under the registration number that was assigned to you."
-msgstr ""
+msgstr "A pszichológiai profilod több mint 98.84%-ban kedvező képet alakított ki rólad, és a rátermettséged a kiterjedt tesztelési időszak alatt tagadhatatlan volt. A részletes eredmények a központi számítógépben a regisztrációs számod alatt állnak a rendelkezésedre."
 
 #. type: Plain text
 #: ../help/help.E.txt:6
 #, no-wrap
 msgid "Please report to the <a object|Huston>Houston Mission Control</a> for further directives about your forthcoming mission."
-msgstr ""
+msgstr "Kérjük jelentkezz a <a object|Huston>Houstoni Irányító központban</a> a közelgő küldetésedre vonatkozó további utasítások végett."
 
 #. type: \b; header
 #: ../help/help.E.txt:8
 #, no-wrap
 msgid "From Houston Mission Control"
-msgstr ""
+msgstr "A Houstoni irányító központtól"
 
 #. type: Plain text
 #: ../help/help.E.txt:9
 #, no-wrap
 msgid "As you know, Earth is heading towards imminent disaster, due to increasing atmospheric pollution."
-msgstr ""
+msgstr "Mint tudod, a föld a növekvő légszennyezés miatt küszöbön álló katasztrófa felé halad."
 
 #. type: Plain text
 #: ../help/help.E.txt:11
 #, no-wrap
 msgid "<a object|human>Your</a> mission consists of exploring neighboring galaxies with the hopes of finding a planet that will be suitable to human needs and possibly serve as a shelter for mankind. You will be on your own for the entire mission but your spaceship will be carrying a few bots along."
-msgstr ""
+msgstr "A <a object|human>te</a> küldetésed a szomszédos galaxisok feltárása, annak reményében, hogy találunk egy, az emberiség igényeinek megfelelő bolygót, ami az emberiség menedékéül szolgálhat. A teljes küldetés alatt magadra leszel utalva, de az űrhajód magával visz néhány botot."
 
 #. type: Plain text
 #: ../help/help.E.txt:13
 #, no-wrap
 msgid "Eight months ago an expedition composed entirely of robots was sent across the cosmos with the same objective. It encountered a fair share of obstacles along the way, apparently landing on planets that were unsuitable for colonization, even possibly outright hostile. Very recently all communications were terminated."
-msgstr ""
+msgstr "Nyolc hónappal ezelőtt egy kizárólag robotokból álló expedíció indult a kozmoszba ugyanezzel a feladattal. Útja során számos akadályba ütközött, és úgy tűnik olyan bolygókat talált amelyek alkalmatlanok voltak a gyarmatosításra, sőt néhol kifejezetten ellenségesek is. Nemrég minden kommunikáció megszakadt velük."
 
 #. type: Plain text
 #: ../help/help.E.txt:15
 #, no-wrap
 msgid "The reasons for the mission's failure are unclear at this date, mainly because of recurrent transmission problems. It is our hope that you will be able to use some of the data it gathered to your advantage."
-msgstr ""
+msgstr "A küldetés kudarcának okai egyelőre tisztázatlanok, elsősorban a gyakori jelátviteli problémák miatt. Reméljük, hogy az összegyűjtött adatok egy részét majd hasznosítani tudod."
 
 #. type: \b; header
 #: ../help/help.E.txt:17
 #, no-wrap
 msgid "Immediate Objective"
-msgstr ""
+msgstr "Azonnali cél"
 
 #. type: Plain text
 #: ../help/help.E.txt:18
 #, no-wrap
 msgid "The Nevada desert is already bustling with activity. Bots are setting up a space station catered to your specific needs."
-msgstr ""
+msgstr "A nevadai sivatagban már nyüzsögő tevékenység folyik. A botok egy űrállomást állítanak fel, kimondottan a te kiszolgálásod végett."
 
 #. type: Plain text
 #: ../help/help.E.txt:20
 #, no-wrap
 msgid "In order to let you familiarize with your spacesuit and equipment, we have set up a few training drills."
-msgstr ""
+msgstr "Összeállítottunk néhány gyakorló feladatot, amin keresztül megismerheted a felszerelésedet és a szkafandered."
 
 #. type: Plain text
 #: ../help/help.E.txt:22
 #, no-wrap
 msgid "In the first drill, you need to find your survival kit that contains all the tools necessary to brave the cold of outer space. It is easy to spot since it contains both an orange and a blue tank."
-msgstr ""
+msgstr "Az első gyakorlatban meg kell keresned a túlélőkészletedet, amely minden szükséges eszközt tartalmaz a világűr hidegének leküzdéséhez. Könnyen felismered mivel egy narancssárga és egy kék tartályt is tartalmaz."
 
 #. type: Plain text
 #: ../help/help.E.txt:24
 #, no-wrap
 msgid "<format key><key help/></format> allows you to review these instructions at all times on your personal SatCom <button 63/>."
-msgstr ""
+msgstr "A <format key><key help/></format> segítségével ezeket az utasításokat bármikor visszanézheted a személyi SatCom-odon <button 63/>."
 
 #. type: \t; header
 #: ../help/help.E.txt:26 ../help/soluce.E.txt:10
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Lásd még"
 
 #. type: Plain text
 #: ../help/help.E.txt:27 ../help/soluce.E.txt:11
 #, no-wrap
 msgid "<a command>Controls</a>"
-msgstr ""
+msgstr "<a command>Irányítás</a>"
 
 #. type: \b; header
 #: ../help/soluce.E.txt:1
 #, no-wrap
 msgid "Walkthrough"
-msgstr ""
+msgstr "Megoldás"
 
 #. type: Plain text
 #: ../help/soluce.E.txt:2
 #, no-wrap
 msgid "To find the survival kit from your starting point :"
-msgstr ""
+msgstr "Így találod meg a túlélőkészletet a kiindulás pontból indulva:"
 
 #. type: Bullet: '1)'
 #: ../help/soluce.E.txt:4
 #, no-wrap
 msgid "Follow the road heading south."
-msgstr ""
+msgstr "Kövesd a dél felé vezető utat."
 
 #. type: Bullet: '2)'
 #: ../help/soluce.E.txt:5
 #, no-wrap
 msgid "Turn east (left) at the first crossroad."
-msgstr ""
+msgstr "Fordulj keletnek (balra) az első kereszteződésnél."
 
 #. type: Bullet: '3)'
 #: ../help/soluce.E.txt:6
 #, no-wrap
 msgid "The survival kit is lying between the northern wall of Mission Control and the first tree on the right hand side of the road."
-msgstr ""
+msgstr "A túlélőkészlet az irányítóközpont északi fala és az út jobb oldalán lévő első fa között fekszik."
 
 #. type: Plain text
 #: ../help/soluce.E.txt:8
 #, no-wrap
 msgid "Just position yourself close to it to successfully complete the drill."
-msgstr ""
+msgstr "A feladat teljesítéséhez nincs más dolgod, mint kellőképp megközelítened."
 

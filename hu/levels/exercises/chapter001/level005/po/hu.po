@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: colobot\n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2023-11-01 14:35\n"
+"PO-Revision-Date: 2023-11-01 19:25\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
@@ -25,31 +25,31 @@ msgstr ""
 #: ../scene.txt:1
 #, no-wrap
 msgid "Power Cell 2"
-msgstr ""
+msgstr "Energia cella 2"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Power all the winged shooters."
-msgstr ""
+msgstr "Lásd el energiával az összes löveget."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
 #, no-wrap
 msgid "Spider2"
-msgstr ""
+msgstr "Pók2"
 
 #. type: \b; header
 #: ../help/help.E.txt:1
 #, no-wrap
 msgid "Objective"
-msgstr ""
+msgstr "A feladat"
 
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Power the <a object|botfj>winged shooters</a> with <a object|power>power cells</a>, so that they can kill the ants in the ant nest located in a hole north of your position."
-msgstr ""
+msgstr "Lásd el <a object|power>energia cellával</a> a <a object|botfj>szárnyas löveg</a>eket, hogy kiirthassák a hangyákat a pozíciódtól északra lévő üregben található hangyafészekben."
 
 #. type: \t; header
 #: ../help/help.E.txt:4
@@ -61,7 +61,7 @@ msgstr ""
 #: ../help/help.E.txt:5
 #, no-wrap
 msgid "The <a object|botgr>wheeled grabber</a> must go to a <a object|power>power cell</a>, grab it, go to a <a object|botfj>winged shooter</a>, and drop the cell. This task is very similar to the task performed in the previous exercise. Here is this program again:"
-msgstr ""
+msgstr "A <a object|botgr>kerekes marknak</a> oda kell mennie egy <a object|power>energia cellához</a>, meg kell ragadnia, oda kell vinnie egy <a object|botfj>szárnyas löveghez</a>, és le kell tennie a cellát. Ez a feladat nagyon hasonlít az előző gyakorlatban elvégzett feladathoz. Íme a program ismét:"
 
 #. type: Source code
 #: ../help/help.E.txt:7
@@ -84,37 +84,37 @@ msgstr ""
 #: ../help/help.E.txt:20
 #, no-wrap
 msgid "The best way to solve the present exercise is to copy <button 61/> the program above into the clipboard (from <code>object</code> to <c/>drop();<n/>), and paste <button 62/> it into the program editor. Then you just have to make the necessary changes in order to adapt it to the new task."
-msgstr ""
+msgstr "A feladat megoldásának legjobb módja az, ha a fenti programot vágólapra másolod <button 61/> (az <code>object</code>-ból a <c/>drop();<n/>-be), és beilleszted a <button 62/> a programszerkesztőbe. Ezután nincs más dolgod, mint az új feladathoz igazítani a programot a szükséges módosítások beiktatásával."
 
 #. type: Plain text
 #: ../help/help.E.txt:22
 #, no-wrap
 msgid "Instead of looking for titanium ore (<code>TitaniumOre</code>), look for a power cell (<code>PowerCell</code>). Instead of going to a converter (<code>Converter</code>), go to a winged shooter (<code>WingedShooter</code>). As soon as the winged shooter has got a new power cell, it will get down to work."
-msgstr ""
+msgstr "A titánium érc (<code>TitaniumOre</code>) helyett keressen energia cellát (<code>PowerCell</code>). A konverter (<code>Converter</code>) helyett menjen egy szárnyas löveghez (<code>WingedShooter</code>). Amint a szárnyas löveg új energia cellát kapott, munkába áll."
 
 #. type: Plain text
 #: ../help/help.E.txt:24
 #, no-wrap
 msgid "If you want to know more about the \"names\" of the different objects in the programming language, please refer to the <a cbot|category>text about categories</a>."
-msgstr ""
+msgstr "Ha többet szeretnél megtudni a különböző objektumok \"neveiről\" a programozási nyelvben, kérjük, olvasd el a <a cbot|category>kategóriákról szóló szöveget</a>."
 
 #. type: \t; header
 #: ../help/help.E.txt:26
 #, no-wrap
 msgid "Further improvement: loops"
-msgstr ""
+msgstr "További fejlesztés: hurkok"
 
 #. type: Plain text
 #: ../help/help.E.txt:27
 #, no-wrap
 msgid "Once the program explained above works properly, you can improve it in order to repeat the task over and over again. Like this you will not have to execute the program several times in order to power several bots."
-msgstr ""
+msgstr "Ha a fent ismertetett program már megfelelően működik, kibővítheted, hogy újra és újra megismételje a feladatot. Így nem kell többször futtatnod a programot ahhoz, hogy több botot is ellásson."
 
 #. type: Plain text
 #: ../help/help.E.txt:29
 #, no-wrap
 msgid "All programs written until now execute all instructions only once, one after another, from the beginning to the end of the program. You can also tell the bot to repeat some instructions: just write <code>while (true)</code>, an open brace, the instructions to be repeated, and a closing brace. Repeating some instructions several times in this way is called a loop. Here is an example of a program that repeats over and over the instructions that look for a power cell, grab it, and drop it on a winged shooter:"
-msgstr ""
+msgstr "Az összes eddig írt program az összes utasítást csak egyszer hajtja végre, egymás után, a program elejétől a végéig. Azt is megmondhatod a botnak, hogy az utasítások egy részét ismételjen hajtsa végre: csak írjd be a <code>while (true)</code>-t, egy nyitott kapcsos zárójelet, az ismétlendő utasításokat és egy záró kapcsos zárójelet. Az utasítások ilyen módon történő többszöri ismétlését huroknak nevezzük. Íme egy példa egy olyan programra, amely újra és újra megismétli azokat az utasításokat, amelyek egy energiacellát keresnek, megragadják, és ráteszik egy szárnyas lövegre:"
 
 #. type: Source code
 #: ../help/help.E.txt:31
@@ -135,29 +135,29 @@ msgstr ""
 #: ../help/help.E.txt:42
 #, no-wrap
 msgid "Of course the variable declaration <c/>object item;<n/> must not be inside the loop, but just before: declare a variable only once."
-msgstr ""
+msgstr "Természetesen az <c/>object item;<n/> változó deklaráció nem lehet a cikluson belül, hanem közvetlenül előtte, így a változó csak egyszer van deklarálva."
 
 #. type: \t; header
 #: ../help/help.E.txt:44
 #, no-wrap
 msgid "Remark"
-msgstr ""
+msgstr "Megjegyzés"
 
 #. type: Plain text
 #: ../help/help.E.txt:45
 #, no-wrap
 msgid "A bot can execute a program perfectly well on his own. Meantime you can for example select the astronaut and take a look at what is happening at the nest, the show is worth it. But be careful not to get shot by your own bots..."
-msgstr ""
+msgstr "Egy bot képes teljesen önállóan végrehajtani egy programot. Ezalatt például kiválaszthatod az űrhajóst, és megnézheted, mi történik a fészekben, megéri látvány. Csak arra vigyázz, nehogy a saját botjaid lőjenek le..."
 
 #. type: \t; header
 #: ../help/help.E.txt:47
 #, no-wrap
 msgid "See also"
-msgstr ""
+msgstr "Lásd még"
 
 #. type: Plain text
 #: ../help/help.E.txt:48
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
+msgstr "<a cbot>Programozás</a>, <a cbot|type>típusok</a> és <a cbot|category>kategóriák</a>."
 
