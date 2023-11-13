@@ -5,16 +5,21 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: colobot\n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2023-10-31 16:20+0100\n"
-"Last-Translator: Mudrony László <muudry@gmail.com>\n"
-"Language-Team: \n"
-"Language: hu\n"
+"PO-Revision-Date: 2023-11-13 09:39\n"
+"Last-Translator: \n"
+"Language-Team: Hungarian\n"
+"Language: hu_HU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-File: /master/help/generic/po/generic.pot\n"
+"X-Crowdin-File-ID: 684\n"
 
 #. type: Bullet: '-'
 #: ../E/authors.txt:2
@@ -55,11 +60,9 @@ msgstr "Programozás - a CBOT nyelv"
 #. type: Plain text
 #: ../E/cbot.txt:2
 #, no-wrap
-msgid ""
-"The CBOT language is very close in structure and syntax to C++ and Java. It has been adapted for the specific purposes of COLOBOT, and for an efficient pedagogical approach.\n"
+msgid "The CBOT language is very close in structure and syntax to C++ and Java. It has been adapted for the specific purposes of COLOBOT, and for an efficient pedagogical approach.\n"
 "This language is made up of instructions (see below), <a cbot|bloc>blocks</a>, <a cbot|function>functions</a>, <a cbot|class>classes</a>, <a cbot|var>variables</a>, <a cbot|array>arrays</a>, <a cbot|expr>expressions</a> and <a cbot|cond>conditions</a>."
-msgstr ""
-"A CBOT nyelv szerkezetében és szintaxisában nagyon közel áll a C++-hoz és a Java-hoz, de a COLOBOT speciális céljaihoz és a hatékony pedagógiai megközelítéshez igazították.\n"
+msgstr "A CBOT nyelv szerkezetében és szintaxisában nagyon közel áll a C++-hoz és a Java-hoz, de a COLOBOT speciális céljaihoz és a hatékony pedagógiai megközelítéshez igazították.\n"
 "Ez a nyelv a következő elemekből épül fel: utasítások (lásd alább), <a cbot|bloc>blokkok</a>, <a cbot|function>függvények</a>, <a cbot|class>osztályok</a>, <a cbot|var>változók</a>, <a cbot|array>tömbök</a>, <a cbot|expr>kifejezések</a> és <a cbot|cond>feltételek</a>."
 
 #. type: Bullet: 'o'
@@ -107,13 +110,11 @@ msgstr "Információ továbbító oszlopok utasításai:"
 #. type: Plain text
 #: ../E/cbot.txt:80
 #, no-wrap
-msgid ""
-"<code><a cbot|receive>receive</a>    </code>Receives an information\n"
+msgid "<code><a cbot|receive>receive</a>    </code>Receives an information\n"
 "<code><a cbot|send>send</a>       </code>Sends a new information\n"
 "<code><a cbot|testinfo>testinfo</a>   </code>Tests if an information exists\n"
 "<code><a cbot|delinfo>deleteinfo</a> </code>Deletes an existing information"
-msgstr ""
-"<code><a cbot|receive>receive</a>    </code>Egy információ fogadása\n"
+msgstr "<code><a cbot|receive>receive</a>    </code>Egy információ fogadása\n"
 "<code><a cbot|send>send</a>       </code>Egy új információ küldése\n"
 "<code><a cbot|testinfo>testinfo</a>   </code>Megvizsgálja, hogy van-e információ\n"
 "<code><a cbot|delinfo>deleteinfo</a> </code>Töröl egy létező információt"
@@ -133,8 +134,7 @@ msgstr "Sztringekre vonatkozó utasítások:"
 #. type: Plain text
 #: ../E/cbot.txt:98
 #, no-wrap
-msgid ""
-"<code><a cbot|strlen>strlen</a>     </code>Gets string length\n"
+msgid "<code><a cbot|strlen>strlen</a>     </code>Gets string length\n"
 "<code><a cbot|strleft>strleft</a>    </code>Extracts left part\n"
 "<code><a cbot|strright>strright</a>   </code>Extracts right part\n"
 "<code><a cbot|strmid>strmid</a>     </code>Extracts center part\n"
@@ -142,8 +142,7 @@ msgid ""
 "<code><a cbot|strval>strval</a>     </code>Converts string to number\n"
 "<code><a cbot|strupper>strupper</a>   </code>Converts to upper case\n"
 "<code><a cbot|strlower>strlower</a>   </code>Converts to lower case"
-msgstr ""
-"<code><a cbot|strlen>strlen</a>     </code>Megnézi a sztring hosszát\n"
+msgstr "<code><a cbot|strlen>strlen</a>     </code>Megnézi a sztring hosszát\n"
 "<code><a cbot|strleft>strleft</a>    </code>Kimásolja a baloldali részt\n"
 "<code><a cbot|strright>strright</a>   </code>Kimásolja a jobboldali részt\n"
 "<code><a cbot|strmid>strmid</a>     </code>Kimásolja a középső részt\n"
@@ -161,15 +160,13 @@ msgstr "Állományokra vonatkozó utasítások:"
 #. type: Plain text
 #: ../E/cbot.txt:108
 #, no-wrap
-msgid ""
-"<code><a cbot|open>open</a>       </code>Opens a file\n"
+msgid "<code><a cbot|open>open</a>       </code>Opens a file\n"
 "<code><a cbot|close>close</a>      </code>Closes a file\n"
 "<code><a cbot|writeln>writeln</a>    </code>Writes line to a file\n"
 "<code><a cbot|readln>readln</a>     </code>Reads line from a file\n"
 "<code><a cbot|eof>eof</a>        </code>Tests if end of file\n"
 "<code><a cbot|deletef>deletefile</a> </code>Deletes a file"
-msgstr ""
-"<code><a cbot|open>open</a>       </code>Megnyit el fájlt\n"
+msgstr "<code><a cbot|open>open</a>       </code>Megnyit el fájlt\n"
 "<code><a cbot|close>close</a>      </code>Bezár egy fájlt\n"
 "<code><a cbot|writeln>writeln</a>    </code>Fájlba ír egy sort\n"
 "<code><a cbot|readln>readln</a>     </code>Fájlból olvas egy sort\n"
@@ -209,14 +206,12 @@ msgstr "Botok"
 #. type: Plain text
 #: ../E/command.txt:5
 #, no-wrap
-msgid ""
-"<format key><key left/></format> = turn left\n"
+msgid "<format key><key left/></format> = turn left\n"
 "<format key><key right/></format> = turn right\n"
 "<format key><key up/></format> = move forward\n"
 "<format key><key down/></format> = move back\n"
 "These controls are unavailable when working with the <a object|bottr>practice bots</a>."
-msgstr ""
-"<format key><key left/></format> = balra fordul\n"
+msgstr "<format key><key left/></format> = balra fordul\n"
 "<format key><key right/></format> = jobbra fordul\n"
 "<format key><key up/></format> = előre megy\n"
 "<format key><key down/></format> = tolat\n"
@@ -225,26 +220,22 @@ msgstr ""
 #. type: Plain text
 #: ../E/command.txt:11
 #, no-wrap
-msgid ""
-"<format key><key gup/></format> = take off and climb <button 28/>\n"
+msgid "<format key><key gup/></format> = take off and climb <button 28/>\n"
 "<format key><key gdown/></format> = descend and land <button 29/>\n"
 "These controls are of course restricted to the <a object|human>astronaut</a> as well as the various <a object|botgj>winged bots</a> and in selected missions only."
-msgstr ""
-"<format key><key gup/></format> = felszáll és emelkedik <button 28/>\n"
+msgstr "<format key><key gup/></format> = felszáll és emelkedik <button 28/>\n"
 "<format key><key gdown/></format> = ereszkedik és leszáll <button 29/>\n"
-"Természetesen ezek az iránybillentyűk csak az <a object|human>asztronauta</a> továbbá a különféle <a object|botgj>szárnyas bot</a>ok számra, és csak bizonyos küldetéseken használhatóak."
+"Természetesen ezek az iránybillentyűk csak az <a object|human>űrhajós</a> továbbá a különféle <a object|botgj>szárnyas bot</a>ok számra, és csak bizonyos küldetéseken használhatóak."
 
 #. type: Plain text
 #: ../E/command.txt:15
 #, no-wrap
-msgid ""
-"mouse forward = higher aim\n"
+msgid "mouse forward = higher aim\n"
 "mouse backward = lower aim\n"
 "mouse right = aim right\n"
 "mouse left = aim left\n"
 "These controls are only available to the <a object|botfr>shooters</a>, the <a object|botor>orga shooters</a> and the <a object|botphaz>phazer shooter</a>."
-msgstr ""
-"mouse előre = magasabbra céloz\n"
+msgstr "mouse előre = magasabbra céloz\n"
 "mouse hátra = lalacsonyabbra céloz\n"
 "mouse right = jobbra céloz\n"
 "mouse left = balra céloz\n"
@@ -253,11 +244,9 @@ msgstr ""
 #. type: Plain text
 #: ../E/command.txt:21
 #, no-wrap
-msgid ""
-"<format key><key action/></format> = main action for a given selection (human or bot)\n"
+msgid "<format key><key action/></format> = main action for a given selection (human or bot)\n"
 "This control will for example operate the arm of a <a object|botgr>grabber</a> or fire a <a object|botfr>shooter</a> <button 42/>."
-msgstr ""
-"<format key><key action/></format> = elsődleges művelet a kiválasztott szereplő számára (ember vagy bot)\n"
+msgstr "<format key><key action/></format> = elsődleges művelet a kiválasztott szereplő számára (ember vagy bot)\n"
 "Ez az irányítás tudja például működtetni a <a object|botgr>marok</a> karját, vagy tüzelni egy <a object|botfr>löveg</a>gel <button 42/>."
 
 #. type: \t; header
@@ -269,13 +258,11 @@ msgstr "Kiválasztás"
 #. type: Plain text
 #: ../E/command.txt:25
 #, no-wrap
-msgid ""
-"<format key><key next/></format> = selects next object\n"
+msgid "<format key><key next/></format> = selects next object\n"
 "<format key><key human/></format> = selects astronaut\n"
 "<format key><key desel/></format> = previous selection <button 10/>"
-msgstr ""
-"<format key><key next/></format> = a következő tágy kiválsztása\n"
-"<format key><key human/></format> = az asztronauta kiválasztása\n"
+msgstr "<format key><key next/></format> = a következő tágy kiválsztása\n"
+"<format key><key human/></format> = az űrhajós kiválasztása\n"
 "<format key><key desel/></format> = előző kiválasztás <button 10/>"
 
 #. type: \t; header
@@ -287,13 +274,11 @@ msgstr "Kamera"
 #. type: Plain text
 #: ../E/command.txt:30
 #, no-wrap
-msgid ""
-"<format key><key camera/></format> = shifts between onboard and following cameras <button 13/>\n"
+msgid "<format key><key camera/></format> = shifts between onboard and following cameras <button 13/>\n"
 "<format key><key near/></format> = zoom in\n"
 "<format key><key away/></format> = zoom out\n"
 "<format key><key visit/></format> = pauses the game and shows where the latest message originated. Press again to show origin of previous message."
-msgstr ""
-"<format key><key camera/></format> = vált a fedélzeti és a követő kamera közt<button 13/>\n"
+msgstr "<format key><key camera/></format> = vált a fedélzeti és a követő kamera közt<button 13/>\n"
 "<format key><key near/></format> = közelít\n"
 "<format key><key away/></format> = távolít\n"
 "<format key><key visit/></format> = szünetelteti a játékot, és megmutatja honnan jött az utolsó üzenet. Ha ismét megnyomod, akkor az előző üzenet helyét mutatja."
@@ -307,11 +292,9 @@ msgstr "Sugó"
 #. type: Plain text
 #: ../E/command.txt:36
 #, no-wrap
-msgid ""
-"<format key><key help/></format> = mission instructions\n"
+msgid "<format key><key help/></format> = mission instructions\n"
 "<format key><key prog/></format> = programming help"
-msgstr ""
-"<format key><key help/></format> = küldetés útmutatója\n"
+msgstr "<format key><key help/></format> = küldetés útmutatója\n"
 "<format key><key prog/></format> = programozási útmutató"
 
 #. type: \t; header
@@ -371,31 +354,25 @@ msgstr "A képernyő bal felső sarkában található három gomb segítségéve
 #. type: Plain text
 #: ../E/navig.txt:4
 #, no-wrap
-msgid ""
-"<button 30/> Home\n"
+msgid "<button 30/> Home\n"
 "Get back to the home page, i.e. the first page that was displayed, for example when you hit the <format key><key help/></format> or <format key><key prog/></format> key."
-msgstr ""
-"<button 30/> Kezdőlap\n"
+msgstr "<button 30/> Kezdőlap\n"
 "Visszatér a kezdőlapra, azaz az első megjelenített oldalra, például amikor megnyomod a <format key><key help/></format> vagy a <format key><key prog/></format> gombot."
 
 #. type: Plain text
 #: ../E/navig.txt:7
 #, no-wrap
-msgid ""
-"<button 55/> Previous\n"
+msgid "<button 55/> Previous\n"
 "Get back to the previous page, i.e. the page that was displayed before you clicked on a link."
-msgstr ""
-"<button 55/> Előző\n"
+msgstr "<button 55/> Előző\n"
 "Visszatér az előző oldalra, vagyis arra az oldalra, amely a hivatkozásra kattintás előtt megjelent."
 
 #. type: Plain text
 #: ../E/navig.txt:10
 #, no-wrap
-msgid ""
-"<button 48/> Next\n"
+msgid "<button 48/> Next\n"
 "Get again to the next page, after you used the \"Home\" or \"Previous\" button."
-msgstr ""
-"<gomb 48/> Következő\n"
+msgstr "<gomb 48/> Következő\n"
 "Újra a következő oldalra visz, a \"Kezdőlap\" vagy az \"Előző\" gomb használata után."
 
 #. type: \t; header
@@ -407,11 +384,9 @@ msgstr "Megjegyzés"
 #. type: Plain text
 #: ../E/navig.txt:14
 #, no-wrap
-msgid ""
-"When a button is gray, this means that it can not be used at this precise moment. For example, when you are in the home page, the \"Home\" button is gray, because it does not make sense to use it.\n"
+msgid "When a button is gray, this means that it can not be used at this precise moment. For example, when you are in the home page, the \"Home\" button is gray, because it does not make sense to use it.\n"
 "This remark is valid for all buttons in COLOBOT."
-msgstr ""
-"Ha egy gomb szürke, az azt jelenti, hogy az adott pillanatban nem használható. Például, amikor a kezdőlapon vagy, a \"Kezdőlap\" gomb szürke, mert nincs értelme használni.\n"
+msgstr "Ha egy gomb szürke, az azt jelenti, hogy az adott pillanatban nem használható. Például, amikor a kezdőlapon vagy, a \"Kezdőlap\" gomb szürke, mert nincs értelme használni.\n"
 "Ez a megjegyzés a COLOBOT összes gombjára érvényes."
 
 #. type: \t; header
@@ -441,11 +416,9 @@ msgstr "A képernyő felső részén található kurzor segítségével állíth
 #. type: Plain text
 #: ../E/win.txt:2
 #, no-wrap
-msgid ""
-"Houston congratulates you in the name of mankind for the success of your mission.\n"
+msgid "Houston congratulates you in the name of mankind for the success of your mission.\n"
 "The Great Migration to Terra Nova will start very soon."
-msgstr ""
-"Houston az emberiség nevében gratulál küldetésed sikeréhez.\n"
+msgstr "Houston az emberiség nevében gratulál küldetésed sikeréhez.\n"
 "Hamarosan megkezdődik a \"Nagy Költözés a Terra Novára\"."
 
 #. type: Plain text
@@ -511,15 +484,13 @@ msgstr "Titánium termelés"
 #. type: Plain text
 #: ../E/battles.txt:28
 #, no-wrap
-msgid ""
-"1. <a cbot|radar>Find</a> a <a object|titan>Titanium</a>.\n"
+msgid "1. <a cbot|radar>Find</a> a <a object|titan>Titanium</a>.\n"
 "2. <a cbot|build>Build</a> a <a object|convert>Converter</a>.\n"
 "3. Find a <a object|titanore>TitaniumOre</a>.\n"
 "4. Place it in the converter. Move back and wait until the converter is done.\n"
 "5. Use or move somewhere your new Titanium.\n"
 "Repeat steps 3-5 in order to keep your production going."
-msgstr ""
-"1. <a cbot|radar>Keress</a> egy <a object|titan>Titánium</a>ot.\n"
+msgstr "1. <a cbot|radar>Keress</a> egy <a object|titan>Titánium</a>ot.\n"
 "2. <a cbot|build>Építs</a> egy <a object|convert>Konverter</a>t.\n"
 "3. Keress egy <a object|titanore>TitániumÉrc</a>et.\n"
 "4. Helyezd a konverterbe. Lépj hátra, és várj amíg a konverter nem készül.\n"
@@ -535,12 +506,10 @@ msgstr "Kutatások"
 #. type: Plain text
 #: ../E/battles.txt:36
 #, no-wrap
-msgid ""
-"1. <a cbot|build>Build</a> a <a object|research>ResearchCenter</a>.\n"
+msgid "1. <a cbot|build>Build</a> a <a object|research>ResearchCenter</a>.\n"
 "2. Power it with a <a object|power>PowerCell</a>.\n"
 "3. <a cbot|research>Request</a> a <a cbot|researches>research</a> and wait until the research center is done."
-msgstr ""
-"1. <a cbot|build>Építs</a> egy <a object|research>KutatóKözpont</a>ot.\n"
+msgstr "1. <a cbot|build>Építs</a> egy <a object|research>KutatóKözpont</a>ot.\n"
 "2. Lásd el árammal egy <a object|power>EnergiaCellával</a>.\n"
 "3. <a cbot|research>Indíts</a> egy <a cbot|researches>kutatást</a>, és várd ki amíg a kutató központ elkészül."
 
@@ -553,13 +522,11 @@ msgstr "Robot termelés"
 #. type: Plain text
 #: ../E/battles.txt:41
 #, no-wrap
-msgid ""
-"1. <a cbot|build>Build</a> a <a object|factory>BotFactory</a>.\n"
+msgid "1. <a cbot|build>Build</a> a <a object|factory>BotFactory</a>.\n"
 "2. Place a <a object|titan>Titanium</a> inside and move back.\n"
 "3. <a cbot|factory>Request</a> a construction of a robot and wait until the bot factory is done.\n"
 "4. Power the robot with a <a object|power>PowerCell</a>."
-msgstr ""
-"1. <a cbot|build>Építs</a> egy <a object|factory>BotGyár</a>at.\n"
+msgstr "1. <a cbot|build>Építs</a> egy <a object|factory>BotGyár</a>at.\n"
 "2. Helyezz bele egy <a object|titan>Titánium</a>ot és lépj hátra.\n"
 "3. <a cbot|factory>Indítsd el</a> a egy robot gyártását, és várj amíg elkészül.\n"
 "4. Lásd el a robot árammal egy <a object|power>energia cella</a> behelyezésével."
@@ -573,11 +540,9 @@ msgstr "Energia cella termelés"
 #. type: Plain text
 #: ../E/battles.txt:47
 #, no-wrap
-msgid ""
-"1. <a cbot|build>Build</a> a <a object|energy>PowerPlant</a>.\n"
+msgid "1. <a cbot|build>Build</a> a <a object|energy>PowerPlant</a>.\n"
 "2. Place a <a object|titan>Titanium</a> in it and wait until the power plant is done."
-msgstr ""
-"1. <a cbot|build>Építs</a> egy <a object|energy>Erőművet</a>.\n"
+msgstr "1. <a cbot|build>Építs</a> egy <a object|energy>Erőművet</a>.\n"
 "2. Helyezz bele egy <a object|titan>Titánium</a>ot, és várj amíg a cella el nem készül."
 
 #. type: \t; header
@@ -601,8 +566,7 @@ msgstr "<a cbot>Programozás</a>, <a cbot|type>típusok</a> és <a cbot|category
 #. type: Plain text
 #: ../E/cbot.txt:15
 #, no-wrap
-msgid ""
-"<code><a cbot|extern>extern</a>     </code>Indicate the main function\n"
+msgid "<code><a cbot|extern>extern</a>     </code>Indicate the main function\n"
 "<code><a cbot|if>if</a>         </code>Choice structure\n"
 "<code><a cbot|if>else</a>       </code>Alternative choice structure\n"
 "<code><a cbot|switch>switch</a>     </code>Multiple choice structure\n"
@@ -615,8 +579,7 @@ msgid ""
 "<code><a cbot|continue>continue</a>   </code>Continues the loop\n"
 "<code><a cbot|return>return</a>     </code>Exit from a function\n"
 "<code><a cbot|sizeof>sizeof</a>     </code>Size of an array"
-msgstr ""
-"<code><a cbot|extern>extern</a>     </code>A main függvényt jelöli\n"
+msgstr "<code><a cbot|extern>extern</a>     </code>A main függvényt jelöli\n"
 "<code><a cbot|if>if</a>         </code>Feltételes utasítás\n"
 "<code><a cbot|if>else</a>       </code>A másik lehetőség\n"
 "<code><a cbot|switch>switch</a>     </code>Többválasztós szerkezet\n"
@@ -633,13 +596,11 @@ msgstr ""
 #. type: Plain text
 #: ../E/cbot.txt:61
 #, no-wrap
-msgid ""
-"<code><a cbot|space>space</a>      </code>Calculates a free space\n"
+msgid "<code><a cbot|space>space</a>      </code>Calculates a free space\n"
 "<code><a cbot|flatspace>flatspace</a>  </code>Calculates a free, flat space\n"
 "<code><a cbot|topo>topo</a>       </code>Returns the altitude of a point\n"
 "<code><a cbot|flatgrnd>flatground</a> </code>Returns radius of a flat area"
-msgstr ""
-"<code><a cbot|space>space</a>      </code>Szabad hely kiszámítása\n"
+msgstr "<code><a cbot|space>space</a>      </code>Szabad hely kiszámítása\n"
 "<code><a cbot|flatspace>flatspace</a>  </code>Szabad, lapos hely kiszámítása\n"
 "<code><a cbot|topo>topo</a>       </code>Visszadja egy adott pont magasságát\n"
 "<code><a cbot|flatgrnd>flatground</a> </code>Visszadja a lapos terület sugarát"
@@ -653,8 +614,7 @@ msgstr "Matematikai függvények:"
 #. type: Plain text
 #: ../E/cbot.txt:116
 #, no-wrap
-msgid ""
-"<code><a cbot|rand>rand</a>       </code>Returns a random value\n"
+msgid "<code><a cbot|rand>rand</a>       </code>Returns a random value\n"
 "<code><a cbot|pow>pow</a>        </code>Returns a power\n"
 "<code><a cbot|sqrt>sqrt</a>       </code>Returns a square root\n"
 "<code><a cbot|floor>floor</a>      </code>Returns the largest previous integer\n"
@@ -668,8 +628,7 @@ msgid ""
 "<code><a cbot|acos>acos</a>       </code>Returns an arcus cosine\n"
 "<code><a cbot|atan>atan</a>       </code>Returns an arcus tangent\n"
 "<code><a cbot|atan2>atan2</a>      </code>Returns an arcus tangent, has two arguments"
-msgstr ""
-"<code><a cbot|rand>rand</a>       </code>Véltlen szám\n"
+msgstr "<code><a cbot|rand>rand</a>       </code>Véltlen szám\n"
 "<code><a cbot|pow>pow</a>        </code>Hatványozás\n"
 "<code><a cbot|sqrt>sqrt</a>       </code>Négyzetgyök vonás\n"
 "<code><a cbot|floor>floor</a>      </code>Legnagyobb megelőző egész\n"
@@ -699,11 +658,9 @@ msgstr "A konstansok, mint pl. a <a cbot|category>kategóriák</a> így jelennek
 #. type: Plain text
 #: ../E/cbot.txt:5
 #, no-wrap
-msgid ""
-"<a cheats>o</a>  |c;<format token>Instructions</format><n/>\n"
+msgid "<a cheats>o</a>  |c;<format token>Instructions</format><n/>\n"
 "In the program editor, an instruction in the CBOT language is always displayed like that: <format token>instruction</format>. If an instruction is not highlighted, this means that it has been misspelled. Instruction names are always written in lower case. "
-msgstr ""
-"<a cheats>o</a>  |c;<format token>Utasítások</format><n/>\n"
+msgstr "<a cheats>o</a>  |c;<format token>Utasítások</format><n/>\n"
 "A program szerkesztőben, egy CBOT utasítás mindig így jelenik meg: <format token>utasítás</format>. Ha egy utasítás nincs kiemelve, az azt jelenti hogy elírtad. Az utasítás neveket mindig kisbetűvel írjuk. "
 
 #. type: \b; header
@@ -979,11 +936,9 @@ msgstr "<code>debugmode    </code>A hibakeresési mód engedélyezése (hasznos 
 #. type: Plain text
 #: ../E/cheats.txt:42
 #, no-wrap
-msgid ""
-"There are hidden commands in CBOT that are not even highlighted in the editor. They are considered cheating, so do not use them for \"legal\" programs. It should be fine to use them for level creation though if there is no other way.\n"
+msgid "There are hidden commands in CBOT that are not even highlighted in the editor. They are considered cheating, so do not use them for \"legal\" programs. It should be fine to use them for level creation though if there is no other way.\n"
 "Numbers mean order of parameters."
-msgstr ""
-"A CBOT-ban vannak olyan rejtett parancsok, amelyek nem kerülnek kiemelésre a szerkesztőben. Csalásnak minősülnek, ezért ne használd őket \"rendes\" programokhoz. Szint készítésnél nem gond a használatuk, ha nincs más lehetőség.\n"
+msgstr "A CBOT-ban vannak olyan rejtett parancsok, amelyek nem kerülnek kiemelésre a szerkesztőben. Csalásnak minősülnek, ezért ne használd őket \"rendes\" programokhoz. Szint készítésnél nem gond a használatuk, ha nincs más lehetőség.\n"
 "A számok a paraméterek sorrendjét jelentik."
 
 #. type: Bullet: 'o'
@@ -1025,12 +980,10 @@ msgstr "A kódcsata elindítása után a kamera speciális módba kerül:"
 #. type: Plain text
 #: ../E/battles.txt:7
 #, no-wrap
-msgid ""
-"In order to start a code battle you need to:\n"
+msgid "In order to start a code battle you need to:\n"
 "1. Run all the necessary programs for your/all team(s).\n"
 "2. Press the <button 21/> button above the mini-map."
-msgstr ""
-"A kódcsata elindításához a következőket kell tenned:\n"
+msgstr "A kódcsata elindításához a következőket kell tenned:\n"
 "1. Futtasd az összes szükséges programot a csapat(aid) számára.\n"
 "2. Nyomd meg a <button 21/> gombot a minitérkép felett."
 
@@ -1055,8 +1008,7 @@ msgstr "A térképre kattintva szabad kameranézetre is válthatsz. Ebben a néz
 #. type: Plain text
 #: ../E/cbot.txt:86
 #, no-wrap
-msgid ""
-"<code><a cbot|class>class</a>      </code>Class declararion\n"
+msgid "<code><a cbot|class>class</a>      </code>Class declararion\n"
 "<code><a cbot|public>public</a>     </code>Declares a public class member\n"
 "<code><a cbot|private>private</a>    </code>Declares a private class member\n"
 "<code><a cbot|protected>protected</a>  </code>Declares a protected class member\n"
@@ -1066,8 +1018,7 @@ msgid ""
 "<code><a cbot|this>this</a>       </code>Reference to the current instance\n"
 "<code><a cbot|extends>extends</a>    </code>Extends a class\n"
 "<code><a cbot|super>super</a>      </code>Grants access to the parent class"
-msgstr ""
-"<code><a cbot|class>class</a>      </code>Osztály deklaráció\n"
+msgstr "<code><a cbot|class>class</a>      </code>Osztály deklaráció\n"
 "<code><a cbot|public>public</a>     </code>Nyilvános osztály-tag deklaráció\n"
 "<code><a cbot|private>private</a>    </code>Magán osztály-tag deklaráció\n"
 "<code><a cbot|protected>protected</a>  </code>Védett osztály-tag deklaráció\n"
@@ -1081,15 +1032,13 @@ msgstr ""
 #. type: Plain text
 #: ../E/command.txt:40
 #, no-wrap
-msgid ""
-"<format key><key speed_dec/></format> = slow down speed by half\n"
+msgid "<format key><key speed_dec/></format> = slow down speed by half\n"
 "<format key><key speed_reset/></format> = normal speed x1\n"
 "<format key><key speed_inc/></format> = increase speed twice\n"
 "<format key><key quicksave/></format> = quick save\n"
 "<format key><key quickload/></format> = quick load\n"
 "<format key><key quit/></format> = exits mission <button 11/>"
-msgstr ""
-"<format key><key speed_dec/></format> = felére lassít\n"
+msgstr "<format key><key speed_dec/></format> = felére lassít\n"
 "<format key><key speed_reset/></format> = normál sebesség x1\n"
 "<format key><key speed_inc/></format> = kétszeresére gyorsít\n"
 "<format key><key quicksave/></format> = gyorsmentés\n"
@@ -1099,8 +1048,7 @@ msgstr ""
 #. type: Plain text
 #: ../E/cbot.txt:30
 #, no-wrap
-msgid ""
-"<code><a cbot|detect>detect</a>     </code>Simple object detection\n"
+msgid "<code><a cbot|detect>detect</a>     </code>Simple object detection\n"
 "<code><a cbot|radar>radar</a>      </code>Advanced object detection\n"
 "<code><a cbot|radarall>radarall</a>   </code>Advanced multiple objects detection\n"
 "<code><a cbot|search>search</a>     </code>Object detection from a specific point\n"
@@ -1129,8 +1077,7 @@ msgid ""
 "<code><a cbot|researched>researched</a> </code>Checks if a technology is researched\n"
 "<code><a cbot|canbuild>canbuild</a>   </code>Checks if a building can be built\n"
 "<code><a cbot|buildingenabled>buildingenabled</a> </code>Checks if a building is available during current mission"
-msgstr ""
-"<code><a cbot|detect>detect</a>     </code>Egyszerű tárgy észlelés\n"
+msgstr "<code><a cbot|detect>detect</a>     </code>Egyszerű tárgy észlelés\n"
 "<code><a cbot|radar>radar</a>      </code>Haladó tárgy észlelés\n"
 "<code><a cbot|radarall>radarall</a>   </code>Haladó, több tárgy észlelése\n"
 "<code><a cbot|search>search</a>     </code>Tágy észlelése egy adott pontból\n"
@@ -1163,8 +1110,7 @@ msgstr ""
 #. type: Plain text
 #: ../E/cbot.txt:67
 #, no-wrap
-msgid ""
-"<code><a cbot|grab>grab</a>       </code>Picks up an object\n"
+msgid "<code><a cbot|grab>grab</a>       </code>Picks up an object\n"
 "<code><a cbot|drop>drop</a>       </code>Puts down an object\n"
 "<code><a cbot|sniff>sniff</a>      </code>Sounds the subsoil\n"
 "<code><a cbot|thump>thump</a>      </code>Overturns alien insects\n"
@@ -1175,8 +1121,7 @@ msgid ""
 "<code><a cbot|build>build</a>      </code>Builds a building\n"
 "<code><a cbot|flag>flag</a>       </code>Plants a flag\n"
 "<code><a cbot|deflag>deflag</a>     </code>Removes a flag"
-msgstr ""
-"<code><a cbot|grab>grab</a>       </code>Megragad egy tárgyat\n"
+msgstr "<code><a cbot|grab>grab</a>       </code>Megragad egy tárgyat\n"
 "<code><a cbot|drop>drop</a>       </code>Leteszi a tárgyat\n"
 "<code><a cbot|sniff>sniff</a>      </code>Megszondázza az altalajt\n"
 "<code><a cbot|thump>thump</a>      </code>Felborítja az idegen rovarokat\n"
@@ -1187,3 +1132,4 @@ msgstr ""
 "<code><a cbot|build>build</a>      </code>Felhúz egy épületet\n"
 "<code><a cbot|flag>flag</a>       </code>Leszúr egy zászlót\n"
 "<code><a cbot|deflag>deflag</a>     </code>Eltávolít egy zászlót"
+

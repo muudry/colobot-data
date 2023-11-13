@@ -5,16 +5,21 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: colobot\n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2023-10-30 22:59+0100\n"
-"Last-Translator: Mudrony László <muudry@gmail.com>\n"
-"Language-Team: \n"
-"Language: hu\n"
+"PO-Revision-Date: 2023-11-13 09:39\n"
+"Last-Translator: \n"
+"Language-Team: Hungarian\n"
+"Language: hu_HU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-File: /master/help/bots/po/bots.pot\n"
+"X-Crowdin-File-ID: 680\n"
 
 #. type: \b; header
 #: ../E/botfc.txt:1
@@ -50,7 +55,7 @@ msgstr "Tipp: Tüzelés közben mozgasd az egeret, így nagyobb területet terí
 #: ../E/botfc.txt:9
 #, no-wrap
 msgid "Tracked bots can ascend steep inclinations but they are quite slow and use a lot of energy. On flat ground for short distances, a <a object|botfr>wheeled shooter</a> is a better option. When it is possible to build <a object|botfj>winged bots</a>, these represent the best solution for long distances."
-msgstr "A lánctalpas botok meredek lejtőket is képesek megmászni, de meglehetősen lassúak és sok energiát fogyasztanak. Sík terepen rövid távokra jobb megoldás egy <a object|botfr>kerekes löveg</a>. Ha lehetséges <objektum|botfj>szárnyas botok</a> építése, nagy távolságokra ezek jelentik a legjobb megoldást."
+msgstr "A lánctalpas botok meredek lejtőket is képesek megmászni, de meglehetősen lassúak és sok energiát fogyasztanak. Sík terepen rövid távokra jobb megoldás egy <a object|botfr>kerekes löveg</a>. Ha lehetséges <object|botfj>szárnyas botok</a> építése, nagy távolságokra ezek jelentik a legjobb megoldást."
 
 #. type: \t; header
 #: ../E/botbc.txt:23 ../E/botbj.txt:23 ../E/botbr.txt:23 ../E/botbs.txt:23 ../E/botfc.txt:11 ../E/botfj.txt:13 ../E/botfr.txt:11 ../E/botfs.txt:11 ../E/botgc.txt:24 ../E/botgj.txt:26 ../E/botgr.txt:24 ../E/botgs.txt:24 ../E/botoc.txt:9 ../E/botoj.txt:11 ../E/botor.txt:9 ../E/botos.txt:9 ../E/botphaz.txt:5 ../E/botrecy.txt:5 ../E/botsc.txt:11 ../E/botshld.txt:9 ../E/botsj.txt:13 ../E/botsr.txt:11 ../E/botss.txt:11 ../E/botsub.txt:7
@@ -122,7 +127,7 @@ msgstr "A képernyő alján lévő kijelző mutatja a reaktor hőmérsékletét.
 #: ../E/botfj.txt:11
 #, no-wrap
 msgid "Winged bots can fly across natural obstacles such as mountains or lakes but their energy supply is used up quickly. They're slow on the ground. To cover a short distance that will not call for flying, it is recommended to use a <a object|botfr>wheeled shooter</a> instead."
-msgstr "A szárnyas botok képesek átrepülni természeti akadályok, például a hegyek vagy tavak fölött, de energiakészletüket gyorsan elhasználják. Lassúak a földön. Ha olyan rövid távolságot szeretnél megtenni, amely nem igényel repülést, javasoljuk, hogy inkább <a object|botfr>kerekes löveg</a>et használj."
+msgstr "A szárnyas botok képesek átrepülni természeti akadályok, például a hegyek vagy tavak fölött, de energiakészletüket gyorsan elhasználják. Lassúak a földön. Ha olyan rövid távolságot szeretnél megtenni, amely nem igényel repülést, javasoljuk, hogy inkább <a object|botfr>kerekes löveget</a> használj."
 
 #. type: Plain text
 #: ../E/botbj.txt:24 ../E/botfj.txt:14 ../E/botoj.txt:12 ../E/botsj.txt:14
@@ -158,7 +163,7 @@ msgstr "Kerekes bot, tűzgolyó ágyúval felszerelve."
 #: ../E/botfr.txt:9 ../E/botgr.txt:20
 #, no-wrap
 msgid "Wheels constitute a standard, fast and energy-saving mode of propulsion, which is perfectly adapted for a relatively flat terrain. Whenever the terrain gets sloped, it is advised to use a <a object|botfj>winged shooter</a> instead, or, if this is impossible, a <a object|botfc>tracked shooter</a>."
-msgstr "A kerekek szabványos, gyors és energiatakarékos meghajtási módot jelentenek, ami tökéletesen alkalmazkodik a viszonylag sík terephez. Amikor a terep lejtőssé válik, javasoljuk, hogy inkább használj <a object|botfj>szárnyas löveg</a>et, vagy ha ez nem lehetséges, akkor <a object|botfc>lánctalpas löveg</a>et."
+msgstr "A kerekek szabványos, gyors és energiatakarékos meghajtási módot jelentenek, ami tökéletesen alkalmazkodik a viszonylag sík terephez. Amikor a terep lejtőssé válik, javasoljuk, hogy inkább használj <a object|botfj>szárnyas löveget</a>, vagy ha ez nem lehetséges, akkor <a object|botfc>lánctalpas löveg</a>et."
 
 #. type: Plain text
 #: ../E/botfr.txt:17
@@ -188,7 +193,7 @@ msgstr "Hangya-lábú kúszó bot, tűzgolyó ágyúval felszerelve."
 #: ../E/botfs.txt:9
 #, no-wrap
 msgid "A moving legged shooter uses up half as much energy as a <a object|botfr>wheeled shooter</a>. A legged bot is also perfectly adapted to climb the steepest slopes."
-msgstr "Egy mozgó lábas löveg feleannyi energiát használ fel, mint egy <a object|botfr>kerekes löveg</a>. A lábas bot tökéletesen alkalmas a legmeredekebb lejtők megmászására is."
+msgstr "Egy lábas löveg mozgás közben feleannyi energiát fogyaszt, mint egy <a object|botfr>kerekes löveg</a>. Egy lábas bot tökéletesen alkalmas a legmeredekebb lejtők megmászására is."
 
 #. type: Plain text
 #: ../E/botfs.txt:17
@@ -217,13 +222,11 @@ msgstr "Lánctalpas bot, egy munkavégzésre alkalmas karral felszerelve."
 #. type: Plain text
 #: ../E/botgc.txt:5 ../E/botgj.txt:5 ../E/botgr.txt:5 ../E/botgs.txt:5
 #, no-wrap
-msgid ""
-"<button 32/> Grabs an object or lays it down again, at a position that is determined by one of the following options :\n"
+msgid "<button 32/> Grabs an object or lays it down again, at a position that is determined by one of the following options :\n"
 "<button 33/> The object is lying in front of the bot, on the ground or on the back of a second bot.\n"
 "<button 35/> The object is the bot's own power cell.\n"
 "<button 34/> The object is lying behind the bot, on the ground."
-msgstr ""
-"<button 32/> Megragad egy tárgyat, vagy újra lerakja egy olyan helyre, az alábbi lehetőségetk szerint:\n"
+msgstr "<button 32/> Megragad egy tárgyat, vagy újra lerakja egy olyan helyre, az alábbi lehetőségetk szerint:\n"
 "<button 33/> A tárgy a bot előtt fekszik, vagy a földön, vagy egy másik robot hátán.\n"
 "<button 35/> A tárgy a bot saját energiacellája.\n"
 "<button 34/> A tárgy a bot mögött, a földön fekszik."
@@ -280,7 +283,7 @@ msgstr "<a object|bullet>Szerves anyag</a>."
 #: ../E/botgc.txt:20
 #, no-wrap
 msgid "Tracked bots can ascend steep inclinations but they are quite slow and use much energy. On flat ground for short distances, a <a object|botgr>wheeled grabber</a> is a better option. When it is possible to build <a object|botgj>winged bots</a>, these represent the best solution for long distances."
-msgstr "A lánctalpas botok meredek lejtőket is képesek megmászni, de meglehetősen lassúak és sok energiát fogyasztanak. Sík terepen rövid távokra jobb megoldás egy <a object|botfr>kerekes marok</a>. Ha lehetséges <objektum|botfj>szárnyas botok</a> építése, nagy távolságokra ezek jelentik a legjobb megoldást."
+msgstr "A lánctalpas botok meredek lejtőket is képesek megmászni, de meglehetősen lassúak és sok energiát fogyasztanak. Sík terepen rövid távokra jobb megoldás egy <a object|botfr>kerekes marok</a>. Ha lehetséges <object|botfj>szárnyas botok</a> építése, nagy távolságokra ezek jelentik a legjobb megoldást."
 
 #. type: Plain text
 #: ../E/botgc.txt:22 ../E/botgj.txt:24 ../E/botgr.txt:22 ../E/botgs.txt:22
@@ -322,7 +325,7 @@ msgstr "Sugárhajtású bot, egy munkavégzésre alkalmas karral felszerelve."
 #: ../E/botgj.txt:22
 #, no-wrap
 msgid "Winged bots can fly across natural obstacles such as mountains or lakes but their energy supply is used up quickly. They're slow on the ground. To cover a short distance that will not call for flying, it is recommended to use a <a object|botgr>wheeled grabber</a> instead."
-msgstr "A szárnyas botok képesek átrepülni természeti akadályok, például a hegyek vagy tavak fölött, de energiakészletüket gyorsan elhasználják. Lassúak a földön. Ha olyan rövid távolságot szeretnél megtenni, amely nem igényel repülést, javasoljuk, hogy inkább <a object|botgr>kerekes marok</a>ot használj."
+msgstr "A szárnyas botok képesek átrepülni természeti akadály, például a hegyek vagy tavak fölött, de energiakészletüket gyorsan elhasználják. Lassúak a földön. Ha olyan rövid távolságot szeretnél megtenni, amely nem igényel repülést, javasoljuk, hogy inkább <a object|botgr>kerekes markot</a> használj."
 
 #. type: Plain text
 #: ../E/botgj.txt:32
@@ -376,13 +379,13 @@ msgstr "botgs"
 #: ../E/botgs.txt:3
 #, no-wrap
 msgid "Ant-legged creeping bot equipped with an operating arm."
-msgstr ""
+msgstr "Hangya-lábú kúszó bot, munkavégzésre alkalmas karral felszerelve."
 
 #. type: Plain text
 #: ../E/botgs.txt:20
 #, no-wrap
 msgid "A moving legged grabber uses up half as much energy as a <a object|botgr>wheeled grabber</a>. A legged bot is also perfectly adapted to climb the steepest slopes."
-msgstr ""
+msgstr "Egy lábas marok mozgás közben feleannyi energiát fogyaszt, mint egy <a object|botgr>kerekes marok</a>. Egy lábas bot tökéletesen alkalmas a legmeredekebb lejtők megmászására is."
 
 #. type: Plain text
 #: ../E/botgs.txt:30
@@ -406,25 +409,25 @@ msgstr "botoc"
 #: ../E/botoc.txt:3
 #, no-wrap
 msgid "Tracked bot equipped with an orgaball cannon."
-msgstr ""
+msgstr "Lánctalpas bot ami egy orgavetővel van felszerelve."
 
 #. type: Plain text
 #: ../E/botoc.txt:5
 #, no-wrap
 msgid "The orgaball cannon is more effective than the <a object|botfc>fireball cannon</a>. It shoots small spheres of corrosive <a object|bullet>organic matter</a>. A <a object|power>regular power cell</a> will allow you to shoot 11 orgaball bursts."
-msgstr ""
+msgstr "Az orga-golyó vető ágyú hatékonyabb, mint a <a object|botfc>tűzgolyó ágyú</a>. Kis gömböket lövell ki korrozív <a object|bullet>szerves anyagból</a>. Egy <a object|power>normál energiacella</a> 11 orgagolyó sorozat leadását teszi lehetővé."
 
 #. type: Plain text
 #: ../E/botoc.txt:7
 #, no-wrap
 msgid "Tracked bots can ascend steep inclinations but they are quite slow and use a lot of energy. On flat ground for short distances, a <a object|botor>wheeled orga shooter</a> is a better option. When it is possible to build <a object|botoj>winged bots</a>, these represent the best solution for long distances."
-msgstr ""
+msgstr "A lánctalpas botok fel tudnak menni a meredek lejtőkön, de meglehetősen lassúak és sok energiát fogyasztanak. Sík terepen rövid távokon jobb megoldás egy <a object|botor>kerekes orgavető</a>. Ha lehetséges <objektum|botoj>szárnyas botokat</a> építeni, akkor nagy távolságra azok jelentik a legjobb megoldást."
 
 #. type: Plain text
 #: ../E/botoc.txt:12 ../E/botoj.txt:14 ../E/botor.txt:12 ../E/botos.txt:12
 #, no-wrap
 msgid "To program the orgaball cannon, use <code><a cbot|fire>fire</a></code>. To raise or lower the aim, use <code><a cbot|aim>aim</a></code>."
-msgstr ""
+msgstr "Az orga-golyó ágyú programozásához a <code><a cbot|fire>fire</a></code> parancsot használhatod. Az irányzék emeléséhez vagy lejjebb engedéséhez használd a <code><a cbot|aim>aim</a></code> parancsot."
 
 #. type: Plain text
 #: ../E/botoc.txt:15
@@ -448,19 +451,19 @@ msgstr "botoj"
 #: ../E/botoj.txt:3
 #, no-wrap
 msgid "Jet propelled flying bot equipped with an orgaball cannon."
-msgstr ""
+msgstr "Sugárhajtású repülő bot, orga-golyó ágyúval felszerelve."
 
 #. type: Plain text
 #: ../E/botoj.txt:5
 #, no-wrap
 msgid "The orgaball cannon is more effective than the <a object|botfj>fireball cannon</a>. It shoots small spheres of corrosive <a object|bullet>organic matter</a>. A <a object|power>regular power cell</a> will allow you to shoot 11 orgaball bursts."
-msgstr ""
+msgstr "Az orga-golyó vető ágyú hatékonyabb, mint a <a object|botfj>tűzgolyó ágyú</a>. Kis gömböket lövell ki korrozív <a object|bullet>szerves anyagból</a>. Egy <a object|power>normál energiacella</a> 11 orgagolyó sorozat leadását teszi lehetővé."
 
 #. type: Plain text
 #: ../E/botoj.txt:9
 #, no-wrap
 msgid "Winged bots can fly across natural obstacles such as mountains or lakes but their energy supply is used up quickly. They're slow on the ground. To cover a short distance that will not call for flying, it is recommended to use a <a object|botor>wheeled orga shooter</a> instead."
-msgstr ""
+msgstr "A szárnyas botok képesek átrepülni természeti akadály, például a hegyek vagy tavak fölött, de energiakészletüket gyorsan elhasználják. Lassúak a földön. Ha olyan rövid távolságot szeretnél megtenni, amely nem igényel repülést, javasoljuk, hogy inkább <a object|botgr>kerekes orgavetőt</a> használj."
 
 #. type: Plain text
 #: ../E/botoj.txt:17
@@ -484,19 +487,19 @@ msgstr "botor"
 #: ../E/botor.txt:3
 #, no-wrap
 msgid "Wheeled bot equipped with an orgaball cannon."
-msgstr ""
+msgstr "Kerekes bot, ami egy orgavetővel van felszerelve."
 
 #. type: Plain text
 #: ../E/botor.txt:5
 #, no-wrap
 msgid "The orgaball cannon is more effective than the <a object|botfr>fireball cannon</a>. It shoots small spheres of corrosive <a object|bullet>organic matter</a>. A <a object|power>regular power cell</a> will allow you to shoot 11 orgaball bursts."
-msgstr ""
+msgstr "Az orga-golyó vető ágyú hatékonyabb, mint a <a object|botfr>tűzgolyó ágyú</a>. Kis gömböket lövell ki korrozív <a object|bullet>szerves anyagból</a>. Egy <a object|power>normál energiacella</a> 11 orgagolyó sorozat leadását teszi lehetővé."
 
 #. type: Plain text
 #: ../E/botor.txt:7
 #, no-wrap
 msgid "Wheels constitute a standard, fast and energy-saving mode of propulsion, which is perfectly adapted for a relatively flat terrain. Whenever the terrain gets sloped, it is advised to instead use a <a object|botoj>winged orga shooter</a>, or, if this is impossible, a <a object|botoc>tracked orga shooter</a>."
-msgstr ""
+msgstr "A kerekek szabványos, gyors és energiatakarékos meghajtási módot jelentenek, ami tökéletesen alkalmazkodik a viszonylag sík terephez. Amikor a terep lejtőssé válik, javasoljuk, hogy inkább használj <a object|botoj>szárnyas orgavetőt</a>, vagy ha ez nem lehetséges, akkor <a object|botoc>lánctalpas orgavetőt</a>et."
 
 #. type: Plain text
 #: ../E/botor.txt:15
@@ -520,19 +523,19 @@ msgstr "botos"
 #: ../E/botos.txt:3
 #, no-wrap
 msgid "Ant-legged creeping bot equipped with an orgaball cannon."
-msgstr ""
+msgstr "Hangya-lábú kúszó bot, orgavető ágyúval felszerelve."
 
 #. type: Plain text
 #: ../E/botos.txt:5
 #, no-wrap
 msgid "The orgaball cannon is more effective than the <a object|botfs>fireball cannon</a>. It shoots small spheres of corrosive <a object|bullet>organic matter</a>. A <a object|power>regular power cell</a> will allow you to shoot 11 orgaball bursts."
-msgstr ""
+msgstr "Az orga-golyó vető ágyú hatékonyabb, mint a <a object|botfs>tűzgolyó ágyú</a>. Kis gömböket lövell ki korrozív <a object|bullet>szerves anyagból</a>. Egy <a object|power>normál energiacella</a> 11 orgagolyó sorozat leadását teszi lehetővé."
 
 #. type: Plain text
 #: ../E/botos.txt:7
 #, no-wrap
 msgid "A moving legged orga shooter uses up half as much energy as a <a object|botor>wheeled orga shooter</a>. A legged bot is also perfectly adapted to climb the steepest slopes."
-msgstr ""
+msgstr "Egy lábas orgavető mozgás közben feleannyi energiát fogyaszt, mint egy <a object|botgr>kerekes orgavető</a>. Egy lábas bot tökéletesen alkalmas a legmeredekebb lejtők megmászására is."
 
 #. type: Plain text
 #: ../E/botos.txt:15
@@ -556,7 +559,7 @@ msgstr "botphaz"
 #: ../E/botphaz.txt:3
 #, no-wrap
 msgid "Tracked bot equipped with a very powerful phazer cannon, efficient against most kinds of enemies. When you aim upward, it can shoot up to 60 meters. It is the only weapon that can kill the <a object|mother>Alien Queen</a>."
-msgstr ""
+msgstr "Lánctalpas bot, egy nagyon erős pfézer ágyúval felszerelve, amely a legtöbb ellenséggel szemben hatékony. Ha felfelé célzol, akár 60 méter magasra is lőhet. Ez az egyetlen fegyver, amely képes megölni az <a object|mother>AIdegen Királynőt</a>."
 
 #. type: Plain text
 #: ../E/botphaz.txt:8
@@ -622,25 +625,25 @@ msgstr ""
 #: ../E/botsc.txt:5 ../E/botsj.txt:5 ../E/botsr.txt:5 ../E/botss.txt:5
 #, no-wrap
 msgid "a <a object|stonspot>red cross</a>       -> <a object|titanore>titanium ore</a>."
-msgstr ""
+msgstr "a <a object|stonspot>vörös kereszt</a>       -> <a object|titanore>titánium érc</a>."
 
 #. type: Bullet: '-'
 #: ../E/botsc.txt:6 ../E/botsj.txt:6 ../E/botsr.txt:6 ../E/botss.txt:6
 #, no-wrap
 msgid "a <a object|uranspot>yellow circle</a>  -> <a object|uranore>uranium ore</a>."
-msgstr ""
+msgstr "a <a object|uranspot>sárga kör</a>  -> <a object|uranore>uránium érc</a>."
 
 #. type: Bullet: '-'
 #: ../E/botsc.txt:7 ../E/botsj.txt:7 ../E/botsr.txt:7 ../E/botss.txt:7
 #, no-wrap
 msgid "a <a object|enerspot>green cross</a>   -> energy deposit, useful for a <a object|station>power station</a> or a <a object|energy>power plant</a>."
-msgstr ""
+msgstr "Egy <a object|enerspot>zöld kereszt</a>   -> energialerakódás, hasznos egy <a object|station>töltőállomáshoz</a> vagy egy <a object|energy>erőműhöz</a>."
 
 #. type: Plain text
 #: ../E/botsc.txt:9
 #, no-wrap
 msgid "Tracked bots can ascend steep inclinations but they are quite slow and use a lot of energy. On flat ground for short distances, a <a object|botsr>wheeled sniffer</a> is a better option. When it is possible to build <a object|botsj>winged bots</a>, these represent the best solution for long distances."
-msgstr ""
+msgstr "A lánctalpas botok meredek lejtőket is képesek megmászni, de meglehetősen lassúak és sok energiát fogyasztanak. Sík terepen rövid távokra jobb megoldás egy <a object|botsr>kerekes szimat</a>. Ha lehetséges <object|botfj>szárnyas botok</a> építése, nagy távolságokra ezek jelentik a legjobb megoldást."
 
 #. type: Plain text
 #: ../E/botsc.txt:14 ../E/botsj.txt:16 ../E/botsr.txt:14 ../E/botss.txt:14
@@ -676,7 +679,7 @@ msgstr ""
 #: ../E/botshld.txt:5
 #, no-wrap
 msgid "A <a object|power>regular power cell</a> allows for a 20-second activity span with a radius of 25 meters, much too short in most cases. A <a object|atomic>nuclear power cell</a> is of course more suited to this bot."
-msgstr ""
+msgstr "Egy <a object|power>hagyományos energiacella</a> 20 másodperces aktivitási időtartamot tesz lehetővé egy 25 méter sugarú körben, ami a legtöbb esetben túl rövid. Egy <a object|atomic>nukleáris energia cella</a> természetesen alkalmasabb energiaforrás ennek a botnak."
 
 #. type: Plain text
 #: ../E/botshld.txt:7
@@ -712,7 +715,7 @@ msgstr "botsj"
 #: ../E/botsj.txt:3
 #, no-wrap
 msgid "Jet propelled flying bot equipped to prospect the geological structure of the subsoil. Whenever it locates something of use, the sniffer lays down the following marks:"
-msgstr ""
+msgstr "Sugárhajtású repülő bot, amely képes az altalaj geológiai szerkezetének feltárására. Amikor valami használhatót talál, a szimat a következő jelzéseket helyezi el:"
 
 #. type: Plain text
 #: ../E/botsj.txt:9
@@ -724,7 +727,7 @@ msgstr ""
 #: ../E/botsj.txt:11
 #, no-wrap
 msgid "Winged bots can fly across natural obstacles such as mountains or lakes but their energy supply uses up quickly. They're slow on the ground. To cover a short distance that will not call for flying, it is recommended to use a <a object|botsr>wheeled sniffer</a> instead."
-msgstr ""
+msgstr "A szárnyas botok képesek átrepülni természeti akadály, például a hegyek vagy tavak fölött, de energiakészletüket gyorsan elhasználják. Lassúak a földön. Ha olyan rövid távolságot szeretnél megtenni, amely nem igényel repülést, javasoljuk, hogy inkább <a object|botsr>kerekes szimatot</a> használj."
 
 #. type: Plain text
 #: ../E/botsj.txt:19
@@ -748,13 +751,13 @@ msgstr "botsr"
 #: ../E/botsr.txt:3
 #, no-wrap
 msgid "Wheeled bot equipped to prospect the geological structure of the subsoil. Whenever it locates something of use, the sniffer lays down the following marks:"
-msgstr ""
+msgstr "Kerekes bot, amely képes az altalaj geológiai szerkezetének feltárására. Amikor valami használhatót talál, a szimat a következő jelzéseket helyezi el:"
 
 #. type: Plain text
 #: ../E/botsr.txt:9
 #, no-wrap
 msgid "Wheels constitute a standard, fast and energy-saving mode of propulsion, which is perfectly adapted for a relatively flat terrain. Whenever the terrain gets sloped, it is advised to use a <a object|botsj>winged sniffer</a> instead, or, if this is impossible, a <a object|botsc>tracked sniffer</a>."
-msgstr ""
+msgstr "A kerekek szabványos, gyors és energiatakarékos meghajtási módot jelentenek, ami tökéletesen alkalmazkodik a viszonylag sík terephez. Amikor a terep lejtőssé válik, javasoljuk, hogy inkább használj <a object|botsj>szárnyas szimatot</a>, vagy ha ez nem lehetséges, akkor <a object|botfc>lánctalpas szimatot</a>."
 
 #. type: Plain text
 #: ../E/botsr.txt:17
@@ -778,13 +781,13 @@ msgstr "botss"
 #: ../E/botss.txt:3
 #, no-wrap
 msgid "Ant-legged creeping bot equipped to prospect the geological structure of the subsoil. Whenever it locates something of use, the sniffer lays down the following marks:"
-msgstr ""
+msgstr "Hangya-lábú kúszó bot, amely képes az altalaj geológiai szerkezetének feltárására. Amikor valami használhatót talál, a szimat a következő jelzéseket helyezi el:"
 
 #. type: Plain text
 #: ../E/botss.txt:9
 #, no-wrap
 msgid "A moving legged shooter uses up half as much energy as a <a object|botsr>wheeled sniffer</a>. A legged bot is also perfectly adapted to climb the steepest slopes."
-msgstr ""
+msgstr "Egy lábas szimat mozgás közben feleannyi energiát fogyaszt, mint egy <a object|botgr>kerekes szimat</a>. Egy lábas bot tökéletesen alkalmas a legmeredekebb lejtők megmászására is."
 
 #. type: Plain text
 #: ../E/botss.txt:17
@@ -808,13 +811,13 @@ msgstr "botsub"
 #: ../E/botsub.txt:3
 #, no-wrap
 msgid "Amphibious tracked bot equipped with an operating claw. The subber is the only bot capable of moving and running operations underwater."
-msgstr ""
+msgstr "Kétéltű lánctalpas bot, egy munkavégzésre használható karral felszerelve. A tengeralattjáró az egyetlen bot amely képes a víz alatt mozogni és dolgozni."
 
 #. type: Plain text
 #: ../E/botsub.txt:5
 #, no-wrap
 msgid "It is best to check the <a object|power>power cell</a> readings prior to immersion since replacing or recharging it underwater is impossible. The subber can only pick up objects from the ground, as opposed to, for example, a battery from the back of another bot."
-msgstr ""
+msgstr "Merülés előtt célszerű ellenőrzi az <a object|power>energia cella</a> szintjét, mivel a víz alatti csere vagy újratöltés nem lehetséges. A tengeralattjáró csak a földről tud tárgyakat felvenni, máshonnan, például egy másik bot hátulján lévő akkumulátort nem."
 
 #. type: Plain text
 #: ../E/botsub.txt:10
@@ -940,7 +943,7 @@ msgstr "<code>Thumper</code>"
 #: ../E/botgc.txt:10 ../E/botgj.txt:10 ../E/botgr.txt:10 ../E/botgs.txt:10
 #, no-wrap
 msgid "The following objects can be transported :"
-msgstr ""
+msgstr "A következő tárgyakat lehet szállítáni:"
 
 #. type: Plain text
 #: ../E/botdraw.txt:1
@@ -964,13 +967,12 @@ msgstr "botbc"
 #: ../E/botbc.txt:3
 #, no-wrap
 msgid "Tracked bot equipped with a neutron gun."
-msgstr ""
+msgstr "Lánctalpas bot, ami egy neutron ágyúval van felszerelve."
 
 #. type: Plain text
 #: ../E/botbc.txt:5 ../E/botbj.txt:5 ../E/botbr.txt:5 ../E/botbs.txt:5
 #, no-wrap
-msgid ""
-"<button 196/> Opens a build menu with the following options :\n"
+msgid "<button 196/> Opens a build menu with the following options :\n"
 "<button 160/>   <code><a object|factory>BotFactory</a>       </code>Robot Factory\n"
 "<button 163/>   <code><a object|research>ResearchCenter</a>   </code>Research Center\n"
 "<button 168/>   <code><a object|radar>RadarStation</a>     </code>Radar\n"
@@ -985,13 +987,27 @@ msgid ""
 "<button 161/>   <code><a object|derrick>Derrick</a>          </code>Derrick\n"
 "<button 174/>   <code><a object|captor>PowerCaptor</a>      </code>Parabolic Lightning Conductor\n"
 "<button 175/>   <code><a object|safe>Vault</a>            </code>Vault"
-msgstr ""
+msgstr "<button 196/> Megnyiti az épírés menüt, ami az alábbi lehetőségeket tartalmazza:\n"
+"<button 160/>   <code><a object|factory>BotFactory</a>       </code>Robot gyár\n"
+"<button 163/>   <code><a object|research>ResearchCenter</a>   </code>Kutatóközpont\n"
+"<button 168/>   <code><a object|radar>RadarStation</a>     </code>Radar\n"
+"<button 172/>   <code><a object|exchange>ExchangePost</a>     </code>Információ csere olszop\n"
+"<button 169/>   <code><a object|repair>RepairCenter</a>     </code>Javíó állomás\n"
+"<button 165/>   <code><a object|tower>DefenseTower</a>     </code>Védelmi torny\n"
+"<button 166/>   <code><a object|labo>AutoLab</a>          </code>Szerves anyag elemző\n"
+"<button 164/>   <code><a object|station>PowerStation</a>     </code>Töltőállomás\n"
+"<button 167/>   <code><a object|energy>PowerPlant</a>       </code>Energia cella gyár\n"
+"<button 170/>   <code><a object|nuclear>NuclearPlant</a>     </code>Nukleáris erőmű\n"
+"<button 162/>   <code><a object|convert>Converter</a>        </code>Titánium konverten\n"
+"<button 161/>   <code><a object|derrick>Derrick</a>          </code>Fúrótorony\n"
+"<button 174/>   <code><a object|captor>PowerCaptor</a>      </code>Parabólikus Villámhárító\n"
+"<button 175/>   <code><a object|safe>Vault</a>            </code>Páncélterem"
 
 #. type: Plain text
 #: ../E/botbc.txt:21
 #, no-wrap
 msgid "Tracked bots can ascend steep inclinations but they are quite slow and use a lot of energy. On flat ground for short distances, a <a object|botbr>wheeled builder</a> is a better option. When it is possible to build <a object|botbj>winged bots</a>, these represent the best solution for long distances."
-msgstr ""
+msgstr "A lánctalpas botok meredek lejtőket is képesek megmászni, de meglehetősen lassúak és sok energiát fogyasztanak. Sík terepen rövid távokra jobb megoldás egy <a object|botbr>kerekes építő</a>. Ha lehetséges <object|botfj>szárnyas botok</a> építése, nagy távolságokra ezek jelentik a legjobb megoldást."
 
 #. type: Plain text
 #: ../E/botbc.txt:26 ../E/botbj.txt:26 ../E/botbr.txt:26 ../E/botbs.txt:26
@@ -1021,13 +1037,13 @@ msgstr "botbc"
 #: ../E/botbj.txt:3
 #, no-wrap
 msgid "Jet propelled flying bot equipped with a neutron gun."
-msgstr ""
+msgstr "Sugárhajtású repülő bot, neutron ágyúval felszerelve."
 
 #. type: Plain text
 #: ../E/botbj.txt:21
 #, no-wrap
 msgid "Winged bots can fly across natural obstacles such as mountains or lakes but their energy supply is used up quickly. They're slow on the ground. To cover a short distance that will not call for flying, it is recommended to use a <a object|botbr>wheeled builder</a> instead."
-msgstr ""
+msgstr "A szárnyas botok képesek átrepülni természeti akadály, például a hegyek vagy tavak fölött, de energiakészletüket gyorsan elhasználják. Lassúak a földön. Ha olyan rövid távolságot szeretnél megtenni, amely nem igényel repülést, javasoljuk, hogy inkább <a object|botbr>kerekes építőt</a> használj."
 
 #. type: Plain text
 #: ../E/botbj.txt:29
@@ -1057,7 +1073,7 @@ msgstr ""
 #: ../E/botbr.txt:21
 #, no-wrap
 msgid "Wheels constitute a standard, fast and energy-saving mode of propulsion, which is perfectly adapted for a relatively flat terrain. Whenever the terrain gets sloped, it is advised to use a <a object|botbj>winged builder</a> instead, or, if this is impossible, a <a object|botbc>tracked builder</a>."
-msgstr ""
+msgstr "A kerekek szabványos, gyors és energiatakarékos meghajtási módot jelentenek, ami tökéletesen alkalmazkodik a viszonylag sík terephez. Amikor a terep lejtőssé válik, javasoljuk, hogy inkább használj <a object|botbj>szárnyas építőt</a>, vagy ha ez nem lehetséges, akkor <a object|botbc>lánctalpas építőt</a>."
 
 #. type: Plain text
 #: ../E/botbr.txt:29
@@ -1081,16 +1097,17 @@ msgstr "botbs"
 #: ../E/botbs.txt:3
 #, no-wrap
 msgid "Ant-legged creeping bot equipped with a neutron gun."
-msgstr ""
+msgstr "Hangya-lábú kúszó bot, nutron ágyúval felszerelve."
 
 #. type: Plain text
 #: ../E/botbs.txt:21
 #, no-wrap
 msgid "A moving legged builder uses up half as much energy as a <a object|botbr>wheeled builder</a>. A legged bot is also perfectly adapted to climb the steepest slopes."
-msgstr ""
+msgstr "Egy lábas építő mozgás közben feleannyi energiát fogyaszt, mint egy <a object|botgr>kerekes építő</a>. Egy lábas bot tökéletesen alkalmas a legmeredekebb lejtők megmászására is."
 
 #. type: Plain text
 #: ../E/botbs.txt:29
 #, no-wrap
 msgid "<code>LeggedBuilder</code>"
 msgstr "<code>LeggedBuilder</code>"
+

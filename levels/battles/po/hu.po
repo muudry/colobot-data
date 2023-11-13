@@ -5,25 +5,31 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: colobot\n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2023-10-30 23:49+0100\n"
-"Last-Translator: Mudrony László <muudry@gmail.com>\n"
-"Language-Team: \n"
-"Language: hu\n"
+"PO-Revision-Date: 2023-11-13 09:39\n"
+"Last-Translator: \n"
+"Language-Team: Hungarian\n"
+"Language: hu_HU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-File: /master/levels/battles/po/battles.pot\n"
+"X-Crowdin-File-ID: 702\n"
 
 #. type: Title-text, Title-resume
 #: ../chapter001/chaptertitle.txt:1
 #, no-wrap
 msgid "Versus"
-msgstr "Mérkőzés"
+msgstr ""
 
 #. type: Title-text, Title-resume
 #: ../chapter002/chaptertitle.txt:1
 #, no-wrap
 msgid "Training"
-msgstr "Edzés"
+msgstr ""
+

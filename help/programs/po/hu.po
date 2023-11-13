@@ -5,22 +5,27 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: colobot\n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2023-10-30 23:34+0100\n"
-"Last-Translator: Mudrony László <muudry@gmail.com>\n"
-"Language-Team: \n"
-"Language: hu\n"
+"PO-Revision-Date: 2023-11-13 09:39\n"
+"Last-Translator: \n"
+"Language-Team: Hungarian\n"
+"Language: hu_HU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-File: /master/help/programs/po/programs.pot\n"
+"X-Crowdin-File-ID: 688\n"
 
 #. type: \b; header
-#: ../E/10_FollowPhazer.txt:1 ../E/1_SwitchCell1.txt:1 ../E/1_SwitchCell1_link.txt:1 ../E/2_Recharge1.txt:1 ../E/2_Recharge1_link.txt:1 ../E/3_Recharge2.txt:1 ../E/3_Recharge2_link.txt:1 ../E/4_CollectTitanium1.txt:1 ../E/5_CollectTitanium2.txt:1 ../E/5_CollectTitanium2_link.txt:1 ../E/6_KillAnt1.txt:1 ../E/6_KillAnt1_link.txt:1 ../E/7_CollectTitanium3.txt:1 ../E/7_CollectTitanium3_link.txt:1 ../E/8_ServiceTower1.txt:1 ../E/8_ServiceTower1_link.txt:1 ../E/9_terranova.txt:1
+#: ../E/1_SwitchCell.txt:1
 #, no-wrap
 msgid "Programs dispatched by Houston"
-msgstr ""
+msgstr "Houston által küldött programok"
 
 #. type: Plain text
 #: ../E/1_SwitchCell1.txt:2
@@ -37,8 +42,7 @@ msgstr ""
 #. type: Source code
 #: ../E/1_SwitchCell1.txt:6
 #, no-wrap
-msgid ""
-"extern void object::SwitchCell1()\n"
+msgid "extern void object::SwitchCell1()\n"
 "{\n"
 "\t<a cbot|grab>grab</a>(InFront);     // take the new cell in front\n"
 "\t<a cbot|drop>drop</a>(Behind);      // and drop it behind\n"
@@ -50,6 +54,12 @@ msgid ""
 "\t<a cbot|drop>drop</a>(EnergyCell);  // and drop it on the bot\n"
 "}"
 msgstr ""
+
+#. type: \b; header
+#: ../E/1_SwitchCell1.txt:1 ../E/1_SwitchCell1_link.txt:1
+#, no-wrap
+msgid "Programs dispatched by Houston"
+msgstr "Houston által küldött programok"
 
 #. type: Plain text
 #: ../E/1_SwitchCell1_link.txt:2 ../E/2_Recharge1_link.txt:2 ../E/3_Recharge2_link.txt:2 ../E/5_CollectTitanium2_link.txt:2 ../E/6_KillAnt1_link.txt:2 ../E/7_CollectTitanium3_link.txt:2 ../E/8_ServiceTower1_link.txt:2
@@ -75,6 +85,12 @@ msgstr ""
 msgid "<code><a programs/1_SwitchCell1>SwitchCell1</a></code>"
 msgstr ""
 
+#. type: \b; header
+#: ../E/10_FollowPhazer.txt:1 ../E/1_SwitchCell1.txt:1 ../E/1_SwitchCell1_link.txt:1 ../E/2_Recharge1.txt:1 ../E/2_Recharge1_link.txt:1 ../E/3_Recharge2.txt:1 ../E/3_Recharge2_link.txt:1 ../E/4_CollectTitanium1.txt:1 ../E/5_CollectTitanium2.txt:1 ../E/5_CollectTitanium2_link.txt:1 ../E/6_KillAnt1.txt:1 ../E/6_KillAnt1_link.txt:1 ../E/7_CollectTitanium3.txt:1 ../E/7_CollectTitanium3_link.txt:1 ../E/8_ServiceTower1.txt:1 ../E/8_ServiceTower1_link.txt:1 ../E/9_terranova.txt:1
+#, no-wrap
+msgid "Programs dispatched by Houston"
+msgstr "Houston által küldött programok"
+
 #. type: Plain text
 #: ../E/2_Recharge1.txt:2
 #, no-wrap
@@ -90,8 +106,7 @@ msgstr ""
 #. type: Source code
 #: ../E/2_Recharge1.txt:6
 #, no-wrap
-msgid ""
-"extern void object::Recharge1()\n"
+msgid "extern void object::Recharge1()\n"
 "{\n"
 "\t<a cbot|type>point</a>  start;          // variable for initial pos.\n"
 "\t<a cbot|type>object</a> item;           // info. about power station\n"
@@ -121,8 +136,7 @@ msgstr ""
 #. type: Source code
 #: ../E/3_Recharge2.txt:4
 #, no-wrap
-msgid ""
-"extern void object::Recharge2()\n"
+msgid "extern void object::Recharge2()\n"
 "{\n"
 "\t<a cbot|type>point</a>  start;          // variable for initial pos.\n"
 "\t<a cbot|type>object</a> item;           // info. about power station\n"
@@ -151,8 +165,7 @@ msgstr ""
 #. type: Plain text
 #: ../E/4_CollectTitanium1.txt:2
 #, no-wrap
-msgid ""
-"Below is one of the programs that has been developed by our engineers.\n"
+msgid "Below is one of the programs that has been developed by our engineers.\n"
 "It instructs a <a object|botgr>grabber</a> to retrieve the nearest chunk of <a object|titanore>titanium ore</a> and place it on the <a object|convert>converter</a>."
 msgstr ""
 
@@ -165,8 +178,7 @@ msgstr ""
 #. type: Source code
 #: ../E/4_CollectTitanium1.txt:7
 #, no-wrap
-msgid ""
-"extern void object::CollectTitanium1()\n"
+msgid "extern void object::CollectTitanium1()\n"
 "{\n"
 "\t// 1) Variable definition.\n"
 "\t<a cbot|type>object</a>  item;            // info. about objects\n"
@@ -187,8 +199,7 @@ msgstr ""
 #. type: Plain text
 #: ../E/5_CollectTitanium2.txt:2
 #, no-wrap
-msgid ""
-"Below is one of the programs that has been developed by our engineers.\n"
+msgid "Below is one of the programs that has been developed by our engineers.\n"
 "An upgrade on the previous program: the <a object|botgr>grabber</a>, on its way back from the converter, makes a stop, if necessary, at the <a object|station>power station</a> to recharge its power cell."
 msgstr ""
 
@@ -201,8 +212,7 @@ msgstr ""
 #. type: Source code
 #: ../E/5_CollectTitanium2.txt:7
 #, no-wrap
-msgid ""
-"extern void object::CollectTitanium2()\n"
+msgid "extern void object::CollectTitanium2()\n"
 "{\n"
 "\t// 1) Variable definition.\n"
 "\t<a cbot|type>object</a>  item;            // info. about objects\n"
@@ -249,8 +259,7 @@ msgstr ""
 #. type: Source code
 #: ../E/6_KillAnt1.txt:4
 #, no-wrap
-msgid ""
-"extern void object::KillAnt1()\n"
+msgid "extern void object::KillAnt1()\n"
 "{\n"
 "\t<a cbot|type>object</a> item;             // info. about object\n"
 "\t\n"
@@ -285,8 +294,7 @@ msgstr ""
 #. type: Source code
 #: ../E/7_CollectTitanium3.txt:4
 #, no-wrap
-msgid ""
-"extern void object::CollectTitanium3()\n"
+msgid "extern void object::CollectTitanium3()\n"
 "{\n"
 "\t// 1) Variable definition.\n"
 "\t<a cbot|type>object</a>  item;            // info. about objects\n"
@@ -375,8 +383,7 @@ msgstr ""
 #. type: Source code
 #: ../E/8_ServiceTower1.txt:11
 #, no-wrap
-msgid ""
-"extern void object::ServiceTower1()\n"
+msgid "extern void object::ServiceTower1()\n"
 "{\n"
 "\t<a cbot|object>object</a>  tower;               // info. about tower\n"
 "\t<a cbot|object>object</a>  station;             // info. about station\n"
@@ -436,8 +443,7 @@ msgstr ""
 #. type: Source code
 #: ../E/10_FollowPhazer.txt:6
 #, no-wrap
-msgid ""
-"extern void object::FollowPhazer()\n"
+msgid "extern void object::FollowPhazer()\n"
 "{\n"
 "\t<a cbot|type>object</a>    item;              // info. about phazer\n"
 "\t<a cbot|type>point</a>     dest;              // position where to go\n"
@@ -481,8 +487,7 @@ msgstr ""
 #. type: Source code
 #: ../E/9_terranova.txt:4
 #, no-wrap
-msgid ""
-"extern void object::Outward()\n"
+msgid "extern void object::Outward()\n"
 "{\n"
 "\t<a cbot|shield>shield</a>(1,15);   // activate the shield\n"
 "\t<a cbot|goto>goto</a>(6,160);    // go close to the key\n"
@@ -499,11 +504,11 @@ msgstr ""
 #. type: Source code
 #: ../E/9_terranova.txt:13
 #, no-wrap
-msgid ""
-"extern void object::Return()\n"
+msgid "extern void object::Return()\n"
 "{\n"
 "\t<a cbot|shield>shield</a>(1,15);   // activate the shield\n"
 "\t<a cbot|goto>goto</a>(8,60);     // go to the spaceship\n"
 "\t<a cbot|shield>shield</a>(0,15);   // deactivate the shield\n"
 "}"
 msgstr ""
+

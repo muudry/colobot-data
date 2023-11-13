@@ -1,0 +1,143 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: colobot\n"
+"POT-Creation-Date: DATE\n"
+"PO-Revision-Date: 2023-11-13 11:42+0100\n"
+"Last-Translator: Mudrony László <muudry@gmail.com>\n"
+"Language-Team: Hungarian\n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-File: /master/levels/exercises/chapter002/level002/po/train202.pot\n"
+"X-Crowdin-File-ID: 748\n"
+"X-Generator: Poedit 3.4.1\n"
+
+#. type: Title-text
+#: ../scene.txt:1
+#, no-wrap
+msgid "Flying tower 1"
+msgstr "Repülő torony 1"
+
+#. type: Resume-text
+#: ../scene.txt:2
+#, no-wrap
+msgid "Make a flying defense tower out of a winged shooter."
+msgstr "Csinálj repülő védelmi lövegtornyot egy szárnyas lövegből."
+
+#. type: ScriptName-text
+#: ../scene.txt:3
+#, no-wrap
+msgid "Move"
+msgstr "Mozgás"
+
+#. type: \b; header
+#: ../help/help.E.txt:1
+#, no-wrap
+msgid "Objective"
+msgstr "A feladat"
+
+#. type: Plain text
+#: ../help/help.E.txt:2
+#, no-wrap
+msgid "As a defense against ants attacking from all sides, adapt the program <code>Spider2</code> in order to fly at a given altitude."
+msgstr "A minden oldalról támadó hangyák elleni védekezésként alkalmazd a <code>Pók2</code> programot, hogy adott magasságban repüljön."
+
+#. type: \t; header
+#: ../help/help.E.txt:4
+#, no-wrap
+msgid "Program"
+msgstr "Program"
+
+#. type: Plain text
+#: ../help/help.E.txt:5
+#, no-wrap
+msgid "The program necessary for this task is somewhat similar to the program <code>Spider2</code> that looks for the closest ant, turns towards it and fires:"
+msgstr "Az ehhez a feladathoz szükséges program némileg hasonlít a <code>Pók2</code> programhoz, amely megkeresi a legközelebbi hangyát, feléje fordul és tüzel:"
+
+#. type: Source code
+#: ../help/help.E.txt:7
+#, no-wrap
+msgid ""
+"extern void object::Spider2()\n"
+"{\t\n"
+"\tobject    item;\n"
+"\t\n"
+"\twhile (true)\n"
+"\t{\n"
+"\t\titem = radar(AlienSpider);\n"
+"\t\tturn(direction(item.position));\n"
+"\t\tfire(1);\n"
+"\t}\n"
+"}"
+msgstr ""
+"extern void object::Spider2()\n"
+"{\t\n"
+"\tobject    item;\n"
+"\t\n"
+"\twhile (true)\n"
+"\t{\n"
+"\t\titem = radar(AlienSpider);\n"
+"\t\tturn(direction(item.position));\n"
+"\t\tfire(1);\n"
+"\t}\n"
+"}"
+
+#. type: Plain text
+#: ../help/help.E.txt:19
+#, no-wrap
+msgid "You can copy-paste it to the editor, and adapt it. Replace <c/>radar(AlienSpider);<n/> by <c/>radar(AlienAnt);<n/>, and write before the <code>while</code> loop another loop that activates the jet beneath the <a object|botfj>winged shooter</a> until the bot reaches an altitude of 20 meters."
+msgstr "Másold ki és illeszd be a szerkesztőbe, aztán alakítsd át. Cseréld ki a <c/>radar(AlienSpider);<n/> arra, hogy <c/>radar(AlienAnt);<n/>-re, és írj a <code>while</code> hurok elé egy másik hurkot, amely addig működteti a <a object|botfj>szárnyas löveg</a> sugár hajtőművét, amíg a bot el nem éri a 20 méteres magasságot."
+
+#. type: Plain text
+#: ../help/help.E.txt:21
+#, no-wrap
+msgid "The instruction <code><a cbot|jet>jet</a>()</code> controls the jet beneath winged bots. The number in brackets must range between <code>-1</code> and <code>1</code>.<c/> jet(1);<n/> moves the bot upward with maximum speed.<c/> jet(-1);<n/> moves the bot downward with maximum speed, and <c/>jet(0);<n/> stabilizes the altitude. As the bot must reach a precise altitude, move it upward slowly with <c/>jet(0.2);<n/>, wait until it has reached the desired height, then stabilize the altitude with <c/>jet(0);<n/>."
+msgstr "A <code><a cbot|jet>jet</a>()</code> utasítás vezérli a szárnyas botok sugárhajtóművét. A zárójelben lévő számnak <code>-1</code> és <code>1</code> között kell lennie. <c/>jet(1);<n/> maximális sebességgel mozgatja felfelé a robotot. A <c/>jet(-1);<n/> lefelé mozgatja a botot maximális sebességgel, a <c/>jet(0);<n/> pedig stabilizálja a magasságot. Mivel a botnak egy adott magasságot kell pontosan elérnie, ezért lassan mozgasd felfelé a <c/>jet(0.2);<n/> segítségével, majd várd meg, amíg eléri a kívánt magasságot, azután stabilizáld a magasságot a <c/>jet(0);<n/> segítségével."
+
+#. type: Plain text
+#: ../help/help.E.txt:23
+#, no-wrap
+msgid "In order to \"wait until it has reached the desired height\", we need a conditional loop: the instructions inside the loop will be repeated only as long as a certain condition is true. The altitude of the bot is given by <code>position.z</code>. We already saw that <code>position</code> gives the position of the bot. And a position is given by the three coordinates x, y and z: the x-axis is the axis west-east, the y-axis is the axis south-north, and the z-axis is the vertical axis. Therefore we must wait while <code>position.z</code> is smaller than 20:"
+msgstr "Ahhoz, hogy \"megvárd, amíg eléri a kívánt magasságot\", szükség van egy feltételes ciklusra, ahol a cikluson belüli utasítások csak addig ismétlődnek, amíg egy bizonyos feltétel igaz. A bot magasságát a <code>position.z</code> adja meg. Már láttuk, hogy a <code>position</code> megadja a bot pozícióját. Egy pozíciót pedig három, az x, y és z koordináta ad meg: az x-tengely a nyugat-keleti tengely, az y-tengely a dél-észak tengely, a z-tengely pedig a függőleges tengely. Ezért várnunk kell, amíg a <code>position.z</code> kisebb 20-nál:"
+
+#. type: Source code
+#: ../help/help.E.txt:25
+#, no-wrap
+msgid ""
+"\twhile (position.z < 20)\n"
+"\t{\n"
+"\t\twait(0.2);\n"
+"\t}"
+msgstr ""
+"\twhile (position.z < 20)\n"
+"\t{\n"
+"\t\twait(0.2);\n"
+"\t}"
+
+#. type: Plain text
+#: ../help/help.E.txt:30
+#, no-wrap
+msgid "After waiting 0.2 seconds, the program will check if the altitude is still below 20 meters. If this is the case, it will wait a little more, if not, the program continues after the loop, i.e. after the closing brace <code>}</code>. Do not forget after the loop to stabilize the altitude with <c/>jet(0);<n/>."
+msgstr "0.2 másodperc várakozás után a program ellenőrzi, hogy a magasság még mindig 20 méter alatt van-e. Ha ez a helyzet, akkor vár még egy kicsit, ha nem, a program a ciklus után, azaz a záró kapcsos zárójel <code>}</code> után folytatódik. A ciklus után ne felejtsd el stabilizálni a magasságot a <c/>jet(0);<n/> segítségével."
+
+#. type: \t; header
+#: ../help/help.E.txt:32
+#, no-wrap
+msgid "See also"
+msgstr "Lásd még"
+
+#. type: Plain text
+#: ../help/help.E.txt:33
+#, no-wrap
+msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
+msgstr "<a cbot>Programozás</a>, <a cbot|type>típusok</a> and <a cbot|category>kategóriák</a>."

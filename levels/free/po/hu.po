@@ -5,121 +5,127 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: colobot\n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2023-10-30 23:52+0100\n"
-"Last-Translator: Mudrony László <muudry@gmail.com>\n"
-"Language-Team: \n"
-"Language: hu\n"
+"PO-Revision-Date: 2023-11-13 09:39\n"
+"Last-Translator: \n"
+"Language-Team: Hungarian\n"
+"Language: hu_HU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-File: /master/levels/free/po/free.pot\n"
+"X-Crowdin-File-ID: 828\n"
 
 #. type: Title-text
 #: ../chapter001/chaptertitle.txt:1
 #, no-wrap
 msgid "Leaving Earth"
-msgstr "Elhagyjuk a földet"
+msgstr ""
 
 #. type: Title-resume
 #: ../chapter001/chaptertitle.txt:1
 #, no-wrap
 msgid "Earth"
-msgstr "Föld"
+msgstr ""
 
 #. type: Title-text
 #: ../chapter002/chaptertitle.txt:1
 #, no-wrap
 msgid "On the Moon"
-msgstr "A holdon"
+msgstr ""
 
 #. type: Title-resume
 #: ../chapter002/chaptertitle.txt:1
 #, no-wrap
 msgid "Moon"
-msgstr "Hold"
+msgstr ""
 
 #. type: Title-text
 #: ../chapter003/chaptertitle.txt:1
 #, no-wrap
 msgid "On Tropica"
-msgstr "Tropikán"
+msgstr ""
 
 #. type: Title-resume
 #: ../chapter003/chaptertitle.txt:1
 #, no-wrap
 msgid "Tropica"
-msgstr "Tropika"
+msgstr ""
 
 #. type: Title-text
 #: ../chapter004/chaptertitle.txt:1
 #, no-wrap
 msgid "On Crystalium"
-msgstr "Kristályságon"
+msgstr ""
 
 #. type: Title-resume
 #: ../chapter004/chaptertitle.txt:1
 #, no-wrap
 msgid "Crystalium"
-msgstr "Kristályság"
+msgstr ""
 
 #. type: Title-text
 #: ../chapter005/chaptertitle.txt:1
 #, no-wrap
 msgid "On Saari"
-msgstr "Szigetségen"
+msgstr ""
 
 #. type: Title-resume
 #: ../chapter005/chaptertitle.txt:1
 #, no-wrap
 msgid "Saari"
-msgstr "Szigetség"
+msgstr ""
 
 #. type: Title-text
 #: ../chapter006/chaptertitle.txt:1
 #, no-wrap
 msgid "On Volcano"
-msgstr "Vulkánián"
+msgstr ""
 
 #. type: Title-resume
 #: ../chapter006/chaptertitle.txt:1
 #, no-wrap
 msgid "Volcano"
-msgstr "Vulkánia"
+msgstr ""
 
 #. type: Title-text
 #: ../chapter007/chaptertitle.txt:1
 #, no-wrap
 msgid "On Centaury"
-msgstr "Kentaurin"
+msgstr ""
 
 #. type: Title-resume
 #: ../chapter007/chaptertitle.txt:1
 #, no-wrap
 msgid "Centaury"
-msgstr "Kentauri"
+msgstr ""
 
 #. type: Title-text
 #: ../chapter008/chaptertitle.txt:1
 #, no-wrap
 msgid "On Orpheon"
-msgstr "Orfeonon"
+msgstr ""
 
 #. type: Title-resume
 #: ../chapter008/chaptertitle.txt:1
 #, no-wrap
 msgid "Orpheon"
-msgstr "Orfeon"
+msgstr ""
 
 #. type: Title-text
 #: ../chapter009/chaptertitle.txt:1
 #, no-wrap
 msgid "On Terranova"
-msgstr "Terranován"
+msgstr ""
 
 #. type: Title-resume
 #: ../chapter009/chaptertitle.txt:1
 #, no-wrap
 msgid "Terranova"
-msgstr "Terranova"
+msgstr ""
+
