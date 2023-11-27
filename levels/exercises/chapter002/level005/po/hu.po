@@ -2,13 +2,13 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: colobot\n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2023-11-13 09:39\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2023-11-27 12:13+0100\n"
+"Last-Translator: Mudrony László <muudry@gmail.com>\n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
 "MIME-Version: 1.0\n"
@@ -20,24 +20,25 @@ msgstr ""
 "X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/levels/exercises/chapter002/level005/po/train205.pot\n"
 "X-Crowdin-File-ID: 754\n"
+"X-Generator: Poedit 3.4.1\n"
 
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
 msgid "Fighter Jet 2"
-msgstr ""
+msgstr "Vadászgép 2"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Adapt the program to a mountainous terrain."
-msgstr ""
+msgstr "Igazítsd a programot a hegyes terephez."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
 #, no-wrap
 msgid "Move"
-msgstr ""
+msgstr "Útvonal"
 
 #. type: \b; header
 #: ../help/help.E.txt:1
@@ -49,24 +50,25 @@ msgstr "Célkitűzés"
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Adapt the flying height of the <a object|botfj>winged shooter</a> to the terrain."
-msgstr ""
+msgstr "Igazodjon a <a object|botfj>szárnyas löveg</a> repülési magassága a terephez."
 
 #. type: \t; header
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "Program"
-msgstr ""
+msgstr "Program"
 
 #. type: Plain text
 #: ../help/help.E.txt:5
 #, no-wrap
 msgid "Here is one more time the program of the previous exercise that hunts ants:"
-msgstr ""
+msgstr "Íme még egyszer az előző, hangyákra vadászó gyakorlat programja:"
 
 #. type: Source code
 #: ../help/help.E.txt:7
 #, no-wrap
-msgid "extern void object::JetFighter1()\n"
+msgid ""
+"extern void object::JetFighter1()\n"
 "{\n"
 "\tobject    item;\n"
 "\t\n"
@@ -91,23 +93,48 @@ msgid "extern void object::JetFighter1()\n"
 "\t}\n"
 "}"
 msgstr ""
+"extern void object::Vadasz1()\n"
+"{\n"
+"\tobject    item;\n"
+"\t\n"
+"\taim(-20);\n"
+"\tjet(0.2);\n"
+"\twhile (position.z < 10)\n"
+"\t{\n"
+"\t\twait(0.2);\n"
+"\t}\n"
+"\tjet(0);\n"
+"\t\n"
+"\twhile (true)\n"
+"\t{\n"
+"\t\twhile (radar(AlienAnt, 0, 360, 0, 20) == null)\n"
+"\t\t{\n"
+"\t\t\titem = radar(AlienAnt);\n"
+"\t\t\tturn(direction(item.position));\n"
+"\t\t\tmotor(1,1);\n"
+"\t\t\twait(0.2);\n"
+"\t\t}\n"
+"\t\tfire(1);\n"
+"\t}\n"
+"}"
 
 #. type: Plain text
 #: ../help/help.E.txt:32
 #, no-wrap
 msgid "The bot always stays at an altitude of 10m above sea level. This is not adapted to the mountainous terrain of the present exercise, the bot has got to adapt to the terrain. The best way to do so is to insert just before the <c/>wait(0.2);<n/> a test to see if the height above ground is too low or too high, and to react accordingly."
-msgstr ""
+msgstr "A bot mindig 10m tengerszint feletti magasságban marad. Ez nem igazodik a jelen gyakorlat hegyvidéki terepéhez, pedig most már a botnak alkalmazkodnia kell a terephez. Ennek legjobb módja, ha közvetlenül a <c/>wait(0.2);<n/> elé beillesztünk egy vizsgálatot, ami megnézi nem-e túl alacsony vagy túl magas a talaj szinttől mért magasság, és ennek megfelelően reagál."
 
 #. type: Plain text
 #: ../help/help.E.txt:34
 #, no-wrap
 msgid "We already saw that <code>position.z</code> gives the altitude above sea level. <code><a cbot|topo>topo</a>(position)</code> gives the altitude of the ground at the position of the bot. If we want the bot to stay at an altitude between 6 and 9m above ground, we must treat the following cases: if <code>position.z-topo(position)</code> is smaller than 6, the bot must climb with <c/>jet(1);<n/>. If <code>position.z-topo(position)</code> is greater than 9, the bot must go down with <c/>jet(-1);<n/>. In order to program these tests, use the instruction <code><a cbot|if>if</a></code>, that executes the instructions in braces only once if the condition is true:"
-msgstr ""
+msgstr "Már láttuk, hogy a <code>position.z</code> a tengerszint feletti magasságot adja meg. A <code><a cbot|topo>topo</a>(position)</code> megadja a talajszint magasságát a bot helyén. Ha azt szeretnénk, hogy a bot 6 és 9 m közötti magasságban maradjon a talaj felett, akkor a következő eseteket kell kezelnünk: ha a <code>position.z-topo(position)</code> kisebb, mint 6, akkor a botnak emelkednie kell <c/>jet(1);<n/> -el. Ha a <code>position.z-topo(position)</code> nagyobb, mint 9, akkor a botnak süllyednie kell mennie a <c/>jet(-1);<n/> -el. A feltételek programozásához használd az <code><a cbot|if>if</a></code> utasítást, amely csak egyszer hajtja végre a kapcsos zárójelben lévő utasításokat, akkor ha a feltétel igaz:"
 
 #. type: Source code
 #: ../help/help.E.txt:36
 #, no-wrap
-msgid "\tjet(0);\n"
+msgid ""
+"\tjet(0);\n"
 "\tif (position.z-topo(position) < 6)\n"
 "\t{\n"
 "\t\tjet(1);\n"
@@ -118,18 +145,28 @@ msgid "\tjet(0);\n"
 "\t\tjet(-1);\n"
 "\t}"
 msgstr ""
+"\tjet(0);\n"
+"\tif (position.z-topo(position) < 6)\n"
+"\t{\n"
+"\t\tjet(1);\n"
+"\t}\n"
+"\t\n"
+"\tif (position.z-topo(position) > 9)\n"
+"\t{\n"
+"\t\tjet(-1);\n"
+"\t}"
 
 #. type: Plain text
 #: ../help/help.E.txt:47
 #, no-wrap
 msgid "Before starting the testing, stabilize the altitude with <c/>jet(0);<n/>: in case the height above ground lies between 6 and 9m, the bot must neither climb nor go down. If afterwards either <c/>jet(1);<n/> or <c/>jet(-1);<n/> is executed, it will cancel the previous <c/>jet(0);<n/>."
-msgstr ""
+msgstr "A tesztelés megkezdése előtt stabilizáld a magasságot a <c/>jet(0);<n/> segítségével: ha a talaj feletti magasság 6 és 9 m között van, a botnak nem szabad se emelkedni, se süllyedni. Ha ezt követően a <c/>jet(1);<n/> vagy a <c/>jet(-1);<n/> végrehajtásra kerül, akkor az törli (felülírja) az előző <c/>jet(0);<n/> -t."
 
 #. type: Plain text
 #: ../help/help.E.txt:49
 #, no-wrap
 msgid "Just insert these lines before the <code>wait(0.2)</code>, and the bot will adapt to the terrain. You can then delete the first lines of the program that set the initial altitude at 10m."
-msgstr ""
+msgstr "Csak illesszed be ezeket a sorokat a <code>wait(0.2)</code> elé, és a bot alkalmazkodni fog a terephez. Ezután törölheted a program első sorait, amelyek a kezdeti magasságot 10 m-re állították be."
 
 #. type: \t; header
 #: ../help/help.E.txt:51
@@ -141,5 +178,4 @@ msgstr "Lásd még"
 #: ../help/help.E.txt:52
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
-
+msgstr "<a cbot>Programozás</a>, <a cbot|type>típusok</a> és <a cbot|category>kategóriák</a>."
