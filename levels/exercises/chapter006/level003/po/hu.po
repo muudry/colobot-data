@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: colobot\n"
-"X-Crowdin-Project-ID: 624804\n"
-"X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/levels/exercises/chapter006/level003/po/train603.pot\n"
 "X-Crowdin-File-ID: 800\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -48,7 +48,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
-msgid "Remote control a robot using an <a object|exchange>information exchange post</a>, so it will pass over the 6 blue waypoints.\n"
+msgid ""
+"Remote control a robot using an <a object|exchange>information exchange post</a>, so it will pass over the 6 blue waypoints.\n"
 "The main actors of this exercise are:"
 msgstr ""
 
@@ -97,7 +98,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:15
 #, no-wrap
-msgid "Order  #1 means \"move\" and order #2 means \"turn\". The parameter is the distance to move or the turning angle. For example to make the slave move 20 meters write:\n"
+msgid ""
+"Order  #1 means \"move\" and order #2 means \"turn\". The parameter is the distance to move or the turning angle. For example to make the slave move 20 meters write:\n"
 "<c/><s/>\t<a cbot|send>send</a>(\"order\",  1, 100);  // order \"move\""
 msgstr ""
 
@@ -110,7 +112,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:19
 #, no-wrap
-msgid "These two instruction send following 2 pieces of information to the exchange post:\n"
+msgid ""
+"These two instruction send following 2 pieces of information to the exchange post:\n"
 "<c/>    order=1\n"
 "    param=20"
 msgstr ""
@@ -118,14 +121,16 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:23
 #, no-wrap
-msgid "The slave robot waits for an order and executes it. Once the order has been executed by the slave, it removes the order from the exchange post. Once an order has been sent, the master must wait for the slave finishing the order before sending the next order. This is done by testing if the order is still inside the exchange post. Just write:\n"
+msgid ""
+"The slave robot waits for an order and executes it. Once the order has been executed by the slave, it removes the order from the exchange post. Once an order has been sent, the master must wait for the slave finishing the order before sending the next order. This is done by testing if the order is still inside the exchange post. Just write:\n"
 "<c/><s/>\twhile ( <a cbot|testinfo>testinfo</a>(\"order\", 100) )  // wait for end of work"
 msgstr ""
 
 #. type: Source code
 #: ../help/help.E.txt:25
 #, no-wrap
-msgid "\t{\n"
+msgid ""
+"\t{\n"
 "\t\twait(1);\n"
 "\t}"
 msgstr ""
@@ -133,16 +138,19 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:29
 #, no-wrap
-msgid "As we must give more than one order its most convenient to write a <a cbot|function>function</a> <code>SendToPost</code>, that sends the order and wait for its completion:\n"
+msgid ""
+"As we must give more than one order its most convenient to write a <a cbot|function>function</a> <code>SendToPost</code>, that sends the order and wait for its completion:\n"
 "<c/><s/>void object::SendToPost(float order, float param)"
 msgstr ""
 
 #. type: Source code
 #: ../help/help.E.txt:31
 #, no-wrap
-msgid "{\n"
+msgid ""
+"{\n"
 "\tsend(\"param\", param, 100);  // send the parameter\n"
-"\tsend(\"order\", order, 100);  // send the order\n\n"
+"\tsend(\"order\", order, 100);  // send the order\n"
+"\n"
 "\twhile ( testinfo(\"order\", 100) )  // wait for end of work\n"
 "\t{\n"
 "\t\twait(1);\n"
@@ -153,7 +161,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:41
 #, no-wrap
-msgid "To move forward by 20 meters, you must write in the main program:\n"
+msgid ""
+"To move forward by 20 meters, you must write in the main program:\n"
 "<c/><s/>\tSendToPost(1, 20);  // move(20);"
 msgstr ""
 
@@ -186,4 +195,3 @@ msgstr "Lásd még"
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
-

@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: colobot\n"
-"X-Crowdin-Project-ID: 624804\n"
-"X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/levels/exercises/chapter004/level002/po/train402.pot\n"
 "X-Crowdin-File-ID: 780\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -90,7 +90,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:12
 #, no-wrap
-msgid "<code>while ( true )\n"
+msgid ""
+"<code>while ( true )\n"
 "{\n"
 "\t</code>instructions...<c/>\n"
 "}"
@@ -117,7 +118,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:21
 #, no-wrap
-msgid "<c/>if ( spot == null )  // no more ?\n"
+msgid ""
+"<c/>if ( spot == null )  // no more ?\n"
 "{\n"
 "\tmotor(0, 0);  // stops the motors\n"
 "\tbreak;        // stops the loop\n"
@@ -151,7 +153,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:33
 #, no-wrap
-msgid "    direction = <code>  0</code> -> speed = <code> 1.0</code>\n"
+msgid ""
+"    direction = <code>  0</code> -> speed = <code> 1.0</code>\n"
 "    direction = <code> 45</code> -> speed = <code> 0.5</code>\n"
 "    direction = <code> 90</code> -> speed = <code> 0.0</code>\n"
 "    direction = <code>135</code> -> speed = <code>-0.5</code>\n"
@@ -179,7 +182,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:43
 #, no-wrap
-msgid "<c/>if ( dir < 0 )  // on the right side?\n"
+msgid ""
+"<c/>if ( dir < 0 )  // on the right side?\n"
 "{\n"
 "\tmotor(1, 1+dir/90);  // turns more or less\n"
 "}"
@@ -194,7 +198,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:49
 #, no-wrap
-msgid "<code>else  // on the left side?\n"
+msgid ""
+"<code>else  // on the left side?\n"
 "{\n"
 "\t</code>up to you to fill in here...<c/>\n"
 "}"
@@ -223,4 +228,3 @@ msgstr ""
 #, no-wrap
 msgid "Repeat forever:"
 msgstr ""
-

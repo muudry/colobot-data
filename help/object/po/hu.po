@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: colobot\n"
-"X-Crowdin-Project-ID: 624804\n"
-"X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/help/object/po/object.pot\n"
 "X-Crowdin-File-ID: 686\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
 
 #. type: \b; header
 #: ../E/ant.txt:1
@@ -84,9 +84,11 @@ msgstr "atomic"
 #. type: Plain text
 #: ../E/atomic.txt:3
 #, no-wrap
-msgid "A nuclear power cell supplies the bots and some buildings with energy.\n"
+msgid ""
+"A nuclear power cell supplies the bots and some buildings with energy.\n"
 "Its capacity is 100 times that of a <a object|power>regular power cell</a>."
-msgstr "A nukleáris energia cella energiával látja el a robotokat és néhány épületet.\n"
+msgstr ""
+"A nukleáris energia cella energiával látja el a robotokat és néhány épületet.\n"
 "Kapacitása 100-szor nagyobb, mint egy <a object|power>normál energiacelláé</a>."
 
 #. type: Plain text
@@ -230,9 +232,11 @@ msgstr "captor"
 #. type: Plain text
 #: ../E/captor.txt:3
 #, no-wrap
-msgid "The power captor acts as both a lightning conductor and a power converter.\n"
+msgid ""
+"The power captor acts as both a lightning conductor and a power converter.\n"
 "It offers protection within a radius of 50 meters against the perilous lightning bolts of magnetic storms. Additionally, when the captor is hit by lightning, all bots and <a object|power>power cells</a> placed underneath, with the exception of the <a object|atomic>nuclear power cells</a>, are recharged."
-msgstr "Az energia elnyelő villámhárítóként és áramátalakítóként is szolgál.\n"
+msgstr ""
+"Az energia elnyelő villámhárítóként és áramátalakítóként is szolgál.\n"
 "50 méteres körzetben védelmet nyújt a mágneses viharok veszélyes villámai ellen. Ezenkívül, ha az elnyelőt villámcsapás éri, a <a object|atomi>nukleáris cellák</a> kivételével az alatta elhelyezett összes bot és <a object|power>energiacella</a> újratöltődik."
 
 #. type: Plain text
@@ -568,12 +572,14 @@ msgstr "infó"
 #. type: Plain text
 #: ../E/exchange.txt:3
 #, no-wrap
-msgid "This building stores digital information. A post can contain up to 10 pieces of information, each one referenced by a name.\n"
+msgid ""
+"This building stores digital information. A post can contain up to 10 pieces of information, each one referenced by a name.\n"
 "For example, a post can contain 3 informations:<c/>\n"
 "\\tab;\"Position.x\"  23.45\n"
 "\\tab;\"Position.y\"  -102.70\n"
 "\\tab;\"Quantity\"    3.00"
-msgstr "Ez az épület digitális információkat tárol. Egy bejegyzés legfeljebb 10 információt tartalmazhat, mindegyikhez egy név tartozik.\n"
+msgstr ""
+"Ez az épület digitális információkat tárol. Egy bejegyzés legfeljebb 10 információt tartalmazhat, mindegyikhez egy név tartozik.\n"
 "Például ez a bejegyzés 3 információt tartalmaz:<c/>\n"
 "\\tab;\"Position.x\"  23.45\n"
 "\\tab;\"Position.y\"  -102.70\n"
@@ -582,9 +588,11 @@ msgstr "Ez az épület digitális információkat tárol. Egy bejegyzés legfelj
 #. type: Plain text
 #: ../E/exchange.txt:9
 #, no-wrap
-msgid "To put new information, you must execute the command <code><a cbot|send>send</a></code>.\n"
+msgid ""
+"To put new information, you must execute the command <code><a cbot|send>send</a></code>.\n"
 "To read information from a post, you must execute the command <code><a cbot|receive>receive</a></code>."
-msgstr "Új információ eltárolásához a <code><a cbot|send>send</a></code> parancsot kell végrehajtani.\n"
+msgstr ""
+"Új információ eltárolásához a <code><a cbot|send>send</a></code> parancsot kell végrehajtani.\n"
 "Egy bejegyzés információinak kiolvasásához a <code><a cbot|receive>receive</a></code> parancsot kell végrehajtani."
 
 #. type: Plain text
@@ -716,12 +724,14 @@ msgstr "A programozás során a botok a zászlókat viszonyítási pontként has
 #. type: Plain text
 #: ../E/flag.txt:15
 #, no-wrap
-msgid "<code>BlueFlag</code>\n"
+msgid ""
+"<code>BlueFlag</code>\n"
 "<code>RedFlag</code>\n"
 "<code>GreenFlag</code>\n"
 "<code>YellowFlag</code>\n"
 "<code>VioletFlag</code>"
-msgstr "<code>BlueFlag</code>\n"
+msgstr ""
+"<code>BlueFlag</code>\n"
 "<code>RedFlag</code>\n"
 "<code>GreenFlag</code>\n"
 "<code>YellowFlag</code>\n"
@@ -1222,9 +1232,11 @@ msgstr "A kutatóközpont egy hatalmas számítógép. Leghasznosabb tulajdonsá
 #. type: Plain text
 #: ../E/research.txt:5
 #, no-wrap
-msgid "The 65'536 processors it contains use up a large amount of energy.\n"
+msgid ""
+"The 65'536 processors it contains use up a large amount of energy.\n"
 "Each research program necessitates a brand new and fully charged <a object|power>power cell</a>"
-msgstr "A benne található 65 536 darab processzor nagy mennyiségű energiát használ fel.\n"
+msgstr ""
+"A benne található 65 536 darab processzor nagy mennyiségű energiát használ fel.\n"
 "Minden kutatási programhoz vadonatúj, teljesen feltöltött <a object|power>energia cella</a> szükséges"
 
 #. type: Plain text
@@ -1982,4 +1994,3 @@ msgstr "Ezek a mérgező zöld gombák apró maró golyókat lövellnek ki, amik
 #, no-wrap
 msgid "<code>GreenMushroom</code>"
 msgstr "<code>GreenMushroom</code>"
-

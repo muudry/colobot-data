@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: colobot\n"
-"X-Crowdin-Project-ID: 624804\n"
-"X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/levels/exercises/chapter007/level003/po/train703.pot\n"
 "X-Crowdin-File-ID: 806\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -90,7 +90,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:14
 #, no-wrap
-msgid "{\n"
+msgid ""
+"{\n"
 "\t<a cbot|int>int</a>    m_type;\n"
 "\t<a cbot|float>float</a>  m_param;\n"
 "}"
@@ -129,7 +130,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:27
 #, no-wrap
-msgid "\t{\n"
+msgid ""
+"\t{\n"
 "\t\tm_fifo[sizeof(m_fifo)] = a;\n"
 "\t}"
 msgstr ""
@@ -149,8 +151,10 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:34
 #, no-wrap
-msgid "\t{\n"
-"\t\tif ( sizeof(m_fifo) == 0 )  return null;\n\n"
+msgid ""
+"\t{\n"
+"\t\tif ( sizeof(m_fifo) == 0 )  return null;\n"
+"\n"
 "\t\torder a = m_fifo[0];\n"
 "\t\torder copy[] = null;\n"
 "\t\tfor ( int i=1 ; i<sizeof(m_fifo) ; i++ )\n"
@@ -177,7 +181,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:50
 #, no-wrap
-msgid "{\n"
+msgid ""
+"{\n"
 "\texchange list();\n"
 "\torder    todo;"
 msgstr ""
@@ -197,7 +202,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:57
 #, no-wrap
-msgid "\t{\n"
+msgid ""
+"\t{\n"
 "\t\t<a cbot|while>while</a> ( true )\n"
 "\t\t{\n"
 "\t\t\ttodo = list.get();\n"
@@ -221,7 +227,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:68
 #, no-wrap
-msgid "\t\t{\n"
+msgid ""
+"\t\t{\n"
 "\t\t\tmove(todo.m_param);\n"
 "\t\t}\n"
 "\t\telse if ( todo.m_type == 2 )\n"
@@ -257,7 +264,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:86
 #, no-wrap
-msgid "{\n"
+msgid ""
+"{\n"
 "\texchange list();\n"
 "\torder    todo();\n"
 "\t\n"
@@ -282,7 +290,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:98
 #, no-wrap
-msgid "{\n"
+msgid ""
+"{\n"
 "\tSendOrder(1, 20);  // move(20);\n"
 "\tSendOrder(2, 90);  // turn(90);\n"
 "\tSendOrder(1, 20);  // move(20);\n"
@@ -318,4 +327,3 @@ msgstr ""
 #, no-wrap
 msgid "The two main actors of this exercise are:"
 msgstr ""
-

@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: colobot\n"
-"X-Crowdin-Project-ID: 624804\n"
-"X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/levels/missions/chapter005/level001/po/scene501.pot\n"
 "X-Crowdin-File-ID: 862\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -84,7 +84,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/report.E.txt:5
 #, no-wrap
-msgid "\\tab;Temperature:      41.3C\n"
+msgid ""
+"\\tab;Temperature:      41.3C\n"
 "\\tab;Atmosphere:       CO2, oxygen, nitrogen\n"
 "\\tab;Wind:             2.3 mps\n"
 "\\tab;Titanium ore:     none\n"
@@ -100,7 +101,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/report.E.txt:12
 #, no-wrap
-msgid "\\tab;Energy source:    everywhere\n"
+msgid ""
+"\\tab;Energy source:    everywhere\n"
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
@@ -114,7 +116,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/report.E.txt:17
 #, no-wrap
-msgid "\\tab;Detected:         reusable derelicts \n"
+msgid ""
+"\\tab;Detected:         reusable derelicts \n"
 "\\tab;Detected:         giant ants\n"
 "\\tab;  - Danger:       not immediate"
 msgstr ""
@@ -164,7 +167,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/soluce.E.txt:13
 #, no-wrap
-msgid "      a) Access the first level by ramp on west;\n"
+msgid ""
+"      a) Access the first level by ramp on west;\n"
 "      b) On first level travel east to find second ramp;\n"
 "      c) On second level travel south to find third ramp;\n"
 "      d) On third level travel west for access to summit;\n"
@@ -182,4 +186,3 @@ msgstr ""
 #, no-wrap
 msgid "<a command>Controls</a>"
 msgstr "<a command>Irányítás</a>"
-

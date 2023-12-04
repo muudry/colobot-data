@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: colobot\n"
-"X-Crowdin-Project-ID: 624804\n"
-"X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/levels/missions/chapter007/level001/po/scene701.pot\n"
 "X-Crowdin-File-ID: 880\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -96,7 +96,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/report.E.txt:5
 #, no-wrap
-msgid "\\tab;Temperature:      23.4C\n"
+msgid ""
+"\\tab;Temperature:      23.4C\n"
 "\\tab;Atmosphere:       oxygen, nitrogen, ammonia\n"
 "\\tab;Wind:             1.2 mps\n"
 "\\tab;Titanium ore:     some\n"
@@ -112,7 +113,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/report.E.txt:12
 #, no-wrap
-msgid "\\tab;Energy source:    none\n"
+msgid ""
+"\\tab;Energy source:    none\n"
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
@@ -126,7 +128,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/report.E.txt:17
 #, no-wrap
-msgid "\\tab;Detected:         giant ants\n"
+msgid ""
+"\\tab;Detected:         giant ants\n"
 "\\tab;  - Danger:       not immediate\n"
 "\\tab;Detected:         reusable derelicts"
 msgstr ""
@@ -202,4 +205,3 @@ msgstr "<a command>Irányítás</a>"
 #, no-wrap
 msgid "You'll find some useful items in a small valley northeast."
 msgstr ""
-

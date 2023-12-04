@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: colobot\n"
-"X-Crowdin-Project-ID: 624804\n"
-"X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/levels/missions/chapter004/level001/po/scene401.pot\n"
 "X-Crowdin-File-ID: 854\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -102,7 +102,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/report.E.txt:5
 #, no-wrap
-msgid "\\tab;Temperature:      5.4C\n"
+msgid ""
+"\\tab;Temperature:      5.4C\n"
 "\\tab;Atmosphere:       nitrogen\n"
 "\\tab;Wind:             0.0 mps\n"
 "\\tab;Titanium ore:     some\n"
@@ -118,7 +119,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/report.E.txt:12
 #, no-wrap
-msgid "\\tab;Energy source:    none\n"
+msgid ""
+"\\tab;Energy source:    none\n"
 "\\tab;Titanium ore:     data not available\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
@@ -132,7 +134,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/report.E.txt:17
 #, no-wrap
-msgid "\\tab;Detected:         unidentified organisms\n"
+msgid ""
+"\\tab;Detected:         unidentified organisms\n"
 "\\tab;  - Danger:       ?"
 msgstr ""
 
@@ -195,4 +198,3 @@ msgstr ""
 #, no-wrap
 msgid "<a command>Controls</a>"
 msgstr "<a command>Irányítás</a>"
-

@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: colobot\n"
-"X-Crowdin-Project-ID: 624804\n"
-"X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/levels/exercises/chapter007/level001/po/train701.pot\n"
 "X-Crowdin-File-ID: 802\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -84,7 +84,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:12
 #, no-wrap
-msgid "{\n"
+msgid ""
+"{\n"
 "\t<a cbot|static>static</a> <a cbot|private>private</a> <a cbot|string>string</a> m_order = \"\";"
 msgstr ""
 
@@ -103,7 +104,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:18
 #, no-wrap
-msgid "\t{\n"
+msgid ""
+"\t{\n"
 "\t\tif ( m_order == \"\" )\n"
 "\t\t{\n"
 "\t\t\tm_order = order;\n"
@@ -131,7 +133,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:33
 #, no-wrap
-msgid "\t{\n"
+msgid ""
+"\t{\n"
 "\t\tstring ret = m_order;\n"
 "\t\tm_order = \"\";\n"
 "\t\treturn ret;\n"
@@ -154,7 +157,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:43
 #, no-wrap
-msgid "{\n"
+msgid ""
+"{\n"
 "\texchange list();\n"
 "\tstring   todo;"
 msgstr ""
@@ -174,7 +178,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:50
 #, no-wrap
-msgid "\t{\n"
+msgid ""
+"\t{\n"
 "\t\t<a cbot|while>while</a> ( true )\n"
 "\t\t{\n"
 "\t\t\ttodo = list.get();\n"
@@ -198,7 +203,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:61
 #, no-wrap
-msgid "\t\t{\n"
+msgid ""
+"\t\t{\n"
 "\t\t\tmove(<a cbot|strval>strval</a>(<a cbot|strmid>strmid</a>(todo,5)));\n"
 "\t\t}\n"
 "\t\tif ( strfind(todo, \"turn\") == 0 )\n"
@@ -230,7 +236,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:75
 #, no-wrap
-msgid "{\n"
+msgid ""
+"{\n"
 "\texchange list();\n"
 "\t\n"
 "\twhile ( list.put(order) == false )\n"
@@ -243,7 +250,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:84
 #, no-wrap
-msgid "The <code>while</code> loop waits until a pending order has been terminated, that is the slaved has exited from the <code>get</code> method.\n"
+msgid ""
+"The <code>while</code> loop waits until a pending order has been terminated, that is the slaved has exited from the <code>get</code> method.\n"
 "Now the main program of the master is very simple:"
 msgstr ""
 
@@ -256,7 +264,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:88
 #, no-wrap
-msgid "{\n"
+msgid ""
+"{\n"
 "\tSendOrder(\"move(20)\");\n"
 "\tSendOrder(\"turn(90)\");\n"
 "\tSendOrder(\"move(20)\");\n"
@@ -292,4 +301,3 @@ msgstr ""
 #, no-wrap
 msgid "The two main actors of this exercise are:"
 msgstr ""
-

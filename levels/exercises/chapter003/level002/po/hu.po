@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: colobot\n"
-"X-Crowdin-Project-ID: 624804\n"
-"X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/levels/exercises/chapter003/level002/po/train302.pot\n"
 "X-Crowdin-File-ID: 762\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -48,21 +48,24 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
-msgid "This exercise is very similar to the previous one. The bot must move exactly in the same way, but when writing the program, you must use a new concept that is extremely important in programming: <a cbot|var>variables</a>.\n"
+msgid ""
+"This exercise is very similar to the previous one. The bot must move exactly in the same way, but when writing the program, you must use a new concept that is extremely important in programming: <a cbot|var>variables</a>.\n"
 "We saw that all the pads are at a distance form each other of 20 meters. And all the rotations performed consist in 90 degree angles. Instead of rewriting the same values over and over again in the program, we can store them in a variable: "
 msgstr ""
 
 #. type: Plain text
 #: ../help/help.E.txt:5
 #, no-wrap
-msgid "Instead of:\n"
+msgid ""
+"Instead of:\n"
 "<c/><s/>\tmove(20);"
 msgstr ""
 
 #. type: Source code
 #: ../help/help.E.txt:7
 #, no-wrap
-msgid "\tturn(90);\n"
+msgid ""
+"\tturn(90);\n"
 "\tmove(20);\n"
 "\tturn(-90);\n"
 "\t..."
@@ -71,14 +74,16 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:12
 #, no-wrap
-msgid "We write :\n"
+msgid ""
+"We write :\n"
 "<c/><s/>\tdist = 20;"
 msgstr ""
 
 #. type: Source code
 #: ../help/help.E.txt:14
 #, no-wrap
-msgid "\tdir = 90;\n"
+msgid ""
+"\tdir = 90;\n"
 "\tmove(dist);\n"
 "\tturn(dir);\n"
 "\tmove(dist);\n"
@@ -179,7 +184,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:43
 #, no-wrap
-msgid "\tfloat  dist;\n"
+msgid ""
+"\tfloat  dist;\n"
 "\tfloat  dir;"
 msgstr ""
 
@@ -192,7 +198,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:48
 #, no-wrap
-msgid "\tdist = 20;\n"
+msgid ""
+"\tdist = 20;\n"
 "\tdir = 90;"
 msgstr ""
 
@@ -205,7 +212,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:53
 #, no-wrap
-msgid "\tmove(dist);\n"
+msgid ""
+"\tmove(dist);\n"
 "\tturn(dir);"
 msgstr ""
 
@@ -218,7 +226,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:58
 #, no-wrap
-msgid "\tmove(dist+100);\n"
+msgid ""
+"\tmove(dist+100);\n"
 "\tturn(-dir);"
 msgstr ""
 
@@ -257,4 +266,3 @@ msgstr ""
 #, no-wrap
 msgid "The type of a variable determines what kind of information the variable can contain. According to the type, a variable can contain a whole number, a real number, a character string, the coordinates of a point, etc. Here is a list with the most common variable types: "
 msgstr ""
-

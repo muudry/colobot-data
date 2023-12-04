@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: colobot\n"
-"X-Crowdin-Project-ID: 624804\n"
-"X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/levels/exercises/chapter006/level002/po/train602.pot\n"
 "X-Crowdin-File-ID: 798\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -66,7 +66,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:7
 #, no-wrap
-msgid "void object::Part(float length)\n"
+msgid ""
+"void object::Part(float length)\n"
 "{\n"
 "\tfor ( int i=0 ; i<2 ; i=i+1 )\n"
 "\t{\n"
@@ -85,7 +86,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:18
 #, no-wrap
-msgid "extern void object::Function2( )\n"
+msgid ""
+"extern void object::Function2( )\n"
 "{\n"
 "\tfloat\trest = 25;\n"
 "\twhile ( rest > 0 )\n"
@@ -131,4 +133,3 @@ msgstr ""
 #, no-wrap
 msgid "Follow the way in form of a spiral. The bot must move 2 times 25m forward and turn, then move 2 times 20m forward and turn, and so on."
 msgstr ""
-

@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: colobot\n"
-"X-Crowdin-Project-ID: 624804\n"
-"X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/levels/exercises/chapter005/level002/po/train502.pot\n"
 "X-Crowdin-File-ID: 790\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -54,7 +54,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:4
 #, no-wrap
-msgid "\tx=10, y=-60\n"
+msgid ""
+"\tx=10, y=-60\n"
 "\tx=10, y=-65\n"
 "\tx=10, y=-70"
 msgstr ""
@@ -110,7 +111,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:20
 #, no-wrap
-msgid "object  metal;\n"
+msgid ""
+"object  metal;\n"
 "metal = radar(Titanium, 0, 360, 0, 1000, -1);\n"
 "if ( metal == null )  return;\n"
 "goto(metal.position);"
@@ -131,7 +133,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:29
 #, no-wrap
-msgid "dest.x = 10;\n"
+msgid ""
+"dest.x = 10;\n"
 "dest.y = -60-5*i;"
 msgstr ""
 
@@ -158,4 +161,3 @@ msgstr ""
 #, no-wrap
 msgid "Repeat 3 times:"
 msgstr ""
-

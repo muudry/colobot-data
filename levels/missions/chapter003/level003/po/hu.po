@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: colobot\n"
-"X-Crowdin-Project-ID: 624804\n"
-"X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/levels/missions/chapter003/level003/po/scene303.pot\n"
 "X-Crowdin-File-ID: 848\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -42,7 +42,8 @@ msgstr "Az irányítóközponttól"
 #. type: Plain text
 #: ../help/help.E.txt:2
 #, no-wrap
-msgid "Terminate all hostile life-form.\n"
+msgid ""
+"Terminate all hostile life-form.\n"
 "Perform the necessary <a object|research>research program</a> in order to develop an offensive weapon system."
 msgstr ""
 
@@ -109,7 +110,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/report.E.txt:5
 #, no-wrap
-msgid "\\tab;Temperature:      29.6C\n"
+msgid ""
+"\\tab;Temperature:      29.6C\n"
 "\\tab;Atmosphere:       helium, oxygen\n"
 "\\tab;Wind:             1.5 mps\n"
 "\\tab;Titanium ore:     none\n"
@@ -125,7 +127,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/report.E.txt:12
 #, no-wrap
-msgid "\\tab;Energy source:    isolated (blue flag)\n"
+msgid ""
+"\\tab;Energy source:    isolated (blue flag)\n"
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
@@ -139,7 +142,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/report.E.txt:17
 #, no-wrap
-msgid "\\tab;Detected:         giant ants\n"
+msgid ""
+"\\tab;Detected:         giant ants\n"
 "\\tab;  - Danger:       not immediate\n"
 "\\tab;Detected:         reusable derelicts"
 msgstr ""
@@ -185,4 +189,3 @@ msgstr ""
 #, no-wrap
 msgid "<a command>Controls</a>"
 msgstr "<a command>Irányítás</a>"
-

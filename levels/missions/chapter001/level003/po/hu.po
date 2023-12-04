@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: colobot\n"
-"X-Crowdin-Project-ID: 624804\n"
-"X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/levels/missions/chapter001/level003/po/scene103.pot\n"
 "X-Crowdin-File-ID: 834\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -222,9 +222,11 @@ msgstr "Távirányítsd mind a <a object|botgc>lánctalpas</a> és a <a object|b
 #. type: Plain text
 #: ../help/soluce.E.txt:18
 #, no-wrap
-msgid "10) Climb aboard the <a object|base>spaceship</a> yourself.\n"
+msgid ""
+"10) Climb aboard the <a object|base>spaceship</a> yourself.\n"
 "11) Take off!"
-msgstr "10) Mássz fel te is az <a object|base>űrhajóra</a>.\n"
+msgstr ""
+"10) Mássz fel te is az <a object|base>űrhajóra</a>.\n"
 "11) Szállj fel!"
 
 #. type: Plain text
@@ -250,4 +252,3 @@ msgstr "Semmilyen tárgy vagy bot nem akadályozza meg a nyolc nagy panelajtó b
 #, no-wrap
 msgid "Here is a detailed breakdown of the operations:"
 msgstr "Íme a műveletek részletes leírása:"
-

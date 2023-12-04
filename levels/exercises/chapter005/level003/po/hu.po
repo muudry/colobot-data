@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: colobot\n"
-"X-Crowdin-Project-ID: 624804\n"
-"X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/levels/exercises/chapter005/level003/po/train503.pot\n"
 "X-Crowdin-File-ID: 792\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -54,7 +54,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:4
 #, no-wrap
-msgid "\tx=10, y=-60\n"
+msgid ""
+"\tx=10, y=-60\n"
 "\tx=10, y=-65"
 msgstr ""
 
@@ -157,14 +158,16 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:27
 #, no-wrap
-msgid "A <code><a cbot|for>for</a></code> loop allows you to repeat 2 times all the instructions.\n"
+msgid ""
+"A <code><a cbot|for>for</a></code> loop allows you to repeat 2 times all the instructions.\n"
 "The titanium ore is not available immediately. You will have to wait until the derrick extracts it. Use a <code><a cbot|do>do</a></code> loop, as follows:"
 msgstr ""
 
 #. type: Source code
 #: ../help/help.E.txt:30
 #, no-wrap
-msgid "do\n"
+msgid ""
+"do\n"
 "{\n"
 "\tobj = radar(TitaniumOre);\n"
 "}\n"
@@ -174,7 +177,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:36
 #, no-wrap
-msgid "After the loop (when the radar has found one titanium ore), you can go to its location <code>obj.position</code> with the instruction <code><a cbot|goto>goto</a></code>. Use the instruction <code><a cbot|grab>grab</a></code> to grab the titanium ore.\n"
+msgid ""
+"After the loop (when the radar has found one titanium ore), you can go to its location <code>obj.position</code> with the instruction <code><a cbot|goto>goto</a></code>. Use the instruction <code><a cbot|grab>grab</a></code> to grab the titanium ore.\n"
 "Use the following instruction in order to find the converter:"
 msgstr ""
 
@@ -187,14 +191,16 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:41
 #, no-wrap
-msgid "After you dropped the ore on the converter, move back 2.5 meters with <code><a cbot|move>move</a>(-2.5)</code>.\n"
+msgid ""
+"After you dropped the ore on the converter, move back 2.5 meters with <code><a cbot|move>move</a>(-2.5)</code>.\n"
 "A second <code>do</code> loop allows you to wait until the titanium cube is available. You must limit the range of the radar to 5m, otherwise you would immediately find the titanium cube that you already dropped on a pad:"
 msgstr ""
 
 #. type: Source code
 #: ../help/help.E.txt:44
 #, no-wrap
-msgid "do\n"
+msgid ""
+"do\n"
 "{\n"
 "\tobj = radar(Titanium, 0, 360, 0, 5);\n"
 "}\n"
@@ -210,7 +216,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:52
 #, no-wrap
-msgid "dest.x = 10;\n"
+msgid ""
+"dest.x = 10;\n"
 "dest.y = -60-5*i;"
 msgstr ""
 
@@ -237,4 +244,3 @@ msgstr ""
 #, no-wrap
 msgid "Repeat two times :"
 msgstr ""
-

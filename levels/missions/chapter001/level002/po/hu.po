@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: colobot\n"
-"X-Crowdin-Project-ID: 624804\n"
-"X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/levels/missions/chapter001/level002/po/scene102.pot\n"
 "X-Crowdin-File-ID: 832\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -128,4 +128,3 @@ msgstr "Ismételd meg az 1) pontot, de a második gombra kattints: <button 160/>
 #, no-wrap
 msgid "As soon as both buildings are completed, the mission is at an end."
 msgstr "A küldetés véget ér mihelyst kész mindkét épület."
-

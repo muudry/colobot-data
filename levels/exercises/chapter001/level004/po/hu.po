@@ -2,42 +2,55 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: colobot\n"
 "POT-Creation-Date: DATE\n"
-"PO-Revision-Date: 2023-11-13 09:39\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2023-12-04 13:20+0100\n"
+"Last-Translator: Mudrony László <muudry@gmail.com>\n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: colobot\n"
-"X-Crowdin-Project-ID: 624804\n"
-"X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/levels/exercises/chapter001/level004/po/train104.pot\n"
 "X-Crowdin-File-ID: 738\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
+"X-Generator: Poedit 3.4.1\n"
 
 #. type: Title-text
 #: ../scene.txt:1
 #, no-wrap
 msgid "Titanium 2"
-msgstr ""
+msgstr "Titánium 2"
 
 #. type: Resume-text
 #: ../scene.txt:2
 #, no-wrap
 msgid "Use the bot's radar to look for the titanium ore and bring it to the converter."
-msgstr ""
+msgstr "A bot radarját használva keresd meg a titánium ércet, és szállítsd a konverterhez."
 
 #. type: ScriptName-text
 #: ../scene.txt:3
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Titanium2"
 msgstr ""
+"extern void object::Titanium2()\n"
+"{\n"
+"\tobject    item;\n"
+"\t\n"
+"\titem = radar(TitaniumOre);\n"
+"\tgoto(item.position);\n"
+"\tgrab();\n"
+"\t\n"
+"\titem = radar(Converter);\n"
+"\tgoto(item.position);\n"
+"\tdrop();\n"
+"}"
 
 #. type: \b; header
 #: ../help/help.E.txt:1
@@ -49,55 +62,87 @@ msgstr "Célkitűzés"
 #: ../help/help.E.txt:2
 #, no-wrap
 msgid "Take a chunk of <a object|titanore>titanium ore</a> the exact location of which we do not know. Use the bot's radar to find it. Bring the titanium ore to the <a object|convert>converter</a>."
-msgstr ""
+msgstr "Fogj egy darab <a object|titanore>titánércet</a>, amelynek pontos helye nem ismert. Használd a bot radarját, hogy megtaláld. Vidd a titánércet az <a object|convert>konverterhez</a>."
 
 #. type: \t; header
 #: ../help/help.E.txt:4
 #, no-wrap
 msgid "Program"
-msgstr ""
+msgstr "Program"
 
 #. type: Plain text
 #: ../help/help.E.txt:5
 #, no-wrap
 msgid "As you have certainly noticed, the programs written in the previous exercises were completely \"blind\": if the titanium ore, the power cell or the spiders had been at another location, the bot would not have found them."
-msgstr ""
+msgstr "Biztos feltűnt, hogy az előző gyakorlatokban írt programok teljesen \"vakok\" voltak: ha a titánérc, az energiacella vagy a pókok más helyen lettek volna, a bot nem találta volna meg őket."
 
 #. type: Plain text
 #: ../help/help.E.txt:7
 #, no-wrap
 msgid "The radar represents the \"eyes\" of the bot. With the radar, it can detect the objects around it. For example the instruction <c/><a cbot|radar>radar</a>(TitaniumOre);<n/> will return information about the closest chunk of <a object|titanore>titanium ore</a>. However, we will have to \"store\" the information returned by the instruction <c/><a cbot|radar>radar</a>(TitaniumOre);<n/> somewhere. For this task we will need a <a cbot|var>variable</a>."
-msgstr ""
+msgstr "A radar a bot \"szemét\" jelképezi. A radar segítségével képes érzékelni a körülötte lévő tárgyakat. Például a <c/><a cbot|radar>radar</a>(TitaniumOre);<n/> utasítás információkat ad vissza az <a object|titanore>titánérc</a> legközelebbi darabjáról. A <c/><a cbot|radar>radar</a>(TitaniumOre);<n/> utasítás által visszaadott információkat azonban valahol „tárolnunk kell”. Ehhez a feladathoz szükségünk lesz egy <a cbot|var>változóra</a>."
 
 #. type: Plain text
 #: ../help/help.E.txt:9
 #, no-wrap
 msgid "A <a cbot|var>variable</a> is like a small box with a name where you can put some information, retrieve it, change it, etc. Before you can use a variable, you have got to declare it. First you must indicate the <a cbot|type>type</a> of the variable, in this case <code>object</code>. A variable of this type can contain all the information describing an object such as a chunk of titanium ore, a spider, an ant, a bot, a power cell, etc. Then you must write the name that you want to give to the variable, for example <code>item</code>. If we put this together, we get the following line:"
-msgstr ""
+msgstr "A <a cbot|var>változó</a> olyan, mint egy kis doboz névvel, ahová elhelyezhetsz valamilyen információt: lekérheted, módosíthatod, stb. Egy változót használat előtt deklarálni kell. Először meg kell adnod a változó <a cbot|type>típusát</a>, jelen esetben az <code>object</code>-t. Egy ilyen típusú változó tartalmazhat minden olyan információt, amely egy objektumot leír, például egy titánércdarabot, egy pókot, egy hangyát, egy botot, egy energiacellát, stb. Ezután le kell írnod a nevet, amelyet a változónak adni szeretnél, például <code>item</code>. Ha ezt összerakjuk, a következő sort kapjuk:"
 
 #. type: Source code
 #: ../help/help.E.txt:11
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "<a cbot|type>object</a> item;"
 msgstr ""
+"extern void object::Darázs1()\n"
+"{\n"
+"\t<a cbot|type>object</a>    item;\n"
+"\t\n"
+"\t<a cbot|aim>aim</a>(0);\n"
+"\t\n"
+"\t<a cbot|while>while</a> (true)\n"
+"\t{\n"
+"\t\t<a cbot|while>while</a> (<a cbot|radar>radar</a>(AlienWasp, 0, 360, 0, 20) == null)\n"
+"\t\t{\n"
+"\t\t\titem = <a cbot|radar>radar</a>(AlienWasp);\n"
+"\t\t\t<a cbot|turn>turn</a>(<a cbot|direct>direction</a>(item.position));\n"
+"\t\t\t<a cbot|motor>motor</a>(1,1);\n"
+"\t\t\t\n"
+"\t\t\t<a cbot|jet>jet</a>(0);\n"
+"\t\t\t<a cbot|if>if</a> (position.z > item.position.z)\n"
+"\t\t\t{\n"
+"\t\t\t\t<a cbot|jet>jet</a>(-0.3);\n"
+"\t\t\t}\n"
+"\t\t\t\n"
+"\t\t\t<a cbot|if>if</a> (position.z < item.position.z - 1)\n"
+"\t\t\t{\n"
+"\t\t\t\t<a cbot|jet>jet</a>(0.3);\n"
+"\t\t\t}\n"
+"\t\t\t\n"
+"\t\t\t<a cbot|wait>wait</a>(0.2);\n"
+"\t\t}\n"
+"\t\titem = <a cbot|radar>radar</a>(AlienWasp);\n"
+"\t\t<a cbot|turn>turn</a>(<a cbot|direct>direction</a>(item.position));\n"
+"\t\t<a cbot|fire>fire</a>(1);\n"
+"\t}\n"
+"}"
 
 #. type: Plain text
 #: ../help/help.E.txt:13
 #, no-wrap
 msgid "Then we must put the information returned by the instruction <code><a cbot|radar>radar</a>(TitaniumOre)</code> into this variable:"
-msgstr ""
+msgstr "Ezután a <code><a cbot|radar>radar</a>(TitaniumOre)</code> utasítás által visszaadott információt ebbe a változóba kell helyeznünk:"
 
 #. type: Source code
 #: ../help/help.E.txt:15
 #, no-wrap
 msgid "item = <a cbot|radar>radar</a>(TitaniumOre);"
-msgstr ""
+msgstr "item = <a cbot|radar>radar</a>(TitaniumOre);"
 
 #. type: Plain text
 #: ../help/help.E.txt:17
 #, no-wrap
 msgid "The variable <code>item</code> contains many different kinds of information: it contains the position, the orientation, the pitch, etc. In order to get the position of the chunk of titanium ore, write <code>item.position</code>. Then we use the instruction <c/>goto();<n/> in order to move the bot to this position. Here is a line that puts all this together:"
-msgstr ""
+msgstr "Az <code>item</code> változó sokféle információt tartalmaz: tartalmazza a pozíciót, a tájolást, a dőlésszög stb. A titánérc darab helyzetét <code>item.position</code> kifejezés beírásával kapod meg.  Ezután a <c/>goto();<n/> utasítást használjuk, hogy a botot ebbe a pozícióba helyezzük. Íme egy sor, amely mindezt összerakja:"
 
 #. type: Source code
 #: ../help/help.E.txt:19
@@ -126,7 +171,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:27
 #, no-wrap
-msgid "extern void object::Titanium2( )\n"
+msgid ""
+"extern void object::Titanium2( )\n"
 "{\n"
 "\t\n"
 "\t<a cbot|type>object</a> item;\n"
@@ -159,13 +205,13 @@ msgstr ""
 #: ../help/help.E.txt:43
 #, no-wrap
 msgid "If you want to know more about the \"names\" of the different objects in the programming language, please refer to the <a cbot|category>text about categories</a>."
-msgstr ""
+msgstr "Ha többet szeretnél megtudni a különböző objektumok \"neveiről\" a programozási nyelvben, kérjük, olvasd el a <a cbot|category>kategóriákról szóló szöveget</a>."
 
 #. type: \t; header
 #: ../help/help.E.txt:45
 #, no-wrap
 msgid "Remarks"
-msgstr ""
+msgstr "Megjegyzések"
 
 #. type: Plain text
 #: ../help/help.E.txt:46
@@ -189,5 +235,4 @@ msgstr "Lásd még"
 #: ../help/help.E.txt:51
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
-msgstr ""
-
+msgstr "<a cbot>Programozás</a>, <a cbot|type>típusok</a> és <a cbot|category>kategóriák</a>."

@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: colobot\n"
-"X-Crowdin-Project-ID: 624804\n"
-"X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/levels/exercises/chapter003/level003/po/train303.pot\n"
 "X-Crowdin-File-ID: 764\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -120,7 +120,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:20
 #, no-wrap
-msgid "<c/>extern void object::Massacre( )\n"
+msgid ""
+"<c/>extern void object::Massacre( )\n"
 "{\n"
 "\tfor ( int i=0 ; i<6 ; i=i+1 )\n"
 "\t{\n"
@@ -192,7 +193,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:43
 #, no-wrap
-msgid "extern void object::massacre( )\n"
+msgid ""
+"extern void object::massacre( )\n"
 "{\n"
 "\t<n/>fill in here ...<c/>\n"
 "}"
@@ -201,7 +203,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:48
 #, no-wrap
-msgid "Never change these characters. Just add the instructions of the program between the braces.\n"
+msgid ""
+"Never change these characters. Just add the instructions of the program between the braces.\n"
 "You can fit several blocks one into the other. For example the <code>for</code> block is fitted into the block of the whole program. In order to improve readability, the editor lines up the braces belonging to the different blocks."
 msgstr ""
 
@@ -214,7 +217,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:52
 #, no-wrap
-msgid "The instruction used to move forward is <c/><a cbot|move>move</a>();<n/>.\n"
+msgid ""
+"The instruction used to move forward is <c/><a cbot|move>move</a>();<n/>.\n"
 "The instruction used to turn the bot is <c/><a cbot|turn>turn</a>();<n/>. A positive angle turns left.\n"
 "The instruction used to fire the cannon is <c/><a cbot|fire>fire</a>(1);<n/>. A one-second burst allows to destroy all six <a object|bottarg>targets</a>."
 msgstr ""
@@ -234,7 +238,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:5
 #, no-wrap
-msgid "The program must execute the following scheme:\n"
+msgid ""
+"The program must execute the following scheme:\n"
 "Repeat 6 times :"
 msgstr ""
 
@@ -243,4 +248,3 @@ msgstr ""
 #, no-wrap
 msgid "The instruction <code><a cbot|for>for</a></code> asks for 3 expressions:"
 msgstr ""
-

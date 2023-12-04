@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: colobot\n"
-"X-Crowdin-Project-ID: 624804\n"
-"X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/levels/challenges/chapter004/level002/po/defi402.pot\n"
 "X-Crowdin-File-ID: 728\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -72,7 +72,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:9
 #, no-wrap
-msgid "<code><a cbot|for>for</a></code> loop to repeat some instructions\n"
+msgid ""
+"<code><a cbot|for>for</a></code> loop to repeat some instructions\n"
 "<code><a cbot|move>move</a></code> to move the bot\n"
 "<code><a cbot|turn>turn</a></code> to turn the bot"
 msgstr ""
@@ -94,4 +95,3 @@ msgstr ""
 #, no-wrap
 msgid "Follow the way in form of a spiral. The bot must move 2 times 25m forward and turn, then move 2 times 20m forward and turn, and so on."
 msgstr ""
-

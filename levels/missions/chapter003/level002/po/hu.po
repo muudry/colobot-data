@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: colobot\n"
-"X-Crowdin-Project-ID: 624804\n"
-"X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/levels/missions/chapter003/level002/po/scene302.pot\n"
 "X-Crowdin-File-ID: 846\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -72,7 +72,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:12
 #, no-wrap
-msgid "This is all we can say for now...\n"
+msgid ""
+"This is all we can say for now...\n"
 "Good Luck..."
 msgstr ""
 
@@ -153,4 +154,3 @@ msgstr ""
 #, no-wrap
 msgid "Cross the second lake, get aboard the spaceship, and take off."
 msgstr ""
-

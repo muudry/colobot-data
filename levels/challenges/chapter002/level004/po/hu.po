@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: colobot\n"
-"X-Crowdin-Project-ID: 624804\n"
-"X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/levels/challenges/chapter002/level004/po/defi204.pot\n"
 "X-Crowdin-File-ID: 718\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -102,7 +102,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:14
 #, no-wrap
-msgid "In order to detect a mine with the <code><a cbot|radar>radar</a></code>, we recommend the following parameters:\n"
+msgid ""
+"In order to detect a mine with the <code><a cbot|radar>radar</a></code>, we recommend the following parameters:\n"
 "<c/><s/>\tradar(Mine, 0, 180, 0, 5);<n/>\n"
 "With the opening angle of 180 degrees, mines that are behind the bot will not be found. Mines that are at more than 5 meters are also ignored."
 msgstr ""
@@ -110,7 +111,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:18
 #, no-wrap
-msgid "In order to find a blue cross, simply write:\n"
+msgid ""
+"In order to find a blue cross, simply write:\n"
 "<c/><s/>\tradar(WayPoint);<n/>\n"
 "Blue crosses will be found everywhere."
 msgstr ""
@@ -118,7 +120,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:22
 #, no-wrap
-msgid "In order to calculate a direction, use <code><a cbot|direct>direction</a></code>.\n"
+msgid ""
+"In order to calculate a direction, use <code><a cbot|direct>direction</a></code>.\n"
 "In order to set the motor speeds, use <code><a cbot|motor>motor</a></code>."
 msgstr ""
 
@@ -139,4 +142,3 @@ msgstr ""
 #, no-wrap
 msgid "\tRepeat forever:"
 msgstr ""
-

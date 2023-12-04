@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: colobot\n"
-"X-Crowdin-Project-ID: 624804\n"
-"X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/levels/challenges/chapter003/level001/po/defi301.pot\n"
 "X-Crowdin-File-ID: 722\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -54,7 +54,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:4
 #, no-wrap
-msgid "\tx=10, y=-60\n"
+msgid ""
+"\tx=10, y=-60\n"
 "\tx=10, y=-65"
 msgstr ""
 
@@ -157,7 +158,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:27
 #, no-wrap
-msgid "<code><a cbot|for>for</a></code> to repeat some instructions\n"
+msgid ""
+"<code><a cbot|for>for</a></code> to repeat some instructions\n"
 "<code><a cbot|do>do - while</a></code> to repeat some instructions\n"
 "<code><a cbot|radar>radar</a></code> to look for different objects\n"
 "<code><a cbot|goto>goto</a></code> to move the bot\n"
@@ -182,4 +184,3 @@ msgstr ""
 #, no-wrap
 msgid "Repeat two times :"
 msgstr ""
-

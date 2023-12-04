@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: colobot\n"
-"X-Crowdin-Project-ID: 624804\n"
-"X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/levels/exercises/chapter003/level005/po/train305.pot\n"
 "X-Crowdin-File-ID: 768\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -120,14 +120,16 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:19
 #, no-wrap
-msgid "<c/>\tdir = receive(\"Direction\");\n"
+msgid ""
+"<c/>\tdir = receive(\"Direction\");\n"
 "<c/>\tlen = receive(\"Length\");"
 msgstr ""
 
 #. type: Plain text
 #: ../help/help.E.txt:22
 #, no-wrap
-msgid "A variable of the <a cbot|type>type</a> <code><a cbot|float>float</a></code> can take a special value called <code><a cbot|nan>nan</a></code>. This value means that the variable contains no number (Not A Number).\n"
+msgid ""
+"A variable of the <a cbot|type>type</a> <code><a cbot|float>float</a></code> can take a special value called <code><a cbot|nan>nan</a></code>. This value means that the variable contains no number (Not A Number).\n"
 "When there is no <a object|exchange>exchange post</a> nearby, either because the bot has reached the goal, or because it took the wrong way, the two variables <code>dir</code> and <code>len</code> contain this value. You can test this with the instruction <code><a cbot|if>if</a></code>, and stop the program if necessary with the instruction <code><a cbot|break>break</a></code>:"
 msgstr ""
 
@@ -190,4 +192,3 @@ msgstr ""
 #, no-wrap
 msgid "\tRepeat forever:"
 msgstr ""
-

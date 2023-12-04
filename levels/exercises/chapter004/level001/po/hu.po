@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: colobot\n"
-"X-Crowdin-Project-ID: 624804\n"
-"X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/levels/exercises/chapter004/level001/po/train401.pot\n"
 "X-Crowdin-File-ID: 778\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
 
 #. type: Title-text, ScriptName-text
 #: ../scene.txt:1 ../scene.txt:3
@@ -78,7 +78,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:14
 #, no-wrap
-msgid " 0 = stop\n"
+msgid ""
+" 0 = stop\n"
 " 1 = full throttle forward"
 msgstr ""
 
@@ -103,7 +104,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:22
 #, no-wrap
-msgid "In order to move forward for exactly 25 meters and not more, you must move full speed during the first 23 meters, then reduce the speed of the motors progressively during the last two meters.\n"
+msgid ""
+"In order to move forward for exactly 25 meters and not more, you must move full speed during the first 23 meters, then reduce the speed of the motors progressively during the last two meters.\n"
 "The <a cbot|var>variable</a> <a cbot|object>position</a> gives you at any moment the current position of the bot, and the instruction <c/><a cbot|dist>distance</a>( , );<n/> returns the distance between two points. The best way to know where you are consists in saving the current position before the start into a <a cbot|var>variable</a>, for example a variable called <code>start</code>. Then you can calculate the distance between the starting position and your current position with <code>distance(position, start)</code>."
 msgstr ""
 
@@ -122,7 +124,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:27
 #, no-wrap
-msgid "<c/>\tpoint start;\n"
+msgid ""
+"<c/>\tpoint start;\n"
 "\tfloat len;"
 msgstr ""
 
@@ -159,7 +162,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:37
 #, no-wrap
-msgid "<c/>\twhile ( true )\n"
+msgid ""
+"<c/>\twhile ( true )\n"
 "\t{\n"
 "\t\tlen = distance(position, start);\n"
 "\t\tif ( len > 25-2 )\n"
@@ -264,4 +268,3 @@ msgstr ""
 #, no-wrap
 msgid "In order to slow down progressively, the speed of the motors must be proportional to the remaining distance:"
 msgstr ""
-

@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: colobot\n"
-"X-Crowdin-Project-ID: 624804\n"
-"X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/levels/exercises/chapter004/level005/po/train405.pot\n"
 "X-Crowdin-File-ID: 786\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -90,7 +90,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:12
 #, no-wrap
-msgid "<code>while (true)\n"
+msgid ""
+"<code>while (true)\n"
 "{\n"
 "\t</code>instructions to be repeated ...<c/>\n"
 "}"
@@ -129,7 +130,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:25
 #, no-wrap
-msgid "If the distance to the target bot is smaller than 5m, move backward with a speed inversely proportional to the distance: the closer you are to the bot, the faster you must move backward.\n"
+msgid ""
+"If the distance to the target bot is smaller than 5m, move backward with a speed inversely proportional to the distance: the closer you are to the bot, the faster you must move backward.\n"
 "\tDistance = 5.0 meters -> speed =  0.0\n"
 "\tDistance = 2.5 meters -> speed = -0.5\n"
 "\tDistance = 0.0 meters -> speed = -1.0\n"
@@ -139,7 +141,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:30
 #, no-wrap
-msgid "<c/>if ( len < 5 )  // too close ?\n"
+msgid ""
+"<c/>if ( len < 5 )  // too close ?\n"
 "{\n"
 "\tmotor(len/5-1, len/5-1);  // moves backward\n"
 "}"
@@ -154,7 +157,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:36
 #, no-wrap
-msgid "<c/>else\n"
+msgid ""
+"<c/>else\n"
 "{\n"
 "\tdir = direction(target.position);\n"
 "\tif ( dir >= 0 )  // target on the left side?\n"
@@ -171,7 +175,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:49
 #, no-wrap
-msgid "When the target is on your left, <code>dir</code> takes a positive value, ranging between 0 and 180. The <a cbot|expr>expression</a> <code>1-dir/90</code> returns a speed ranging between 1 and -1, according to the direction:\n"
+msgid ""
+"When the target is on your left, <code>dir</code> takes a positive value, ranging between 0 and 180. The <a cbot|expr>expression</a> <code>1-dir/90</code> returns a speed ranging between 1 and -1, according to the direction:\n"
 "\tdirection =   0 -> speed =  1.0\n"
 "\tdirection =  45 -> speed =  0.5\n"
 "\tdirection =  90 -> speed =  0.0\n"
@@ -214,4 +219,3 @@ msgstr ""
 #, no-wrap
 msgid "Repeat forever :"
 msgstr ""
-

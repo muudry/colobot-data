@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: colobot\n"
-"X-Crowdin-Project-ID: 624804\n"
-"X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/levels/exercises/chapter003/level008/po/train308.pot\n"
 "X-Crowdin-File-ID: 774\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -78,7 +78,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:10
 #, no-wrap
-msgid "for ( int y=0 ; y<6 ; y=y+1 )\n"
+msgid ""
+"for ( int y=0 ; y<6 ; y=y+1 )\n"
 "{\n"
 "\tfor ( int x=0 ; x<5 ; x=x+1 )\n"
 "\t{\n"
@@ -95,7 +96,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:23
 #, no-wrap
-msgid "This program works well only at the beginning. After the first line, the bot turns correctly left and sounds the second line. But after the second line, it must turn right!\n"
+msgid ""
+"This program works well only at the beginning. After the first line, the bot turns correctly left and sounds the second line. But after the second line, it must turn right!\n"
 "You will have noticed that if <code>y</code> is even, the bot must turn left, and if <code>y</code> is odd, the bot must turn right.\n"
 "The <a cbot|expr>expression</a> <code>y%2</code> returns the rest of the division of <code>y</code> by <code>2</code>. For example, if <code>y=3</code>, the expression returns <code>1</code>.\n"
 "The test <code><a cbot|if>if</a> { }</code> can be followed by a <code>else { }</code>. If the test is true, the first <a cbot|bloc>block</a> <code>{ }</code> will be executed. Otherwise, the second block <code>{ }</code> will be executed."
@@ -104,7 +106,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:28
 #, no-wrap
-msgid "if ( y%2 == 0 )\n"
+msgid ""
+"if ( y%2 == 0 )\n"
 "{\n"
 "\ty <n/>is even<code>\n"
 "}\n"
@@ -143,4 +146,3 @@ msgstr "Lásd még"
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
-

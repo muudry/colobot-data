@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: colobot\n"
-"X-Crowdin-Project-ID: 624804\n"
-"X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/levels/plus/chapter006/level002/po/plus602.pot\n"
 "X-Crowdin-File-ID: 934\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -96,7 +96,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/report.E.txt:5
 #, no-wrap
-msgid "\\tab;Temperature:      82.7C\n"
+msgid ""
+"\\tab;Temperature:      82.7C\n"
 "\\tab;Atmosphere:       CO2, SO2, HCN, HS, CH4, NH3\n"
 "\\tab;Wind:             1.2 mps\n"
 "\\tab;Titanium ore:     some\n"
@@ -112,7 +113,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/report.E.txt:12
 #, no-wrap
-msgid "\\tab;Energy source:    in some places (elevated)\n"
+msgid ""
+"\\tab;Energy source:    in some places (elevated)\n"
 "\\tab;Titanium ore:     some (blue flag)\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
@@ -126,8 +128,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/report.E.txt:17
 #, no-wrap
-msgid "\\tab;Detected:         giant spiders\n"
+msgid ""
+"\\tab;Detected:         giant spiders\n"
 "\\tab;  - Danger:       not immediate\n"
 "\\tab;Detected:         reusable derelicts"
 msgstr ""
-

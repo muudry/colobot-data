@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: colobot\n"
-"X-Crowdin-Project-ID: 624804\n"
-"X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/help/bots/po/bots.pot\n"
 "X-Crowdin-File-ID: 680\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
 
 #. type: \b; header
 #: ../E/botfc.txt:1
@@ -222,11 +222,13 @@ msgstr "Lánctalpas bot, egy munkavégzésre alkalmas karral felszerelve."
 #. type: Plain text
 #: ../E/botgc.txt:5 ../E/botgj.txt:5 ../E/botgr.txt:5 ../E/botgs.txt:5
 #, no-wrap
-msgid "<button 32/> Grabs an object or lays it down again, at a position that is determined by one of the following options :\n"
+msgid ""
+"<button 32/> Grabs an object or lays it down again, at a position that is determined by one of the following options :\n"
 "<button 33/> The object is lying in front of the bot, on the ground or on the back of a second bot.\n"
 "<button 35/> The object is the bot's own power cell.\n"
 "<button 34/> The object is lying behind the bot, on the ground."
-msgstr "<button 32/> Megragad egy tárgyat, vagy újra lerakja egy olyan helyre, az alábbi lehetőségetk szerint:\n"
+msgstr ""
+"<button 32/> Megragad egy tárgyat, vagy újra lerakja egy olyan helyre, az alábbi lehetőségetk szerint:\n"
 "<button 33/> A tárgy a bot előtt fekszik, vagy a földön, vagy egy másik robot hátán.\n"
 "<button 35/> A tárgy a bot saját energiacellája.\n"
 "<button 34/> A tárgy a bot mögött, a földön fekszik."
@@ -972,7 +974,8 @@ msgstr "Lánctalpas bot, ami egy neutron ágyúval van felszerelve."
 #. type: Plain text
 #: ../E/botbc.txt:5 ../E/botbj.txt:5 ../E/botbr.txt:5 ../E/botbs.txt:5
 #, no-wrap
-msgid "<button 196/> Opens a build menu with the following options :\n"
+msgid ""
+"<button 196/> Opens a build menu with the following options :\n"
 "<button 160/>   <code><a object|factory>BotFactory</a>       </code>Robot Factory\n"
 "<button 163/>   <code><a object|research>ResearchCenter</a>   </code>Research Center\n"
 "<button 168/>   <code><a object|radar>RadarStation</a>     </code>Radar\n"
@@ -987,7 +990,8 @@ msgid "<button 196/> Opens a build menu with the following options :\n"
 "<button 161/>   <code><a object|derrick>Derrick</a>          </code>Derrick\n"
 "<button 174/>   <code><a object|captor>PowerCaptor</a>      </code>Parabolic Lightning Conductor\n"
 "<button 175/>   <code><a object|safe>Vault</a>            </code>Vault"
-msgstr "<button 196/> Megnyiti az épírés menüt, ami az alábbi lehetőségeket tartalmazza:\n"
+msgstr ""
+"<button 196/> Megnyiti az épírés menüt, ami az alábbi lehetőségeket tartalmazza:\n"
 "<button 160/>   <code><a object|factory>BotFactory</a>       </code>Robot gyár\n"
 "<button 163/>   <code><a object|research>ResearchCenter</a>   </code>Kutatóközpont\n"
 "<button 168/>   <code><a object|radar>RadarStation</a>     </code>Radar\n"
@@ -1110,4 +1114,3 @@ msgstr "Egy lábas építő mozgás közben feleannyi energiát fogyaszt, mint e
 #, no-wrap
 msgid "<code>LeggedBuilder</code>"
 msgstr "<code>LeggedBuilder</code>"
-

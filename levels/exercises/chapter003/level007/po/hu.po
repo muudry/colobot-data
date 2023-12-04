@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: colobot\n"
-"X-Crowdin-Project-ID: 624804\n"
-"X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/levels/exercises/chapter003/level007/po/train307.pot\n"
 "X-Crowdin-File-ID: 772\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -84,7 +84,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:10
 #, no-wrap
-msgid "<code>while ( true )\n"
+msgid ""
+"<code>while ( true )\n"
 "{\n"
 "\t</code>If there is nothing in front, move forward<code>\n"
 "\t</code>If there is nothing on your left hand, turn left<code>\n"
@@ -101,7 +102,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:18
 #, no-wrap
-msgid "<c/>if ( front == null )\n"
+msgid ""
+"<c/>if ( front == null )\n"
 "{\n"
 "\tmove(5);\n"
 "\tcontinue;\n"
@@ -123,10 +125,13 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:27
 #, no-wrap
-msgid "object   front, left, right;\n\n"
+msgid ""
+"object   front, left, right;\n"
+"\n"
 "front = radar(Barrier,   0, 45, 0, 5);\n"
 "left  = radar(Barrier,  90, 45, 0, 5);\n"
-"right = radar(Barrier, -90, 45, 0, 5);\n\n"
+"right = radar(Barrier, -90, 45, 0, 5);\n"
+"\n"
 "if ( front == null )\n"
 "{\n"
 "\tmove(5);\n"
@@ -169,4 +174,3 @@ msgstr "Lásd még"
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
-

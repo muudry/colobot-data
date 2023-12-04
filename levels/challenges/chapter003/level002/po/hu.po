@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: colobot\n"
-"X-Crowdin-Project-ID: 624804\n"
-"X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/levels/challenges/chapter003/level002/po/defi302.pot\n"
 "X-Crowdin-File-ID: 724\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -60,7 +60,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:5
 #, no-wrap
-msgid "<code><a cbot|radar>radar</a></code> to find the titanium cube (category <code><a object|titan>Titanium</a></code>)\n"
+msgid ""
+"<code><a cbot|radar>radar</a></code> to find the titanium cube (category <code><a object|titan>Titanium</a></code>)\n"
 "<code><a cbot|goto>goto</a></code> to move the bot\n"
 "<code><a cbot|grab>grab</a></code> to grab an object\n"
 "<code><a cbot|drop>drop</a></code> to drop an object"
@@ -77,4 +78,3 @@ msgstr "Lásd még"
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
-

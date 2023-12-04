@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: colobot\n"
-"X-Crowdin-Project-ID: 624804\n"
-"X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/levels/challenges/chapter002/level003/po/defi203.pot\n"
 "X-Crowdin-File-ID: 716\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -72,7 +72,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:8
 #, no-wrap
-msgid "<code><a cbot|radar>radar</a></code> to detect your enemies (category <code><a object|ant>AlienAnt</a></code>)\n"
+msgid ""
+"<code><a cbot|radar>radar</a></code> to detect your enemies (category <code><a object|ant>AlienAnt</a></code>)\n"
 "<code><a cbot|direct>direction</a></code> to calculate a direction\n"
 "<code><a cbot|dist>distance</a></code> to calculate a distance\n"
 "<code><a cbot|fire>fire</a></code> to fire your cannon\n"
@@ -90,4 +91,3 @@ msgstr "Lásd még"
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
-

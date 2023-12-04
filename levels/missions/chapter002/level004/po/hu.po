@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: colobot\n"
-"X-Crowdin-Project-ID: 624804\n"
-"X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/levels/missions/chapter002/level004/po/scene204.pot\n"
 "X-Crowdin-File-ID: 842\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -126,7 +126,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/report.E.txt:5
 #, no-wrap
-msgid "\\tab;Temperature:      -38.2°C\n"
+msgid ""
+"\\tab;Temperature:      -38.2°C\n"
 "\\tab;Atmosphere:       none\n"
 "\\tab;Wind:             0.0 mps\n"
 "\\tab;Titanium ore:     none\n"
@@ -142,7 +143,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/report.E.txt:12
 #, no-wrap
-msgid "\\tab;Energy source:    everywhere\n"
+msgid ""
+"\\tab;Energy source:    everywhere\n"
 "\\tab;Titanium ore:     none\n"
 "\\tab;Uranium ore:      none"
 msgstr ""
@@ -206,4 +208,3 @@ msgstr ""
 #, no-wrap
 msgid "<a command>Controls</a>"
 msgstr "<a command>Irányítás</a>"
-

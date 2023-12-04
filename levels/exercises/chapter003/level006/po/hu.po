@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: colobot\n"
-"X-Crowdin-Project-ID: 624804\n"
-"X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/levels/exercises/chapter003/level006/po/train306.pot\n"
 "X-Crowdin-File-ID: 770\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -174,7 +174,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:35
 #, no-wrap
-msgid "<c/>\tfront = radar(Barrier,   0, 45, 0, 5);\n"
+msgid ""
+"<c/>\tfront = radar(Barrier,   0, 45, 0, 5);\n"
 "\tleft  = radar(Barrier,  90, 45, 0, 5);\n"
 "\tright = radar(Barrier, -90, 45, 0, 5);"
 msgstr ""
@@ -194,7 +195,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:41
 #, no-wrap
-msgid "<c/>if ( front == null )\n"
+msgid ""
+"<c/>if ( front == null )\n"
 "{\n"
 "\tmove(5);\n"
 "\treturn;\n"
@@ -210,7 +212,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:48
 #, no-wrap
-msgid "<c/>if ( left == null )\n"
+msgid ""
+"<c/>if ( left == null )\n"
 "{\n"
 "\tturn(90);\n"
 "\tmove(5);\n"
@@ -259,4 +262,3 @@ msgstr ""
 #, no-wrap
 msgid "The program must only take care of one square portion of the labyrinth. You will have to execute it several times in order to arrive at the finishing pad."
 msgstr ""
-

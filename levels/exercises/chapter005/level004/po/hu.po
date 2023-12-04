@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: colobot\n"
-"X-Crowdin-Project-ID: 624804\n"
-"X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/levels/exercises/chapter005/level004/po/train504.pot\n"
 "X-Crowdin-File-ID: 794\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -60,21 +60,24 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:5
 #, no-wrap
-msgid "The winged bot can get across obstacles. The instruction <code><a cbot|goto>goto</a></code>, if performed on a winged bot, will automatically perform a flying move, with a take-off at the beginning, and a landing at the end.\n"
+msgid ""
+"The winged bot can get across obstacles. The instruction <code><a cbot|goto>goto</a></code>, if performed on a winged bot, will automatically perform a flying move, with a take-off at the beginning, and a landing at the end.\n"
 "This instruction can actually receive a second parameter, which is not compulsory: the flying altitude. If no second parameter is given, the flying altitude will be set to the default value of 10m."
 msgstr ""
 
 #. type: Plain text
 #: ../help/help.E.txt:8
 #, no-wrap
-msgid "Therefore, the instruction:\n"
+msgid ""
+"Therefore, the instruction:\n"
 "<c/><s/>goto(item.position);<n/>"
 msgstr ""
 
 #. type: Plain text
 #: ../help/help.E.txt:11
 #, no-wrap
-msgid "Is equivalent to:\n"
+msgid ""
+"Is equivalent to:\n"
 "<c/><s/>goto(item.position, 10);<n/>"
 msgstr ""
 
@@ -93,7 +96,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:17
 #, no-wrap
-msgid "object  item;\n"
+msgid ""
+"object  item;\n"
 "item = radar(Titanium);\n"
 "if ( item == null )  return;\n"
 "goto(item.position);"
@@ -120,7 +124,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:28
 #, no-wrap
-msgid "We know the coordinates of the finishing pad: x=10 et y=-60. You must declare a <a cbot|var>variable</a> of the type <a cbot|point>point</a>, then fill it with the right coordinates. Then you can give this variable as a parameter to the instruction <code><a cbot|goto>goto</a></code>.\n"
+msgid ""
+"We know the coordinates of the finishing pad: x=10 et y=-60. You must declare a <a cbot|var>variable</a> of the type <a cbot|point>point</a>, then fill it with the right coordinates. Then you can give this variable as a parameter to the instruction <code><a cbot|goto>goto</a></code>.\n"
 "Remark: You do not have to take care of the <code>z</code> coordinate in the case of a bot that can not fly."
 msgstr ""
 
@@ -141,4 +146,3 @@ msgstr "Lásd még"
 #, no-wrap
 msgid "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
-

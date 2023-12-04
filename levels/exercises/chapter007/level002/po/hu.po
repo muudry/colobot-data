@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: colobot\n"
-"X-Crowdin-Project-ID: 624804\n"
-"X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/levels/exercises/chapter007/level002/po/train702.pot\n"
 "X-Crowdin-File-ID: 804\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -84,7 +84,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:12
 #, no-wrap
-msgid "{\n"
+msgid ""
+"{\n"
 "\t<a cbot|int>int</a>    m_type = <a cbot|nan>nan</a>;\n"
 "\t<a cbot|float>float</a>  m_param;\n"
 "}"
@@ -105,7 +106,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:20
 #, no-wrap
-msgid "{\n"
+msgid ""
+"{\n"
 "\t<a cbot|static>static</a> <a cbot|private>private</a> order m_order = new order;"
 msgstr ""
 
@@ -124,7 +126,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:26
 #, no-wrap
-msgid "\t{\n"
+msgid ""
+"\t{\n"
 "\t\tif ( m_order.m_type == nan )\n"
 "\t\t{\n"
 "\t\t\tm_order = a;\n"
@@ -152,7 +155,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:41
 #, no-wrap
-msgid "\t{\n"
+msgid ""
+"\t{\n"
 "\t\treturn m_order;\n"
 "\t}"
 msgstr ""
@@ -172,7 +176,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:48
 #, no-wrap
-msgid "\t{\n"
+msgid ""
+"\t{\n"
 "\t\tm_order.m_type = nan;\n"
 "\t}\n"
 "}"
@@ -193,7 +198,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:56
 #, no-wrap
-msgid "{\n"
+msgid ""
+"{\n"
 "\texchange list();\n"
 "\torder    todo;"
 msgstr ""
@@ -213,7 +219,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:63
 #, no-wrap
-msgid "\t{\n"
+msgid ""
+"\t{\n"
 "\t\t<a cbot|while>while</a> ( true )\n"
 "\t\t{\n"
 "\t\t\ttodo = list.get();\n"
@@ -237,7 +244,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:74
 #, no-wrap
-msgid "\t\t{\n"
+msgid ""
+"\t\t{\n"
 "\t\t\tmove(todo.m_param);\n"
 "\t\t}\n"
 "\t\telse if ( todo.m_type == 2 )\n"
@@ -265,7 +273,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:89
 #, no-wrap
-msgid "\t}\n"
+msgid ""
+"\t}\n"
 "}"
 msgstr ""
 
@@ -290,7 +299,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:96
 #, no-wrap
-msgid "{\n"
+msgid ""
+"{\n"
 "\texchange list();\n"
 "\torder    todo();\n"
 "\t\n"
@@ -307,7 +317,8 @@ msgstr ""
 #. type: Plain text
 #: ../help/help.E.txt:109
 #, no-wrap
-msgid "The <code>while</code> loop waits until a pending order has been terminated, that is the slaved has exited from the <code>get</code> method and the <code>delete</code> method has been called.\n"
+msgid ""
+"The <code>while</code> loop waits until a pending order has been terminated, that is the slaved has exited from the <code>get</code> method and the <code>delete</code> method has been called.\n"
 "Now the main program of the master is very simple:"
 msgstr ""
 
@@ -320,7 +331,8 @@ msgstr ""
 #. type: Source code
 #: ../help/help.E.txt:113
 #, no-wrap
-msgid "{\n"
+msgid ""
+"{\n"
 "\tSendOrder(1, 20);  // move(20);\n"
 "\tSendOrder(2, 90);  // turn(90);\n"
 "\tSendOrder(1, 20);  // move(20);\n"
@@ -356,4 +368,3 @@ msgstr ""
 #, no-wrap
 msgid "The two main actors of this exercise are:"
 msgstr ""
-

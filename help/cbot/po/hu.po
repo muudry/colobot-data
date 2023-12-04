@@ -15,11 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: colobot\n"
-"X-Crowdin-Project-ID: 624804\n"
-"X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/help/cbot/po/cbot.pot\n"
 "X-Crowdin-File-ID: 682\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: colobot\n"
+"X-Crowdin-Project-ID: 624804\n"
 
 #. type: \b; header
 #: ../E/abstime.txt:1
@@ -126,7 +126,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/aim.txt:19
 #, no-wrap
-msgid "Zero if everything is OK, a value different from zero if the rotation could not be performed: \n"
+msgid ""
+"Zero if everything is OK, a value different from zero if the rotation could not be performed: \n"
 "<code>== 0 </code>The gun has now got the desired orientation\n"
 "<code>!= 0 </code>rotation impossible"
 msgstr ""
@@ -164,7 +165,8 @@ msgstr ""
 #. type: Source code
 #: ../E/array.txt:15
 #, no-wrap
-msgid "a[2] = 213;  // a points to\n"
+msgid ""
+"a[2] = 213;  // a points to\n"
 "             // 3 elements [0], [1] et [2]"
 msgstr ""
 
@@ -183,7 +185,8 @@ msgstr ""
 #. type: Source code
 #: ../E/array.txt:22
 #, no-wrap
-msgid "{\n"
+msgid ""
+"{\n"
 "\tint a[5];\n"
 "\ta[7] = 123;  // no error at compile time\n"
 "\t             // but error at run time\n"
@@ -211,7 +214,8 @@ msgstr ""
 #. type: Source code
 #: ../E/bloc.txt:4
 #, no-wrap
-msgid "\t{\n"
+msgid ""
+"\t{\n"
 "\t\tfloat  t;\n"
 "\t\tt = a;\n"
 "\t\ta = b;\n"
@@ -222,14 +226,16 @@ msgstr ""
 #. type: Plain text
 #: ../E/bloc.txt:11
 #, no-wrap
-msgid "Every instruction in the block is followed by a <a cbot|term>semicolon</a>, but the block itself is not. \n"
+msgid ""
+"Every instruction in the block is followed by a <a cbot|term>semicolon</a>, but the block itself is not. \n"
 "Let us take the following example with the instruction <code><a cbot|if>if</a></code> to illustrate the use of blocks in a program:"
 msgstr ""
 
 #. type: Source code
 #: ../E/bloc.txt:14
 #, no-wrap
-msgid "\tif ( a < b )\n"
+msgid ""
+"\tif ( a < b )\n"
 "\t\t<n/>instruction 1<c/>;\n"
 "\t\t<n/>instruction 2<c/>;\n"
 "\t<n/>instruction 3<c/>;"
@@ -238,14 +244,16 @@ msgstr ""
 #. type: Plain text
 #: ../E/bloc.txt:19
 #, no-wrap
-msgid "If the <a cbot|cond>condition</a> is true, instructions 1, 2 and 3 are performed. If the condition is false, only instruction 1 is ignored, instructions 2 and 3 are performed. The fact that instruction 2 is lined up with instruction 1 does not matter. \n"
+msgid ""
+"If the <a cbot|cond>condition</a> is true, instructions 1, 2 and 3 are performed. If the condition is false, only instruction 1 is ignored, instructions 2 and 3 are performed. The fact that instruction 2 is lined up with instruction 1 does not matter. \n"
 "If you want to perform instructions 1 and 2 only if the condition is true, you have to bracket them together in a block: "
 msgstr ""
 
 #. type: Source code
 #: ../E/bloc.txt:22
 #, no-wrap
-msgid "\tif ( a < b )\n"
+msgid ""
+"\tif ( a < b )\n"
 "\t{\n"
 "\t\t<n/>instruction 1<c/>;\n"
 "\t\t<n/>instruction 2<c/>;\n"
@@ -256,14 +264,16 @@ msgstr ""
 #. type: Plain text
 #: ../E/bloc.txt:29
 #, no-wrap
-msgid "Blocks may be needed with instructions <code><a cbot|if>if</a></code>, <code><a cbot|while>while</a></code> and <code><a cbot|for>for</a></code>, in order to group several instructions that should be performed only if a condition is true, or repeated several times. \n"
+msgid ""
+"Blocks may be needed with instructions <code><a cbot|if>if</a></code>, <code><a cbot|while>while</a></code> and <code><a cbot|for>for</a></code>, in order to group several instructions that should be performed only if a condition is true, or repeated several times. \n"
 "You can fit blocks into other blocks, on as many levels as you need. Here is an example of imbrication on two levels :"
 msgstr ""
 
 #. type: Source code
 #: ../E/bloc.txt:32
 #, no-wrap
-msgid "\tif ( a > b )\n"
+msgid ""
+"\tif ( a > b )\n"
 "\t{\n"
 "\t\tint  i = 0;\n"
 "\t\twhile ( i < 18 )\n"
@@ -284,7 +294,8 @@ msgstr ""
 #. type: Source code
 #: ../E/bloc.txt:45
 #, no-wrap
-msgid "\tif(a>b) { int i=0; while(i<18) {\n"
+msgid ""
+"\tif(a>b) { int i=0; while(i<18) {\n"
 "\tmove(10);turn(5);i=i+1; }}"
 msgstr ""
 
@@ -315,11 +326,13 @@ msgstr ""
 #. type: Source code
 #: ../E/break.txt:3
 #, no-wrap
-msgid "<c/>while ( condition )\n"
+msgid ""
+"<c/>while ( condition )\n"
 "{\n"
 "\tbreak;\n"
 "}"
-msgstr "<c/>while ( feltétel )\n"
+msgstr ""
+"<c/>while ( feltétel )\n"
 "{\n"
 "\tbreak;\n"
 "}"
@@ -339,7 +352,8 @@ msgstr ""
 #. type: Source code
 #: ../E/break.txt:11
 #, no-wrap
-msgid "<c/>int i = 0;\n"
+msgid ""
+"<c/>int i = 0;\n"
 "while ( true )\n"
 "{\n"
 "\t<n/>Instructions ...<c/>\n"
@@ -367,7 +381,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/category.txt:34
 #, no-wrap
-msgid "       <code><a object|titanore>TitaniumOre</a>          </code>Titanium Ore\n"
+msgid ""
+"       <code><a object|titanore>TitaniumOre</a>          </code>Titanium Ore\n"
 "       <code><a object|uranore>UraniumOre</a>           </code>Uranium Ore\n"
 "       <code><a object|titan>Titanium</a>             </code>Cube of converted Titanium\n"
 "       <code><a object|power>PowerCell</a>            </code>Regular Power Cell\n"
@@ -381,14 +396,16 @@ msgstr ""
 #. type: Plain text
 #: ../E/category.txt:47
 #, no-wrap
-msgid "<button 158/>   <code><a object|bottr>PracticeBot</a>            </code>Practice Bot\n"
+msgid ""
+"<button 158/>   <code><a object|bottr>PracticeBot</a>            </code>Practice Bot\n"
 "<button 173/>   <code><a object|bottarg>TargetBot</a>              </code>Target Bot"
 msgstr ""
 
 #. type: Plain text
 #: ../E/category.txt:50
 #, no-wrap
-msgid "<button 137/>   <code><a object|botgr>WheeledGrabber</a>         </code>Wheeled Grabber\n"
+msgid ""
+"<button 137/>   <code><a object|botgr>WheeledGrabber</a>         </code>Wheeled Grabber\n"
 "<button 138/>   <code><a object|botgc>TrackedGrabber</a>         </code>Tracked Grabber\n"
 "<button 139/>   <code><a object|botgj>WingedGrabber</a>          </code>Winged Grabber\n"
 "<button 150/>   <code><a object|botgs>LeggedGrabber</a>          </code>Legged Grabber"
@@ -397,7 +414,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/category.txt:55
 #, no-wrap
-msgid "<button 140/>   <code><a object|botsr>WheeledSniffer</a>         </code>Wheeled Sniffer\n"
+msgid ""
+"<button 140/>   <code><a object|botsr>WheeledSniffer</a>         </code>Wheeled Sniffer\n"
 "<button 141/>   <code><a object|botsc>TrackedSniffer</a>         </code>Tracked Sniffer\n"
 "<button 142/>   <code><a object|botsj>WingedSniffer</a>          </code>Winged Sniffer\n"
 "<button 152/>   <code><a object|botss>LeggedSniffer</a>          </code>Legged Sniffer"
@@ -406,7 +424,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/category.txt:60
 #, no-wrap
-msgid "<button 143/>   <code><a object|botfr>WheeledShooter</a>         </code>Wheeled Shooter\n"
+msgid ""
+"<button 143/>   <code><a object|botfr>WheeledShooter</a>         </code>Wheeled Shooter\n"
 "<button 144/>   <code><a object|botfc>TrackedShooter</a>         </code>Tracked Shooter\n"
 "<button 145/>   <code><a object|botfj>WingedShooter</a>          </code>Winged Shooter\n"
 "<button 151/>   <code><a object|botfs>LeggedShooter</a>          </code>Legged Shooter"
@@ -415,7 +434,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/category.txt:65
 #, no-wrap
-msgid "<button 153/>   <code><a object|botor>WheeledOrgaShooter</a>     </code>Wheeled Orga Shooter\n"
+msgid ""
+"<button 153/>   <code><a object|botor>WheeledOrgaShooter</a>     </code>Wheeled Orga Shooter\n"
 "<button 154/>   <code><a object|botoc>TrackedOrgaShooter</a>     </code>Tracked Orga Shooter\n"
 "<button 155/>   <code><a object|botoj>WingedOrgaShooter</a>      </code>Winged Orga Shooter\n"
 "<button 156/>   <code><a object|botos>LeggedOrgaShooter</a>      </code>Legged Orga Shooter"
@@ -424,7 +444,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/category.txt:75
 #, no-wrap
-msgid "<button 149/>   <code><a object|botsub>Subber</a>                 </code>Subber\n"
+msgid ""
+"<button 149/>   <code><a object|botsub>Subber</a>                 </code>Subber\n"
 "<button 148/>   <code><a object|botrecy>Recycler</a>               </code>Recycler\n"
 "<button 157/>   <code><a object|botshld>Shielder</a>               </code>Shielder\n"
 "<button 146/>   <code><a object|bottump>Thumper</a>                </code>Thumper\n"
@@ -434,7 +455,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/category.txt:84
 #, no-wrap
-msgid "       <code><a object|mother>AlienQueen</a>         </code>Alien Queen\n"
+msgid ""
+"       <code><a object|mother>AlienQueen</a>         </code>Alien Queen\n"
 "       <code><a object|egg>AlienEgg</a>           </code>Alien Egg\n"
 "       <code><a object|ant>AlienAnt</a>           </code>Ant\n"
 "       <code><a object|spider>AlienSpider</a>        </code>Spider\n"
@@ -457,7 +479,8 @@ msgstr ""
 #. type: Source code
 #: ../E/class.txt:4
 #, no-wrap
-msgid "public class ClassName\n"
+msgid ""
+"public class ClassName\n"
 "{\n"
 "\tdeclarations;\n"
 "}"
@@ -484,7 +507,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/close.txt:7
 #, no-wrap
-msgid "<code><a cbot|file>file</a></code>, <code><a cbot|open>open</a></code>, <code><a cbot|readln>readln</a></code>, <code><a cbot|writeln>writeln</a></code> and <code><a cbot|eof>eof</a></code>.\n"
+msgid ""
+"<code><a cbot|file>file</a></code>, <code><a cbot|open>open</a></code>, <code><a cbot|readln>readln</a></code>, <code><a cbot|writeln>writeln</a></code> and <code><a cbot|eof>eof</a></code>.\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
@@ -497,7 +521,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/expr.txt:116
 #, no-wrap
-msgid "<code>a == b  </code><code>a</code> equals <code>b</code>\n"
+msgid ""
+"<code>a == b  </code><code>a</code> equals <code>b</code>\n"
 "<code>a != b  </code><code>a</code> is different from <code>b</code>\n"
 "<code>a <  b  </code><code>a</code> smaller than <code>b</code>\n"
 "<code>a <= b  </code><code>a</code> smaller than or equal to <code>b</code>\n"
@@ -508,7 +533,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/expr.txt:124
 #, no-wrap
-msgid "<code>12 == 12  </code>returns true\n"
+msgid ""
+"<code>12 == 12  </code>returns true\n"
 "<code>45 != 47  </code>returns true \n"
 "<code>99 == 98  </code>returns false\n"
 "<code>12 <  -1  </code>returns false\n"
@@ -525,7 +551,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/expr.txt:134
 #, no-wrap
-msgid "<code>a == b</code> is an expression that compares <code>a</code> with <code>b</code>.\n"
+msgid ""
+"<code>a == b</code> is an expression that compares <code>a</code> with <code>b</code>.\n"
 "<code>a = b</code> is an expression that copies the value of <code>b</code> into <code>a</code>."
 msgstr ""
 
@@ -538,7 +565,8 @@ msgstr ""
 #. type: Source code
 #: ../E/continue.txt:3
 #, no-wrap
-msgid "<c/>while ( condition )\n"
+msgid ""
+"<c/>while ( condition )\n"
 "{\n"
 "\tcontinue;\n"
 "}"
@@ -553,7 +581,8 @@ msgstr ""
 #. type: Source code
 #: ../E/continue.txt:11
 #, no-wrap
-msgid "<c/>int i = 0;\n"
+msgid ""
+"<c/>int i = 0;\n"
 "while ( i < 5 )\n"
 "{\n"
 "\ti = i+1;\n"
@@ -640,7 +669,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/delinfo.txt:14
 #, no-wrap
-msgid "<code><a cbot|receive>receive</a></code>, <code><a cbot|send>send</a></code> and <code><a cbot|testinfo>testinfo</a></code>.\n"
+msgid ""
+"<code><a cbot|receive>receive</a></code>, <code><a cbot|send>send</a></code> and <code><a cbot|testinfo>testinfo</a></code>.\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
@@ -719,7 +749,8 @@ msgstr ""
 #. type: Source code
 #: ../E/dist.txt:9
 #, no-wrap
-msgid "\titem = <a cbot|radar>radar</a>(AlienAnt);\n"
+msgid ""
+"\titem = <a cbot|radar>radar</a>(AlienAnt);\n"
 "\t<a cbot|move>move</a>(distance(position, item.position));"
 msgstr ""
 
@@ -732,7 +763,8 @@ msgstr ""
 #. type: Source code
 #: ../E/dist.txt:14
 #, no-wrap
-msgid "\titem = radar(AlienAnt);\n"
+msgid ""
+"\titem = radar(AlienAnt);\n"
 "\tmove(distance(position, item.position) - 40);"
 msgstr ""
 
@@ -805,7 +837,8 @@ msgstr ""
 #. type: Source code
 #: ../E/do.txt:3
 #, no-wrap
-msgid "<code>do\n"
+msgid ""
+"<code>do\n"
 "{\n"
 "\t</code>Instructions ...<c/>\n"
 "}\n"
@@ -815,7 +848,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/do.txt:9
 #, no-wrap
-msgid "This instruction allows you to perform several times the instructions inside the <a cbot|bloc>block</a>. The instructions are executed at least once, because the condition is tested only afterwards.\n"
+msgid ""
+"This instruction allows you to perform several times the instructions inside the <a cbot|bloc>block</a>. The instructions are executed at least once, because the condition is tested only afterwards.\n"
 "Be careful not to confuse the instruction <c/>do { } while ( );<n/> with the instruction <code><a cbot|while>while</a> ( ) { }</code>; the latter tests the condition before the instructions in the block are executed. "
 msgstr ""
 
@@ -840,7 +874,8 @@ msgstr ""
 #. type: Source code
 #: ../E/do.txt:16
 #, no-wrap
-msgid "<c/>do\n"
+msgid ""
+"<c/>do\n"
 "{\n"
 "\tp = radar(TitaniumOre);\n"
 "}\n"
@@ -886,7 +921,8 @@ msgstr ""
 #. type: Source code
 #: ../E/drop.txt:7
 #, no-wrap
-msgid "\t<a cbot|grab>grab</a>();\n"
+msgid ""
+"\t<a cbot|grab>grab</a>();\n"
 "\t<a cbot|move>move</a>(5);\n"
 "\tdrop();"
 msgstr ""
@@ -912,7 +948,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/drop.txt:18
 #, no-wrap
-msgid "Oper indicates where the robot should drop the object. If no indication is given, the object is dropped in front of the bot. \n"
+msgid ""
+"Oper indicates where the robot should drop the object. If no indication is given, the object is dropped in front of the bot. \n"
 "<code>InFront   </code>  Drops in front (default value).\n"
 "<code>Behind    </code>  Drops behind.\n"
 "<code>EnergyCell</code>  Drops on the bot's own power cell location."
@@ -921,7 +958,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/drop.txt:24
 #, no-wrap
-msgid "Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <c/>drop();<n/>.\n"
+msgid ""
+"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <c/>drop();<n/>.\n"
 "<code>== 0 </code>object was dropped\n"
 "<code>!= 0 </code>error, no object was dropped"
 msgstr ""
@@ -953,7 +991,8 @@ msgstr ""
 #. type: Source code
 #: ../E/eof.txt:8
 #, no-wrap
-msgid "\twhile ( not handle.eof() )\n"
+msgid ""
+"\twhile ( not handle.eof() )\n"
 "\t{\n"
 "\t\ts = handle.readln();\n"
 "\t}"
@@ -962,7 +1001,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/eof.txt:14
 #, no-wrap
-msgid "<code><a cbot|file>file</a></code>, <code><a cbot|open>open</a></code>, <code><a cbot|close>close</a></code>, <code><a cbot|readln>readln</a></code> and <code><a cbot|writeln>writeln</a></code>.\n"
+msgid ""
+"<code><a cbot|file>file</a></code>, <code><a cbot|open>open</a></code>, <code><a cbot|close>close</a></code>, <code><a cbot|readln>readln</a></code> and <code><a cbot|writeln>writeln</a></code>.\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
@@ -999,7 +1039,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/errmode.txt:11
 #, no-wrap
-msgid "Error treatment mode.\n"
+msgid ""
+"Error treatment mode.\n"
 "<code>0</code> -> continues program execution and returns a non zero value\n"
 "<code>1</code> -> stops the program (default behavior)"
 msgstr ""
@@ -1013,7 +1054,8 @@ msgstr ""
 #. type: Source code
 #: ../E/errmode.txt:16
 #, no-wrap
-msgid "<c/>errmode(0);\n"
+msgid ""
+"<c/>errmode(0);\n"
 "while ( goto(pos) != 0 )\n"
 "{\n"
 "\twait(2);\n"
@@ -1029,7 +1071,8 @@ msgstr ""
 #. type: Source code
 #: ../E/errmode.txt:23
 #, no-wrap
-msgid "<c/>errmode(0);\n"
+msgid ""
+"<c/>errmode(0);\n"
 "int err;\n"
 "err = goto(pos);\n"
 "if ( err != 0 )\n"
@@ -1054,7 +1097,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/expr.txt:90
 #, no-wrap
-msgid "<code>+=</code>  addition\n"
+msgid ""
+"<code>+=</code>  addition\n"
 "<code>-=</code>  subtraction\n"
 "<code>*=</code>  multiplication\n"
 "<code>/=</code>  division\n"
@@ -1082,7 +1126,8 @@ msgstr ""
 #. type: Source code
 #: ../E/extern.txt:4
 #, no-wrap
-msgid "extern void object::MowDown( )\n"
+msgid ""
+"extern void object::MowDown( )\n"
 "{\n"
 "\twhile ( true )\n"
 "\t{\n"
@@ -1101,13 +1146,15 @@ msgstr ""
 #. type: Source code
 #: ../E/extern.txt:15
 #, no-wrap
-msgid "extern void object::Square( )\n"
+msgid ""
+"extern void object::Square( )\n"
 "{\n"
 "\tfor ( int i=0 ; i<4 ; i++ )\n"
 "\t{\n"
 "\t\tLine(10);\n"
 "\t}\n"
-"}\n\n"
+"}\n"
+"\n"
 "void object::Line(float dist)\n"
 "{\n"
 "\tmove(dist);\n"
@@ -1166,14 +1213,16 @@ msgstr ""
 #. type: Source code
 #: ../E/file.txt:13
 #, no-wrap
-msgid "\thandle.open(\"test.txt\", \"w\");\n"
+msgid ""
+"\thandle.open(\"test.txt\", \"w\");\n"
 "\thandle.close();"
 msgstr ""
 
 #. type: Plain text
 #: ../E/file.txt:17
 #, no-wrap
-msgid "<code><a cbot|open>open</a></code>, <code><a cbot|close>close</a></code>, <code><a cbot|readln>readln</a></code>, <code><a cbot|writeln>writeln</a></code> and <code><a cbot|eof>eof</a></code>.\n"
+msgid ""
+"<code><a cbot|open>open</a></code>, <code><a cbot|close>close</a></code>, <code><a cbot|readln>readln</a></code>, <code><a cbot|writeln>writeln</a></code> and <code><a cbot|eof>eof</a></code>.\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
@@ -1228,7 +1277,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/fire.txt:26
 #, no-wrap
-msgid "Zero if OK, or a value different from zero if an error occurred.\n"
+msgid ""
+"Zero if OK, or a value different from zero if an error occurred.\n"
 "<code>== 0 </code>the cannon has been fired\n"
 "<code>!= 0 </code>error, the cannon could not be fired"
 msgstr ""
@@ -1296,7 +1346,8 @@ msgstr ""
 #. type: Source code
 #: ../E/float.txt:4
 #, no-wrap
-msgid "\t12.9\n"
+msgid ""
+"\t12.9\n"
 "\t1.125\n"
 "\t0.002\n"
 "\t-4.1"
@@ -1317,7 +1368,8 @@ msgstr ""
 #. type: Source code
 #: ../E/float.txt:14
 #, no-wrap
-msgid "   Write       and not\n"
+msgid ""
+"   Write       and not\n"
 "   12.56       12 . 56\n"
 "  -54.34       -54,34\n"
 "12895.69    12,895.69"
@@ -1326,7 +1378,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/float.txt:20
 #, no-wrap
-msgid "Floating point numbers are represented in Colobot with 32 bits.\n"
+msgid ""
+"Floating point numbers are represented in Colobot with 32 bits.\n"
 "The highest value that can be represented is 3.4E+38.\n"
 "The smallest value that can be represented is 3.4E-38."
 msgstr ""
@@ -1340,7 +1393,8 @@ msgstr ""
 #. type: Source code
 #: ../E/for.txt:3
 #, no-wrap
-msgid "<c/>for ( before ; condition ; end )\n"
+msgid ""
+"<c/>for ( before ; condition ; end )\n"
 "{\n"
 "\t<n/>Instructions ...<c/>\n"
 "}"
@@ -1373,7 +1427,8 @@ msgstr ""
 #. type: Source code
 #: ../E/for.txt:21
 #, no-wrap
-msgid "{\n"
+msgid ""
+"{\n"
 "\tmessage(i) ;\n"
 "}"
 msgstr ""
@@ -1387,7 +1442,8 @@ msgstr ""
 #. type: Source code
 #: ../E/for.txt:26
 #, no-wrap
-msgid "<c/>before;\n"
+msgid ""
+"<c/>before;\n"
 "while ( condition )\n"
 "{\n"
 "\t<n/>Instructions ...<c/>\n"
@@ -1440,7 +1496,8 @@ msgstr ""
 #. type: Source code
 #: ../E/goto.txt:7
 #, no-wrap
-msgid "\titem = <a cbot|radar>radar</a>(Titanium);\n"
+msgid ""
+"\titem = <a cbot|radar>radar</a>(Titanium);\n"
 "\tgoto(item.position);\n"
 "\t<a cbot|grab>grab</a>();"
 msgstr ""
@@ -1484,7 +1541,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/goto.txt:24
 #, no-wrap
-msgid "This parameter tells the bot how it must reach the goal: \n"
+msgid ""
+"This parameter tells the bot how it must reach the goal: \n"
 "<code>0</code>  stops exactly at the goal position\n"
 "<code>1</code>  goes close to the goal position, without stopping.\n"
 "If no value is given, <code>0</code> (precision) is the default value."
@@ -1493,7 +1551,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/goto.txt:30
 #, no-wrap
-msgid "Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <code>goto()</code>.\n"
+msgid ""
+"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <code>goto()</code>.\n"
 "<code>== 0 </code>Goal position reached\n"
 "<code>!= 0 </code>Goal position impossible to reach"
 msgstr ""
@@ -1519,7 +1578,8 @@ msgstr ""
 #. type: Source code
 #: ../E/grab.txt:7
 #, no-wrap
-msgid "\tgrab();\n"
+msgid ""
+"\tgrab();\n"
 "\t<a cbot|move>move</a>(5);\n"
 "\t<a cbot|drop>drop</a>();"
 msgstr ""
@@ -1539,7 +1599,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/grab.txt:18
 #, no-wrap
-msgid "Oper indicates where the bot should look for an object to grab. If no indication is given, the object is picked up in front of the bot.\n"
+msgid ""
+"Oper indicates where the bot should look for an object to grab. If no indication is given, the object is picked up in front of the bot.\n"
 "<code>InFront   </code>  Grabs in front (default value).\n"
 "<code>Behind    </code>  Grabs behind.\n"
 "<code>EnergyCell</code>  Grabs the bot's own power cell."
@@ -1548,7 +1609,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/grab.txt:24
 #, no-wrap
-msgid "Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <c/>grab();<n/>.\n"
+msgid ""
+"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <c/>grab();<n/>.\n"
 "<code>== 0 </code>an object was grabbed\n"
 "<code>!= 0 </code>error, no object was grabbed"
 msgstr ""
@@ -1574,7 +1636,8 @@ msgstr ""
 #. type: Source code
 #: ../E/if.txt:7
 #, no-wrap
-msgid "\titem = <a cbot|radar>radar</a>(AlienAnt);\n"
+msgid ""
+"\titem = <a cbot|radar>radar</a>(AlienAnt);\n"
 "\tif (<a cbot|dist>distance</a>(position, item.position) < 40)\n"
 "\t{\n"
 "\t\tfire(1);\n"
@@ -1590,7 +1653,8 @@ msgstr ""
 #. type: Source code
 #: ../E/if.txt:15
 #, no-wrap
-msgid "\titem = <a cbot|radar>radar</a>(PowerStation);\n"
+msgid ""
+"\titem = <a cbot|radar>radar</a>(PowerStation);\n"
 "\tif (item != null)\n"
 "\t{\n"
 "\t\t<a cbot|goto>goto</a>(item.position);\n"
@@ -1601,7 +1665,8 @@ msgstr ""
 #. type: Source code
 #: ../E/if.txt:24
 #, no-wrap
-msgid "<code>if ( condition )\n"
+msgid ""
+"<code>if ( condition )\n"
 "{\n"
 "\t</code>Instructions A ...<code>\n"
 "}\n"
@@ -1614,7 +1679,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/if.txt:33
 #, no-wrap
-msgid "With this conditional structure you can execute a <a cbot|bloc>bloc</a> A or a <a cbot|bloc>bloc</a> B depending on a <a cbot|cond>condition</a>. If the condition is true, bloc A is executed. If the condition is false, bloc B is executed. \n"
+msgid ""
+"With this conditional structure you can execute a <a cbot|bloc>bloc</a> A or a <a cbot|bloc>bloc</a> B depending on a <a cbot|cond>condition</a>. If the condition is true, bloc A is executed. If the condition is false, bloc B is executed. \n"
 "Part <code>else { }</code> is not compulsory. "
 msgstr ""
 
@@ -1639,7 +1705,8 @@ msgstr ""
 #. type: Source code
 #: ../E/int.txt:4
 #, no-wrap
-msgid "\t12\n"
+msgid ""
+"\t12\n"
 "\t1000\n"
 "\t-4"
 msgstr ""
@@ -1659,7 +1726,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/int.txt:14
 #, no-wrap
-msgid "Numbers of the type <code>int</code> are represented with 32 bits.\n"
+msgid ""
+"Numbers of the type <code>int</code> are represented with 32 bits.\n"
 "The highest number that can be represented is (2^31)-1, that is 2'147'483'647.\n"
 "The smallest number that can be represented is -(2^31), that is -2'147'483'648."
 msgstr ""
@@ -1733,7 +1801,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/message.txt:8
 #, no-wrap
-msgid "Text that is to be displayed. It is possible to append several texts and/or values with the operator <code>+</code>:\n"
+msgid ""
+"Text that is to be displayed. It is possible to append several texts and/or values with the operator <code>+</code>:\n"
 "<c/>message(\"Not found\");<n/> \n"
 "<c/>message(angle);<n/> \n"
 "<c/>message(n + \" object(s) found\");<n/> \n"
@@ -1791,7 +1860,8 @@ msgstr ""
 #. type: Source code
 #: ../E/motor.txt:7
 #, no-wrap
-msgid "\t<a cbot|turn>turn</a>(45);         // turns 45 degrees left\n"
+msgid ""
+"\t<a cbot|turn>turn</a>(45);         // turns 45 degrees left\n"
 "\tmotor(0.5, -0.5); // slow rotation to the right\n"
 "\t<a cbot|fire>fire</a>(2);          // fire\n"
 "\tmotor(0,0);       // stops the rotation"
@@ -1842,7 +1912,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/motor.txt:26
 #, no-wrap
-msgid "Examples :\n"
+msgid ""
+"Examples :\n"
 "<c/>motor(1, 1);<n/> moves forward with highest possible speed.\n"
 "<c/>motor(-0.5, -0.5);<n/> moves backward with half speed.\n"
 "<c/>motor(1, -1);<n/> turns right as fast as possible. "
@@ -1851,7 +1922,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/motor.txt:31
 #, no-wrap
-msgid "Note :\n"
+msgid ""
+"Note :\n"
 "<c/>motor(2, 2);<n/> will not move forward any faster than <code>motor(1, 1)</code> \n"
 "<c/>motor(-2, -2);<n/> will not move backward any faster than <code>motor(-1, -1)</code>"
 msgstr ""
@@ -1901,7 +1973,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/move.txt:17
 #, no-wrap
-msgid "Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <code>move()</code>.\n"
+msgid ""
+"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <code>move()</code>.\n"
 "<code>== 0 </code>Move executed\n"
 "<code>!= 0 </code>error, the instruction was not performed correctly"
 msgstr ""
@@ -1915,14 +1988,16 @@ msgstr ""
 #. type: Plain text
 #: ../E/nan.txt:2
 #, no-wrap
-msgid "This special value indicates that a <a cbot|var>variable</a> of type <code><a cbot|int>int</a></code> or <code><a cbot|float>float</a></code> contains no number, but \"nothing\". \n"
+msgid ""
+"This special value indicates that a <a cbot|var>variable</a> of type <code><a cbot|int>int</a></code> or <code><a cbot|float>float</a></code> contains no number, but \"nothing\". \n"
 "For example, if the instruction <code><a cbot|receive>receive</a></code> can not get the requested information, it returns <code>nan</code> :"
 msgstr ""
 
 #. type: Source code
 #: ../E/nan.txt:5
 #, no-wrap
-msgid "\tvalue = receive(\"Length\");\n"
+msgid ""
+"\tvalue = receive(\"Length\");\n"
 "\tif ( value == nan )  // not found ?\n"
 "\t{\n"
 "\t\t\n"
@@ -1950,14 +2025,16 @@ msgstr ""
 #. type: Plain text
 #: ../E/new.txt:2
 #, no-wrap
-msgid "The <code>new</code> operator creates a <a cbot|class>class</a> instance:\n"
+msgid ""
+"The <code>new</code> operator creates a <a cbot|class>class</a> instance:\n"
 "<c/><s/>\tMyClass item;    // now item is a null reference"
 msgstr ""
 
 #. type: Source code
 #: ../E/new.txt:4
 #, no-wrap
-msgid "\titem = new MyClass(); // now item is a reference\n"
+msgid ""
+"\titem = new MyClass(); // now item is a reference\n"
 "\t                      // to a new class instance"
 msgstr ""
 
@@ -1970,7 +2047,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/new.txt:9
 #, no-wrap
-msgid "Instead of:\n"
+msgid ""
+"Instead of:\n"
 "<c/><s/>\tMyClass item = new MyClass();\n"
 "<n/>you can write:\n"
 "<c/><s/>\tMyClass item();"
@@ -1979,7 +2057,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/new.txt:14
 #, no-wrap
-msgid "If your class has a constructor with parameters you can write:\n"
+msgid ""
+"If your class has a constructor with parameters you can write:\n"
 "<c/><s/>\tMyClass item = new MyClass(2, 3);\n"
 "<n/>or:\n"
 "<c/><s/>\tMyClass item(2, 3);"
@@ -1988,7 +2067,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/new.txt:21
 #, no-wrap
-msgid "<code><a cbot|class>class</a></code>, <code><a cbot|pointer>reference</a></code>\n"
+msgid ""
+"<code><a cbot|class>class</a></code>, <code><a cbot|pointer>reference</a></code>\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
@@ -2007,7 +2087,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/null.txt:5
 #, no-wrap
-msgid "<a cbot|pointer>References</a>\n"
+msgid ""
+"<a cbot|pointer>References</a>\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
@@ -2092,7 +2173,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/object.txt:40
 #, no-wrap
-msgid "Shield level of a robot or building. A level <code>1</code> indicates that the shield is still perfect. Every time that the bot or building gets a bullet or collides with another object, the shield level decreases. When the level reaches <code>0</code>, the next bullet or collision will destroy the bot or building. \n"
+msgid ""
+"Shield level of a robot or building. A level <code>1</code> indicates that the shield is still perfect. Every time that the bot or building gets a bullet or collides with another object, the shield level decreases. When the level reaches <code>0</code>, the next bullet or collision will destroy the bot or building. \n"
 "Bots can re-energize their shield on a <a object|repair>repair center</a>. The shield of a building is repaired if it lays inside the protection sphere of a <a object|botshld>shielder</a>."
 msgstr ""
 
@@ -2141,7 +2223,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/object.txt:53
 #, no-wrap
-msgid "This information is special, because it returns the information about another object, in this case the power pack. This means that energyCell contains all the characteristics of a normal object, for example <code>category</code> (PowerCell or NuclearCell), <code>position</code> (the position of the cell), etc.\n"
+msgid ""
+"This information is special, because it returns the information about another object, in this case the power pack. This means that energyCell contains all the characteristics of a normal object, for example <code>category</code> (PowerCell or NuclearCell), <code>position</code> (the position of the cell), etc.\n"
 "If you want to know the energy level of a robot, you must not check <code>energyLevel</code>, but <code>energyCell.energyLevel</code>.\n"
 "If the bot has bot no power cell, <code>energyCell</code> returns <code>null</code>."
 msgstr ""
@@ -2173,7 +2256,8 @@ msgstr ""
 #. type: Source code
 #: ../E/object.txt:69
 #, no-wrap
-msgid "\tobject a;\n"
+msgid ""
+"\tobject a;\n"
 "\ta = radar(BotGrabberRoller);\n"
 "\tif ( a == null )  // object does not exist ?\n"
 "\t{\n"
@@ -2210,7 +2294,8 @@ msgstr ""
 #. type: Source code
 #: ../E/open.txt:8
 #, no-wrap
-msgid "\tfile handle();\n"
+msgid ""
+"\tfile handle();\n"
 "\thandle.open(\"filename\", \"w\");\n"
 "\thandle.writeln(\"abc\");\n"
 "\thandle.close();"
@@ -2225,7 +2310,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/open.txt:20
 #, no-wrap
-msgid "<code><a cbot|file>file</a></code>, <code><a cbot|close>close</a></code>, <code><a cbot|readln>readln</a></code>, <code><a cbot|writeln>writeln</a></code> and <code><a cbot|eof>eof</a></code>.\n"
+msgid ""
+"<code><a cbot|file>file</a></code>, <code><a cbot|close>close</a></code>, <code><a cbot|readln>readln</a></code>, <code><a cbot|writeln>writeln</a></code> and <code><a cbot|eof>eof</a></code>.\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
@@ -2250,7 +2336,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/point.txt:2
 #, no-wrap
-msgid "Variables of this type contain the coordinates of a point in space. This type is made of three values that represent the <code>x</code>, <code>y</code> and <code>z</code> coordinates.\n"
+msgid ""
+"Variables of this type contain the coordinates of a point in space. This type is made of three values that represent the <code>x</code>, <code>y</code> and <code>z</code> coordinates.\n"
 "<code>x</code> and <code>y</code> correspond to the place on the ground. The positive <code>x</code> axis faces towards east, the positive <code>y</code> axis faces towards north. \n"
 "The <code>z</code> value corresponds to the altitude above sea level. "
 msgstr ""
@@ -2276,7 +2363,8 @@ msgstr ""
 #. type: Source code
 #: ../E/point.txt:12
 #, no-wrap
-msgid "\tpoint b;\n"
+msgid ""
+"\tpoint b;\n"
 "\tb.x = 10;\n"
 "\tb.y = 20;\n"
 "\tb.z = 30;"
@@ -2291,7 +2379,8 @@ msgstr ""
 #. type: Source code
 #: ../E/point.txt:19
 #, no-wrap
-msgid "\tif ( a == b )\n"
+msgid ""
+"\tif ( a == b )\n"
 "\t{\n"
 "\t}"
 msgstr ""
@@ -2299,7 +2388,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/point.txt:22
 #, no-wrap
-msgid "<n/> \n"
+msgid ""
+"<n/> \n"
 "The following declaration :"
 msgstr ""
 
@@ -2318,7 +2408,8 @@ msgstr ""
 #. type: Source code
 #: ../E/point.txt:29
 #, no-wrap
-msgid "\tpoint c;\n"
+msgid ""
+"\tpoint c;\n"
 "\tc.x = 4;\n"
 "\tc.y = 7;\n"
 "\tc.z = 0;"
@@ -2339,14 +2430,16 @@ msgstr ""
 #. type: Plain text
 #: ../E/pointer.txt:4
 #, no-wrap
-msgid "Example:\n"
+msgid ""
+"Example:\n"
 "<c/><s/>{"
 msgstr ""
 
 #. type: Source code
 #: ../E/pointer.txt:6
 #, no-wrap
-msgid "\tMyClass item1(); // create a new instance\n"
+msgid ""
+"\tMyClass item1(); // create a new instance\n"
 "\t                 // referenced by item1\n"
 "\tMyClass item2;   // create a null reference\n"
 "\titem2 = item1;   // copy the reference,\n"
@@ -2373,7 +2466,8 @@ msgstr ""
 #. type: Source code
 #: ../E/pointer.txt:20
 #, no-wrap
-msgid "{\n"
+msgid ""
+"{\n"
 "\titem.a = 12;          // modify the original instance\n"
 "\titem = new MyClass(); // new local instance\n"
 "\titem.a = 33;          // modifie the local instance\n"
@@ -2383,14 +2477,16 @@ msgstr ""
 #. type: Plain text
 #: ../E/pointer.txt:26
 #, no-wrap
-msgid "Calling the fucntion <code>Test()</code>:\n"
+msgid ""
+"Calling the fucntion <code>Test()</code>:\n"
 "<c/><s/>{"
 msgstr ""
 
 #. type: Source code
 #: ../E/pointer.txt:28
 #, no-wrap
-msgid "\tMyClass toto();\n"
+msgid ""
+"\tMyClass toto();\n"
 "\tTest(toto);\n"
 "\tmessage(toto.a);  // displays 12\n"
 "}"
@@ -2405,21 +2501,24 @@ msgstr ""
 #. type: Plain text
 #: ../E/pointer.txt:35
 #, no-wrap
-msgid "A function can return an instance:\n"
+msgid ""
+"A function can return an instance:\n"
 "<c/><s/>MyClass Test2( )"
 msgstr ""
 
 #. type: Plain text
 #: ../E/pointer.txt:43
 #, no-wrap
-msgid "Call the function like this:\n"
+msgid ""
+"Call the function like this:\n"
 "<c/><s/>{"
 msgstr ""
 
 #. type: Source code
 #: ../E/pointer.txt:45
 #, no-wrap
-msgid "\tMyClass toto;\n"
+msgid ""
+"\tMyClass toto;\n"
 "\ttoto = Test2(); // toto will contain a reference to\n"
 "\t                // the instance created by Test2()\n"
 "\tmessage(toto.a); // displays 33\n"
@@ -2429,7 +2528,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/pointer.txt:52
 #, no-wrap
-msgid "<code><a cbot|class>class</a></code>, <code><a cbot|new>new</a></code>\n"
+msgid ""
+"<code><a cbot|class>class</a></code>, <code><a cbot|new>new</a></code>\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
@@ -2442,7 +2542,8 @@ msgstr ""
 #. type: Source code
 #: ../E/private.txt:6
 #, no-wrap
-msgid "public class MyClass\n"
+msgid ""
+"public class MyClass\n"
 "{\n"
 "\tint    b;                // public by default\n"
 "\tpublic int a;            // also public \n"
@@ -2501,7 +2602,8 @@ msgstr ""
 #. type: Source code
 #: ../E/public.txt:12
 #, no-wrap
-msgid "public void object::Segment(float dist, float angle)\n"
+msgid ""
+"public void object::Segment(float dist, float angle)\n"
 "{\n"
 "\tmove(dist);\n"
 "\tturn(angle);\n"
@@ -2517,7 +2619,8 @@ msgstr ""
 #. type: Source code
 #: ../E/public.txt:20
 #, no-wrap
-msgid "extern void object::Square( )\n"
+msgid ""
+"extern void object::Square( )\n"
 "{\n"
 "\tfor ( int i=0 ; i<4 ; i++ )\n"
 "\t{\n"
@@ -2548,7 +2651,8 @@ msgstr ""
 #. type: Source code
 #: ../E/public.txt:36
 #, no-wrap
-msgid "public class MyClass\n"
+msgid ""
+"public class MyClass\n"
 "{\n"
 "\tint    b;                // public by default\n"
 "\tpublic int a;            // also public \n"
@@ -2577,8 +2681,10 @@ msgstr ""
 #. type: Source code
 #: ../E/radar.txt:7
 #, no-wrap
-msgid "// At the beginning of the program:\n"
-"object  item; // variable declaration\n\n"
+msgid ""
+"// At the beginning of the program:\n"
+"object  item; // variable declaration\n"
+"\n"
 "// Look for the closest ant\n"
 "item = radar(AlienAnt);"
 msgstr ""
@@ -2610,7 +2716,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/radar.txt:34
 #, no-wrap
-msgid "Direction that the radar is facing, in degrees. \n"
+msgid ""
+"Direction that the radar is facing, in degrees. \n"
 "<code>  0</code> -> radar is facing straight ahead\n"
 "<code>-90</code> -> radar is facing a quarter turn right\n"
 "<code> 90</code> -> radar is facing a quarter turn left"
@@ -2667,21 +2774,24 @@ msgstr ""
 #. type: Source code
 #: ../E/radar.txt:71
 #, no-wrap
-msgid "\tradar(Titanium, 0, 360, 0, 1000);\n"
+msgid ""
+"\tradar(Titanium, 0, 360, 0, 1000);\n"
 "\tradar(Titanium);  // equivalent"
 msgstr ""
 
 #. type: Source code
 #: ../E/radar.txt:74
 #, no-wrap
-msgid "\tradar(Titanium, 0, 90, 0, 1000);\n"
+msgid ""
+"\tradar(Titanium, 0, 90, 0, 1000);\n"
 "\tradar(Titanium, 0, 90);  // equivalent"
 msgstr ""
 
 #. type: Plain text
 #: ../E/radar.txt:77
 #, no-wrap
-msgid "When one or more parameters are not specified, the default values indicated above are used instead; only the first parameter is compulsory.\n"
+msgid ""
+"When one or more parameters are not specified, the default values indicated above are used instead; only the first parameter is compulsory.\n"
 "Generally, only the first parameter is specified: f. ex. <code>radar (AlienAnt)</code> detects the closest ant, wherever it may be. "
 msgstr ""
 
@@ -2718,7 +2828,8 @@ msgstr ""
 #. type: Source code
 #: ../E/readln.txt:13
 #, no-wrap
-msgid "\tstring s;\n"
+msgid ""
+"\tstring s;\n"
 "\ts = handle.readln();\n"
 "\tif ( s == \"abc\" )\n"
 "\t..."
@@ -2727,7 +2838,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/readln.txt:19
 #, no-wrap
-msgid "<code><a cbot|file>file</a></code>, <code><a cbot|open>open</a></code>, <code><a cbot|close>close</a></code>, <code><a cbot|writeln>writeln</a></code> and <code><a cbot|eof>eof</a></code>.\n"
+msgid ""
+"<code><a cbot|file>file</a></code>, <code><a cbot|open>open</a></code>, <code><a cbot|close>close</a></code>, <code><a cbot|writeln>writeln</a></code> and <code><a cbot|eof>eof</a></code>.\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
@@ -2770,7 +2882,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/receive.txt:17
 #, no-wrap
-msgid "<code><a cbot|send>send</a></code>, <code><a cbot|testinfo>testinfo</a></code> and <code><a cbot|delinfo>deleteinfo</a></code>.\n"
+msgid ""
+"<code><a cbot|send>send</a></code>, <code><a cbot|testinfo>testinfo</a></code> and <code><a cbot|delinfo>deleteinfo</a></code>.\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
@@ -2795,7 +2908,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/recycle.txt:8
 #, no-wrap
-msgid "Zero if OK, or a value different from zero if an error occurred.\n"
+msgid ""
+"Zero if OK, or a value different from zero if an error occurred.\n"
 "<code>== 0 </code>the derelict bot has been recycled\n"
 "<code>!= 0 </code>error, no derelict bot could be recycled"
 msgstr ""
@@ -2851,7 +2965,8 @@ msgstr ""
 #. type: Source code
 #: ../E/return.txt:4
 #, no-wrap
-msgid "void function ( )\n"
+msgid ""
+"void function ( )\n"
 "{\n"
 "\treturn;\n"
 "}"
@@ -2866,7 +2981,8 @@ msgstr ""
 #. type: Source code
 #: ../E/return.txt:12
 #, no-wrap
-msgid "float Pi ( )\n"
+msgid ""
+"float Pi ( )\n"
 "{\n"
 "\treturn 3.1415;\n"
 "}"
@@ -2875,7 +2991,8 @@ msgstr ""
 #. type: Source code
 #: ../E/return.txt:17
 #, no-wrap
-msgid "float Mean (float a, float b)\n"
+msgid ""
+"float Mean (float a, float b)\n"
 "{\n"
 "\treturn (a+b)/2;\n"
 "}"
@@ -2884,7 +3001,8 @@ msgstr ""
 #. type: Source code
 #: ../E/return.txt:22
 #, no-wrap
-msgid "string Sign (float a)\n"
+msgid ""
+"string Sign (float a)\n"
 "{\n"
 "\tif ( a > 0 )  return \"positive\";\n"
 "\tif ( a < 0 )  return \"negative\";\n"
@@ -2943,7 +3061,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/send.txt:8
 #, no-wrap
-msgid "Name of the information to be sent to the exchange post. This name is a string: it must be written in quotation marks \"\".\n"
+msgid ""
+"Name of the information to be sent to the exchange post. This name is a string: it must be written in quotation marks \"\".\n"
 "If there is any information having this name, a new entry is created, as far as the total number of entries does not exceed 10. If there is already an information having this name, value is simply replaced by the new."
 msgstr ""
 
@@ -2968,7 +3087,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/send.txt:18
 #, no-wrap
-msgid "<code><a cbot|receive>receive</a></code>, <code><a cbot|testinfo>testinfo</a></code> and <code><a cbot|delinfo>deleteinfo</a></code>.\n"
+msgid ""
+"<code><a cbot|receive>receive</a></code>, <code><a cbot|testinfo>testinfo</a></code> and <code><a cbot|delinfo>deleteinfo</a></code>.\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
@@ -2999,7 +3119,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/shield.txt:8
 #, no-wrap
-msgid "<code>1</code> activates the shield.\n"
+msgid ""
+"<code>1</code> activates the shield.\n"
 "<code>0</code> deactivates the shield\n"
 "A normal <a object|power>power cell</a> fully charged can maintain the shield active during 20 seconds. When the cell is empty, the shield deactivates."
 msgstr ""
@@ -3025,14 +3146,16 @@ msgstr ""
 #. type: Plain text
 #: ../E/sizeof.txt:2
 #, no-wrap
-msgid "The sizeof function lets you know the number of elements contained in an <a cbot|array>array</a>.\n"
+msgid ""
+"The sizeof function lets you know the number of elements contained in an <a cbot|array>array</a>.\n"
 "That is the index of the last element plus one (\"empty\" elements are counted)."
 msgstr ""
 
 #. type: Source code
 #: ../E/sizeof.txt:5
 #, no-wrap
-msgid "{\n"
+msgid ""
+"{\n"
 "\tint a[12];\n"
 "\ta[5] = 345;\n"
 "\tmessage( sizeof(a) );  // will display 6\n"
@@ -3054,7 +3177,8 @@ msgstr ""
 #. type: Source code
 #: ../E/sizeof.txt:15
 #, no-wrap
-msgid "float xy[][];  // 2 dimensionnal array\n"
+msgid ""
+"float xy[][];  // 2 dimensionnal array\n"
 "xy[5][10] = 67;\n"
 "message( sizeof(xy)    );  // will display 6\n"
 "message( sizeof(xy[5]) );  // will display 11\n"
@@ -3081,7 +3205,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/sniff.txt:7
 #, no-wrap
-msgid "<code>TitaniumSpot</code>  ->  <a object|stonspot>Red cross</a>\n"
+msgid ""
+"<code>TitaniumSpot</code>  ->  <a object|stonspot>Red cross</a>\n"
 "<code>UraniumSpot </code>  ->  <a object|uranspot>Yellow circle</a>\n"
 "<code>PowerSpot   </code>  ->  <a object|enerspot>Green cross</a>"
 msgstr ""
@@ -3089,7 +3214,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/sniff.txt:12
 #, no-wrap
-msgid "Zero if everything is OK, or a value different from zero if an error occurred. \n"
+msgid ""
+"Zero if everything is OK, or a value different from zero if an error occurred. \n"
 "<code>== 0 </code>sounding performed\n"
 "<code>!= 0 </code>sounding impossible"
 msgstr ""
@@ -3187,7 +3313,8 @@ msgstr ""
 #. type: Source code
 #: ../E/static.txt:4
 #, no-wrap
-msgid "public class MyClass\n"
+msgid ""
+"public class MyClass\n"
 "{\n"
 "\tstatic int nb = 1;\n"
 "\tstatic string [ ] list = null;\n"
@@ -3211,7 +3338,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/static.txt:21
 #, no-wrap
-msgid "<code><a cbot|class>class</a></code>, <code><a cbot|synchro>synchronized</a></code>\n"
+msgid ""
+"<code><a cbot|class>class</a></code>, <code><a cbot|synchro>synchronized</a></code>\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
@@ -3266,7 +3394,8 @@ msgstr ""
 #. type: Source code
 #: ../E/strfind.txt:14
 #, no-wrap
-msgid "<c/>\tint pos = strfind(\"abcdef\", \"ab\"); // pos will be 0\n"
+msgid ""
+"<c/>\tint pos = strfind(\"abcdef\", \"ab\"); // pos will be 0\n"
 "\tint pos = strfind(\"abcdef\", \"de\"); // pos will be 3\n"
 "\tint pos = strfind(\"abcdef\", \"xy\"); // pos will be <a cbot|nan>nan</a>"
 msgstr ""
@@ -3274,7 +3403,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/strfind.txt:19
 #, no-wrap
-msgid "<code><a cbot|strlen>strlen</a></code>, <code><a cbot|strleft>strleft</a></code>, <code><a cbot|strright>strright</a></code>, <code><a cbot|strmid>strmid</a></code>, <code><a cbot|strval>strval</a></code>, <code><a cbot|strupper>strupper</a></code>, <code><a cbot|strlower>strlower</a></code>\n"
+msgid ""
+"<code><a cbot|strlen>strlen</a></code>, <code><a cbot|strleft>strleft</a></code>, <code><a cbot|strright>strright</a></code>, <code><a cbot|strmid>strmid</a></code>, <code><a cbot|strval>strval</a></code>, <code><a cbot|strupper>strupper</a></code>, <code><a cbot|strlower>strlower</a></code>\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
@@ -3299,7 +3429,8 @@ msgstr ""
 #. type: Source code
 #: ../E/string.txt:5
 #, no-wrap
-msgid "<c/>\t\"Hello!\"\n"
+msgid ""
+"<c/>\t\"Hello!\"\n"
 "\t\"This is a string\"\n"
 "\t\"x\"\n"
 "\t\"\"  // empty string"
@@ -3362,7 +3493,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/string.txt:22
 #, no-wrap
-msgid "Following instructions can be used with strings:\n"
+msgid ""
+"Following instructions can be used with strings:\n"
 "<code><a cbot|strlen>strlen</a>     </code>Get string length\n"
 "<code><a cbot|strleft>strleft</a>    </code>Extract left part\n"
 "<code><a cbot|strright>strright</a>   </code>Extract right part\n"
@@ -3406,14 +3538,16 @@ msgstr ""
 #. type: Source code
 #: ../E/strleft.txt:11
 #, no-wrap
-msgid "<c/>\tstring s = strleft(\"abcdef\", 2);  // s is \"ab\"\n"
+msgid ""
+"<c/>\tstring s = strleft(\"abcdef\", 2);  // s is \"ab\"\n"
 "\tstring s = strleft(\"abc\", 10);  // s is \"abc\""
 msgstr ""
 
 #. type: Plain text
 #: ../E/strleft.txt:15
 #, no-wrap
-msgid "<code><a cbot|strlen>strlen</a></code>, <code><a cbot|strright>strright</a></code>, <code><a cbot|strmid>strmid</a></code>, <code><a cbot|strfind>strfind</a></code>, <code><a cbot|strval>strval</a></code>, <code><a cbot|strupper>strupper</a></code>, <code><a cbot|strlower>strlower</a></code>\n"
+msgid ""
+"<code><a cbot|strlen>strlen</a></code>, <code><a cbot|strright>strright</a></code>, <code><a cbot|strmid>strmid</a></code>, <code><a cbot|strfind>strfind</a></code>, <code><a cbot|strval>strval</a></code>, <code><a cbot|strupper>strupper</a></code>, <code><a cbot|strlower>strlower</a></code>\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
@@ -3438,7 +3572,8 @@ msgstr ""
 #. type: Source code
 #: ../E/strlen.txt:8
 #, no-wrap
-msgid "<c/>\tint len = strlen(\"abc\");  // len is 3\n"
+msgid ""
+"<c/>\tint len = strlen(\"abc\");  // len is 3\n"
 "\tint len = strlen(\"\");  // len is 0\n"
 "\tif ( strlen(s) == 0 )  // is string empty ?"
 msgstr ""
@@ -3446,7 +3581,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/strlen.txt:13
 #, no-wrap
-msgid "<code><a cbot|strleft>strleft</a></code>, <code><a cbot|strright>strright</a></code>, <code><a cbot|strmid>strmid</a></code>, <code><a cbot|strfind>strfind</a></code>, <code><a cbot|strval>strval</a></code>, <code><a cbot|strupper>strupper</a></code>, <code><a cbot|strlower>strlower</a></code>\n"
+msgid ""
+"<code><a cbot|strleft>strleft</a></code>, <code><a cbot|strright>strright</a></code>, <code><a cbot|strmid>strmid</a></code>, <code><a cbot|strfind>strfind</a></code>, <code><a cbot|strval>strval</a></code>, <code><a cbot|strupper>strupper</a></code>, <code><a cbot|strlower>strlower</a></code>\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
@@ -3477,7 +3613,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/strlower.txt:11
 #, no-wrap
-msgid "<code><a cbot|strlen>strlen</a></code>, <code><a cbot|strleft>strleft</a></code>, <code><a cbot|strright>strright</a></code>, <code><a cbot|strmid>strmid</a></code>, <code><a cbot|strfind>strfind</a></code>, <code><a cbot|strval>strval</a></code>, <code><a cbot|strupper>strupper</a></code>\n"
+msgid ""
+"<code><a cbot|strlen>strlen</a></code>, <code><a cbot|strleft>strleft</a></code>, <code><a cbot|strright>strright</a></code>, <code><a cbot|strmid>strmid</a></code>, <code><a cbot|strfind>strfind</a></code>, <code><a cbot|strval>strval</a></code>, <code><a cbot|strupper>strupper</a></code>\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
@@ -3514,7 +3651,8 @@ msgstr ""
 #. type: Source code
 #: ../E/strmid.txt:14
 #, no-wrap
-msgid "<c/>\tstring s = strmid(\"abcdef\", 1, 2);  // s is \"bc\"\n"
+msgid ""
+"<c/>\tstring s = strmid(\"abcdef\", 1, 2);  // s is \"bc\"\n"
 "\tstring s = strmid(\"abcdef\", 4, 5);  // s is \"ef\"\n"
 "\tstring s = strmid(\"abcdef\", 9, 2);  // s is \"\""
 msgstr ""
@@ -3522,7 +3660,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/strmid.txt:19
 #, no-wrap
-msgid "<code><a cbot|strlen>strlen</a></code>, <code><a cbot|strleft>strleft</a></code>, <code><a cbot|strright>strright</a></code>, <code><a cbot|strfind>strfind</a></code>, <code><a cbot|strval>strval</a></code>, <code><a cbot|strupper>strupper</a></code>, <code><a cbot|strlower>strlower</a></code>\n"
+msgid ""
+"<code><a cbot|strlen>strlen</a></code>, <code><a cbot|strleft>strleft</a></code>, <code><a cbot|strright>strright</a></code>, <code><a cbot|strfind>strfind</a></code>, <code><a cbot|strval>strval</a></code>, <code><a cbot|strupper>strupper</a></code>, <code><a cbot|strlower>strlower</a></code>\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
@@ -3547,14 +3686,16 @@ msgstr ""
 #. type: Source code
 #: ../E/strright.txt:11
 #, no-wrap
-msgid "<c/>\tstring s = strright(\"abcdef\", 2);  // s is \"ef\"\n"
+msgid ""
+"<c/>\tstring s = strright(\"abcdef\", 2);  // s is \"ef\"\n"
 "\tstring s = strright(\"abc\", 10);  // s is \"abc\""
 msgstr ""
 
 #. type: Plain text
 #: ../E/strright.txt:15
 #, no-wrap
-msgid "<code><a cbot|strlen>strlen</a></code>, <code><a cbot|strleft>strleft</a></code>, <code><a cbot|strmid>strmid</a></code>, <code><a cbot|strfind>strfind</a></code>, <code><a cbot|strval>strval</a></code>, <code><a cbot|strupper>strupper</a></code>, <code><a cbot|strlower>strlower</a></code>\n"
+msgid ""
+"<code><a cbot|strlen>strlen</a></code>, <code><a cbot|strleft>strleft</a></code>, <code><a cbot|strmid>strmid</a></code>, <code><a cbot|strfind>strfind</a></code>, <code><a cbot|strval>strval</a></code>, <code><a cbot|strupper>strupper</a></code>, <code><a cbot|strlower>strlower</a></code>\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
@@ -3585,7 +3726,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/strupper.txt:11
 #, no-wrap
-msgid "<code><a cbot|strlen>strlen</a></code>, <code><a cbot|strleft>strleft</a></code>, <code><a cbot|strright>strright</a></code>, <code><a cbot|strmid>strmid</a></code>, <code><a cbot|strfind>strfind</a></code>, <code><a cbot|strval>strval</a></code>, <code><a cbot|strlower>strlower</a></code>\n"
+msgid ""
+"<code><a cbot|strlen>strlen</a></code>, <code><a cbot|strleft>strleft</a></code>, <code><a cbot|strright>strright</a></code>, <code><a cbot|strmid>strmid</a></code>, <code><a cbot|strfind>strfind</a></code>, <code><a cbot|strval>strval</a></code>, <code><a cbot|strlower>strlower</a></code>\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
@@ -3604,7 +3746,8 @@ msgstr ""
 #. type: Source code
 #: ../E/strval.txt:5
 #, no-wrap
-msgid "<c/>\tstring s = \"45\"+\"12\";  // s contains \"4512\"\n"
+msgid ""
+"<c/>\tstring s = \"45\"+\"12\";  // s contains \"4512\"\n"
 "\tfloat  n =  45 + 12;   // n contains 67"
 msgstr ""
 
@@ -3617,7 +3760,8 @@ msgstr ""
 #. type: Source code
 #: ../E/strval.txt:12
 #, no-wrap
-msgid "<c/>\tfloat n = strval(\"1.23\");     // n is 1.23\n"
+msgid ""
+"<c/>\tfloat n = strval(\"1.23\");     // n is 1.23\n"
 "\tfloat n = strval(\"12abc45\");  // n is 12\n"
 "\tfloat n = strval(\"abc\");      // n is 0\n"
 "\tfloat n = strval(\"100\")+2;    // n is 102"
@@ -3626,7 +3770,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/strval.txt:18
 #, no-wrap
-msgid "<code><a cbot|strlen>strlen</a></code>, <code><a cbot|strleft>strleft</a></code>, <code><a cbot|strright>strright</a></code>, <code><a cbot|strmid>strmid</a></code>, <code><a cbot|strfind>strfind</a></code>, <code><a cbot|strupper>strupper</a></code>, <code><a cbot|strlower>strlower</a></code>\n"
+msgid ""
+"<code><a cbot|strlen>strlen</a></code>, <code><a cbot|strleft>strleft</a></code>, <code><a cbot|strright>strright</a></code>, <code><a cbot|strmid>strmid</a></code>, <code><a cbot|strfind>strfind</a></code>, <code><a cbot|strupper>strupper</a></code>, <code><a cbot|strlower>strlower</a></code>\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
@@ -3651,7 +3796,8 @@ msgstr ""
 #. type: Source code
 #: ../E/synchro.txt:6
 #, no-wrap
-msgid "class blocking\n"
+msgid ""
+"class blocking\n"
 "{\n"
 "\tstatic int nb = 33;\n"
 "\tsynchronized int inc( )\n"
@@ -3667,7 +3813,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/synchro.txt:18
 #, no-wrap
-msgid "What happens if two bots execute the <code>inc</code> method at the same time?\n"
+msgid ""
+"What happens if two bots execute the <code>inc</code> method at the same time?\n"
 "Both of them will execute <code>val=nb</code> and wait 2 seconds so both of them will have <code>val=33</code>. With <code>synchronized</code> the first bot starts execution with <code>val=33</code> and then waits 2 seconds and returns. Only once the first bot has returned from the <code>inc</code> method, the second bot will be allowed to enter the <code>inc</code> method and therefore the second bot will always have <code>val=34</code>."
 msgstr ""
 
@@ -3680,7 +3827,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/synchro.txt:24
 #, no-wrap
-msgid "<code><a cbot|class>class</a></code>, <code><a cbot|static>static</a></code>\n"
+msgid ""
+"<code><a cbot|class>class</a></code>, <code><a cbot|static>static</a></code>\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
@@ -3711,7 +3859,8 @@ msgstr ""
 #. type: Source code
 #: ../E/term.txt:8
 #, no-wrap
-msgid "\t{\n"
+msgid ""
+"\t{\n"
 "\t\tfloat dist;\n"
 "\t\tdist = distance(p1, p2);\n"
 "\t} <n/>// no semicolon here!<c/>"
@@ -3726,7 +3875,8 @@ msgstr ""
 #. type: Source code
 #: ../E/term.txt:15
 #, no-wrap
-msgid "\tif ( a < b ) <n/>// no semicolon here!<c/>\n"
+msgid ""
+"\tif ( a < b ) <n/>// no semicolon here!<c/>\n"
 "\t{\n"
 "\t\tb = 100-a;\n"
 "\t}"
@@ -3741,7 +3891,8 @@ msgstr ""
 #. type: Source code
 #: ../E/term.txt:22
 #, no-wrap
-msgid "\tint d=20;\n"
+msgid ""
+"\tint d=20;\n"
 "\tmove(d);\n"
 "\tturn(90);"
 msgstr ""
@@ -3803,7 +3954,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/testinfo.txt:17
 #, no-wrap
-msgid "<code><a cbot|receive>receive</a></code>, <code><a cbot|send>send</a></code> and <code><a cbot|delinfo>deleteinfo</a></code>.\n"
+msgid ""
+"<code><a cbot|receive>receive</a></code>, <code><a cbot|send>send</a></code> and <code><a cbot|delinfo>deleteinfo</a></code>.\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
@@ -3822,7 +3974,8 @@ msgstr ""
 #. type: Source code
 #: ../E/this.txt:4
 #, no-wrap
-msgid "public class MyClass\n"
+msgid ""
+"public class MyClass\n"
 "{\n"
 "\tint    m_int;\n"
 "\tstring m_str;\n"
@@ -3831,11 +3984,13 @@ msgid "public class MyClass\n"
 "\t\tOtherFunction(this);\n"
 "\t\tm_int = 2;\n"
 "\t}\n"
-"}\n\n"
+"}\n"
+"\n"
 "void OtherFunction(MyClass obj)\n"
 "{\n"
 "\tmessage(obj.m_str);\n"
-"}\n\n"
+"}\n"
+"\n"
 "extern void object::Test()\n"
 "{\n"
 "\tMyClass item();\n"
@@ -3853,7 +4008,8 @@ msgstr ""
 #. type: Source code
 #: ../E/this.txt:29
 #, no-wrap
-msgid "\tm_int = 2;\n"
+msgid ""
+"\tm_int = 2;\n"
 "\tthis.m_int = 2;  // identical"
 msgstr ""
 
@@ -3866,7 +4022,8 @@ msgstr ""
 #. type: Source code
 #: ../E/this.txt:34
 #, no-wrap
-msgid "extern void object::Display()\n"
+msgid ""
+"extern void object::Display()\n"
 "{\n"
 "\tmessage(orientation);\n"
 "\tmessage(this.orientation); // same thing but\n"
@@ -3883,7 +4040,8 @@ msgstr ""
 #. type: Source code
 #: ../E/this.txt:43
 #, no-wrap
-msgid "public class MyClass\n"
+msgid ""
+"public class MyClass\n"
 "{\n"
 "\tint  value;\n"
 "\tvoid Put( int value )\n"
@@ -3914,7 +4072,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/thump.txt:8
 #, no-wrap
-msgid "Zero if everything is OK, a value different from zero if an error occurred. \n"
+msgid ""
+"Zero if everything is OK, a value different from zero if an error occurred. \n"
 "<code>== 0 </code>Thumping performed\n"
 "<code>!= 0 </code>Operation impossible"
 msgstr ""
@@ -3982,7 +4141,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/turn.txt:7
 #, no-wrap
-msgid "<c/>turn(90);<n/>  quarter turn to the left\n"
+msgid ""
+"<c/>turn(90);<n/>  quarter turn to the left\n"
 "<c/>turn(-90);<n/> quarter turn to the right (negative angle)\n"
 "<c/>turn(180);<n/> half turn"
 msgstr ""
@@ -3996,7 +4156,8 @@ msgstr ""
 #. type: Source code
 #: ../E/turn.txt:13
 #, no-wrap
-msgid "\titem = <a cbot|radar>radar</a>(AlienSpider);\n"
+msgid ""
+"\titem = <a cbot|radar>radar</a>(AlienSpider);\n"
 "\tturn(<a cbot|direct>direction</a>(item.position));"
 msgstr ""
 
@@ -4027,7 +4188,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/turn.txt:28
 #, no-wrap
-msgid "Zero if everything is OK, or a value different from zero if an error occurred. \n"
+msgid ""
+"Zero if everything is OK, or a value different from zero if an error occurred. \n"
 "<code>== 0 </code>rotation performed\n"
 "<code>!= 0 </code>rotation impossible"
 msgstr ""
@@ -4167,28 +4329,32 @@ msgstr ""
 #. type: Plain text
 #: ../E/var.txt:6
 #, no-wrap
-msgid "For the declaration of the variable, write the following line: \n"
+msgid ""
+"For the declaration of the variable, write the following line: \n"
 "<c/><s/>\tint  countTit;<n/>"
 msgstr ""
 
 #. type: Plain text
 #: ../E/var.txt:9
 #, no-wrap
-msgid "To put <code>0</code> into the variable, write:\n"
+msgid ""
+"To put <code>0</code> into the variable, write:\n"
 "<c/><s/>\tcountTit = 0;<n/>"
 msgstr ""
 
 #. type: Plain text
 #: ../E/var.txt:12
 #, no-wrap
-msgid "At every titanium ore grabbed, write:\n"
+msgid ""
+"At every titanium ore grabbed, write:\n"
 "<c/><s/>\tcountTit = countTit + 1<n/>"
 msgstr ""
 
 #. type: Plain text
 #: ../E/var.txt:15
 #, no-wrap
-msgid "You have much freedom in the choice of the name for a variable, you can call them by any name, f. ex.: <code>dist</code>, <code>direct</code>, <code>p2</code>, <code>a</code>, <code>x</code>, <code>nothing_2_shoot_at</code>, etc.\n"
+msgid ""
+"You have much freedom in the choice of the name for a variable, you can call them by any name, f. ex.: <code>dist</code>, <code>direct</code>, <code>p2</code>, <code>a</code>, <code>x</code>, <code>nothing_2_shoot_at</code>, etc.\n"
 "A variable name must always begin with a letter. It can be followed by any combination of letters, digits or the underscore character <code>_</code>. You can of course not use the keywords of the CBOT language like <code><a cbot|for>for</a></code>, <code><a cbot|while>while</a></code>, <code><a cbot|break>break</a></code>, <code><a cbot|continue>continue</a></code>, <code>do</code>, etc.\n"
 "You should be careful about the choice of the names that you give to variables; writing a program can become very difficult if you forget the names of variables or if you do not remember what they are used for. Elaborate your own system to find variable names, and do not use names like <code>Bmo45</code>, <code>a</code> or <code>tgBinX</code>."
 msgstr ""
@@ -4280,35 +4446,40 @@ msgstr ""
 #. type: Plain text
 #: ../E/var.txt:41
 #, no-wrap
-msgid "Once you declared a variable, it still does not contain any value. Before you can use it, you must put a value inside: \n"
+msgid ""
+"Once you declared a variable, it still does not contain any value. Before you can use it, you must put a value inside: \n"
 "<c/><s/>\tint  i, j;"
 msgstr ""
 
 #. type: Source code
 #: ../E/var.txt:43
 #, no-wrap
-msgid "\tj = 25;  // j takes the value 25\n"
+msgid ""
+"\tj = 25;  // j takes the value 25\n"
 "\tj = i;   // can not write this, because i has got no content yet."
 msgstr ""
 
 #. type: Plain text
 #: ../E/var.txt:46
 #, no-wrap
-msgid "You can also declare a variable and put a value inside in the same line, writing: \n"
+msgid ""
+"You can also declare a variable and put a value inside in the same line, writing: \n"
 "<c/><s/>\tint  countTit = 0;"
 msgstr ""
 
 #. type: Plain text
 #: ../E/var.txt:49
 #, no-wrap
-msgid "When you assign a value to a variable with the equals sign <code>=</code>, the value on the right side is copied into the value on the left side. Consider the following example: \n"
+msgid ""
+"When you assign a value to a variable with the equals sign <code>=</code>, the value on the right side is copied into the value on the left side. Consider the following example: \n"
 "<c/><s/>\tint  i, j;"
 msgstr ""
 
 #. type: Source code
 #: ../E/var.txt:51
 #, no-wrap
-msgid "\ti = 5+2;  // i takes the value 7\n"
+msgid ""
+"\ti = 5+2;  // i takes the value 7\n"
 "\tj = i+6;  // j takes the value of i plus 6, this is 13\n"
 "\ti = j;    // i takes the value of j, this is 13"
 msgstr ""
@@ -4322,21 +4493,24 @@ msgstr ""
 #. type: Plain text
 #: ../E/var.txt:57
 #, no-wrap
-msgid "The following assignment is not correct, because on the left side of the equals sign <code>=</code>, there can be only a variable name:\n"
+msgid ""
+"The following assignment is not correct, because on the left side of the equals sign <code>=</code>, there can be only a variable name:\n"
 "<c/><s/>\ti+2 = j;  // impossible"
 msgstr ""
 
 #. type: Plain text
 #: ../E/var.txt:60
 #, no-wrap
-msgid "If you want to exchange the values of two variables, you must use a third variable. Here is an example to exchange the content of two variables <code>a</code> and <code>b</code> :\n"
+msgid ""
+"If you want to exchange the values of two variables, you must use a third variable. Here is an example to exchange the content of two variables <code>a</code> and <code>b</code> :\n"
 "<c/><s/>\tint temp;"
 msgstr ""
 
 #. type: Source code
 #: ../E/var.txt:62
 #, no-wrap
-msgid "\ttemp = a;  // temp takes the value of a\n"
+msgid ""
+"\ttemp = a;  // temp takes the value of a\n"
 "\ta = b;     // the content of b is copied into a\n"
 "\tb = temp;  // the content of temp is copied into b"
 msgstr ""
@@ -4356,14 +4530,16 @@ msgstr ""
 #. type: Plain text
 #: ../E/void.txt:4
 #, no-wrap
-msgid "Example:\n"
+msgid ""
+"Example:\n"
 "<c/><s/>void MyFunction(int a)"
 msgstr ""
 
 #. type: Source code
 #: ../E/void.txt:6
 #, no-wrap
-msgid "{\n"
+msgid ""
+"{\n"
 "\t...\n"
 "}"
 msgstr ""
@@ -4443,7 +4619,8 @@ msgstr ""
 #. type: Source code
 #: ../E/while.txt:10
 #, no-wrap
-msgid "\twhile (true)\n"
+msgid ""
+"\twhile (true)\n"
 "\t{\n"
 "\t\titem = <a cbot|radar>radar</a>(AlienSpider);\n"
 "\t\t<a cbot|turn>turn</a>(direction(item.position));\n"
@@ -4460,7 +4637,8 @@ msgstr ""
 #. type: Source code
 #: ../E/while.txt:21
 #, no-wrap
-msgid "<code>while ( condition )\n"
+msgid ""
+"<code>while ( condition )\n"
 "{\n"
 "\t</code>Instructions ...<c/>\n"
 "}"
@@ -4481,7 +4659,8 @@ msgstr ""
 #. type: Source code
 #: ../E/while.txt:34
 #, no-wrap
-msgid "<c/>int i = 0;\n"
+msgid ""
+"<c/>int i = 0;\n"
 "while ( i < 10 )\n"
 "{\n"
 "\t<n/>Instructions ...<c/>\n"
@@ -4540,7 +4719,8 @@ msgstr ""
 #. type: Source code
 #: ../E/writeln.txt:15
 #, no-wrap
-msgid "\tstring s1 = \"abc\";\n"
+msgid ""
+"\tstring s1 = \"abc\";\n"
 "\tstring s2 = \"def\";\n"
 "\twriteln(s1 + \" \" + s2);"
 msgstr ""
@@ -4548,7 +4728,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/writeln.txt:20
 #, no-wrap
-msgid "<code><a cbot|file>file</a></code>, <code><a cbot|open>open</a></code>, <code><a cbot|close>close</a></code>, <code><a cbot|readln>readln</a></code> and <code><a cbot|eof>eof</a></code>.\n"
+msgid ""
+"<code><a cbot|file>file</a></code>, <code><a cbot|open>open</a></code>, <code><a cbot|close>close</a></code>, <code><a cbot|readln>readln</a></code> and <code><a cbot|eof>eof</a></code>.\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
@@ -4573,7 +4754,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/var.txt:30
 #, no-wrap
-msgid "The <a cbot|type>type</a> determines what kind of information the variable can contain. According to the type, a variable can contain a whole number, a real number, a string, the coordinates of a point, information about an object, etc. \n"
+msgid ""
+"The <a cbot|type>type</a> determines what kind of information the variable can contain. According to the type, a variable can contain a whole number, a real number, a string, the coordinates of a point, information about an object, etc. \n"
 "Here is a list of the most common variable types:"
 msgstr ""
 
@@ -4736,7 +4918,8 @@ msgstr ""
 #. type: Source code
 #: ../E/build.txt:7
 #, no-wrap
-msgid " <a cbot|object>object</a> item = <a cbot|radar>radar</a>(<a object|titan>Titanium</a>);\n"
+msgid ""
+" <a cbot|object>object</a> item = <a cbot|radar>radar</a>(<a object|titan>Titanium</a>);\n"
 " <a cbot|goto>goto</a>(item.position);\n"
 " build(<a object|factory>BotFactory</a>);"
 msgstr ""
@@ -4762,7 +4945,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/build.txt:21
 #, no-wrap
-msgid "Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <code>build()</code>.\n"
+msgid ""
+"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <code>build()</code>.\n"
 "<code>== 0 </code>Successfully built\n"
 "<code>!= 0 </code>Impossible to build (for example, the nearest titanium cube is too far away or the specified building is not available in the mission)"
 msgstr ""
@@ -4782,7 +4966,8 @@ msgstr ""
 #. type: Source code
 #: ../E/buildingenabled.txt:7
 #, no-wrap
-msgid " <a cbot|if>if</a> (buildingenabled(<a object|factory>BotFactory</a>))\n"
+msgid ""
+" <a cbot|if>if</a> (buildingenabled(<a object|factory>BotFactory</a>))\n"
 " {\n"
 " \tbuild(<a object|factory>BotFactory</a>);\n"
 " }"
@@ -4815,7 +5000,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/isbusy.txt:11
 #, no-wrap
-msgid "<code><format const>true</format></code> if the object is doing something (e.g. converting)\n"
+msgid ""
+"<code><format const>true</format></code> if the object is doing something (e.g. converting)\n"
 "<code><format const>false</format></code> if the object is not doing anything"
 msgstr ""
 
@@ -4834,7 +5020,8 @@ msgstr ""
 #. type: Source code
 #: ../E/canbuild.txt:7
 #, no-wrap
-msgid " <a cbot|if>if</a> (canbuild(<a object|factory>BotFactory</a>))\n"
+msgid ""
+" <a cbot|if>if</a> (canbuild(<a object|factory>BotFactory</a>))\n"
 " {\n"
 " \tbuild(<a object|factory>BotFactory</a>);\n"
 " }"
@@ -4879,7 +5066,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/canresearch.txt:11
 #, no-wrap
-msgid "<format const>true</format> if the research can be done (even if it is already done, to check that, use the <a cbot|researched>researched</a> instruction)\n"
+msgid ""
+"<format const>true</format> if the research can be done (even if it is already done, to check that, use the <a cbot|researched>researched</a> instruction)\n"
 "<format const>false</format> if the research cannot be done"
 msgstr ""
 
@@ -4982,7 +5170,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/colors.txt:8
 #, no-wrap
-msgid "<code><format const>White</format></code>\n"
+msgid ""
+"<code><format const>White</format></code>\n"
 "<code><format const>Black</format></code>\n"
 "<code><format const>Gray</format></code>\n"
 "<code><format const>LightGray</format></code>\n"
@@ -5009,7 +5198,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/colors.txt:27
 #, no-wrap
-msgid "<code><format const>BlackArrow</format></code>\n"
+msgid ""
+"<code><format const>BlackArrow</format></code>\n"
 "<code><format const>RedArrow</format></code>"
 msgstr ""
 
@@ -5064,7 +5254,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/destroy.txt:11
 #, no-wrap
-msgid "Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <code>destroy()</code>.\n"
+msgid ""
+"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <code>destroy()</code>.\n"
 "<code>== 0 </code>The operation of destroying of an object was started\n"
 "<code>!= 0 </code>The instruction could not be done (e.g. nothing to destroy)"
 msgstr ""
@@ -5114,7 +5305,8 @@ msgstr ""
 #. type: Source code
 #: ../E/detect.txt:14
 #, no-wrap
-msgid "int bots[4];\n"
+msgid ""
+"int bots[4];\n"
 "bots[0] = WheeledGrabber;\n"
 "bots[1] = TrackedGrabber;\n"
 "bots[2] = WingedGrabber;\n"
@@ -5131,7 +5323,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/detect.txt:24
 #, no-wrap
-msgid "<format const>true</format> if the object was found\n"
+msgid ""
+"<format const>true</format> if the object was found\n"
 "<format const>false</format> if the object was not found"
 msgstr ""
 
@@ -5156,7 +5349,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/factory.txt:17
 #, no-wrap
-msgid "Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <code>factory()</code>.\n"
+msgid ""
+"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <code>factory()</code>.\n"
 "<code>== 0 </code>The construction successfully started\n"
 "<code>!= 0 </code>The construction could not be started (e.g. no <a object|titan>Titanium</a> in the factory, the bot is not researched)"
 msgstr ""
@@ -5218,7 +5412,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/for.txt:19
 #, no-wrap
-msgid "Example: count from 1 to 4\n"
+msgid ""
+"Example: count from 1 to 4\n"
 "<c/><s/><c/>for ( i = 1 ; i <= 4 ; i++ )"
 msgstr ""
 
@@ -5243,7 +5438,8 @@ msgstr ""
 #. type: Source code
 #: ../E/function.txt:7
 #, no-wrap
-msgid "extern void object::ProgramName()\n"
+msgid ""
+"extern void object::ProgramName()\n"
 "{\n"
 "\t\n"
 "\t// instructions\n"
@@ -5260,7 +5456,8 @@ msgstr ""
 #. type: Source code
 #: ../E/function.txt:19
 #, no-wrap
-msgid "extern void object::Remote()\n"
+msgid ""
+"extern void object::Remote()\n"
 "{\n"
 "\tsend(\"order\", 1, 100);\n"
 "\twait(5);\n"
@@ -5282,11 +5479,13 @@ msgstr ""
 #. type: Source code
 #: ../E/function.txt:33
 #, no-wrap
-msgid "void SendToPost(float op)\n"
+msgid ""
+"void SendToPost(float op)\n"
 "{\n"
 "\tsend(\"order\", op, 100);\n"
 "\twait(5);\n"
-"}\n\n"
+"}\n"
+"\n"
 "extern void object::Remote()\n"
 "{\n"
 "\tSendToPost(1);\n"
@@ -5311,7 +5510,8 @@ msgstr ""
 #. type: Source code
 #: ../E/function.txt:51
 #, no-wrap
-msgid "result_type FunctionName(optional_parameters)\n"
+msgid ""
+"result_type FunctionName(optional_parameters)\n"
 "{\n"
 "\tbody\n"
 "}"
@@ -5338,7 +5538,8 @@ msgstr ""
 #. type: Source code
 #: ../E/function.txt:61
 #, no-wrap
-msgid "void Example(int a, float x, string s)\n"
+msgid ""
+"void Example(int a, float x, string s)\n"
 "{\n"
 "\tmessage(a);\n"
 "\tmessage(x);\n"
@@ -5373,10 +5574,12 @@ msgstr ""
 #. type: Source code
 #: ../E/function.txt:75
 #, no-wrap
-msgid "float Average(float a, float b)\n"
+msgid ""
+"float Average(float a, float b)\n"
 "{\n"
 "\treturn (a+b)/2;\n"
-"}\n\n"
+"}\n"
+"\n"
 "extern void object::Test( )\n"
 "{\n"
 "\tfloat value;\n"
@@ -5394,10 +5597,12 @@ msgstr ""
 #. type: Source code
 #: ../E/function.txt:89
 #, no-wrap
-msgid "float Pi()\n"
+msgid ""
+"float Pi()\n"
 "{\n"
 "\treturn 3.1415;\n"
-"}\n\n"
+"}\n"
+"\n"
 "string Sign(float a)\n"
 "{\n"
 "\tif (a > 0)  return \"positive\";\n"
@@ -5421,10 +5626,12 @@ msgstr ""
 #. type: Source code
 #: ../E/function.txt:105
 #, no-wrap
-msgid "float Pythagoras(float a, float b)\n"
+msgid ""
+"float Pythagoras(float a, float b)\n"
 "{\n"
 "\treturn sqrt((a*a)+(b*b));\n"
-"}\n\n"
+"}\n"
+"\n"
 "float Pythagoras(float a, float b, float c)\n"
 "{\n"
 "\treturn sqrt((a*a)+(b*b)+(c*c));\n"
@@ -5452,7 +5659,8 @@ msgstr ""
 #. type: Source code
 #: ../E/function.txt:123
 #, no-wrap
-msgid "void object::Example()\n"
+msgid ""
+"void object::Example()\n"
 "{\n"
 "\tmessage(this.category);\n"
 "}"
@@ -5467,7 +5675,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/object.txt:4
 #, no-wrap
-msgid "<code><a cbot|int>int</a>    object.category     </code><a cbot|category>Category</a> of the object\n"
+msgid ""
+"<code><a cbot|int>int</a>    object.category     </code><a cbot|category>Category</a> of the object\n"
 "<code><a cbot|point>point</a>  object.position     </code>Position of the object (x,y,z)\n"
 "<code><a cbot|float>float</a>  object.orientation  </code>Orientation of the object (0..360)\n"
 "<code><a cbot|float>float</a>  object.pitch        </code>Forward/backward angle of the object\n"
@@ -5552,7 +5761,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/pencolor.txt:10
 #, no-wrap
-msgid "Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <c/>pencolor();<n/>.\n"
+msgid ""
+"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <c/>pencolor();<n/>.\n"
 "<code>== 0 </code>The color was changed\n"
 "<code>!= 0 </code>The instruction did not work"
 msgstr ""
@@ -5590,7 +5800,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/pendown.txt:13
 #, no-wrap
-msgid "Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <c/>pendown();<n/>.\n"
+msgid ""
+"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <c/>pendown();<n/>.\n"
 "<code>== 0 </code>The pen is now down\n"
 "<code>!= 0 </code>The instruction did not work"
 msgstr ""
@@ -5616,7 +5827,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/penup.txt:7
 #, no-wrap
-msgid "Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <c/>penup();<n/>.\n"
+msgid ""
+"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <c/>penup();<n/>.\n"
 "<code>== 0 </code>The pen is now up\n"
 "<code>!= 0 </code>The instruction did not work"
 msgstr ""
@@ -5648,7 +5860,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/penwidth.txt:10
 #, no-wrap
-msgid "Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <c/>penwidth();<n/>.\n"
+msgid ""
+"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <c/>penwidth();<n/>.\n"
 "<code>== 0 </code>The width was changed\n"
 "<code>!= 0 </code>The instruction did not work"
 msgstr ""
@@ -5704,7 +5917,8 @@ msgstr ""
 #. type: Source code
 #: ../E/radar.txt:26
 #, no-wrap
-msgid "bots[0] = WheeledGrabber;\n"
+msgid ""
+"bots[0] = WheeledGrabber;\n"
 "bots[1] = TrackedGrabber;\n"
 "bots[2] = WingedGrabber;\n"
 "bots[3] = LeggedGrabber;\n"
@@ -5762,7 +5976,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/radar.txt:54
 #, no-wrap
-msgid "<code><format const>FilterNone</format>        </code>Detects everything (default)\n"
+msgid ""
+"<code><format const>FilterNone</format>        </code>Detects everything (default)\n"
 "<code><format const>FilterOnlyLanding</format> </code>Detects only objects being on the ground\n"
 "<code><format const>FilterOnlyFlying</format>  </code>Detects only objects not being on the ground\n"
 "<code><format const>FilterFriendly</format>    </code>Detects only allies (objects in the same team)\n"
@@ -5815,7 +6030,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/research.txt:14
 #, no-wrap
-msgid "Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <code>research()</code>.\n"
+msgid ""
+"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <code>research()</code>.\n"
 "<code>== 0 </code>The research successfully started\n"
 "<code>!= 0 </code>The research could not be started (e.g. the research is disabled in the level, no power cell)"
 msgstr ""
@@ -5925,7 +6141,8 @@ msgstr ""
 #. type: Source code
 #: ../E/search.txt:11
 #, no-wrap
-msgid "bots[0] = WheeledGrabber;\n"
+msgid ""
+"bots[0] = WheeledGrabber;\n"
 "bots[1] = TrackedGrabber;\n"
 "bots[2] = WingedGrabber;\n"
 "bots[3] = LeggedGrabber;\n"
@@ -6002,7 +6219,8 @@ msgstr ""
 #. type: Source code
 #: ../E/switch.txt:9
 #, no-wrap
-msgid "public void WaitForTaskCompleted(object building)\n"
+msgid ""
+"public void WaitForTaskCompleted(object building)\n"
 "{\n"
 "\tint cat = building.category;\n"
 "\t<a cbot|if>if</a> (cat == Converter) wait(15);\n"
@@ -6021,7 +6239,8 @@ msgstr ""
 #. type: Source code
 #: ../E/switch.txt:20
 #, no-wrap
-msgid "public void WaitForTaskCompleted(object building)\n"
+msgid ""
+"public void WaitForTaskCompleted(object building)\n"
 "{\n"
 "\tswitch (building.category)\n"
 "\t{\n"
@@ -6048,7 +6267,8 @@ msgstr ""
 #. type: Source code
 #: ../E/switch.txt:35
 #, no-wrap
-msgid "switch (building.category)\n"
+msgid ""
+"switch (building.category)\n"
 "{\n"
 "\tcase Converter:\n"
 "\tcase BotFactory:\n"
@@ -6067,7 +6287,8 @@ msgstr ""
 #. type: Source code
 #: ../E/switch.txt:48
 #, no-wrap
-msgid "<c/>switch ( value )\n"
+msgid ""
+"<c/>switch ( value )\n"
 "{\n"
 "\tcase value1: instructions1\n"
 "\tcase value2: instructions2\n"
@@ -6086,7 +6307,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/switch.txt:59
 #, no-wrap
-msgid "If the <code>value</code> is equal to <code>value1</code>, <code>instructions1</code> to <code>N</code> (including <code>instructionsDefault</code>) are executed.\n"
+msgid ""
+"If the <code>value</code> is equal to <code>value1</code>, <code>instructions1</code> to <code>N</code> (including <code>instructionsDefault</code>) are executed.\n"
 "If the <code>value</code> is equal to <code>value2</code>, <code>instructions2</code> to <code>N</code> (including <code>instructionsDefault</code>) are executed.\n"
 "And so on.\n"
 "If the <code>value</code> is equal to <code>valueN</code>, <code>instructionsN</code> and <code>instructionsDefault</code> are executed.\n"
@@ -6114,7 +6336,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/takeoff.txt:11
 #, no-wrap
-msgid "Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <code>takeoff()</code>.\n"
+msgid ""
+"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <code>takeoff()</code>.\n"
 "<code>== 0 </code>Spaceship takes off\n"
 "<code>!= 0 </code>Spaceship could not take off (e.g. mission is not finished yet)"
 msgstr ""
@@ -6344,7 +6567,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/expr.txt:22
 #, no-wrap
-msgid "Here is a complicated example, which uses arithemtic operations described below, showing how expressions are calculated:\n"
+msgid ""
+"Here is a complicated example, which uses arithemtic operations described below, showing how expressions are calculated:\n"
 "<c/>Assume a, b, c, d, x, y, z, e are all initialized variables of type float or int. Then the following expression should be calculated the following way:\n"
 "  a * b + c - d / x % (y * z) - e =\n"
 "= r1 + c - d / x % (y * z) - e    = , r1 = a * b\n"
@@ -6378,7 +6602,8 @@ msgstr ""
 #. type: Source code
 #: ../E/expr.txt:42
 #, no-wrap
-msgid " float a;\n"
+msgid ""
+" float a;\n"
 " float b = 2.0 * (a = 4.0); // b == 8.0"
 msgstr ""
 
@@ -6391,7 +6616,8 @@ msgstr ""
 #. type: Source code
 #: ../E/expr.txt:47
 #, no-wrap
-msgid " float a, b, c, d, e;\n"
+msgid ""
+" float a, b, c, d, e;\n"
 " a = b = c = d = e = 1.0; // a == b == c == d == e == 1.0"
 msgstr ""
 
@@ -6416,7 +6642,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/expr.txt:54
 #, no-wrap
-msgid "<code>+</code>  addition\n"
+msgid ""
+"<code>+</code>  addition\n"
 "<code>-</code>  subtraction\n"
 "<code>*</code>  multiplication\n"
 "<code>/</code>  division\n"
@@ -6492,7 +6719,8 @@ msgstr ""
 #. type: Source code
 #: ../E/expr.txt:101
 #, no-wrap
-msgid "\tstring s = \"a\" + \"bc\";  // returns \"abc\"\n"
+msgid ""
+"\tstring s = \"a\" + \"bc\";  // returns \"abc\"\n"
 "\tstring s = 1 + \"bc\";    // returns \"1bc\"\n"
 "\tstring s = 2.5 + \"bc\";  // returns \"2.5bc\"\n"
 "\tstring s = \"a\" + true;  // returns \"atrue\""
@@ -6561,7 +6789,8 @@ msgstr ""
 #. type: Source code
 #: ../E/expr.txt:66
 #, no-wrap
-msgid " int    i = 12 + 3;      // i == 15\n"
+msgid ""
+" int    i = 12 + 3;      // i == 15\n"
 " int    i = 2 - 5;       // i == -3\n"
 " \n"
 " float  f = 3.01 * 10;   // f == 30.1\n"
@@ -6580,7 +6809,8 @@ msgstr ""
 #. type: Source code
 #: ../E/expr.txt:108
 #, no-wrap
-msgid " float pi = 3.14;\n"
+msgid ""
+" float pi = 3.14;\n"
 " // message(pi); // does not work\n"
 " message(\"\"+pi);"
 msgstr ""
@@ -6588,7 +6818,8 @@ msgstr ""
 #. type: Source code
 #: ../E/expr.txt:189
 #, no-wrap
-msgid " a = 2;\n"
+msgid ""
+" a = 2;\n"
 " b = a++;\n"
 " // now b contains 2 and a contains 3"
 msgstr ""
@@ -6596,7 +6827,8 @@ msgstr ""
 #. type: Source code
 #: ../E/expr.txt:193
 #, no-wrap
-msgid " a = 2;\n"
+msgid ""
+" a = 2;\n"
 " b = ++a;\n"
 " // now b contains 3 and a contains 3"
 msgstr ""
@@ -6622,7 +6854,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/expr.txt:151
 #, no-wrap
-msgid "The ternary operator is nothing more than a syntax sugar. It is also known as \"inline if\". It might be confusing at first, because its syntax is a little more complicated than other operators. It can be described as follows:\n"
+msgid ""
+"The ternary operator is nothing more than a syntax sugar. It is also known as \"inline if\". It might be confusing at first, because its syntax is a little more complicated than other operators. It can be described as follows:\n"
 "<code>(condition) ? (result when true) : (result when false)</code>\n"
 "Brackets are not needed."
 msgstr ""
@@ -6666,7 +6899,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/expr.txt:141
 #, no-wrap
-msgid "<code>!a      </code>not <code>a</code>\n"
+msgid ""
+"<code>!a      </code>not <code>a</code>\n"
 "<code>a && b  </code><code>a</code> and <code>b</code>\n"
 "<code>a || b  </code><code>a</code> or <code>b</code>"
 msgstr ""
@@ -6674,7 +6908,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/expr.txt:146
 #, no-wrap
-msgid "<code>!false        </code>returns true\n"
+msgid ""
+"<code>!false        </code>returns true\n"
 "<code>true && false </code>returns false \n"
 "<code>true || false </code>returns true"
 msgstr ""
@@ -6694,7 +6929,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/expr.txt:164
 #, no-wrap
-msgid "<code>a & b  </code><code>a</code> AND <code>b</code>\n"
+msgid ""
+"<code>a & b  </code><code>a</code> AND <code>b</code>\n"
 "<code>a | b  </code><code>a</code> OR <code>b</code>\n"
 "<code>a ^ b  </code><code>a</code> XOR <code>b</code>\n"
 "<code>a >> b  </code>shift bits of <code>a</code> to the right <code>b</code> times\n"
@@ -6704,7 +6940,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/expr.txt:171
 #, no-wrap
-msgid "<code>2 & 1         </code>returns 0\n"
+msgid ""
+"<code>2 & 1         </code>returns 0\n"
 "<code>2 | 1         </code>returns 3\n"
 "<code>2 ^ 2         </code>returns 0\n"
 "<code>2 >> 1        </code>returns 1\n"
@@ -6714,7 +6951,8 @@ msgstr ""
 #. type: Source code
 #: ../E/array.txt:4
 #, no-wrap
-msgid "int    [ ] a;   // an array of int\n"
+msgid ""
+"int    [ ] a;   // an array of int\n"
 "int    a [12];  // an array of int limited to 12 elements\n"
 "string s[3];    // an array of 3 strings\n"
 "float  xy[][];  // a 2 dimensionnal array of floats"
@@ -6741,7 +6979,8 @@ msgstr ""
 #. type: Source code
 #: ../E/array.txt:37
 #, no-wrap
-msgid "int numbers[] = { 10, 20, 30 };\n"
+msgid ""
+"int numbers[] = { 10, 20, 30 };\n"
 "MyClass objects[] = { new MyClass(1), new MyClass(2) };"
 msgstr ""
 
@@ -6826,7 +7065,8 @@ msgstr ""
 #. type: Source code
 #: ../E/for.txt:41
 #, no-wrap
-msgid "int i = 0;\n"
+msgid ""
+"int i = 0;\n"
 "int j;\n"
 "for (i++, j = 2; i < 3 && j > 0; i++, j--)\n"
 "{\n"
@@ -6844,7 +7084,8 @@ msgstr ""
 #. type: Source code
 #: ../E/radarall.txt:5
 #, no-wrap
-msgid "object[] items = radarall(PowerCell);\n"
+msgid ""
+"object[] items = radarall(PowerCell);\n"
 "for (int i = 0; i < sizeof(items); ++i)\n"
 "{\n"
 "    message(items[i].id);\n"
@@ -6854,7 +7095,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/category.txt:108
 #, no-wrap
-msgid "       <code><a object|flag>BlueFlag</a>          </code>Blue Flag\n"
+msgid ""
+"       <code><a object|flag>BlueFlag</a>          </code>Blue Flag\n"
 "       <code><a object|flag>RedFlag</a>           </code>Red Flag\n"
 "       <code><a object|flag>GreenFlag</a>         </code>Green Flag\n"
 "       <code><a object|flag>YellowFlag</a>        </code>Yellow Flag\n"
@@ -6869,7 +7111,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/category.txt:10
 #, no-wrap
-msgid "<button 176/>   <code><a object|huston>Houston</a>          </code>Mission Control\n"
+msgid ""
+"<button 176/>   <code><a object|huston>Houston</a>          </code>Mission Control\n"
 "<button 171/>   <code><a object|base>SpaceShip</a>        </code>Spaceship\n"
 "<button 160/>   <code><a object|factory>BotFactory</a>       </code>Robot Factory\n"
 "<button 163/>   <code><a object|research>ResearchCenter</a>   </code>Research Center\n"
@@ -6918,7 +7161,8 @@ msgstr ""
 #. type: Source code
 #: ../E/class.txt:17
 #, no-wrap
-msgid "public class MyClass\n"
+msgid ""
+"public class MyClass\n"
 "{\n"
 "\tint     a, b;\n"
 "\tfloat   x = 3.33;\n"
@@ -6945,7 +7189,8 @@ msgstr ""
 #. type: Source code
 #: ../E/class.txt:61
 #, no-wrap
-msgid "public class MyClass\n"
+msgid ""
+"public class MyClass\n"
 "{\n"
 "\tint  a, b;\n"
 "\tvoid MyClass()\n"
@@ -7034,7 +7279,8 @@ msgstr ""
 #. type: Source code
 #: ../E/class.txt:81
 #, no-wrap
-msgid "extern void object::Test()\n"
+msgid ""
+"extern void object::Test()\n"
 "{\n"
 "\tMyClass object1();       // Call default constructor (without parameters)\n"
 "\tMyClass object2(4, 5);   // Call constructor with two int parameters\n"
@@ -7052,7 +7298,8 @@ msgstr ""
 #. type: Source code
 #: ../E/class.txt:93
 #, no-wrap
-msgid "public class MyClass\n"
+msgid ""
+"public class MyClass\n"
 "{\n"
 "\tstatic private int counter = 0; // instance counter\n"
 "\tvoid  MyClass( )\n"
@@ -7107,14 +7354,16 @@ msgstr ""
 #. type: Source code
 #: ../E/class.txt:31
 #, no-wrap
-msgid "public class MyClass\n"
+msgid ""
+"public class MyClass\n"
 "{\n"
 "\tint myField = 0;\n"
 "\tint MyFunction()\n"
 "\t{\n"
 "\t\treturn myField * 2;\n"
 "\t}\n"
-"}\n\n"
+"}\n"
+"\n"
 "extern void object::Test()\n"
 "{\n"
 "\tMyClass myObject();\n"
@@ -7129,7 +7378,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/class.txt:121
 #, no-wrap
-msgid "<code><a cbot|public>public</a></code>, <code><a cbot|private>private</a></code>, <code><a cbot|protected>protected</a></code>, <code><a cbot|static>static</a></code>, <code><a cbot|synchro>synchronized</a></code>, <code><a cbot|new>new</a></code>, <code><a cbot|pointer>reference</a></code>, <code><a cbot|this>this</a></code>, <code><a cbot|super>super</a></code>, <code><a cbot|extends>extends</a></code>\n"
+msgid ""
+"<code><a cbot|public>public</a></code>, <code><a cbot|private>private</a></code>, <code><a cbot|protected>protected</a></code>, <code><a cbot|static>static</a></code>, <code><a cbot|synchro>synchronized</a></code>, <code><a cbot|new>new</a></code>, <code><a cbot|pointer>reference</a></code>, <code><a cbot|this>this</a></code>, <code><a cbot|super>super</a></code>, <code><a cbot|extends>extends</a></code>\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
@@ -7148,17 +7398,20 @@ msgstr ""
 #. type: Source code
 #: ../E/protected.txt:6
 #, no-wrap
-msgid "public class Parent\n"
+msgid ""
+"public class Parent\n"
 "{\n"
 "\tprotected int field = 0;\n"
-"}\n\n"
+"}\n"
+"\n"
 "public class Child extends Parent\n"
 "{\n"
 "\tvoid Print()\n"
 "\t{\n"
 "\t\tmessage(field);\n"
 "\t}\n"
-"}\n\n"
+"}\n"
+"\n"
 "extern void object::Test()\n"
 "{\n"
 "\tChild child();\n"
@@ -7176,7 +7429,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/private.txt:20
 #, no-wrap
-msgid "<code><a cbot|class>class</a></code>, <code><a cbot|public>public</a></code>, <code><a cbot|protected>protected</a></code>\n"
+msgid ""
+"<code><a cbot|class>class</a></code>, <code><a cbot|public>public</a></code>, <code><a cbot|protected>protected</a></code>\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
@@ -7189,14 +7443,16 @@ msgstr ""
 #. type: Plain text
 #: ../E/public.txt:50
 #, no-wrap
-msgid "<code><a cbot|class>class</a></code>, <code><a cbot|private>private</a></code>, <code><a cbot|protected>protected</a></code>, <code><a cbot|function>functions</a></code>\n"
+msgid ""
+"<code><a cbot|class>class</a></code>, <code><a cbot|private>private</a></code>, <code><a cbot|protected>protected</a></code>, <code><a cbot|function>functions</a></code>\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
 #. type: Plain text
 #: ../E/protected.txt:27
 #, no-wrap
-msgid "<code><a cbot|class>class</a></code>, <code><a cbot|public>public</a></code>, <code><a cbot|private>private</a></code>, <code><a cbot|extends>extends</a></code>\n"
+msgid ""
+"<code><a cbot|class>class</a></code>, <code><a cbot|public>public</a></code>, <code><a cbot|private>private</a></code>, <code><a cbot|extends>extends</a></code>\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
@@ -7209,14 +7465,16 @@ msgstr ""
 #. type: Plain text
 #: ../E/super.txt:46
 #, no-wrap
-msgid "<code><a cbot|class>class</a></code>, <code><a cbot|this>this</a></code>\n"
+msgid ""
+"<code><a cbot|class>class</a></code>, <code><a cbot|this>this</a></code>\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
 #. type: Plain text
 #: ../E/this.txt:53
 #, no-wrap
-msgid "<code><a cbot|class>class</a></code>, <code><a cbot|super>super</a></code>\n"
+msgid ""
+"<code><a cbot|class>class</a></code>, <code><a cbot|super>super</a></code>\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
@@ -7259,20 +7517,23 @@ msgstr ""
 #. type: Source code
 #: ../E/extends.txt:38
 #, no-wrap
-msgid "public class Parent\n"
+msgid ""
+"public class Parent\n"
 "{\n"
 "\tvoid foo()\n"
 "\t{\n"
 "\t\tmessage(\"foo\");\n"
 "\t}\n"
-"}\n\n"
+"}\n"
+"\n"
 "public class Child extends Parent\n"
 "{\n"
 "\tvoid foo()\n"
 "\t{\n"
 "\t\tmessage(\"bar\");\n"
 "\t}\n"
-"}\n\n"
+"}\n"
+"\n"
 "extern void object::Test()\n"
 "{\n"
 "\tChild child();\n"
@@ -7295,13 +7556,15 @@ msgstr ""
 #. type: Source code
 #: ../E/extends.txt:67
 #, no-wrap
-msgid "public class Parent\n"
+msgid ""
+"public class Parent\n"
 "{\n"
 "\tvoid foo()\n"
 "\t{\n"
 "\t\tmessage(\"foo\");\n"
 "\t}\n"
-"}\n\n"
+"}\n"
+"\n"
 "public class Child extends Parent\n"
 "{\n"
 "\tvoid foo()\n"
@@ -7312,7 +7575,8 @@ msgid "public class Parent\n"
 "\t{\n"
 "\t\tmessage(\"foo bar\");\n"
 "\t}\n"
-"}\n\n"
+"}\n"
+"\n"
 "extern void object::Test()\n"
 "{\n"
 "\tParent people[2];\n"
@@ -7343,7 +7607,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/extends.txt:106
 #, no-wrap
-msgid "<code><a cbot|class>class</a></code>, <code><a cbot|public>public</a></code>, <code><a cbot|private>private</a></code>, <code><a cbot|protected>protected</a></code>, <code><a cbot|new>new</a></code>, <code><a cbot|pointer>reference</a></code>, <code><a cbot|this>this</a></code>, <code><a cbot|super>super</a></code>\n"
+msgid ""
+"<code><a cbot|class>class</a></code>, <code><a cbot|public>public</a></code>, <code><a cbot|private>private</a></code>, <code><a cbot|protected>protected</a></code>, <code><a cbot|new>new</a></code>, <code><a cbot|pointer>reference</a></code>, <code><a cbot|this>this</a></code>, <code><a cbot|super>super</a></code>\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
@@ -7356,7 +7621,8 @@ msgstr ""
 #. type: Source code
 #: ../E/super.txt:6
 #, no-wrap
-msgid "public class Parent\n"
+msgid ""
+"public class Parent\n"
 "{\n"
 "\tprotected int field;\n"
 "\t\n"
@@ -7369,7 +7635,8 @@ msgid "public class Parent\n"
 "\t{\n"
 "\t\tmessage(\"Parent's field: \" + field);\n"
 "\t}\n"
-"}\n\n"
+"}\n"
+"\n"
 "public class Child extends Parent\n"
 "{\n"
 "\tprivate int childsField;\n"
@@ -7385,7 +7652,8 @@ msgid "public class Parent\n"
 "\t\tsuper.Print();\n"
 "\t\tmessage(\"Child's field: \" + childsField);\n"
 "\t}\n"
-"}\n\n"
+"}\n"
+"\n"
 "extern void object::Test()\n"
 "{\n"
 "\tChild child();\n"
@@ -7402,20 +7670,23 @@ msgstr ""
 #. type: Source code
 #: ../E/extends.txt:6
 #, no-wrap
-msgid "public class Parent\n"
+msgid ""
+"public class Parent\n"
 "{\n"
 "\tvoid foo()\n"
 "\t{\n"
 "\t\tmessage(\"foo\");\n"
 "\t}\n"
-"}\n\n"
+"}\n"
+"\n"
 "public class Child extends Parent\n"
 "{\n"
 "\tvoid bar()\n"
 "\t{\n"
 "\t\tmessage(\"bar\");\n"
 "\t}\n"
-"}\n\n"
+"}\n"
+"\n"
 "extern void object::Test()\n"
 "{\n"
 "\tChild child();\n"
@@ -7439,7 +7710,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/open.txt:13
 #, no-wrap
-msgid "<code>\"r\"</code> mode: open for reading.\n"
+msgid ""
+"<code>\"r\"</code> mode: open for reading.\n"
 "<code>\"w\"</code> mode: open for writing.\n"
 "<code>\"a\"</code> mode: open for appending."
 msgstr ""
@@ -7453,7 +7725,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/openfile.txt:6
 #, no-wrap
-msgid "<code>\"r\"</code> mode: open for reading.\n"
+msgid ""
+"<code>\"r\"</code> mode: open for reading.\n"
 "<code>\"w\"</code> mode: open for writing.\n"
 "<code>\"w\"</code> mode: open for appending."
 msgstr ""
@@ -7485,10 +7758,12 @@ msgstr ""
 #. type: Source code
 #: ../E/function.txt:132
 #, no-wrap
-msgid "float Add(float a = 0.0, float b = 0.0)\n"
+msgid ""
+"float Add(float a = 0.0, float b = 0.0)\n"
 "{\n"
 "\treturn a + b;\n"
-"}\n\n"
+"}\n"
+"\n"
 "// Somewhere in the main program...\n"
 "Add(); // Will return 0.0\n"
 "Add(2.0); // Will return 2.0\n"
@@ -7511,14 +7786,17 @@ msgstr ""
 #. type: Source code
 #: ../E/function.txt:147
 #, no-wrap
-msgid "float Add(float a = 0.0, float b = 0.0)\n"
+msgid ""
+"float Add(float a = 0.0, float b = 0.0)\n"
 "{\n"
 "\treturn a + b;\n"
-"}\n\n"
+"}\n"
+"\n"
 "string Add(string a = \"\", string b = \"\")\n"
 "{\n"
 "\treturn a + b;\n"
-"}\n\n"
+"}\n"
+"\n"
 "// Somewhere in the main program...\n"
 "Add(); // Compilation error: ambiguous call\n"
 "Add(\"\"); // Ok\n"
@@ -7535,7 +7813,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/category.txt:70
 #, no-wrap
-msgid "<button 192/>   <code><a object|botbr>WheeledBuilder</a>         </code>Wheeled Builder\n"
+msgid ""
+"<button 192/>   <code><a object|botbr>WheeledBuilder</a>         </code>Wheeled Builder\n"
 "<button 193/>   <code><a object|botbc>TrackedBuilder</a>         </code>Tracked Builder\n"
 "<button 194/>   <code><a object|botbj>WingedBuilder</a>          </code>Winged Builder\n"
 "<button 195/>   <code><a object|botbs>LeggedBuilder</a>          </code>Legged Builder"
@@ -7556,7 +7835,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/build.txt:26
 #, no-wrap
-msgid "<code><a cbot|canbuild>canbuild</a></code>, <code><a cbot|buildingenabled>buildingenabled</a></code>.\n"
+msgid ""
+"<code><a cbot|canbuild>canbuild</a></code>, <code><a cbot|buildingenabled>buildingenabled</a></code>.\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
@@ -7569,7 +7849,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/buildingenabled.txt:23
 #, no-wrap
-msgid "<code><a cbot|build>build</a></code>, <code><a cbot|canbuild>canbuild</a></code>.\n"
+msgid ""
+"<code><a cbot|build>build</a></code>, <code><a cbot|canbuild>canbuild</a></code>.\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
@@ -7582,7 +7863,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/canbuild.txt:23
 #, no-wrap
-msgid "<code><a cbot|build>build</a></code>, <code><a cbot|buildingenabled>buildingenabled</a></code>.\n"
+msgid ""
+"<code><a cbot|build>build</a></code>, <code><a cbot|buildingenabled>buildingenabled</a></code>.\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
@@ -7595,7 +7877,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/canresearch.txt:15
 #, no-wrap
-msgid "<a cbot|researches>Research names</a>, <code><a cbot|research>research</a></code>, <code><a cbot|researched>researched</a></code>.\n"
+msgid ""
+"<a cbot|researches>Research names</a>, <code><a cbot|research>research</a></code>, <code><a cbot|researched>researched</a></code>.\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
@@ -7626,7 +7909,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/factory.txt:22
 #, no-wrap
-msgid "<code><a cbot|researched>researched</a></code>, <code><a cbot|wait>wait</a></code>.\n"
+msgid ""
+"<code><a cbot|researched>researched</a></code>, <code><a cbot|wait>wait</a></code>.\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
@@ -7669,7 +7953,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/research.txt:19
 #, no-wrap
-msgid "<a cbot|researches>Research names</a>, <code><a cbot|canresearch>canresearch</a></code>, <code><a cbot|researched>researched</a></code>.\n"
+msgid ""
+"<a cbot|researches>Research names</a>, <code><a cbot|canresearch>canresearch</a></code>, <code><a cbot|researched>researched</a></code>.\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
@@ -7682,21 +7967,24 @@ msgstr ""
 #. type: Plain text
 #: ../E/researched.txt:11
 #, no-wrap
-msgid "<format const>true</format> if the research is done\n"
+msgid ""
+"<format const>true</format> if the research is done\n"
 "<format const>false</format> if the research is not done"
 msgstr ""
 
 #. type: Plain text
 #: ../E/researched.txt:15
 #, no-wrap
-msgid "<a cbot|researches>Research names</a>, <code><a cbot|research>research</a></code>, <code><a cbot|canresearch>canresearch</a></code>, <code><a cbot|canbuild>canbuild</a></code>.\n"
+msgid ""
+"<a cbot|researches>Research names</a>, <code><a cbot|research>research</a></code>, <code><a cbot|canresearch>canresearch</a></code>, <code><a cbot|canbuild>canbuild</a></code>.\n"
 "<a cbot>Programming</a>, <a cbot|type>types</a> and <a cbot|category>categories</a>."
 msgstr ""
 
 #. type: Plain text
 #: ../E/researches.txt:9
 #, no-wrap
-msgid "<code><format const>ResearchTracked</format>       </code>Tracked bots (e.g. <a object|botgc>tracked grabber</a>)\n"
+msgid ""
+"<code><format const>ResearchTracked</format>       </code>Tracked bots (e.g. <a object|botgc>tracked grabber</a>)\n"
 "<code><format const>ResearchWinged</format>        </code>Winged bots (e.g. <a object|botgj>winged grabber</a>)\n"
 "<code><format const>ResearchShooter</format>       </code><a object|botfr>Fireball cannon</a>\n"
 "<code><format const>ResearchDefenseTower</format>  </code><a object|tower>Defense tower</a>\n"
@@ -7710,7 +7998,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/researches.txt:20
 #, no-wrap
-msgid "<code><format const>ResearchTarget</format>        </code><a object|bottarg>Target bot</a>\n"
+msgid ""
+"<code><format const>ResearchTarget</format>        </code><a object|bottarg>Target bot</a>\n"
 "<code><format const>ResearchLegged</format>        </code>Legged bots (e.g. <a object|botgs>legged grabber</a>)\n"
 "<code><format const>ResearchOrgaShooter</format>   </code><a object|botor>Orgaball cannon</a>"
 msgstr ""
@@ -7718,7 +8007,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/researches.txt:25
 #, no-wrap
-msgid "<code><format const>ResearchSniffer</format>       </code><a object|botsr>Sniffer</a>\n"
+msgid ""
+"<code><format const>ResearchSniffer</format>       </code><a object|botsr>Sniffer</a>\n"
 "<code><format const>ResearchSubber</format>        </code><a object|botsub>Subber</a>\n"
 "<code><format const>ResearchRecycler</format>      </code><a object|botrecy>Recycler</a>"
 msgstr ""
@@ -7762,7 +8052,8 @@ msgstr ""
 #. type: Source code
 #: ../E/pointer.txt:37
 #, no-wrap
-msgid "{\n"
+msgid ""
+"{\n"
 "\tMyClass item = new MyClass();\n"
 "\titem.a = 33;\n"
 "\treturn item;\n"
@@ -7772,7 +8063,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/category.txt:94
 #, no-wrap
-msgid "<button 136/>   <code><a object|human>Me</a>              </code>You!\n"
+msgid ""
+"<button 136/>   <code><a object|human>Me</a>              </code>You!\n"
 "       <code><a object|mine>Mine</a>            </code>Mine\n"
 "       <code><a object|barrier>Barrier</a>         </code>Barrier\n"
 "       <code><a object|wreck>Wreck</a>           </code>Derelict bot\n"
@@ -7805,7 +8097,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/deflag.txt:8
 #, no-wrap
-msgid "Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <c/>deflag();<n/>.\n"
+msgid ""
+"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <c/>deflag();<n/>.\n"
 "<code>== 0 </code>removed a flag\n"
 "<code>!= 0 </code>could not remove a flag"
 msgstr ""
@@ -7837,7 +8130,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/flag.txt:8
 #, no-wrap
-msgid "<code>Blue</code>\n"
+msgid ""
+"<code>Blue</code>\n"
 "<code>Red</code>\n"
 "<code>Green</code>\n"
 "<code>Yellow</code>\n"
@@ -7847,8 +8141,8 @@ msgstr ""
 #. type: Plain text
 #: ../E/flag.txt:15
 #, no-wrap
-msgid "Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <c/>flag();<n/>.\n"
+msgid ""
+"Normally an error stops the program. You can prevent the program from stopping on errors by using the <code><a cbot|errmode>errmode</a>(0)</code> instruction. A value different from zero if an error occurred is then returned by <c/>flag();<n/>.\n"
 "<code>== 0 </code>planted a flag\n"
 "<code>!= 0 </code>could not plant a flag"
 msgstr ""
-
